@@ -9,6 +9,7 @@ FIFA 17, FIFA 18 and FIFA 19 files which contained players' attributes were firs
 FIFA.17 <- read.csv("~/DSI-SRP FILES/FIFA 17.csv")
 FIFA.18 <- read.csv("~/DSI-SRP FILES/FIFA 18.csv")
 FIFA.19 <- read.csv("~/DSI-SRP FILES/FIFA 19.csv")
+print(FIFA.17, n =10)
 ```
 
 Fantasy Premier League files from the season of 2016-17 to 2018-19 which contained players' attributes and performance were also imported. 
@@ -17,5 +18,71 @@ library(readxl)
 FPL_201617 <- read_excel("~/DSI-SRP FILES/FPL 2016-17.xlsx")
 FPL_201718 <- read_excel("~/DSI-SRP FILES/FPL 2017-18.xlsx")
 FPL_201819 <- read_excel("~/DSI-SRP FILES/FPL 2018-19.xlsx")
+```
+
+The imported datasets were wrangled in order to include important rows and columns only
+
+```{r}
+library(tidyverse)
+create_new <- function(df) {
+  df %>% 
+    mutate(Full_Name = as.character(Full.Name)) %>%
+    select(Full_Name, age, overall, potential, player_positions)
+}
+FIFA.17_new <- create_new(FIFA.17)
+print(FIFA.17_new, n = 10)
+FIFA.18_new <- create_new(FIFA.18)
+print(FIFA.18_new, n = 10)
+FIFA.19_new <- create_new(FIFA.19)
+print(FIFA.19_new, n = 10)
+```
+
+The newly formed FIFA datasets were joined with the FPL datasets
+
+```{r}
+season19 <- inner_join(FIFA.19_new, FPL_201819, by = c(Full_Name = "Full Name"))
+season18 <- inner_join(FIFA.18_new, FPL_201718, by = c(Full_Name = "Full Name"))
+season17 <- inner_join(FIFA.17_new, FPL_201617, by = c(Full_Name = "Full Name"))
+```
+
+The datasets can be viewed below
+```{r}
+print(season17, n = 10)
+print(season18, n = 10)
+print(season19, n = 10)
+```
+
+Further wrangling was used to separate the player positions columns into multiple columns. This made players with multiple positions have one position.
+
+```{r}
+season17 <- season17 %>%
+  separate(player_positions, into = c("Position1", "Position2", "Position3"), sep = ",")
+season18 <- season18 %>%
+  separate(player_positions, into = c("Position1", "Position2", "Position3"), sep = ",")
+season19 <- season19 %>%
+  separate(player_positions, into = c("Position1", "Position2", "Position3"), sep = ",")
+```
+
+The two additional columns were deleted in order to get rid of missing values
+
+```{r}
+remove_2p <- function(df) {
+  df %>% 
+    select(-Position2,-Position3)
+}
+season17 <- remove_2p(season17)
+season18 <- remove_2p(season18)
+season19 <- remove_2p(season19)
+```
+
+Obtaining the unique levels of player positions
+
+```{r}
+season17$Position1 <- as_factor(season17$Position1)
+season18$Position1 <- as_factor(season18$Position1)
+season19$Position1 <- as_factor(season19$Position1)
+levels(season17$Position1)
+levels(season18$Position1)
+levels(season19$Position1)
 ```
 
