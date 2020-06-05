@@ -9,7 +9,6 @@ FIFA 17, FIFA 18 and FIFA 19 files which contained players' attributes were firs
 FIFA.17 <- read.csv("~/DSI-SRP FILES/FIFA 17.csv")
 FIFA.18 <- read.csv("~/DSI-SRP FILES/FIFA 18.csv")
 FIFA.19 <- read.csv("~/DSI-SRP FILES/FIFA 19.csv")
-print(FIFA.17, n =10)
 ```
 
 Fantasy Premier League files from the season of 2016-17 to 2018-19 which contained players' attributes and performance were also imported. 
@@ -27,8 +26,9 @@ library(tidyverse)
 create_new <- function(df) {
   df %>% 
     mutate(Full_Name = as.character(Full.Name)) %>%
-    select(Full_Name, age, overall, potential, player_positions)
+    select(Full_Name, age, overall, potential, player_positions, club)
 }
+
 FIFA.17_new <- create_new(FIFA.17)
 print(FIFA.17_new, n = 10)
 FIFA.18_new <- create_new(FIFA.18)
@@ -84,5 +84,34 @@ season19$Position1 <- as_factor(season19$Position1)
 levels(season17$Position1)
 levels(season18$Position1)
 levels(season19$Position1)
+```
+
+Creating indexes for positions
+```{r}
+position_indexer <- function(df) {
+  df %>% 
+    mutate(position_index = if_else(Position1 == "GK", '1',if_else(Position1 %in% c("CB", "LWB", "RWB", "LB", "RB"), '2', if_else(Position1 %in% c("CM", "CDM", "RM", "CAM", "LM"), '3', if_else(Position1 %in% c("RW", "LW", "ST", "CF"), '4', '0')))))
+}
+season17
+```
+
+Applying the function above for the datasets
+```{r}
+season17 <- position_indexer(season17)
+season18 <- position_indexer(season18)
+season19 <- position_indexer(season19)
+```
+Converting position index to double
+```{r}
+season17$position_index <- as.double(season17$position_index)
+season18$position_index <- as.double(season18$position_index)
+season19$position_index <- as.double(season19$position_index)
+```
+
+Viewing the dataset above
+```{r}
+season17
+season18
+season19
 ```
 
