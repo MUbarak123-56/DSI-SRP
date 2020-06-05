@@ -1,0 +1,21 @@
+---
+title: "Data Import and Wrangling"
+output: html_notebook
+---
+
+FIFA 17, FIFA 18 and FIFA 19 files which contained players' attributes were first imported.
+
+```{r import}
+FIFA.17 <- read.csv("~/DSI-SRP FILES/FIFA 17.csv")
+FIFA.18 <- read.csv("~/DSI-SRP FILES/FIFA 18.csv")
+FIFA.19 <- read.csv("~/DSI-SRP FILES/FIFA 19.csv")
+```
+
+Fantasy Premier League files from the season of 2016-17 to 2018-19 which contained players' attributes and performance were also imported. 
+```{r import}
+library(readxl)
+FPL_201617 <- read_excel("~/DSI-SRP FILES/FPL 2016-17.xlsx")
+FPL_201718 <- read_excel("~/DSI-SRP FILES/FPL 2017-18.xlsx")
+FPL_201819 <- read_excel("~/DSI-SRP FILES/FPL 2018-19.xlsx")
+```
+
