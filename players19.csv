@@ -1,0 +1,386 @@
+Full_Name,age,overall,potential,Position1,club,first_name,second_name,goals_scored,assists,total_points,minutes played,goals_conceded,creativity,influence,threat,bonus,bps,ict_index,clean_sheets,red_cards,yellow_cards,selected_by_percent,now_cost,position_index
+Kevin De Bruyne,27,91,92,CAM,Manchester City,Kevin,De Bruyne,2,3,59,968,3,562.3,301.4,317,8,268,117.9,6,0,2,3.4,96,3
+Eden Hazard,27,91,91,LW,Chelsea,Eden,Hazard,16,15,238,2918,35,1471.2,1306.2,1546,35,879,432.7,12,0,2,27.2,110,4
+Thibaut Courtois,26,90,91,GK,Real Madrid,Thibaut,Courtois,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,55,1
+Harry Kane,24,89,92,ST,Tottenham Hotspur,Harry,Kane,17,6,160,2423,31,430,824.6,1359,24,561,261.3,9,0,5,12.4,126,4
+Paul Pogba,25,88,91,CM,Manchester United,Paul,Pogba,13,10,179,3007,43,822.3,1096.8,1246,19,648,316.9,8,0,6,33.7,86,3
+Hugo Lloris,31,88,88,GK,Tottenham Hotspur,Hugo,Lloris,0,0,145,2970,33,0,858.2,0,10,691,86,12,0,0,6.2,54,1
+Romelu Lukaku,25,87,89,ST,Manchester United,Romelu,Lukaku,12,1,115,2126,38,330.2,550.6,1052,14,361,193.5,4,0,4,3.9,107,4
+Jan Vertonghen,31,87,87,CB,Tottenham Hotspur,Jan,Vertonghen,1,0,67,1911,23,116.7,445.4,165,7,390,72.7,6,1,3,4,59,2
+Pierre-Emerick Aubameyang,29,87,87,ST,Arsenal,Pierre-Emerick,Aubameyang,22,7,205,2722,42,484.6,984.4,1429,32,756,289.6,7,0,0,18.8,108,4
+Ederson Santana de Moraes,24,86,90,GK,Manchester City,Ederson,Santana de Moraes,0,1,169,3420,23,33,535.2,0,6,700,56.8,20,0,2,22.9,57,1
+Fernando Luiz Rosa,33,86,86,CDM,Manchester City,Fernando,Luiz Rosa,1,3,79,2375,15,396.8,534.6,208,4,444,114.2,12,0,5,2.9,53,3
+Alisson Ramses Becker,25,85,90,GK,Liverpool,Alisson,Ramses Becker,0,0,176,3420,22,0.1,677,0,9,771,67.6,21,0,1,23.4,59,1
+Raheem Sterling,23,85,88,RW,Manchester City,Raheem,Sterling,17,15,234,2770,19,937.4,1060,1572,25,743,357.1,17,0,3,24.8,117,4
+Virgil van Dijk,26,85,87,CB,Liverpool,Virgil,van Dijk,4,4,208,3384,22,111.1,993.6,455,22,932,156.1,20,0,1,32.3,67,2
+Toby Alderweireld,29,85,86,CB,Tottenham Hotspur,Toby,Alderweireld,0,0,107,2921,31,139.1,690.2,229,7,651,105.7,12,0,3,3.7,60,2
+Vincent Kompany,32,85,85,CB,Manchester City,Vincent,Kompany,1,0,58,1220,7,44.2,329,55,4,294,43,6,0,6,1.7,52,2
+Riyad Mahrez,27,85,85,RW,Manchester City,Riyad,Mahrez,7,4,102,1331,9,450.8,459.4,731,14,349,164.1,4,0,0,1.7,82,4
+Bamidele Alli,22,84,90,CAM,Tottenham Hotspur,Bamidele,Alli,5,4,94,1822,21,436.6,467.2,681,8,356,158.5,8,0,4,2.5,88,3
+Bernardo Mota Veiga de Carvalho e Silva,23,84,90,RW,Manchester City,Bernardo Mota,Veiga de Carvalho e Silva,7,8,154,2849,22,1026.3,796.4,1069,17,649,289.6,15,0,3,13.6,78,4
+Bernd Leno,26,84,87,GK,Arsenal,Bernd,Leno,0,0,106,2835,42,0,807.2,0,5,568,80.5,6,0,0,4,49,1
+Alexandre Lacazette,27,84,85,ST,Arsenal,Alexandre,Lacazette,13,12,166,2497,31,482.4,808,1319,20,560,260.6,6,0,2,11.4,94,4
+Kasper Schmeichel,31,84,84,GK,Leicester City,Kasper,Schmeichel,0,0,120,3420,48,10,756.8,4,6,618,76.9,10,0,3,4.7,50,1
+Sokratis Papastathopoulos,30,84,84,CB,Arsenal,Sokratis,Papastathopoulos,1,2,64,2198,33,67.9,513.8,120,4,402,70.4,5,0,12,1.2,51,2
+Kyle Walker,28,84,84,RB,Manchester City,Kyle,Walker,1,1,150,2776,17,448.4,498.8,183,11,684,113.1,18,0,3,12.1,64,2
+Henrikh Mkhitaryan,29,84,84,CAM,Arsenal,Henrikh,Mkhitaryan,6,4,98,1637,26,454.9,446.4,600,12,354,150.2,3,0,1,4.6,66,3
+Gabriel Fernando de Jesus,21,83,92,ST,Manchester City,Gabriel Fernando,de Jesus,7,3,79,1017,11,300.5,395.2,864,7,259,156.3,2,0,1,1.6,99,4
+Kepa Arrizabalaga,23,83,91,GK,Chelsea,Kepa,Arrizabalaga,0,0,142,3240,39,0.1,681,0,7,685,68,14,0,2,4.9,54,1
+Anthony Martial,22,83,89,LW,Manchester United,Anthony,Martial,10,4,122,1613,25,503.3,532.8,755,13,389,178.9,5,0,2,3.4,72,4
+Jordan Pickford,24,83,86,GK,Everton,Jordan,Pickford,0,0,161,3420,46,10,776.4,0,13,706,78.5,14,0,1,13.3,49,1
+David Luiz Moreira Marinho,31,83,83,CB,Chelsea,David,Luiz Moreira Marinho,3,2,164,3238,36,358.7,859,363,19,794,158,16,0,3,11.7,58,2
+Andreas Christensen,22,82,89,CB,Chelsea,Andreas,Christensen,0,0,22,615,7,8.4,120.6,6,0,133,13.6,3,0,1,0.4,50,2
+John Stones,24,82,87,CB,Manchester City,John,Stones,0,0,83,1761,15,115.5,376.6,49,9,431,54.1,9,0,1,4.6,52,2
+Eric Bailly,24,82,87,CB,Manchester United,Eric,Bailly,0,0,16,636,13,3.4,125,35,0,109,16.5,1,1,0,1.3,50,2
+Wilfried Zaha,25,82,85,CF,Crystal Palace,Wilfried,Zaha,10,11,143,3037,49,753.3,752.8,1200,13,459,270.6,11,1,8,15.6,70,4
+Shkodran Mustafi,26,82,84,CB,Arsenal,Shkodran,Mustafi,2,0,80,2611,40,106,718.6,252,5,475,107.8,6,0,9,1.3,54,2
+Harry Maguire,25,82,84,CB,Leicester City,Harry,Maguire,3,1,92,2596,41,165.3,715.8,462,10,533,134.3,6,1,6,8.3,54,2
+Georginio Wijnaldum,27,82,83,CM,Liverpool,Georginio,Wijnaldum,3,1,108,2723,16,405.2,437.6,338,9,470,118.4,18,0,3,1.4,55,3
+Aaron Ramsey,27,82,83,CM,Arsenal,Aaron,Ramsey,4,6,91,1319,13,387.2,418.4,502,4,298,131,9,0,0,0.9,71,3
+Jesse Lingard,25,82,83,CAM,Manchester United,Jesse,Lingard,4,3,78,1657,26,306.1,310,395,5,270,101.1,3,0,3,2.6,67,3
+Laurent Koscielny,32,82,82,CB,Arsenal,Laurent,Koscielny,3,0,62,1329,23,29.5,456.4,105,8,319,59.1,3,0,1,0.9,54,2
+Olivier Giroud,31,82,82,ST,Chelsea,Olivier,Giroud,2,4,55,828,5,253.6,183.2,519,2,169,94.5,6,0,1,1.9,77,4
+Kieran Trippier,27,82,82,RB,Tottenham Hotspur,Kieran,Trippier,1,5,118,2275,23,827,601.6,121,16,573,155,10,0,2,15.2,60,2
+Jamie Vardy,31,82,82,ST,Leicester City,Jamie,Vardy,18,5,174,2726,36,419.9,822,1206,31,598,244.6,11,1,3,10.3,90,4
+Marcus Rashford,20,81,89,LW,Manchester United,Marcus,Rashford,10,7,128,2331,35,542.3,650,1064,14,425,224.6,6,1,3,21.9,73,4
+Benjamin Mendy,23,81,87,LB,Manchester City,Benjamin,Mendy,0,6,59,900,6,222.7,250.8,70,6,262,54.2,4,0,1,5.9,61,2
+Andrew Robertson,24,81,86,LB,Liverpool,Andrew,Robertson,0,12,213,3216,20,767.2,748.8,318,29,906,183.6,21,0,4,33,67,2
+Manuel Lanzini,25,81,85,CAM,West Ham United,Manuel,Lanzini,1,2,31,685,12,118.2,141,165,3,148,42.4,2,0,2,0.1,64,3
+Serge Aurier,25,81,84,RB,Tottenham Hotspur,Serge,Aurier,0,2,24,562,9,108.4,151.6,45,0,116,30.5,2,0,1,0.5,57,2
+Granit Xhaka,25,81,84,CM,Arsenal,Granit,Xhaka,4,3,90,2498,37,674,634.6,215,8,452,152.6,7,0,10,2.3,52,3
+Ben Davies,25,81,84,LB,Tottenham Hotspur,Ben,Davies,0,0,66,1837,26,256.6,388.2,176,5,361,82.3,6,0,2,1.7,56,2
+Chris Smalling,28,81,82,CB,Manchester United,Chris,Smalling,1,0,56,2127,36,31,453.4,176,3,335,66,4,0,1,1.4,56,2
+Xherdan Shaqiri,26,81,82,RW,Liverpool,Xherdan,Shaqiri,6,5,88,1052,6,344.7,363.6,282,4,302,99.1,7,0,2,2.1,68,4
+Dejan Lovren,28,81,82,CB,Liverpool,Dejan,Lovren,1,1,63,986,7,29.1,255.8,72,9,258,35.7,6,0,1,1.5,49,2
+Gary Cahill,32,81,81,CB,Chelsea,Gary,Cahill,0,0,2,22,0,0,4.8,0,0,6,0.5,0,0,0,0.5,50,2
+Alex Oxlade-Chamberlain,24,80,85,CM,Liverpool,Alex,Oxlade-Chamberlain,0,0,2,19,0,10.8,10.2,19,0,7,4,0,0,0,0.1,64,3
+Eric Dier,24,80,84,CDM,Tottenham Hotspur,Eric,Dier,3,0,56,1504,18,150.1,363.4,121,3,269,63.6,5,0,4,0.9,47,3
+James Tarkowski,25,80,83,CB,Burnley,James,Tarkowski,3,2,97,3086,63,69.8,1023.2,450,7,524,154.5,7,0,8,4.2,47,2
+Nick Pope,26,80,83,GK,Burnley,Nick,Pope,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,48,1
+Victor Wanyama,27,80,82,CDM,Tottenham Hotspur,Victor,Wanyama,1,0,24,511,4,45,113.2,80,2,105,23.9,3,0,2,0.1,49,3
+Jack Wilshere,26,80,82,CM,West Ham United,Jack,Wilshere,0,2,17,388,10,74,72,17,0,90,16.3,1,0,2,0.8,48,3
+Erik Lamela,26,80,81,RM,Tottenham Hotspur,Erik,Lamela,4,4,67,965,12,339.9,263.8,441,5,231,104.1,4,0,2,0.3,59,3
+Mamadou Sakho,28,80,81,CB,Crystal Palace,Mamadou,Sakho,0,0,88,2416,35,78.2,540.6,47,13,533,66.6,9,0,2,1.2,49,2
+Cenk Tosun,27,80,81,ST,Everton,Cenk,Tosun,3,3,56,1044,17,172.2,212.6,546,3,166,92.8,1,0,3,1.5,64,4
+Phil Jones,26,80,81,CB,Manchester United,Phil,Jones,0,1,43,1261,17,44.8,300.8,42,3,273,39,3,0,1,0.5,51,2
+Jannik Vestergaard,25,80,81,CB,Southampton,Jannik,Vestergaard,0,0,50,2027,31,76.6,576.6,104,0,396,75.9,4,0,2,0.2,46,2
+Stephan Lichtsteiner,34,80,80,RB,Arsenal,Stephan,Lichtsteiner,0,0,14,935,18,61.1,113,23,0,89,20,0,0,3,0.8,45,2
+Ashley Young,32,80,80,LB,Manchester United,Ashley,Young,2,3,73,2568,44,650.5,554.4,124,4,450,133,4,1,8,1.7,57,2
+Tom Heaton,32,80,80,GK,Burnley,Tom,Heaton,0,0,58,1710,27,20.1,442.8,4,4,323,46.6,4,0,3,0.5,48,1
+Danny Rose,27,80,80,LB,Tottenham Hotspur,Danny,Rose,0,4,86,1792,16,416.6,343.6,216,5,352,97.6,8,0,5,1.1,58,2
+Steven Defour,30,80,80,CM,Burnley,Steven,Defour,0,0,10,449,14,36.6,61.4,0,0,70,9.9,0,0,0,0,53,3
+Fabian Delph,28,80,80,LB,Manchester City,Fabian,Delph,0,1,29,722,9,97.8,153.8,24,2,186,27.5,3,1,1,0.3,53,2
+Ben Mee,28,80,80,CB,Burnley,Ben,Mee,0,2,81,3420,68,113.8,885.4,238,5,572,123.9,8,0,9,1.6,46,2
+Andriy Yarmolenko,28,80,80,RM,West Ham United,Andriy,Yarmolenko,2,1,27,456,6,84.6,86,122,2,88,29.1,1,0,2,0.5,67,3
+Youri Tielemans,21,79,89,CM,AS Monaco,Youri,Tielemans,3,5,63,1087,14,269.7,299,249,6,267,81.8,3,0,2,1.7,60,3
+Mohamed Elyounoussi,23,79,85,LM,Southampton,Mohamed,Elyounoussi,0,0,28,785,10,228.3,94.2,220,0,91,54.2,4,0,0,0.1,60,3
+Luke Shaw,22,79,84,LB,Manchester United,Luke,Shaw,1,5,91,2591,39,505.6,586.2,287,11,489,138.1,6,0,11,8.1,51,2
+Loris Karius,25,79,83,GK,BeÅŸiktaÅŸ JK,Loris,Karius,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,49,1
+Jonathan Castro Otto,24,79,83,LWB,Wolverhampton Wanderers,Jonathan,Castro Otto,1,3,103,2772,39,447.3,523.4,361,9,488,133.3,8,0,6,3.6,43,2
+Ross Barkley,24,79,82,CAM,Chelsea,Ross,Barkley,3,5,79,1231,13,349,324,429,5,300,110,7,0,1,1.3,50,3
+Davy Klaassen,25,79,82,CM,SV Werder Bremen,Davy,Klaassen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,3
+Michael Keane,25,79,82,CB,Everton,Michael,Keane,1,2,129,2970,39,101.2,740.2,326,15,642,117.2,13,0,2,4.3,48,2
+Mathew Ryan,26,79,81,GK,Brighton & Hove Albion,Mathew,Ryan,0,0,104,3060,55,0,707,0,11,547,70.9,6,0,2,4.9,44,1
+Davide Zappacosta,26,79,81,RB,Chelsea,Davide,Zappacosta,0,0,9,125,0,14.7,17.4,29,0,30,6.1,1,0,0,0.1,50,2
+Tom Cairney,27,79,80,CM,Fulham,Tom,Cairney,1,1,71,2188,51,586.7,358,199,3,389,114.5,5,0,0,0.5,46,3
+Danilo Luiz da Silva,26,79,80,RB,Manchester City,Danilo Luiz,da Silva,1,0,46,805,7,118,165.2,99,7,202,38.2,4,0,1,0.6,48,2
+Ryan Bertrand,28,79,79,LB,Southampton,Ryan,Bertrand,1,0,56,2160,42,379.4,326.8,123,1,291,82.6,6,0,8,2.4,48,2
+Jack Cork,29,79,79,CM,Burnley,Jack,Cork,1,2,87,3312,63,309.7,491.4,240,0,446,104.3,8,0,6,0.5,46,3
+Simon Mignolet,30,79,79,GK,Liverpool,Simon,Mignolet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,47,1
+Morgan Schneiderlin,28,79,79,CDM,Everton,Morgan,Schneiderlin,0,1,28,832,9,124.7,151.6,17,0,152,29.4,5,0,2,1.8,42,3
+Adrien Sebastian Perruchet Silva,29,79,79,CM,Leicester City,Adrien Sebastian,Perruchet Silva,0,0,3,87,1,6.3,14.2,0,0,16,2.1,0,0,0,0.1,47,3
+Daley Blind,28,79,79,CB,Ajax,Daley,Blind,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,2
+Roberto Pereyra,27,79,79,LM,Watford,Roberto,Pereyra,6,4,122,2817,53,512.7,458.4,744,13,432,171.8,6,0,3,8,59,3
+Aaron Mooy,27,79,79,CM,Huddersfield Town,Aaron,Mooy,3,1,76,2326,48,725.2,510.8,359,5,411,159.7,3,0,4,1,50,3
+Trent Alexander-Arnold,19,78,88,RB,Liverpool,Trent,Alexander-Arnold,1,13,185,2460,14,837.4,734.4,276,25,753,184.7,16,0,3,26.9,58,2
+Yerry Mina,23,78,85,CB,Everton,Yerry,Mina,1,0,36,891,13,37.5,198.2,61,2,176,29.6,3,0,3,0.5,54,2
+Leander Dendoncker,23,78,84,CB,Wolverhampton Wanderers,Leander,Dendoncker,2,0,48,1465,21,126.6,334.8,288,1,209,75.1,3,0,1,0.6,43,2
+Lucas Digne,24,78,83,LB,Everton,Lucas,Digne,4,5,158,2964,38,1142,883,300,22,736,232.7,13,1,5,10.2,54,2
+Jamaal Lascelles,24,78,83,CB,Newcastle United,Jamaal,Lascelles,0,1,95,2745,36,46.8,632.4,113,8,539,79.6,10,0,4,3.1,47,2
+Mario Lemina,24,78,83,CM,Southampton,Mario,Lemina,1,2,50,1612,37,214.7,313,188,2,270,71.6,4,0,5,0.2,47,3
+Alireza Jahanbakhsh,24,78,81,RM,Brighton & Hove Albion,Alireza,Jahanbakhsh,0,0,33,1014,16,104,94.4,162,0,61,35.5,5,0,2,0.6,67,3
+Joshua King,26,78,80,CF,Bournemouth,Joshua,King,12,3,141,2963,57,535.7,655.4,1058,20,457,223.8,10,0,3,5.1,64,4
+Jonjo Shelvey,26,78,80,CM,Newcastle United,Jonjo,Shelvey,1,1,39,943,13,351.7,226.2,154,2,170,73.2,5,0,1,0.3,53,3
+Christian Kabasele,27,78,80,CB,Watford,Christian,Kabasele,0,0,36,1584,29,24,355.2,189,1,212,56.7,3,1,2,0.3,44,2
+Chris Wood,26,78,80,ST,Burnley,Chris,Wood,10,3,131,2580,49,310.3,475.8,911,17,379,167.9,7,0,2,1.4,63,4
+Callum Wilson,26,78,80,ST,Bournemouth,Callum,Wilson,14,12,168,2528,47,388.4,737.8,1137,22,525,225,9,0,3,20.3,69,4
+Florian Lejeune,27,78,80,CB,Newcastle United,Florian,Lejeune,0,0,35,1054,13,82.5,211.6,59,0,209,35.3,4,0,0,0.1,44,2
+Oriol Romeu Vidal,26,78,80,CDM,Southampton,Oriol,Romeu Vidal,1,0,55,2131,37,158.4,455.2,124,3,282,74,6,0,11,2.2,42,3
+Christopher Schindler,28,78,80,CB,Huddersfield Town,Christopher,Schindler,1,1,76,3260,72,35.8,679.4,169,7,517,88.7,5,1,4,2,42,2
+Phil Jagielka,35,78,78,CB,Everton,Phil,Jagielka,1,0,22,329,4,21.4,82.2,43,3,80,14.6,2,1,0,0.6,43,2
+Michel Vorm,34,78,78,GK,Tottenham Hotspur,Michel,Vorm,0,0,5,180,4,0,66.8,0,1,36,6.6,0,0,0,0.1,47,1
+Joe Hart,31,78,78,GK,Burnley,Joe,Hart,0,0,69,1710,41,10.1,594.6,0,7,378,60.3,4,0,0,4.4,42,1
+Leighton Baines,33,78,78,LB,Everton,Leighton,Baines,0,0,7,374,6,91.4,48.4,15,0,48,15.4,0,0,0,0.5,50,2
+Jonny Evans,30,78,78,CB,Leicester City,Jonny,Evans,1,0,77,1993,26,66.1,460,158,3,418,68.5,8,0,2,0.4,48,2
+Kevin Mirallas,30,78,78,LM,Fiorentina,Kevin,Mirallas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,3
+Victor Moses,27,78,78,RW,Chelsea,Victor,Moses,0,0,2,26,1,12.7,1.2,6,0,3,2,0,0,0,1.2,55,4
+James Tomkins,29,78,78,CB,Crystal Palace,James,Tomkins,1,1,86,2561,37,83,560.8,276,0,504,92.3,10,0,6,2.3,43,2
+James McCarthy,27,78,78,CDM,Everton,James,McCarthy,0,0,1,14,0,0.1,5.2,0,0,3,0.5,0,0,0,0,44,3
+Andros Townsend,26,78,78,RM,Crystal Palace,Andros,Townsend,6,5,135,3007,46,928.5,743,622,8,520,229.6,11,0,1,3.5,56,3
+Matthew Lowton,29,78,78,RB,Burnley,Matthew,Lowton,0,0,34,1748,41,158.6,338,48,1,269,54.6,4,0,7,0.2,46,2
+Ruben Loftus-Cheek,22,77,85,CM,Chelsea,Ruben,Loftus-Cheek,6,2,79,980,9,254.9,391.6,346,6,292,99.4,5,0,0,0.8,52,3
+Richarlison de Andrade,21,77,85,LM,Everton,Richarlison,de Andrade,13,3,153,2662,36,350.7,698.4,1209,12,400,224.5,11,1,5,13.3,64,3
+Will Hughes,23,77,83,CM,Watford,Will,Hughes,2,4,87,2419,39,416,429.2,451,5,320,129.6,7,0,5,0.7,49,3
+Divock Origi,23,77,82,ST,Liverpool,Divock,Origi,3,1,32,364,2,45,143.4,195,1,122,38.2,3,0,0,0.3,50,4
+Lewis Dunk,26,77,81,CB,Brighton & Hove Albion,Lewis,Dunk,2,1,91,3151,56,132.9,805.8,245,6,573,118.7,7,1,5,3.4,44,2
+Florin Andone,25,77,81,ST,Brighton & Hove Albion,Florin,Andone,3,0,38,866,14,48.6,147.2,361,2,74,54.9,2,0,5,0.2,50,4
+Shane Duffy,26,77,80,CB,Brighton & Hove Albion,Shane,Duffy,5,2,115,3087,55,84.1,1024.4,499,9,582,160.9,7,1,4,8.1,47,2
+Sofiane Boufal,24,77,80,LW,RC Celta,Sofiane,Boufal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,4
+Manolo Gabbiadini,26,77,79,ST,Southampton,Manolo,Gabbiadini,1,0,23,468,12,72.7,74.4,167,3,56,30.8,0,0,0,0.1,56,4
+Alex McCarthy,28,77,78,GK,Southampton,Alex,McCarthy,0,0,73,2250,44,0,585.2,0,6,414,58.6,4,0,1,2,43,1
+Jordan Ayew,26,77,78,ST,Crystal Palace,Jordan,Ayew,1,3,46,1176,13,207.3,140.2,421,2,114,76.7,5,0,3,0.2,57,4
+Robbie Brady,26,77,78,LM,Burnley,Robbie,Brady,0,1,20,714,17,194.1,102,85,0,77,38.2,1,1,3,0,54,3
+Ragnar Klavan,32,77,77,CB,Cagliari,Ragnar,Klavan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,2
+Ben Foster,35,77,77,GK,Watford,Ben,Foster,0,0,129,3420,59,50,988,1,11,703,104.1,7,0,1,8.5,46,1
+Etienne Capoue,29,77,77,CDM,Watford,Etienne,Capoue,1,3,79,2944,48,219.2,656.6,152,8,496,102.8,8,1,14,0.5,48,3
+Andy Carroll,29,77,77,ST,West Ham United,Andy,Carroll,0,0,12,454,7,51.4,41.8,169,0,10,25.8,0,0,2,0.1,54,4
+Troy Deeney,30,77,77,ST,Watford,Troy,Deeney,9,5,116,2542,44,549.5,607.4,1019,13,411,216.9,5,1,4,3.7,58,4
+Matt Ritchie,28,77,77,RM,Newcastle United,Matt,Ritchie,2,8,110,2927,40,973.8,712.4,448,7,504,213.6,10,0,9,0.6,58,3
+Ashley Barnes,28,77,77,ST,Burnley,Ashley,Barnes,12,3,122,2378,41,309.9,581.2,1042,13,394,192.9,7,0,8,2.1,56,4
+Daryl Janmaat,28,77,77,RB,Watford,Daryl,Janmaat,0,2,50,1520,22,212.2,346.2,118,6,274,67.8,3,0,3,0.4,49,2
+Steve Cook,27,77,77,CB,Bournemouth,Steve,Cook,1,1,85,2786,56,143.3,731,292,6,549,116.5,9,0,3,4.2,43,2
+Charlie Austin,28,77,77,ST,Southampton,Charlie,Austin,2,2,46,970,17,115.3,158.4,405,1,117,67.4,5,0,1,0.4,55,4
+Issa Diop,21,76,86,CB,West Ham United,Issa,Diop,1,0,87,2970,43,52.3,733,162,6,561,94.8,7,0,4,1.4,42,2
+James Maddison,21,76,85,CAM,Leicester City,James,Maddison,7,7,137,2831,44,1515,801.4,769,12,619,308.4,8,1,3,5.2,66,3
+Harry Winks,22,76,85,CM,Tottenham Hotspur,Harry,Winks,1,0,53,1589,17,168.6,268.2,71,3,275,50.7,6,0,4,0.1,55,3
+Alex Iwobi,22,76,84,LM,Arsenal,Alex,Iwobi,3,8,99,1961,32,596.7,469,646,3,382,171.1,4,0,0,1.5,54,3
+Robert Kenedy Nunes do Nascimento,22,76,84,LM,Newcastle United,Robert Kenedy,Nunes do Nascimento,1,1,50,1337,18,187.9,212.8,297,1,161,69.8,6,0,1,0.5,47,3
+Demarai Gray,22,76,84,LM,Leicester City,Demarai,Gray,4,1,84,1978,29,310.2,320.2,599,3,244,122.5,6,0,2,0.9,54,3
+Lewis Cook,21,76,83,CM,Bournemouth,Lewis,Cook,0,0,22,719,10,50.4,76,36,0,91,16.5,3,0,2,0.1,46,3
+Nathaniel Chalobah,23,76,82,CDM,Watford,Nathaniel,Chalobah,0,0,10,265,7,20.2,35.6,31,0,42,8.8,0,0,2,0.1,44,3
+Luciano Vietto,24,76,82,ST,Fulham,Luciano,Vietto,1,4,47,980,21,306.8,206.2,346,4,171,85.6,1,0,1,0.4,53,4
+Mason Holgate,21,76,82,CB,Everton,Mason,Holgate,0,0,5,407,9,5,92.2,2,0,61,9.9,0,0,1,0.1,43,2
+Terence Kongolo,24,76,81,LB,Huddersfield Town,Terence,Kongolo,1,1,60,2716,65,138.5,581,160,4,429,88.1,4,0,4,0.2,43,2
+Arthur Masuaku,24,76,81,LB,West Ham United,Arthur,Masuaku,0,2,49,1757,29,212,434.4,55,0,311,70.3,4,0,2,1.5,42,2
+DeAndre Yedlin,24,76,81,RB,Newcastle United,DeAndre,Yedlin,1,2,63,2472,41,406.3,436.4,113,1,325,95.8,5,1,6,0.9,45,2
+Emerson Palmieri dos Santos,23,76,80,LWB,Chelsea,Emerson,Palmieri dos Santos,0,0,22,660,11,113.8,104.6,81,1,130,30,2,0,0,0.2,52,2
+Wesley Hoedt,24,76,80,CB,Southampton,Wesley,Hoedt,0,0,29,1170,24,20,283.6,41,3,206,34.7,4,0,2,0.2,42,2
+Vincent Janssen,24,76,80,ST,Tottenham Hotspur,Vincent,Janssen,0,0,3,36,0,1.6,6.2,57,0,4,6.5,0,0,0,0.1,45,4
+Willy Boly,27,76,79,CB,Wolverhampton Wanderers,Willy,Boly,4,0,120,3168,43,146.9,954.2,279,10,635,137.7,8,1,2,6.1,47,2
+Danny Ings,25,76,78,ST,Southampton,Danny,Ings,7,3,90,1650,27,346.9,433.8,808,11,310,158.4,5,0,1,3.2,54,4
+Fraser Forster,30,76,77,GK,Southampton,Fraser,Forster,0,0,2,90,3,0,22.2,0,0,13,2.2,0,0,0,0.6,42,1
+Ciaran Clark,28,76,77,CB,Newcastle United,Ciaran,Clark,3,0,42,857,15,25,293.2,105,4,194,42.6,2,0,1,0.2,45,2
+Mark Noble,31,76,76,CM,West Ham United,Mark,Noble,5,5,99,2289,31,359.8,521.4,196,5,454,107.6,7,1,6,0.5,48,3
+Scott Dann,31,76,76,CB,Crystal Palace,Scott,Dann,0,1,23,661,10,22.5,186.2,71,0,129,28.1,2,0,1,0.1,44,2
+Ashley Williams,33,76,76,CB,Stoke City,Ashley,Williams,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2
+Stephen Ward,32,76,76,LB,Burnley,Stephen,Ward,0,0,7,228,6,17.2,48.4,19,0,44,8.5,1,0,1,0.5,47,2
+James McArthur,30,76,76,CM,Crystal Palace,James,McArthur,3,7,121,3057,49,457.2,666.8,487,7,500,161.3,11,0,7,3.4,49,3
+Andrew Surman,31,76,76,CM,Bournemouth,Andrew,Surman,0,0,36,1438,37,163,190.8,38,0,206,39.2,4,0,2,0.1,46,3
+Glenn Murray,34,76,76,ST,Brighton & Hove Albion,Glenn,Murray,13,1,129,2501,45,190,478,835,16,337,148.1,4,0,5,2.8,61,4
+Sam Vokes,28,76,76,ST,Burnley,Sam,Vokes,3,0,48,907,20,108.6,152,292,7,130,54.3,2,0,0,0.6,53,4
+Dale Stephens,29,76,76,CM,Brighton & Hove Albion,Dale,Stephens,1,1,65,2484,46,249.3,498.2,88,4,404,83.6,5,1,6,3,43,3
+Marc Albrighton,28,76,76,LM,Leicester City,Marc,Albrighton,2,2,63,1617,17,446.8,371.2,242,4,279,106.1,5,0,3,0.3,51,3
+Moussa Sissoko,28,76,76,CM,Tottenham Hotspur,Moussa,Sissoko,0,3,76,2329,28,380.7,329,193,3,395,90.2,11,0,2,0.3,49,3
+Jonathan Hogg,29,76,76,CDM,Huddersfield Town,Jonathan,Hogg,0,1,54,2369,44,271.1,390.4,70,3,326,72.5,5,1,8,0.2,44,3
+Matteo Darmian,28,76,76,LB,Manchester United,Matteo,Darmian,0,0,14,443,8,34.9,84.2,7,2,83,12.6,1,0,0,0.2,46,2
+Harry Arter,28,76,76,CM,Cardiff City,Harry,Arter,0,1,48,1999,39,188.8,230.6,170,0,225,58.9,7,0,10,0.2,49,3
+Aaron Cresswell,28,76,76,LB,West Ham United,Aaron,Cresswell,0,1,34,1588,26,290.9,318.2,113,0,257,72.3,1,0,1,0.5,50,2
+Tom Cleverley,28,76,76,CM,Watford,Tom,Cleverley,1,0,25,470,7,33.4,97.4,40,2,87,17.2,3,0,2,0,50,3
+Michail Antonio,28,76,76,RM,West Ham United,Michail,Antonio,6,8,118,2093,30,346.2,482,852,6,305,167,7,0,3,1.2,68,3
+Ryan Sessegnon,18,75,88,LW,Fulham,Ryan,Sessegnon,2,7,94,2291,60,468.3,410.4,438,3,295,132,3,0,0,1.9,60,4
+Alfie Mawson,24,75,84,CB,Fulham,Alfie,Mawson,0,0,19,1130,26,23.2,259.2,31,2,174,31.3,1,0,2,0.1,47,2
+Kelechi Iheanacho,21,75,84,ST,Leicester City,Kelechi,Iheanacho,1,5,58,924,16,209.4,135.8,230,3,160,56.9,1,0,2,0.8,57,4
+Tom Davies,20,75,84,CM,Everton,Tom,Davies,0,0,26,975,19,96.2,122.6,103,0,127,32.1,2,0,3,0.1,50,3
+Ramadan Sobhi,21,75,82,LM,Huddersfield Town,Ramadan,Sobhi,0,0,4,75,2,48.2,15.4,6,0,13,6.9,0,0,0,0.1,47,3
+Antonio Barreca,23,75,81,LB,AS Monaco,Antonio,Barreca,0,0,1,4,0,0,0.2,0,0,3,0,0,0,0,0,41,2
+Chancel Mbemba,23,75,80,CB,FC Porto,Chancel,Mbemba,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,40,2
+Daniel Amartey,23,75,80,CDM,Leicester City,Daniel,Amartey,0,0,15,639,9,46.7,139,21,0,103,20.8,1,0,2,0.2,43,3
+Bernardo Fernandes da Silva Junior,23,75,80,LB,Brighton & Hove Albion,Bernardo,Fernandes da Silva Junior,0,1,39,1749,29,172.6,444.2,83,0,290,70,2,0,4,0.1,42,2
+Adama Diakhaby,21,75,80,ST,Huddersfield Town,Adama,Diakhaby,0,1,19,548,16,80.6,40,115,0,38,23.4,1,0,1,0,45,4
+Nathan Redmond,24,75,79,RM,Southampton,Nathan,Redmond,6,5,137,3272,58,802.3,665.4,950,12,433,241.4,9,0,3,6.9,55,3
+Ryan Fraser,24,75,79,LM,Bournemouth,Ryan,Fraser,7,14,181,3165,64,1382.4,930.6,696,23,751,301.2,9,0,2,23.7,64,3
+Jeff Hendrick,26,75,77,CAM,Burnley,Jeff,Hendrick,2,2,73,2058,44,205.3,233.8,269,3,243,70.6,4,0,4,0.2,52,3
+Stuart Armstrong,26,75,77,CAM,Southampton,Stuart,Armstrong,3,4,75,1421,26,392.4,305.6,379,3,269,107.5,5,0,2,0.2,51,3
+Erik Durm,26,75,77,LB,Huddersfield Town,Erik,Durm,0,1,49,2049,45,209.2,281.8,114,2,297,60.7,3,0,0,0.1,44,2
+Andre Gray,27,75,76,ST,Watford,Andre,Gray,7,2,83,1352,23,183.9,331.8,620,10,254,112.8,4,0,2,1.9,59,4
+Anthony Knockaert,26,75,76,RM,Brighton & Hove Albion,Anthony,Knockaert,2,6,74,1828,41,580.8,389.6,345,2,293,131.4,3,1,4,0.5,52,3
+Christian Atsu,26,75,76,LM,Newcastle United,Christian,Atsu,1,1,55,1481,18,273,218.8,331,0,175,82.3,6,0,2,0.1,51,3
+Rachid Ghezzal,26,75,76,RM,Leicester City,Rachid,Ghezzal,1,0,28,733,13,307,147.8,228,2,112,68.3,1,0,3,0.1,50,3
+Guido Carrillo,27,75,76,ST,CD LeganÃ©s,Guido,Carrillo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,4
+Artur Boruc,38,75,75,GK,Bournemouth,Artur,Boruc,0,0,46,1080,18,0,302,0,4,218,30.3,4,0,2,8.6,41,1
+Simon Francis,33,75,75,CB,Bournemouth,Simon,Francis,0,2,40,1227,24,173.3,332.4,39,0,244,54.4,4,0,1,0.2,43,2
+Wes Morgan,34,75,75,CB,Leicester City,Wes,Morgan,3,0,76,1924,28,40.1,471,293,7,365,80.5,6,2,1,1.6,45,2
+Christian Fuchs,32,75,75,LB,Leicester City,Christian,Fuchs,0,0,3,206,5,85.6,50.4,14,0,38,14.9,0,0,0,0.4,41,2
+Robert Snodgrass,30,75,75,RM,West Ham United,Robert,Snodgrass,2,5,85,2215,33,976,460.8,380,9,364,181.5,5,0,10,0.9,50,3
+Charlie Daniels,31,75,75,LB,Bournemouth,Charlie,Daniels,1,0,44,1583,34,215.4,289.8,156,1,278,66.2,4,0,4,3.2,41,2
+Kevin McDonald,29,75,75,CDM,Fulham,Kevin,McDonald,0,0,17,837,27,71.9,99.6,15,0,123,18.7,0,1,4,0.2,42,3
+Martin Kelly,28,75,75,CB,Crystal Palace,Martin,Kelly,0,0,26,1110,21,17.1,269.8,34,1,166,32.2,3,0,2,5,39,2
+Ashley Westwood,28,75,75,CM,Burnley,Ashley,Westwood,2,8,111,2821,55,643.1,623,253,10,518,152.3,7,0,5,3.1,46,3
+Junior Stanislas,28,75,75,RM,Bournemouth,Junior,Stanislas,2,3,56,1021,24,254.5,225.2,340,3,205,82,2,0,1,0.1,60,3
+Adam Smith,27,75,75,RB,Bournemouth,Adam,Smith,1,1,70,2067,33,199.8,374,110,1,383,68.5,8,1,5,0.4,43,2
+Maxime Le Marchand,28,75,75,LB,Fulham,Maxime,Le Marchand,0,1,38,2250,53,131.7,577.8,99,1,409,81.2,3,0,5,0.2,42,2
+Marvin Zeegelaar,27,75,75,LB,Watford,Marvin,Zeegelaar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42,2
+Barry Douglas,28,75,75,LB,Leeds United,Barry,Douglas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,2
+Dwight Gayle,27,75,75,ST,West Bromwich Albion,Dwight,Gayle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,60,4
+Laurent Depoitre,29,75,75,ST,Huddersfield Town,Laurent,Depoitre,0,1,34,1058,23,124.3,51.6,381,0,40,54.8,0,0,1,0.3,51,4
+Tammy Abraham,20,74,85,ST,Aston Villa,Tammy,Abraham,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,54,4
+Dominic Calvert-Lewin,21,74,83,ST,Everton,Dominic,Calvert-Lewin,6,5,92,1769,26,185.7,321.8,618,3,267,111.5,8,0,3,1.9,54,4
+Rob Holding,22,74,83,CB,Arsenal,Rob,Holding,0,0,24,806,10,28.7,187.8,14,5,148,23.2,1,0,1,0.4,43,2
+Ben Gibson,25,74,80,CB,Burnley,Ben,Gibson,1,0,6,62,3,0.4,42.4,33,0,17,7.6,0,0,1,0.1,48,2
+Jack Stephens,24,74,80,CB,Southampton,Jack,Stephens,1,0,47,1697,35,65.5,394.4,143,4,282,60.4,3,0,4,0.3,42,2
+Calum Chambers,23,74,80,CB,Fulham,Calum,Chambers,2,0,60,2586,52,231.9,609,401,0,431,124.5,5,0,9,1.1,42,2
+Florent Hadergjonaj,23,74,80,RB,Huddersfield Town,Florent,Hadergjonaj,0,0,50,1837,36,395.7,286.8,80,1,307,76.2,4,0,1,0.1,43,2
+Joe Ralls,24,74,79,CM,Cardiff City,Joe,Ralls,0,0,45,1954,40,481.1,284.6,204,0,232,96.7,5,1,4,0.1,46,3
+Adam Masina,24,74,79,LB,Watford,Adam,Masina,0,1,26,1002,20,70.8,201,27,1,165,30.1,2,0,5,0.1,43,2
+Bobby Reid,25,74,78,ST,Cardiff City,Bobby,Reid,5,3,80,1413,30,224.4,296.6,392,9,276,91,4,0,0,0.9,52,4
+Charlie Taylor,24,74,78,LB,Burnley,Charlie,Taylor,0,1,82,3240,64,268.5,649.4,30,2,505,94.9,7,0,2,0.5,44,2
+Matt Doherty,26,74,77,RWB,Wolverhampton Wanderers,Matt,Doherty,4,7,144,3141,41,547.4,758.8,711,12,596,201.6,8,0,5,21.9,53,2
+Sean Morrison,27,74,76,CB,Cardiff City,Sean,Morrison,1,4,97,3039,63,239,673.4,580,5,477,149.4,9,0,6,0.4,47,2
+Nampalys Mendy,26,74,76,CDM,Leicester City,Nampalys,Mendy,0,1,58,2085,29,135.5,235.8,23,0,291,39.5,7,0,5,0.9,43,3
+Paul Dummett,26,74,76,LB,Newcastle United,Paul,Dummett,0,0,67,1986,27,94,424.2,58,3,365,57.6,7,0,1,0.2,44,2
+Lee Grant,35,74,74,GK,Manchester United,Lee,Grant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,1
+Bruno Saltor Grau,37,74,74,RB,Brighton & Hove Albion,Bruno,Saltor Grau,0,1,46,1131,17,102,181.6,14,7,229,29.8,4,0,2,0.3,44,2
+Steven Davis,33,74,74,CM,Southampton,Steven,Davis,0,1,9,97,4,41.6,38.8,2,2,39,8.2,0,0,0,0,46,3
+Danny Simpson,31,74,74,RB,Leicester City,Danny,Simpson,0,0,12,289,4,13.2,74.6,2,0,50,9,1,0,0,0.2,42,2
+Adrian Mariappa,31,74,74,CB,Watford,Adrian,Mariappa,0,0,57,1924,32,61.9,404.6,79,2,334,54.5,5,0,3,0.6,42,2
+Craig Cathcart,29,74,74,CB,Watford,Craig,Cathcart,3,0,93,3095,54,25.5,719.6,262,5,552,100.8,6,0,2,3.2,45,2
+Yohan Benalouane,31,74,74,CB,Leicester City,Yohan,Benalouane,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.7,39,2
+Joel Ward,28,74,74,RB,Crystal Palace,Joel,Ward,1,0,13,551,14,28.9,131.8,43,0,68,20.5,0,0,1,0.2,43,2
+David Junior Hoilett,28,74,74,LW,Cardiff City,David Junior,Hoilett,3,2,82,2134,46,383.4,313.2,463,4,230,115.3,6,0,4,0.1,50,4
+Ezequiel Schelotto,29,74,74,RB,Brighton & Hove Albion,Ezequiel,Schelotto,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.9,38,2
+Marcus Bettinelli,26,73,77,GK,Fulham,Marcus,Bettinelli,0,0,15,630,20,0,195,0,0,114,19.4,0,0,1,0.3,42,1
+Ryan Fredericks,25,73,77,RB,West Ham United,Ryan,Fredericks,1,0,38,1084,16,77.2,254.8,85,4,169,42,3,0,5,0.3,45,2
+Jeffrey Schlupp,25,73,76,LB,Crystal Palace,Jeffrey,Schlupp,4,3,91,1660,26,240.5,385.2,430,3,301,105.7,4,0,1,2.5,43,2
+Tommy Smith,26,73,76,RB,Huddersfield Town,Tommy,Smith,0,0,9,1141,37,116.2,161.4,36,0,141,31.5,1,1,2,0.1,44,2
+Alex Smithies,28,73,75,GK,Cardiff City,Alex,Smithies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,42,1
+Neil Etheridge,28,73,75,GK,Cardiff City,Neil,Etheridge,0,0,154,3420,69,21,1116.8,0,18,775,113.6,10,0,2,10.2,46,1
+Karl Darlow,27,73,75,GK,Newcastle United,Karl,Darlow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,44,1
+Tom Ince,26,73,74,RW,Stoke City,Tom,Ince,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,4
+Maarten Stekelenburg,35,73,73,GK,Everton,Maarten,Stekelenburg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.4,39,1
+Peter Crouch,37,73,73,ST,Stoke City,Peter,Crouch,0,1,8,86,3,1.6,7.6,115,0,24,12.3,0,0,1,0.9,44,4
+Jason Puncheon,32,73,73,CM,Crystal Palace,Jason,Puncheon,0,0,15,392,9,79.9,43.6,39,0,50,16.3,1,0,1,1,41,3
+Markus Suttner,31,73,73,LB,Brighton & Hove Albion,Markus,Suttner,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.3,38,2
+Dan Gosling,28,73,73,CM,Bournemouth,Dan,Gosling,2,2,54,1734,33,164.7,400.6,217,0,237,78.1,4,0,8,0.1,47,3
+Matty James,26,73,73,CM,Leicester City,Matty,James,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,3
+Kevin Long,27,73,73,CB,Burnley,Kevin,Long,0,1,16,513,9,11.6,147.8,8,0,101,16.8,1,0,0,0.3,41,2
+Tim Ream,30,73,73,CB,Fulham,Tim,Ream,0,0,50,2046,49,46.3,331.6,3,4,349,38.3,5,0,1,0.3,42,2
+Ademola Lookman,20,72,84,LM,Everton,Ademola,Lookman,0,3,34,600,8,172.1,131.4,211,0,110,51.6,1,0,0,0.1,49,3
+Yves Bissouma,21,72,82,CM,Brighton & Hove Albion,Yves,Bissouma,0,0,43,1764,32,213,253.4,201,0,170,66.8,3,0,5,0,46,3
+Jacob Murphy,23,72,80,RM,Newcastle United,Jacob,Murphy,0,1,16,296,8,31.1,53.6,22,0,50,10.7,1,0,0,0,47,3
+Isaac Mbenza,22,72,80,ST,Huddersfield Town,Isaac,Mbenza,1,1,38,977,25,118.5,110.4,174,0,127,40,0,0,1,0,59,4
+Isaac Hayden,23,72,79,CDM,Newcastle United,Isaac,Hayden,1,4,69,1857,25,298.8,412,232,5,306,94.4,7,1,3,1.4,43,3
+Cyrus Christie,25,72,77,RB,Fulham,Cyrus,Christie,0,1,42,1941,42,293.1,423.2,107,2,278,82.2,3,0,7,0.2,42,2
+Danny Ward,25,72,75,GK,Leicester City,Danny,Ward,1,0,22,435,14,83.3,81.8,168,0,67,32.9,0,0,0,0.2,43,1
+Danny Ward,25,72,75,GK,Leicester City,Danny,Ward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1
+Sam Byram,24,72,75,RB,Nottingham Forest,Sam,Byram,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2
+Jordan Hugill,26,72,75,ST,Middlesbrough,Jordan,Hugill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,4
+Neeskens Kebano,26,72,73,LW,Fulham,Neeskens,Kebano,0,0,7,101,3,8.3,17.6,8,0,24,3.4,0,0,0,0,43,4
+John Ruddy,31,72,72,GK,Wolverhampton Wanderers,John,Ruddy,0,0,7,90,0,0,26.6,0,0,25,2.7,1,0,0,0.2,42,1
+Rui Pedro da Rocha Fonte,28,72,72,ST,LOSC Lille,Rui Pedro,da Rocha Fonte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,44,4
+Rajiv van La Parra,27,72,72,LM,Huddersfield Town,Rajiv,van La Parra,0,0,10,405,6,57.6,27.8,41,0,13,12.6,1,0,0,0,46,3
+Beram Kayal,30,72,72,CM,Brighton & Hove Albion,Beram,Kayal,1,1,36,935,17,59.3,224,53,0,136,33.6,4,0,4,0.3,44,3
+Ainsley Maitland-Niles,20,71,84,CM,Arsenal,Ainsley,Maitland-Niles,1,1,34,983,20,98.9,224.2,126,3,152,44.8,2,1,1,0.4,44,3
+Angus Gunn,22,71,83,GK,Southampton,Angus,Gunn,0,0,47,1080,18,0,239.2,0,4,206,23.8,3,0,0,1.1,43,1
+Aaron Wan-Bissaka,20,71,83,RB,Crystal Palace,Aaron,Wan-Bissaka,0,3,120,3134,47,266.8,863.4,139,18,672,127.1,12,1,4,26.3,46,2
+Oleksandr Zinchenko,21,71,81,LB,Manchester City,Oleksandr,Zinchenko,0,3,44,1151,4,278.6,279.2,77,1,230,63.5,9,0,1,0.2,47,2
+Scott McTominay,21,71,81,CM,Manchester United,Scott,McTominay,2,0,38,862,18,33.1,175.4,180,4,152,38.8,1,0,1,1.2,42,3
+Jan Bednarek,22,71,80,CB,Southampton,Jan,Bednarek,0,1,49,2150,37,108.8,616,91,3,365,81.9,3,0,7,7.4,40,2
+Edimilson Fernandes,22,71,79,CAM,Fiorentina,Edimilson,Fernandes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,45,3
+Jonjoe Kenny,21,71,79,RB,Everton,Jonjoe,Kenny,0,1,19,789,15,102.7,166.2,12,0,134,28,1,0,1,0.2,41,2
+Callum Paterson,23,71,77,CM,Cardiff City,Callum,Paterson,4,2,80,1993,41,311.9,266.8,541,4,227,111.7,5,0,4,0.3,48,3
+Aboubakar Kamara,23,71,76,ST,Fulham,Aboubakar,Kamara,3,0,28,688,17,149.5,150,244,2,82,53.1,1,0,2,5.1,45,4
+Connor Wickham,25,71,75,ST,Crystal Palace,Connor,Wickham,0,1,9,61,1,41.9,23.2,55,0,23,12,0,0,0,0.1,49,4
+Ken Sema,24,71,75,LM,Watford,Ken,Sema,1,2,37,747,9,112.7,128.6,169,1,91,40.8,3,0,1,0.1,46,3
+Dan Burn,26,71,73,CB,Wigan Athletic,Dan,Burn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2
+Ryan Bennett,28,71,72,CB,Wolverhampton Wanderers,Ryan,Bennett,1,0,89,3060,38,129.7,566.4,172,1,467,86.9,9,0,12,8,41,2
+Scott Malone,27,71,72,LB,Derby County,Scott,Malone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.1,40,2
+Nathaniel Mendez-Laing,26,71,72,RW,Cardiff City,Nathaniel,Mendez-Laing,4,1,63,978,18,255,351.4,370,6,253,97.8,4,0,0,0,48,4
+Elias Kachunga,26,71,72,RM,Huddersfield Town,Elias,Kachunga,0,0,29,1175,30,109,83.6,180,0,41,36.7,1,0,2,0.1,48,3
+Phil Bardsley,33,71,71,RB,Burnley,Phil,Bardsley,0,0,33,1670,27,139.6,267.8,66,0,224,47.4,4,0,9,0.1,42,2
+Marc Pugh,31,71,71,LM,Bournemouth,Marc,Pugh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,43,3
+Joe Bennett,28,71,71,LB,Cardiff City,Joe,Bennett,0,1,77,2639,50,237.1,442.8,98,4,433,77.8,9,0,5,0.4,44,2
+Tomer Hemed,31,71,71,ST,Queens Park Rangers,Tomer,Hemed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,49,4
+Dominic Solanke,20,70,84,ST,Liverpool,Dominic,Solanke,0,1,15,340,5,96,79,154,0,45,33,0,0,0,0.4,47,4
+Kieran Dowell,20,70,83,CAM,Everton,Kieran,Dowell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3
+Chris Mepham,20,70,80,CB,Brentford,Chris,Mepham,0,1,27,848,17,24.1,177.2,22,0,158,22.5,2,0,1,0.1,45,2
+Ben Davies,22,70,79,CB,Preston North End,Ben,Davies,0,0,66,1837,26,256.6,388.2,176,5,361,82.3,6,0,2,1.7,56,2
+Matt Targett,22,70,79,LB,Southampton,Matt,Targett,1,3,36,1185,25,366.8,314.2,181,3,229,86.2,0,0,2,0.1,42,2
+Juninho Bacuna,20,70,77,CM,Huddersfield Town,Juninho,Bacuna,1,0,39,1410,37,278.8,246.4,131,1,179,65.9,0,0,4,0.4,42,3
+Lys Mousset,22,70,75,ST,Bournemouth,Lys,Mousset,1,0,28,350,15,65.1,74.6,201,0,74,33.8,0,0,1,0.2,49,4
+Danny Batth,27,70,72,CB,Middlesbrough,Danny,Batth,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.6,40,2
+Tyrone Mings,25,70,72,LB,Bournemouth,Tyrone,Mings,0,0,5,141,4,16.3,49,2,0,41,6.8,0,0,0,0.1,42,2
+Tommy Smith,28,70,70,CB,Colorado Rapids,Tommy,Smith,0,0,9,1141,37,116.2,161.4,36,0,141,31.5,1,1,2,0.1,44,2
+Nahki Wells,28,70,70,ST,Queens Park Rangers,Nahki,Wells,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,45,4
+Declan Rice,19,69,83,CB,West Ham United,Declan,Rice,2,0,92,3003,47,174.2,584.4,213,9,586,97.1,6,0,4,4.2,44,2
+David Brooks,20,69,82,CAM,Bournemouth,David,Brooks,7,6,123,2263,41,466.7,598,609,7,414,167.5,9,0,3,3.6,50,3
+Hamza Choudhury,20,69,82,CDM,Leicester City,Hamza,Choudhury,0,0,20,593,4,73.7,119.6,51,0,80,24.6,4,0,0,0.1,43,3
+Philip Billing,22,69,81,CDM,Huddersfield Town,Philip,Billing,2,0,63,2187,43,341,494.6,375,4,317,121.3,5,0,7,1,45,3
+Philippe Sandler,21,69,81,CB,Manchester City,Philippe,Sandler,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,2
+Kyle Walker-Peters,21,69,80,RB,Tottenham Hotspur,Kyle,Walker-Peters,0,3,28,374,4,104.9,107.4,20,4,112,23.1,2,0,1,0.7,42,2
+Sam Gallagher,22,69,78,ST,Southampton,Sam,Gallagher,0,0,4,32,1,0.3,0,0,0,6,0,0,0,0,0.1,45,4
+Josh Murphy,23,69,76,LW,Cardiff City,Josh,Murphy,3,2,76,1810,32,267,285.6,550,3,191,109.5,7,0,2,0.2,48,4
+Carl Jenkinson,26,69,71,RB,Arsenal,Carl,Jenkinson,0,0,4,165,3,16.9,26.8,8,0,16,5.2,0,0,0,0,45,2
+Danny Ward,27,69,70,ST,Cardiff City,Danny,Ward,1,0,22,435,14,83.3,81.8,168,0,67,32.9,0,0,0,0.2,43,4
+Danny Ward,27,69,70,ST,Cardiff City,Danny,Ward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,4
+Collin Quaner,27,69,70,ST,Huddersfield Town,Collin,Quaner,0,0,2,37,2,13.7,2.2,0,0,3,1.6,0,0,0,3.5,43,4
+Lee Peltier,31,69,69,RB,Cardiff City,Lee,Peltier,0,0,43,1542,26,49.5,267.2,15,1,232,33.1,5,0,4,4,39,2
+Sam Baldock,29,69,69,ST,Reading,Sam,Baldock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,45,4
+Gary Madine,27,69,69,ST,Cardiff City,Gary,Madine,0,0,5,32,3,1.5,2,8,0,13,1,0,0,0,0.9,44,4
+Denis Odoi,30,69,69,CB,Fulham,Denis,Odoi,0,1,44,2593,62,164.2,575.2,93,2,427,83.5,3,0,4,0.1,44,2
+Callum Hudson-Odoi,17,68,87,LW,Chelsea,Callum,Hudson-Odoi,0,1,18,388,5,143.2,89.2,133,1,83,36.2,2,0,0,2.2,42,4
+Konstantinos Mavropanos,20,68,83,CB,Arsenal,Konstantinos,Mavropanos,0,0,3,147,1,14.1,27,10,0,28,5.2,0,0,1,0.1,47,2
+Reece Oxford,19,68,81,CB,West Ham United,Reece,Oxford,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,42,2
+Tyias Browning,24,68,74,CB,Everton,Tyias,Browning,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,40,2
+Anders Lindegaard,34,68,68,GK,Burnley,Anders,Lindegaard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1
+Ben Hamer,30,68,68,GK,Huddersfield Town,Ben,Hamer,0,0,9,552,21,0,158,0,0,98,15.7,0,0,0,5.3,39,1
+David Button,29,68,68,GK,Brighton & Hove Albion,David,Button,0,0,15,360,5,0,89.2,0,2,76,8.9,1,0,0,2.3,40,1
+Anthony Pilkington,30,68,68,ST,Cardiff City,Anthony,Pilkington,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,44,4
+Beni Baningime,19,67,81,CDM,Everton,Beni,Baningime,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,3
+Pontus Dahlberg,19,67,80,GK,Watford,Pontus,Dahlberg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1
+Kortney Hause,22,67,78,CB,Wolverhampton Wanderers,Kortney,Hause,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,40,2
+Joshua Sims,21,67,77,LM,Reading,Joshua,Sims,0,1,11,208,6,18.5,21.8,56,0,27,9.6,0,0,0,0,44,3
+Emerson Hyndman,22,67,76,CM,Hibernian,Emerson,Hyndman,0,0,1,37,2,1.2,14,0,0,2,1.5,0,0,0,0,44,3
+Sullay Kaikai,22,67,73,LM,Crystal Palace,Sullay,Kaikai,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,3
+Jason Steele,27,67,70,GK,Brighton & Hove Albion,Jason,Steele,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.3,39,1
+Leandro Bacuna,26,67,68,CM,Reading,Leandro,Bacuna,0,1,17,554,14,30.2,69,22,0,81,12,1,0,2,0,43,3
+Matthew Connolly,30,67,67,RB,Cardiff City,Matthew,Connolly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.8,38,2
+Angel Gomes,17,66,87,CAM,Manchester United,Angel,Gomes,0,0,2,25,1,2.3,5.2,18,0,4,2.6,0,0,0,0,50,3
+Bright Enobakhare,20,66,80,RW,Kilmarnock,Bright,Enobakhare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,4
+Sam McQueen,23,66,72,LB,Middlesbrough,Sam,McQueen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,40,2
+Will Norris,24,66,71,GK,Wolverhampton Wanderers,Will,Norris,0,0,1,1,0,0,0,0,0,3,0,0,0,0,2.3,39,1
+Omar Bogle,24,66,70,ST,Birmingham City,Omar,Bogle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,45,4
+Danny Rose,24,66,69,ST,Mansfield Town,Danny,Rose,0,4,86,1792,16,416.6,343.6,216,5,352,97.6,8,0,5,1.1,58,4
+Reiss Nelson,18,65,85,RW,TSG 1899 Hoffenheim,Reiss,Nelson,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,44,4
+Tahith Chong,18,65,85,RW,Manchester United,Tahith,Chong,0,0,2,37,1,2.1,6.2,39,0,3,4.7,0,0,0,0,45,4
+Luke Amos,21,65,79,CM,Tottenham Hotspur,Luke,Amos,0,0,1,2,0,0.1,2.2,0,0,3,0.2,0,0,0,0.1,43,3
+Kadeem Harris,25,65,68,LM,Cardiff City,Kadeem,Harris,1,1,24,365,6,87.7,90.4,89,0,80,26.7,1,0,1,0,45,3
+Edward Nketiah,19,64,84,ST,Arsenal,Edward,Nketiah,1,0,10,63,3,14.7,40.8,59,1,36,11.4,0,0,0,0,50,4
+Oliver Skipp,17,64,83,CDM,Tottenham Hotspur,Oliver,Skipp,0,0,12,214,1,20.5,35.2,12,0,40,7,2,0,0,0,45,3
+Morgan Gibbs-White,18,64,82,CM,Wolverhampton Wanderers,Morgan,Gibbs-White,0,1,37,645,12,181.1,73.2,72,0,113,32.5,4,0,1,0.5,43,3
+Sean Longstaff,20,64,78,CM,Newcastle United,Sean,Longstaff,1,1,26,686,9,71.8,130.4,106,1,117,30.9,3,0,2,0,45,3
+Karlan Grant,20,64,77,ST,Charlton Athletic,Karlan,Grant,3,2,45,873,23,109.6,141.8,308,5,123,55.9,1,0,0,0.2,50,4
+Abdelhamid Sabiri,21,64,75,LM,Huddersfield Town,Abdelhamid,Sabiri,0,0,2,48,3,0.5,4.2,2,0,6,0.7,0,0,0,0,43,3
+Brian Murphy,35,64,64,GK,Cardiff City,Brian,Murphy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,40,1
+Ethan Ampadu,17,63,86,CB,Chelsea,Ethan,Ampadu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,2
+Dwight McNeil,18,63,77,LM,Burnley,Dwight,McNeil,3,4,75,1590,25,442.8,405.2,279,6,305,112.5,5,0,2,0.8,44,3
+Sam Surridge,19,63,76,ST,Oldham Athletic,Sam,Surridge,0,0,2,11,0,11.8,5,23,0,3,4,0,0,0,0.1,45,4
+Joel Coleman,22,63,71,GK,Shrewsbury,Joel,Coleman,0,0,2,90,1,0,14.8,0,0,13,1.5,0,0,0,0,40,1
+Adam Smith,25,63,65,GK,Bristol Rovers,Adam,Smith,1,1,70,2067,33,199.8,374,110,1,383,68.5,8,1,5,0.4,43,1
+Nathan Holland,20,62,77,LM,West Ham United,Nathan,Holland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,40,3
+Michael Obafemi,17,62,77,ST,Southampton,Michael,Obafemi,1,1,13,134,3,27.4,62.6,127,0,46,21.6,0,0,1,0,50,4
+Alfie Jones,20,62,74,CB,St. Mirren,Alfie,Jones,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,2
+Rhys Healey,23,62,69,ST,Milton Keynes Dons,Rhys,Healey,0,0,3,49,1,10.9,4.2,12,0,7,2.7,0,0,0,0.1,45,4
+Tom Davies,26,62,67,CB,Coventry City,Tom,Davies,0,0,26,975,19,96.2,122.6,103,0,127,32.1,2,0,3,0.1,50,2
+Danny Williams,30,62,62,LM,Accrington Stanley,Danny,Williams,0,0,6,94,1,11.4,8.6,1,0,12,2,1,0,1,0,45,3
+Curtis Jones,17,61,82,CM,Liverpool,Curtis,Jones,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3
+Arijanet Muric,19,61,80,GK,Manchester City,Arijanet,Muric,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,1
+Joseph Willock,18,61,79,CM,Arsenal,Joseph,Willock,0,0,4,63,1,2.5,1,23,0,4,2.7,1,0,0,0,45,3
+Demeaco Duhaney,19,61,77,RB,Huddersfield Town,Demeaco,Duhaney,0,0,1,45,0,1.6,3.8,0,0,1,0.5,0,0,0,0,40,2
+Ben White,20,61,77,CB,Brighton & Hove Albion,Ben,White,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,2
+Kazaiah Sterling,19,61,75,ST,Tottenham Hotspur,Kazaiah,Sterling,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,4
+Josh Knight,20,61,74,CB,Leicester City,Josh,Knight,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,2
+Callum Roberts,21,61,73,RM,Newcastle United,Callum,Roberts,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3
+Matt Butcher,21,61,73,CM,Bournemouth,Matt,Butcher,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3
+Jerome Sinclair,21,61,72,ST,Sunderland,Jerome,Sinclair,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,44,4
+Jack Simpson,21,61,71,CB,Bournemouth,Jack,Simpson,0,0,10,401,9,2,85.4,21,0,73,11,1,0,0,6.1,39,2
+Yan Valery,19,61,70,RB,Southampton,Yan,Valery,2,1,54,1709,30,124.7,329.4,157,0,251,60.7,3,1,3,4.1,41,2
+Jamie Sterry,22,61,69,RB,Newcastle United,Jamie,Sterry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,40,2
+Callum Slattery,19,60,77,CAM,Southampton,Callum,Slattery,0,0,4,110,1,2.6,15.8,24,0,12,4.2,0,0,0,0,45,3
+Tyreke Johnson,19,60,71,RM,Southampton,Tyreke,Johnson,0,0,1,1,0,0,0,0,0,3,0,0,0,0,0,45,3
+Ben Wilmot,18,59,82,CB,Watford,Ben,Wilmot,0,0,1,26,2,0.3,7.2,0,0,8,0.8,0,0,0,0.1,40,2
+Domingos Quina,18,59,80,CM,Watford,Domingos,Quina,1,0,17,334,5,40.2,69,22,2,68,13.1,0,0,0,0.1,44,3
+Nnamdi Ofoborh,18,59,75,CDM,Bournemouth,Nnamdi,Ofoborh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3
+Kyle Taylor,18,59,72,CAM,Bournemouth,Kyle,Taylor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3
+Ryan Schofield,18,56,76,GK,Huddersfield Town,Ryan,Schofield,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,40,1
+Sam Woods,19,56,70,CB,Crystal Palace,Sam,Woods,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,2
+Cameron John,18,54,72,CB,Wolverhampton Wanderers,Cameron,John,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,40,2
