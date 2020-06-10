@@ -12,11 +12,12 @@ FIFA.19 <- read.csv("~/DSI-SRP FILES/FIFA 19.csv")
 ```
 
 Fantasy Premier League files from the season of 2016-17 to 2018-19 which contained players' attributes and performance were also imported. 
-```{r import}
+```{r import 2}
 library(readxl)
 FPL_201617 <- read_excel("~/DSI-SRP FILES/FPL 2016-17.xlsx")
 FPL_201718 <- read_excel("~/DSI-SRP FILES/FPL 2017-18.xlsx")
 FPL_201819 <- read_excel("~/DSI-SRP FILES/FPL 2018-19.xlsx")
+
 ```
 
 The imported datasets were wrangled in order to include important rows and columns only
@@ -114,4 +115,13 @@ season17
 season18
 season19
 ```
+
+Saving files as csv files
+
+```{r}
+write_csv(season17, "players17.csv")
+write_csv(season18, "players18.csv")
+write_csv(season19, "players19.csv")
+```
+
 
