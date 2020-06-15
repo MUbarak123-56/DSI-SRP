@@ -51,7 +51,7 @@ Creating a new column called position_index
 ```{r}
 position_indexer <- function(df) {
   df %>% 
-    mutate(postion_index = if_else(position %in% c("Goalkeeper"),1,if_else(position %in% c("Centre-Back", "Left-Back", "Right-Back"),2,if_else(position %in% c("Defensive Midfield", "Central Midfield", "Left Midfield", "Right Midfield", "Midfielder","Attacking Midfield"),3,if_else(position %in% c("Left Winger","Right Winger","Attacking Midfield"),4,if_else(position %in% c("Forward", "Second Striker", "Centre-Forward"),5,0))))))
+    mutate(position_index = if_else(position %in% c("Goalkeeper"),1,if_else(position %in% c("Centre-Back", "Left-Back", "Right-Back"),2,if_else(position %in% c("Defensive Midfield", "Central Midfield", "Left Midfield", "Right Midfield", "Midfielder","Attacking Midfield"),3,if_else(position %in% c("Left Winger","Right Winger","Attacking Midfield"),4,if_else(position %in% c("Forward", "Second Striker", "Centre-Forward"),5,0))))))
 }
 ```
 

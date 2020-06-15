@@ -1,462 +1,462 @@
-player_name,position,date_of_birth,age,nationality,club_name,league_name,season,year,first_name,second_name,goals_scored,assists,total_points,minutes played,goals_conceded,creativity,influence,threat,bonus,bps,ict_index,clean_sheets,red_cards,yellow_cards,selected_by_percent,now_cost,postion_index
-Ederson Santana de Moraes,Goalkeeper,1993-08-17T00:00:00Z,25,Brazil,Manchester City,Premier League,2018/2019,2018,Ederson,Santana de Moraes,0,1,169,3420,23,33,535.2,0,6,700,56.8,20,0,2,22.9,57,1
-Claudio Bravo,Goalkeeper,1983-04-13T00:00:00Z,36,Chile,Manchester City,Premier League,2018/2019,2018,Claudio,Bravo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,48,1
-John Stones,Centre-Back,1994-05-28T00:00:00Z,25,England,Manchester City,Premier League,2018/2019,2018,John,Stones,0,0,83,1761,15,115.5,376.6,49,9,431,54.1,9,0,1,4.6,52,2
-Aymeric Laporte,Centre-Back,1994-05-27T00:00:00Z,25,France,Manchester City,Premier League,2018/2019,2018,Aymeric,Laporte,3,3,177,3056,21,239.3,790,278,16,768,131.2,18,0,3,16.7,63,2
-Nicolás Otamendi,Centre-Back,1988-02-12T00:00:00Z,31,Argentina,Manchester City,Premier League,2018/2019,2018,Nicolás,Otamendi,0,0,70,1233,7,53.7,281.2,143,5,335,47.8,9,0,1,2.6,60,2
-Vincent Kompany,Centre-Back,1986-04-10T00:00:00Z,33,Belgium,Manchester City,Premier League,2018/2019,2018,Vincent,Kompany,1,0,58,1220,7,44.2,329,55,4,294,43,6,0,6,1.7,52,2
-Philippe Sandler,Centre-Back,1997-02-10T00:00:00Z,22,Netherlands,Manchester City,Premier League,2018/2019,2018,Philippe,Sandler,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,2
-Benjamin Mendy,Left-Back,1994-07-17T00:00:00Z,24,France,Manchester City,Premier League,2018/2019,2018,Benjamin,Mendy,0,6,59,900,6,222.7,250.8,70,6,262,54.2,4,0,1,5.9,61,2
-Oleksandr Zinchenko,Left-Back,1996-12-15T00:00:00Z,22,Ukraine,Manchester City,Premier League,2018/2019,2018,Oleksandr,Zinchenko,0,3,44,1151,4,278.6,279.2,77,1,230,63.5,9,0,1,0.2,47,2
-Kyle Walker,Right-Back,1990-05-28T00:00:00Z,29,England,Manchester City,Premier League,2018/2019,2018,Kyle,Walker,1,1,150,2776,17,448.4,498.8,183,11,684,113.1,18,0,3,12.1,64,2
-Danilo Luiz da Silva,Right-Back,1991-07-15T00:00:00Z,27,Brazil,Manchester City,Premier League,2018/2019,2018,Danilo Luiz,da Silva,1,0,46,805,7,118,165.2,99,7,202,38.2,4,0,1,0.6,48,2
-Fernando Luiz Rosa,Defensive Midfield,1985-05-04T00:00:00Z,34,Brazil,Manchester City,Premier League,2018/2019,2018,Fernando,Luiz Rosa,1,3,79,2375,15,396.8,534.6,208,4,444,114.2,12,0,5,2.9,53,3
-Ilkay Gündogan,Central Midfield,1990-10-24T00:00:00Z,28,Germany,Manchester City,Premier League,2018/2019,2018,Ilkay,Gündogan,6,3,113,2129,15,819.7,548.8,447,10,528,181.6,13,0,3,2.3,54,3
-Phil Foden,Central Midfield,2000-05-28T00:00:00Z,19,England,Manchester City,Premier League,2018/2019,2018,Phil,Foden,1,0,25,328,0,133.8,85,208,3,93,42.6,2,0,0,0.2,45,3
-Fabian Delph,Central Midfield,1989-11-21T00:00:00Z,29,England,Manchester City,Premier League,2018/2019,2018,Fabian,Delph,0,1,29,722,9,97.8,153.8,24,2,186,27.5,3,1,1,0.3,53,3
-Kevin De Bruyne,Attacking Midfield,1991-06-28T00:00:00Z,27,Belgium,Manchester City,Premier League,2018/2019,2018,Kevin,De Bruyne,2,3,59,968,3,562.3,301.4,317,8,268,117.9,6,0,2,3.4,96,3
-David Silva,Attacking Midfield,1986-01-08T00:00:00Z,33,Spain,Manchester City,Premier League,2018/2019,2018,David,Silva,6,8,143,2399,14,1150.3,715.2,1092,14,614,295.8,16,0,2,4.4,85,3
-Leroy Sané,Left Winger,1996-01-11T00:00:00Z,23,Germany,Manchester City,Premier League,2018/2019,2018,Leroy,Sané,10,12,156,1857,14,645,716.8,1039,13,520,240.3,9,0,1,7.3,93,4
-Raheem Sterling,Right Winger,1994-12-08T00:00:00Z,24,England,Manchester City,Premier League,2018/2019,2018,Raheem,Sterling,17,15,234,2770,19,937.4,1060,1572,25,743,357.1,17,0,3,24.8,117,4
-Riyad Mahrez,Right Winger,1991-02-21T00:00:00Z,28,Algeria,Manchester City,Premier League,2018/2019,2018,Riyad,Mahrez,7,4,102,1331,9,450.8,459.4,731,14,349,164.1,4,0,0,1.7,82,4
-Sergio Agüero,Centre-Forward,1988-06-02T00:00:00Z,31,Argentina,Manchester City,Premier League,2018/2019,2018,Sergio,Agüero,21,11,201,2457,15,523.7,946.6,1685,26,740,315.4,17,0,4,42.7,120,5
-Gabriel Fernando de Jesus,Centre-Forward,1997-04-03T00:00:00Z,22,Brazil,Manchester City,Premier League,2018/2019,2018,Gabriel Fernando,de Jesus,7,3,79,1017,11,300.5,395.2,864,7,259,156.3,2,0,1,1.6,99,5
-Kepa Arrizabalaga,Goalkeeper,1994-10-03T00:00:00Z,24,Spain,Chelsea FC,Premier League,2018/2019,2018,Kepa,Arrizabalaga,0,0,142,3240,39,0.1,681,0,7,685,68,14,0,2,4.9,54,1
-Willy Caballero,Goalkeeper,1981-09-28T00:00:00Z,37,Argentina,Chelsea FC,Premier League,2018/2019,2018,Willy,Caballero,0,0,13,180,0,1,24.6,0,0,45,2.6,2,0,0,0.1,47,1
-Antonio Rüdiger,Centre-Back,1993-03-03T00:00:00Z,26,Germany,Chelsea FC,Premier League,2018/2019,2018,Antonio,Rüdiger,1,2,116,2871,35,143.6,566.8,273,9,609,98.5,12,0,7,2.9,59,2
-Andreas Christensen,Centre-Back,1996-04-10T00:00:00Z,23,Denmark,Chelsea FC,Premier League,2018/2019,2018,Andreas,Christensen,0,0,22,615,7,8.4,120.6,6,0,133,13.6,3,0,1,0.4,50,2
-Kurt Zouma,Centre-Back,1994-10-27T00:00:00Z,24,France,Chelsea FC,Premier League,2018/2019,2018,Kurt,Zouma,2,2,112,2613,39,83.7,565.2,235,12,543,88.8,10,1,3,1,50,2
-Gary Cahill,Centre-Back,1985-12-19T00:00:00Z,33,England,Chelsea FC,Premier League,2018/2019,2018,Gary,Cahill,0,0,2,22,0,0,4.8,0,0,6,0.5,0,0,0,0.5,50,2
-Ethan Ampadu,Centre-Back,2000-09-14T00:00:00Z,18,Wales,Chelsea FC,Premier League,2018/2019,2018,Ethan,Ampadu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,2
-Marcos Alonso,Left-Back,1990-12-28T00:00:00Z,28,Spain,Chelsea FC,Premier League,2018/2019,2018,Marcos,Alonso,2,8,161,2759,28,520.1,619,475,21,702,161.7,14,0,6,22.1,62,2
-Emerson Palmieri dos Santos,Left-Back,1994-08-03T00:00:00Z,24,Italy,Chelsea FC,Premier League,2018/2019,2018,Emerson,Palmieri dos Santos,0,0,22,660,11,113.8,104.6,81,1,130,30,2,0,0,0.2,52,2
-César Azpilicueta,Right-Back,1989-08-28T00:00:00Z,29,Spain,Chelsea FC,Premier League,2018/2019,2018,César,Azpilicueta,1,6,158,3402,39,525.1,815,286,11,822,163.2,16,0,4,9.6,64,2
-Davide Zappacosta,Right-Back,1992-06-11T00:00:00Z,27,Italy,Chelsea FC,Premier League,2018/2019,2018,Davide,Zappacosta,0,0,9,125,0,14.7,17.4,29,0,30,6.1,1,0,0,0.1,50,2
-Jorge Luiz Frello Filho,Defensive Midfield,1991-12-20T00:00:00Z,27,Italy,Chelsea FC,Premier League,2018/2019,2018,Jorge Luiz,Frello Filho,2,0,96,3156,37,628.4,691.4,122,4,577,144.2,16,0,8,5.8,46,3
-N'Golo Kanté,Central Midfield,1991-03-29T00:00:00Z,28,France,Chelsea FC,Premier League,2018/2019,2018,N'Golo,Kanté,4,4,116,3092,38,766.3,683.6,412,3,563,186.4,14,0,3,15.8,49,3
-Mateo Kovacic,Central Midfield,1994-05-06T00:00:00Z,25,Croatia,Chelsea FC,Premier League,2018/2019,2018,Mateo,Kovacic,0,2,64,1725,19,468.8,315.4,311,2,343,109.9,9,0,3,0.7,57,3
-Ross Barkley,Central Midfield,1993-12-05T00:00:00Z,25,England,Chelsea FC,Premier League,2018/2019,2018,Ross,Barkley,3,5,79,1231,13,349,324,429,5,300,110,7,0,1,1.3,50,3
-Ruben Loftus-Cheek,Central Midfield,1996-01-23T00:00:00Z,23,England,Chelsea FC,Premier League,2018/2019,2018,Ruben,Loftus-Cheek,6,2,79,980,9,254.9,391.6,346,6,292,99.4,5,0,0,0.8,52,3
-Robert Kenedy Nunes do Nascimento,Left Midfield,1996-02-08T00:00:00Z,23,Brazil,Chelsea FC,Premier League,2018/2019,2018,Robert Kenedy,Nunes do Nascimento,1,1,50,1337,18,187.9,212.8,297,1,161,69.8,6,0,1,0.5,47,3
-Eden Hazard,Left Winger,1991-01-07T00:00:00Z,28,Belgium,Chelsea FC,Premier League,2018/2019,2018,Eden,Hazard,16,15,238,2918,35,1471.2,1306.2,1546,35,879,432.7,12,0,2,27.2,110,4
-Callum Hudson-Odoi,Left Winger,2000-11-07T00:00:00Z,18,England,Chelsea FC,Premier League,2018/2019,2018,Callum,Hudson-Odoi,0,1,18,388,5,143.2,89.2,133,1,83,36.2,2,0,0,2.2,42,4
-Willian Borges Da Silva,Right Winger,1988-08-09T00:00:00Z,30,Brazil,Chelsea FC,Premier League,2018/2019,2018,Willian,Borges Da Silva,3,7,108,2091,25,1165.5,557.6,742,6,475,246.7,11,0,2,3.8,71,4
-Pedro Rodríguez Ledesma,Right Winger,1987-07-28T00:00:00Z,31,Spain,Chelsea FC,Premier League,2018/2019,2018,Pedro,Rodríguez Ledesma,8,2,112,1768,19,503.5,530.2,733,12,440,176.5,7,0,2,3.3,62,4
-Gonzalo Higuaín,Centre-Forward,1987-12-10T00:00:00Z,31,Argentina,Chelsea FC,Premier League,2018/2019,2018,Gonzalo,Higuaín,5,0,53,1084,15,241.7,240.4,644,6,178,112,5,0,0,1.5,90,5
-Michy Batshuayi,Centre-Forward,1993-10-02T00:00:00Z,25,Belgium,Chelsea FC,Premier League,2018/2019,2018,Michy,Batshuayi,5,1,48,748,11,41.4,198.6,406,5,159,64.2,3,0,0,0.8,62,5
-Tammy Abraham,Centre-Forward,1997-10-02T00:00:00Z,21,England,Chelsea FC,Premier League,2018/2019,2018,Tammy,Abraham,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,54,5
-Olivier Giroud,Centre-Forward,1986-09-30T00:00:00Z,32,France,Chelsea FC,Premier League,2018/2019,2018,Olivier,Giroud,2,4,55,828,5,253.6,183.2,519,2,169,94.5,6,0,1,1.9,77,5
-Alisson Ramses Becker,Goalkeeper,1992-10-02T00:00:00Z,26,Brazil,Liverpool FC,Premier League,2018/2019,2018,Alisson,Ramses Becker,0,0,176,3420,22,0.1,677,0,9,771,67.6,21,0,1,23.4,59,1
-Simon Mignolet,Goalkeeper,1988-03-06T00:00:00Z,31,Belgium,Liverpool FC,Premier League,2018/2019,2018,Simon,Mignolet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,47,1
-Virgil van Dijk,Centre-Back,1991-07-08T00:00:00Z,27,Netherlands,Liverpool FC,Premier League,2018/2019,2018,Virgil,van Dijk,4,4,208,3384,22,111.1,993.6,455,22,932,156.1,20,0,1,32.3,67,2
-Dejan Lovren,Centre-Back,1989-07-05T00:00:00Z,29,Croatia,Liverpool FC,Premier League,2018/2019,2018,Dejan,Lovren,1,1,63,986,7,29.1,255.8,72,9,258,35.7,6,0,1,1.5,49,2
-Joel Matip,Centre-Back,1991-08-08T00:00:00Z,27,Cameroon,Liverpool FC,Premier League,2018/2019,2018,Joel,Matip,1,0,83,1535,12,57.9,414.6,85,7,402,55.9,9,0,3,1.1,49,2
-Andrew Robertson,Left-Back,1994-03-11T00:00:00Z,25,Scotland,Liverpool FC,Premier League,2018/2019,2018,Andrew,Robertson,0,12,213,3216,20,767.2,748.8,318,29,906,183.6,21,0,4,33,67,2
-Alberto Moreno,Left-Back,1992-07-05T00:00:00Z,26,Spain,Liverpool FC,Premier League,2018/2019,2018,Alberto,Moreno,0,0,4,154,2,42,20,5,0,24,6.7,0,0,0,0.2,41,2
-Trent Alexander-Arnold,Right-Back,1998-10-07T00:00:00Z,20,England,Liverpool FC,Premier League,2018/2019,2018,Trent,Alexander-Arnold,1,13,185,2460,14,837.4,734.4,276,25,753,184.7,16,0,3,26.9,58,2
-Nathaniel Clyne,Right-Back,1991-04-05T00:00:00Z,28,England,Liverpool FC,Premier League,2018/2019,2018,Nathaniel,Clyne,0,1,34,1250,26,100.2,199.4,72,0,201,36.9,3,0,2,0.6,44,2
-Fabio Henrique Tavares,Defensive Midfield,1993-10-23T00:00:00Z,25,Brazil,Liverpool FC,Premier League,2018/2019,2018,Fabio Henrique,Tavares,1,2,65,2011,14,283.4,406.2,173,0,305,86.4,11,0,6,0.6,55,3
-Georginio Wijnaldum,Central Midfield,1990-11-11T00:00:00Z,28,Netherlands,Liverpool FC,Premier League,2018/2019,2018,Georginio,Wijnaldum,3,1,108,2723,16,405.2,437.6,338,9,470,118.4,18,0,3,1.4,55,3
-Alex Oxlade-Chamberlain,Central Midfield,1993-08-15T00:00:00Z,25,England,Liverpool FC,Premier League,2018/2019,2018,Alex,Oxlade-Chamberlain,0,0,2,19,0,10.8,10.2,19,0,7,4,0,0,0,0.1,64,3
-Jordan Henderson,Central Midfield,1990-06-17T00:00:00Z,28,England,Liverpool FC,Premier League,2018/2019,2018,Jordan,Henderson,1,3,76,1976,14,311.7,358.8,182,2,397,85.4,12,1,1,0.7,53,3
-James Milner,Central Midfield,1986-01-04T00:00:00Z,33,England,Liverpool FC,Premier League,2018/2019,2018,James,Milner,5,5,101,1778,13,725.2,587.2,374,12,448,169.2,9,1,5,2.5,56,3
-Adam Lallana,Attacking Midfield,1988-05-10T00:00:00Z,31,England,Liverpool FC,Premier League,2018/2019,2018,Adam,Lallana,0,1,23,460,3,139,85.4,113,0,96,33.8,3,0,1,0.6,69,3
-Sadio Mané,Left Winger,1992-04-10T00:00:00Z,27,Senegal,Liverpool FC,Premier League,2018/2019,2018,Sadio,Mané,22,3,231,3076,21,692.8,1015.8,1332,24,703,304,19,0,2,38.6,103,4
-Mohamed Salah,Right Winger,1992-06-15T00:00:00Z,26,Egypt,Liverpool FC,Premier League,2018/2019,2018,Mohamed,Salah,22,12,259,3254,20,973.9,1186.8,2168,18,687,432.7,21,0,1,33.9,132,4
-Xherdan Shaqiri,Right Winger,1991-10-10T00:00:00Z,27,Switzerland,Liverpool FC,Premier League,2018/2019,2018,Xherdan,Shaqiri,6,5,88,1052,6,344.7,363.6,282,4,302,99.1,7,0,2,2.1,68,4
-Roberto Firmino,Centre-Forward,1991-10-02T00:00:00Z,27,Brazil,Liverpool FC,Premier League,2018/2019,2018,Roberto,Firmino,12,8,160,2606,15,670.1,774.8,1240,24,647,267.8,19,0,0,14.2,93,5
-Daniel Sturridge,Centre-Forward,1989-09-01T00:00:00Z,29,England,Liverpool FC,Premier League,2018/2019,2018,Daniel,Sturridge,2,1,34,498,5,117.6,117.6,186,2,121,41.7,2,0,1,1,56,5
-Divock Origi,Centre-Forward,1995-04-18T00:00:00Z,24,Belgium,Liverpool FC,Premier League,2018/2019,2018,Divock,Origi,3,1,32,364,2,45,143.4,195,1,122,38.2,3,0,0,0.3,50,5
-Hugo Lloris,Goalkeeper,1986-12-26T00:00:00Z,32,France,Tottenham Hotspur,Premier League,2018/2019,2018,Hugo,Lloris,0,0,145,2970,33,0,858.2,0,10,691,86,12,0,0,6.2,54,1
-Michel Vorm,Goalkeeper,1983-10-20T00:00:00Z,35,Netherlands,Tottenham Hotspur,Premier League,2018/2019,2018,Michel,Vorm,0,0,5,180,4,0,66.8,0,1,36,6.6,0,0,0,0.1,47,1
-Paulo Gazzaniga,Goalkeeper,1992-01-02T00:00:00Z,27,Argentina,Tottenham Hotspur,Premier League,2018/2019,2018,Paulo,Gazzaniga,0,0,13,270,2,0,82.8,0,0,64,8.2,1,0,0,0,45,1
-Davinson Sánchez,Centre-Back,1996-06-12T00:00:00Z,23,Colombia,Tottenham Hotspur,Premier League,2018/2019,2018,Davinson,Sánchez,1,2,78,1941,22,60.3,454.2,183,4,412,70,6,0,2,1.6,58,2
-Toby Alderweireld,Centre-Back,1989-03-02T00:00:00Z,30,Belgium,Tottenham Hotspur,Premier League,2018/2019,2018,Toby,Alderweireld,0,0,107,2921,31,139.1,690.2,229,7,651,105.7,12,0,3,3.7,60,2
-Jan Vertonghen,Centre-Back,1987-04-24T00:00:00Z,32,Belgium,Tottenham Hotspur,Premier League,2018/2019,2018,Jan,Vertonghen,1,0,67,1911,23,116.7,445.4,165,7,390,72.7,6,1,3,4,59,2
-Juan Foyth,Centre-Back,1998-01-12T00:00:00Z,21,Argentina,Tottenham Hotspur,Premier League,2018/2019,2018,Juan,Foyth,1,0,35,888,12,59.8,248.6,53,4,172,36.3,3,1,3,0.2,50,2
-Danny Rose,Left-Back,1990-07-02T00:00:00Z,28,England,Tottenham Hotspur,Premier League,2018/2019,2018,Danny,Rose,0,4,86,1792,16,416.6,343.6,216,5,352,97.6,8,0,5,1.1,58,2
-Ben Davies,Left-Back,1993-04-24T00:00:00Z,26,Wales,Tottenham Hotspur,Premier League,2018/2019,2018,Ben,Davies,0,0,66,1837,26,256.6,388.2,176,5,361,82.3,6,0,2,1.7,56,2
-Kieran Trippier,Right-Back,1990-09-19T00:00:00Z,28,England,Tottenham Hotspur,Premier League,2018/2019,2018,Kieran,Trippier,1,5,118,2275,23,827,601.6,121,16,573,155,10,0,2,15.2,60,2
-Serge Aurier,Right-Back,1992-12-24T00:00:00Z,26,Cote d'Ivoire,Tottenham Hotspur,Premier League,2018/2019,2018,Serge,Aurier,0,2,24,562,9,108.4,151.6,45,0,116,30.5,2,0,1,0.5,57,2
-Kyle Walker-Peters,Right-Back,1997-04-13T00:00:00Z,22,England,Tottenham Hotspur,Premier League,2018/2019,2018,Kyle,Walker-Peters,0,3,28,374,4,104.9,107.4,20,4,112,23.1,2,0,1,0.7,42,2
-Eric Dier,Defensive Midfield,1994-01-15T00:00:00Z,25,England,Tottenham Hotspur,Premier League,2018/2019,2018,Eric,Dier,3,0,56,1504,18,150.1,363.4,121,3,269,63.6,5,0,4,0.9,47,3
-Victor Wanyama,Defensive Midfield,1991-06-25T00:00:00Z,27,Kenya,Tottenham Hotspur,Premier League,2018/2019,2018,Victor,Wanyama,1,0,24,511,4,45,113.2,80,2,105,23.9,3,0,2,0.1,49,3
-Oliver Skipp,Defensive Midfield,2000-09-16T00:00:00Z,18,England,Tottenham Hotspur,Premier League,2018/2019,2018,Oliver,Skipp,0,0,12,214,1,20.5,35.2,12,0,40,7,2,0,0,0,45,3
-Harry Winks,Central Midfield,1996-02-02T00:00:00Z,23,England,Tottenham Hotspur,Premier League,2018/2019,2018,Harry,Winks,1,0,53,1589,17,168.6,268.2,71,3,275,50.7,6,0,4,0.1,55,3
-Moussa Sissoko,Central Midfield,1989-08-16T00:00:00Z,29,France,Tottenham Hotspur,Premier League,2018/2019,2018,Moussa,Sissoko,0,3,76,2329,28,380.7,329,193,3,395,90.2,11,0,2,0.3,49,3
-Christian Eriksen,Attacking Midfield,1992-02-14T00:00:00Z,27,Denmark,Tottenham Hotspur,Premier League,2018/2019,2018,Christian,Eriksen,8,12,161,2770,37,1148.7,876,801,15,675,283,8,0,3,7.7,92,3
-Erik Lamela,Right Winger,1992-03-04T00:00:00Z,27,Argentina,Tottenham Hotspur,Premier League,2018/2019,2018,Erik,Lamela,4,4,67,965,12,339.9,263.8,441,5,231,104.1,4,0,2,0.3,59,4
-Harry Kane,Centre-Forward,1993-07-28T00:00:00Z,25,England,Tottenham Hotspur,Premier League,2018/2019,2018,Harry,Kane,17,6,160,2423,31,430,824.6,1359,24,561,261.3,9,0,5,12.4,126,5
-Vincent Janssen,Centre-Forward,1994-06-15T00:00:00Z,24,Netherlands,Tottenham Hotspur,Premier League,2018/2019,2018,Vincent,Janssen,0,0,3,36,0,1.6,6.2,57,0,4,6.5,0,0,0,0.1,45,5
-Fernando Llorente,Centre-Forward,1985-02-26T00:00:00Z,34,Spain,Tottenham Hotspur,Premier League,2018/2019,2018,Fernando,Llorente,1,4,41,681,8,189.5,138,307,3,104,63.1,2,0,2,1.5,51,5
-David de Gea,Goalkeeper,1990-11-07T00:00:00Z,28,Spain,Manchester United,Premier League,2018/2019,2018,David,de Gea,0,0,120,3420,54,0,846,0,7,636,84.5,7,0,1,16.2,57,1
-Sergio Romero,Goalkeeper,1987-02-22T00:00:00Z,32,Argentina,Manchester United,Premier League,2018/2019,2018,Sergio,Romero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,49,1
-Lee Grant,Goalkeeper,1983-01-27T00:00:00Z,36,England,Manchester United,Premier League,2018/2019,2018,Lee,Grant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,1
-Victor Lindelöf,Centre-Back,1994-07-17T00:00:00Z,24,Sweden,Manchester United,Premier League,2018/2019,2018,Victor,Lindelöf,1,1,85,2600,40,75.3,533,118,9,527,72.8,6,0,1,5.2,49,2
-Eric Bailly,Centre-Back,1994-04-12T00:00:00Z,25,Cote d'Ivoire,Manchester United,Premier League,2018/2019,2018,Eric,Bailly,0,0,16,636,13,3.4,125,35,0,109,16.5,1,1,0,1.3,50,2
-Phil Jones,Centre-Back,1992-02-21T00:00:00Z,27,England,Manchester United,Premier League,2018/2019,2018,Phil,Jones,0,1,43,1261,17,44.8,300.8,42,3,273,39,3,0,1,0.5,51,2
-Chris Smalling,Centre-Back,1989-11-22T00:00:00Z,29,England,Manchester United,Premier League,2018/2019,2018,Chris,Smalling,1,0,56,2127,36,31,453.4,176,3,335,66,4,0,1,1.4,56,2
-Marcos Rojo,Centre-Back,1990-03-20T00:00:00Z,29,Argentina,Manchester United,Premier League,2018/2019,2018,Marcos,Rojo,0,0,2,209,5,3.1,42.2,63,0,15,10.9,0,0,2,0.1,49,2
-Luke Shaw,Left-Back,1995-07-12T00:00:00Z,23,England,Manchester United,Premier League,2018/2019,2018,Luke,Shaw,1,5,91,2591,39,505.6,586.2,287,11,489,138.1,6,0,11,8.1,51,2
-Ashley Young,Left-Back,1985-07-09T00:00:00Z,33,England,Manchester United,Premier League,2018/2019,2018,Ashley,Young,2,3,73,2568,44,650.5,554.4,124,4,450,133,4,1,8,1.7,57,2
-Matteo Darmian,Right-Back,1989-12-02T00:00:00Z,29,Italy,Manchester United,Premier League,2018/2019,2018,Matteo,Darmian,0,0,14,443,8,34.9,84.2,7,2,83,12.6,1,0,0,0.2,46,2
-Timothy Fosu-Mensah,Right-Back,1998-01-02T00:00:00Z,21,Netherlands,Manchester United,Premier League,2018/2019,2018,Timothy,Fosu-Mensah,0,0,14,791,18,100.3,136.4,28,1,119,26.4,1,0,3,0.3,45,2
-Antonio Valencia,Right-Back,1985-08-04T00:00:00Z,33,Ecuador,Manchester United,Premier League,2018/2019,2018,Antonio,Valencia,0,0,17,466,5,111.2,61.4,6,1,92,17.9,2,0,2,0.7,64,2
-Nemanja Matic,Defensive Midfield,1988-08-01T00:00:00Z,30,Serbia,Manchester United,Premier League,2018/2019,2018,Nemanja,Matic,1,0,59,2437,37,247.9,477.6,183,2,371,90.9,6,1,6,0.7,50,3
-Paul Pogba,Central Midfield,1993-03-15T00:00:00Z,26,France,Manchester United,Premier League,2018/2019,2018,Paul,Pogba,13,10,179,3007,43,822.3,1096.8,1246,19,648,316.9,8,0,6,33.7,86,3
-Frederico Rodrigues de Paula Santos,Central Midfield,1993-03-05T00:00:00Z,26,Brazil,Manchester United,Premier League,2018/2019,2018,Frederico,Rodrigues de Paula Santos,1,2,40,1039,19,203.2,177.6,87,3,180,46.9,1,0,2,1.2,53,3
-Ander Herrera,Central Midfield,1989-08-14T00:00:00Z,29,Spain,Manchester United,Premier League,2018/2019,2018,Ander,Herrera,2,3,62,1397,18,234.6,399.2,257,6,302,89.2,5,0,4,0.5,50,3
-Scott McTominay,Central Midfield,1996-12-08T00:00:00Z,22,Scotland,Manchester United,Premier League,2018/2019,2018,Scott,McTominay,2,0,38,862,18,33.1,175.4,180,4,152,38.8,1,0,1,1.2,42,3
-Juan Mata,Attacking Midfield,1988-04-28T00:00:00Z,31,Spain,Manchester United,Premier League,2018/2019,2018,Juan,Mata,3,4,70,1284,15,464,258.4,262,7,274,98.6,5,0,3,1.2,61,3
-Andreas Pereira,Attacking Midfield,1996-01-01T00:00:00Z,23,Brazil,Manchester United,Premier League,2018/2019,2018,Andreas,Pereira,1,1,27,590,13,139.5,132.8,67,2,115,33.8,1,0,5,0.3,45,3
-Anthony Martial,Left Winger,1995-12-05T00:00:00Z,23,France,Manchester United,Premier League,2018/2019,2018,Anthony,Martial,10,4,122,1613,25,503.3,532.8,755,13,389,178.9,5,0,2,3.4,72,4
-Alexis Sánchez,Left Winger,1988-12-19T00:00:00Z,30,Chile,Manchester United,Premier League,2018/2019,2018,Alexis,Sánchez,1,5,47,869,10,297.2,207.6,307,1,168,81.1,2,0,3,1.2,100,4
-Jesse Lingard,Right Winger,1992-12-15T00:00:00Z,26,England,Manchester United,Premier League,2018/2019,2018,Jesse,Lingard,4,3,78,1657,26,306.1,310,395,5,270,101.1,3,0,3,2.6,67,4
-Romelu Lukaku,Centre-Forward,1993-05-13T00:00:00Z,26,Belgium,Manchester United,Premier League,2018/2019,2018,Romelu,Lukaku,12,1,115,2126,38,330.2,550.6,1052,14,361,193.5,4,0,4,3.9,107,5
-Marcus Rashford,Centre-Forward,1997-10-31T00:00:00Z,21,England,Manchester United,Premier League,2018/2019,2018,Marcus,Rashford,10,7,128,2331,35,542.3,650,1064,14,425,224.6,6,1,3,21.9,73,5
-Bernd Leno,Goalkeeper,1992-03-04T00:00:00Z,27,Germany,Arsenal FC,Premier League,2018/2019,2018,Bernd,Leno,0,0,106,2835,42,0,807.2,0,5,568,80.5,6,0,0,4,49,1
-Petr Cech,Goalkeeper,1982-05-20T00:00:00Z,37,Czech Republic,Arsenal FC,Premier League,2018/2019,2018,Petr,Cech,0,0,24,585,9,0,205,0,3,130,20.4,1,0,0,1.1,47,1
-Emiliano Martínez,Goalkeeper,1992-09-02T00:00:00Z,26,Argentina,Arsenal FC,Premier League,2018/2019,2018,Emiliano,Martínez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,40,1
-Shkodran Mustafi,Centre-Back,1992-04-17T00:00:00Z,27,Germany,Arsenal FC,Premier League,2018/2019,2018,Shkodran,Mustafi,2,0,80,2611,40,106,718.6,252,5,475,107.8,6,0,9,1.3,54,2
-Sokratis Papastathopoulos,Centre-Back,1988-06-09T00:00:00Z,31,Greece,Arsenal FC,Premier League,2018/2019,2018,Sokratis,Papastathopoulos,1,2,64,2198,33,67.9,513.8,120,4,402,70.4,5,0,12,1.2,51,2
-Calum Chambers,Centre-Back,1995-01-20T00:00:00Z,24,England,Arsenal FC,Premier League,2018/2019,2018,Calum,Chambers,2,0,60,2586,52,231.9,609,401,0,431,124.5,5,0,9,1.1,42,2
-Rob Holding,Centre-Back,1995-09-20T00:00:00Z,23,England,Arsenal FC,Premier League,2018/2019,2018,Rob,Holding,0,0,24,806,10,28.7,187.8,14,5,148,23.2,1,0,1,0.4,43,2
-Laurent Koscielny,Centre-Back,1985-09-10T00:00:00Z,33,France,Arsenal FC,Premier League,2018/2019,2018,Laurent,Koscielny,3,0,62,1329,23,29.5,456.4,105,8,319,59.1,3,0,1,0.9,54,2
-Konstantinos Mavropanos,Centre-Back,1997-12-11T00:00:00Z,21,Greece,Arsenal FC,Premier League,2018/2019,2018,Konstantinos,Mavropanos,0,0,3,147,1,14.1,27,10,0,28,5.2,0,0,1,0.1,47,2
-Sead Kolasinac,Left-Back,1993-06-20T00:00:00Z,25,Bosnia-Herzegovina,Arsenal FC,Premier League,2018/2019,2018,Sead,Kolasinac,0,7,81,1886,29,445.9,323.2,242,NA,382,101,5,0,5,5.4,49,2
-Nacho Monreal,Left-Back,1986-02-26T00:00:00Z,33,Spain,Arsenal FC,Premier League,2018/2019,2018,Nacho,Monreal,1,4,77,1860,24,196.6,413.2,224,7,392,83.4,5,0,5,1.3,54,2
-Héctor Bellerín,Right-Back,1995-03-19T00:00:00Z,24,Spain,Arsenal FC,Premier League,2018/2019,2018,Héctor,Bellerín,0,5,60,1532,21,197.8,261.6,280,5,304,73.7,4,0,3,4.5,53,2
-Carl Jenkinson,Right-Back,1992-02-08T00:00:00Z,27,England,Arsenal FC,Premier League,2018/2019,2018,Carl,Jenkinson,0,0,4,165,3,16.9,26.8,8,0,16,5.2,0,0,0,0,45,2
-Stephan Lichtsteiner,Right-Back,1984-01-16T00:00:00Z,35,Switzerland,Arsenal FC,Premier League,2018/2019,2018,Stephan,Lichtsteiner,0,0,14,935,18,61.1,113,23,0,89,20,0,0,3,0.8,45,2
-Lucas Torreira,Defensive Midfield,1996-02-11T00:00:00Z,23,Uruguay,Arsenal FC,Premier League,2018/2019,2018,Lucas,Torreira,2,4,78,2377,38,301,440.8,203,6,409,94.5,5,1,7,2.6,47,3
-Granit Xhaka,Defensive Midfield,1992-09-27T00:00:00Z,26,Switzerland,Arsenal FC,Premier League,2018/2019,2018,Granit,Xhaka,4,3,90,2498,37,674,634.6,215,8,452,152.6,7,0,10,2.3,52,3
-Mohamed Elneny,Defensive Midfield,1992-07-11T00:00:00Z,26,Egypt,Arsenal FC,Premier League,2018/2019,2018,Mohamed,Elneny,0,0,10,377,5,76.7,86.6,63,0,59,22.7,0,0,0,2.2,42,3
-Aaron Ramsey,Central Midfield,1990-12-26T00:00:00Z,28,Wales,Arsenal FC,Premier League,2018/2019,2018,Aaron,Ramsey,4,6,91,1319,13,387.2,418.4,502,4,298,131,9,0,0,0.9,71,3
-Denis Suárez,Central Midfield,1994-01-06T00:00:00Z,25,Spain,Arsenal FC,Premier League,2018/2019,2018,Denis,Suárez,0,0,4,67,1,4.8,8.4,0,0,11,1.4,0,0,0,0.1,57,3
-Ainsley Maitland-Niles,Right Midfield,1997-08-29T00:00:00Z,21,England,Arsenal FC,Premier League,2018/2019,2018,Ainsley,Maitland-Niles,1,1,34,983,20,98.9,224.2,126,3,152,44.8,2,1,1,0.4,44,3
-Mesut Özil,Attacking Midfield,1988-10-15T00:00:00Z,30,Germany,Arsenal FC,Premier League,2018/2019,2018,Mesut,Özil,5,3,89,1732,24,714.2,429.6,254,9,363,140,5,0,2,2.6,79,3
-Henrikh Mkhitaryan,Attacking Midfield,1989-01-21T00:00:00Z,30,Armenia,Arsenal FC,Premier League,2018/2019,2018,Henrikh,Mkhitaryan,6,4,98,1637,26,454.9,446.4,600,12,354,150.2,3,0,1,4.6,66,3
-Alex Iwobi,Left Winger,1996-05-03T00:00:00Z,23,Nigeria,Arsenal FC,Premier League,2018/2019,2018,Alex,Iwobi,3,8,99,1961,32,596.7,469,646,3,382,171.1,4,0,0,1.5,54,4
-Pierre-Emerick Aubameyang,Centre-Forward,1989-06-18T00:00:00Z,29,Gabon,Arsenal FC,Premier League,2018/2019,2018,Pierre-Emerick,Aubameyang,22,7,205,2722,42,484.6,984.4,1429,32,756,289.6,7,0,0,18.8,108,5
-Alexandre Lacazette,Centre-Forward,1991-05-28T00:00:00Z,28,France,Arsenal FC,Premier League,2018/2019,2018,Alexandre,Lacazette,13,12,166,2497,31,482.4,808,1319,20,560,260.6,6,0,2,11.4,94,5
-Danny Welbeck,Centre-Forward,1990-11-26T00:00:00Z,28,England,Arsenal FC,Premier League,2018/2019,2018,Danny,Welbeck,1,1,19,146,3,56.8,73.6,66,3,63,19.5,0,0,0,0.4,64,5
-Jordan Pickford,Goalkeeper,1994-03-07T00:00:00Z,25,England,Everton FC,Premier League,2018/2019,2018,Jordan,Pickford,0,0,161,3420,46,10,776.4,0,13,706,78.5,14,0,1,13.3,49,1
-Maarten Stekelenburg,Goalkeeper,1982-09-22T00:00:00Z,36,Netherlands,Everton FC,Premier League,2018/2019,2018,Maarten,Stekelenburg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.4,39,1
-Yerry Mina,Centre-Back,1994-09-23T00:00:00Z,24,Colombia,Everton FC,Premier League,2018/2019,2018,Yerry,Mina,1,0,36,891,13,37.5,198.2,61,2,176,29.6,3,0,3,0.5,54,2
-Michael Keane,Centre-Back,1993-01-11T00:00:00Z,26,England,Everton FC,Premier League,2018/2019,2018,Michael,Keane,1,2,129,2970,39,101.2,740.2,326,15,642,117.2,13,0,2,4.3,48,2
-Mason Holgate,Centre-Back,1996-10-22T00:00:00Z,22,England,Everton FC,Premier League,2018/2019,2018,Mason,Holgate,0,0,5,407,9,5,92.2,2,0,61,9.9,0,0,1,0.1,43,2
-Ashley Williams,Centre-Back,1984-08-23T00:00:00Z,34,Wales,Everton FC,Premier League,2018/2019,2018,Ashley,Williams,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2
-Phil Jagielka,Centre-Back,1982-08-17T00:00:00Z,36,England,Everton FC,Premier League,2018/2019,2018,Phil,Jagielka,1,0,22,329,4,21.4,82.2,43,3,80,14.6,2,1,0,0.6,43,2
-Lucas Digne,Left-Back,1993-07-20T00:00:00Z,25,France,Everton FC,Premier League,2018/2019,2018,Lucas,Digne,4,5,158,2964,38,1142,883,300,22,736,232.7,13,1,5,10.2,54,2
-Leighton Baines,Left-Back,1984-12-11T00:00:00Z,34,England,Everton FC,Premier League,2018/2019,2018,Leighton,Baines,0,0,7,374,6,91.4,48.4,15,0,48,15.4,0,0,0,0.5,50,2
-Seamus Coleman,Right-Back,1988-10-11T00:00:00Z,30,Ireland,Everton FC,Premier League,2018/2019,2018,Seamus,Coleman,2,2,125,2558,30,387.3,515.2,274,12,548,117.6,13,0,1,1.6,52,2
-Jonjoe Kenny,Right-Back,1997-03-15T00:00:00Z,22,England,Everton FC,Premier League,2018/2019,2018,Jonjoe,Kenny,0,1,19,789,15,102.7,166.2,12,0,134,28,1,0,1,0.2,41,2
-Morgan Schneiderlin,Defensive Midfield,1989-11-08T00:00:00Z,29,France,Everton FC,Premier League,2018/2019,2018,Morgan,Schneiderlin,0,1,28,832,9,124.7,151.6,17,0,152,29.4,5,0,2,1.8,42,3
-Idrissa Gueye,Central Midfield,1989-09-26T00:00:00Z,29,Senegal,Everton FC,Premier League,2018/2019,2018,Idrissa,Gueye,0,2,78,2821,31,311.3,629.2,168,0,472,111.1,13,0,6,0.3,47,3
-Tom Davies,Central Midfield,1998-06-30T00:00:00Z,20,England,Everton FC,Premier League,2018/2019,2018,Tom,Davies,0,0,26,975,19,96.2,122.6,103,0,127,32.1,2,0,3,0.1,50,3
-James McCarthy,Central Midfield,1990-11-12T00:00:00Z,28,Ireland,Everton FC,Premier League,2018/2019,2018,James,McCarthy,0,0,1,14,0,0.1,5.2,0,0,3,0.5,0,0,0,0,44,3
-Beni Baningime,Central Midfield,1998-09-09T00:00:00Z,20,DR Congo,Everton FC,Premier League,2018/2019,2018,Beni,Baningime,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,3
-Gylfi Sigurdsson,Attacking Midfield,1989-09-08T00:00:00Z,29,Iceland,Everton FC,Premier League,2018/2019,2018,Gylfi,Sigurdsson,13,6,182,3122,41,1098.5,959.8,1084,20,662,314.2,15,0,3,8.3,74,3
-Kieran Dowell,Attacking Midfield,1997-10-10T00:00:00Z,21,England,Everton FC,Premier League,2018/2019,2018,Kieran,Dowell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3
-Ademola Lookman,Left Winger,1997-10-20T00:00:00Z,21,England,Everton FC,Premier League,2018/2019,2018,Ademola,Lookman,0,3,34,600,8,172.1,131.4,211,0,110,51.6,1,0,0,0.1,49,4
-Bernard Anício Caldeira Duarte,Left Winger,1992-09-08T00:00:00Z,26,Brazil,Everton FC,Premier League,2018/2019,2018,Bernard,Anício Caldeira Duarte,1,4,88,2108,19,589.6,366,377,5,319,133.3,13,0,5,0.3,59,4
-Theo Walcott,Right Winger,1989-03-16T00:00:00Z,30,England,Everton FC,Premier League,2018/2019,2018,Theo,Walcott,5,3,101,2108,33,342.9,420,699,4,292,145.7,6,0,1,2.5,59,4
-Cenk Tosun,Centre-Forward,1991-06-07T00:00:00Z,28,Turkey,Everton FC,Premier League,2018/2019,2018,Cenk,Tosun,3,3,56,1044,17,172.2,212.6,546,3,166,92.8,1,0,3,1.5,64,5
-Dominic Calvert-Lewin,Centre-Forward,1997-03-16T00:00:00Z,22,England,Everton FC,Premier League,2018/2019,2018,Dominic,Calvert-Lewin,6,5,92,1769,26,185.7,321.8,618,3,267,111.5,8,0,3,1.9,54,5
-Kasper Schmeichel,Goalkeeper,1986-11-05T00:00:00Z,32,Denmark,Leicester City,Premier League,2018/2019,2018,Kasper,Schmeichel,0,0,120,3420,48,10,756.8,4,6,618,76.9,10,0,3,4.7,50,1
-Danny Ward,Goalkeeper,1993-06-22T00:00:00Z,25,Wales,Leicester City,Premier League,2018/2019,2018,Danny,Ward,1,0,22,435,14,83.3,81.8,168,0,67,32.9,0,0,0,0.2,43,1
-Danny Ward,Goalkeeper,1993-06-22T00:00:00Z,25,Wales,Leicester City,Premier League,2018/2019,2018,Danny,Ward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1
-Eldin Jakupovic,Goalkeeper,1984-10-02T00:00:00Z,34,Switzerland,Leicester City,Premier League,2018/2019,2018,Eldin,Jakupovic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1
-Harry Maguire,Centre-Back,1993-03-05T00:00:00Z,26,England,Leicester City,Premier League,2018/2019,2018,Harry,Maguire,3,1,92,2596,41,165.3,715.8,462,10,533,134.3,6,1,6,8.3,54,2
-Jonny Evans,Centre-Back,1988-01-03T00:00:00Z,31,Northern Ireland,Leicester City,Premier League,2018/2019,2018,Jonny,Evans,1,0,77,1993,26,66.1,460,158,3,418,68.5,8,0,2,0.4,48,2
-Wes Morgan,Centre-Back,1984-01-21T00:00:00Z,35,Jamaica,Leicester City,Premier League,2018/2019,2018,Wes,Morgan,3,0,76,1924,28,40.1,471,293,7,365,80.5,6,2,1,1.6,45,2
-Christian Fuchs,Left-Back,1986-04-07T00:00:00Z,33,Austria,Leicester City,Premier League,2018/2019,2018,Christian,Fuchs,0,0,3,206,5,85.6,50.4,14,0,38,14.9,0,0,0,0.4,41,2
-Danny Simpson,Right-Back,1987-01-04T00:00:00Z,32,England,Leicester City,Premier League,2018/2019,2018,Danny,Simpson,0,0,12,289,4,13.2,74.6,2,0,50,9,1,0,0,0.2,42,2
-Wilfred Ndidi,Defensive Midfield,1996-12-16T00:00:00Z,22,Nigeria,Leicester City,Premier League,2018/2019,2018,Wilfred,Ndidi,2,0,89,3295,47,342.4,726,346,4,571,141.6,9,0,8,0.8,49,3
-Nampalys Mendy,Defensive Midfield,1992-06-23T00:00:00Z,26,France,Leicester City,Premier League,2018/2019,2018,Nampalys,Mendy,0,1,58,2085,29,135.5,235.8,23,0,291,39.5,7,0,5,0.9,43,3
-Daniel Amartey,Defensive Midfield,1994-12-21T00:00:00Z,24,Ghana,Leicester City,Premier League,2018/2019,2018,Daniel,Amartey,0,0,15,639,9,46.7,139,21,0,103,20.8,1,0,2,0.2,43,3
-Hamza Choudhury,Defensive Midfield,1997-10-01T00:00:00Z,21,England,Leicester City,Premier League,2018/2019,2018,Hamza,Choudhury,0,0,20,593,4,73.7,119.6,51,0,80,24.6,4,0,0,0.1,43,3
-Youri Tielemans,Central Midfield,1997-05-07T00:00:00Z,22,Belgium,Leicester City,Premier League,2018/2019,2018,Youri,Tielemans,3,5,63,1087,14,269.7,299,249,6,267,81.8,3,0,2,1.7,60,3
-Matty James,Central Midfield,1991-07-22T00:00:00Z,27,England,Leicester City,Premier League,2018/2019,2018,Matty,James,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,3
-Marc Albrighton,Right Midfield,1989-11-18T00:00:00Z,29,England,Leicester City,Premier League,2018/2019,2018,Marc,Albrighton,2,2,63,1617,17,446.8,371.2,242,4,279,106.1,5,0,3,0.3,51,3
-James Maddison,Attacking Midfield,1996-11-23T00:00:00Z,22,England,Leicester City,Premier League,2018/2019,2018,James,Maddison,7,7,137,2831,44,1515,801.4,769,12,619,308.4,8,1,3,5.2,66,3
-Harvey Barnes,Attacking Midfield,1997-12-09T00:00:00Z,21,England,Leicester City,Premier League,2018/2019,2018,Harvey,Barnes,1,3,43,1001,16,242,172.8,534,1,139,94.8,1,0,0,0.2,55,3
-Demarai Gray,Left Winger,1996-06-28T00:00:00Z,22,England,Leicester City,Premier League,2018/2019,2018,Demarai,Gray,4,1,84,1978,29,310.2,320.2,599,3,244,122.5,6,0,2,0.9,54,4
-Rachid Ghezzal,Right Winger,1992-05-09T00:00:00Z,27,Algeria,Leicester City,Premier League,2018/2019,2018,Rachid,Ghezzal,1,0,28,733,13,307,147.8,228,2,112,68.3,1,0,3,0.1,50,4
-Jamie Vardy,Centre-Forward,1987-01-11T00:00:00Z,32,England,Leicester City,Premier League,2018/2019,2018,Jamie,Vardy,18,5,174,2726,36,419.9,822,1206,31,598,244.6,11,1,3,10.3,90,5
-Kelechi Iheanacho,Centre-Forward,1996-10-03T00:00:00Z,22,Nigeria,Leicester City,Premier League,2018/2019,2018,Kelechi,Iheanacho,1,5,58,924,16,209.4,135.8,230,3,160,56.9,1,0,2,0.8,57,5
-Shinji Okazaki,Centre-Forward,1986-04-16T00:00:00Z,33,Japan,Leicester City,Premier League,2018/2019,2018,Shinji,Okazaki,0,1,25,269,4,28.6,45.6,90,0,59,16.3,0,0,0,0.5,51,5
-Lukasz Fabianski,Goalkeeper,1985-04-18T00:00:00Z,34,Poland,West Ham United,Premier League,2018/2019,2018,Lukasz,Fabianski,0,0,143,3420,55,20,1136,0,15,742,115.5,7,0,0,14.3,47,1
-Adrián San Miguel del Castillo,Goalkeeper,1987-01-03T00:00:00Z,32,Spain,West Ham United,Premier League,2018/2019,2018,Adrián,San Miguel del Castillo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,42,1
-Issa Diop,Centre-Back,1997-01-09T00:00:00Z,22,France,West Ham United,Premier League,2018/2019,2018,Issa,Diop,1,0,87,2970,43,52.3,733,162,6,561,94.8,7,0,4,1.4,42,2
-Fabián Balbuena,Centre-Back,1991-08-23T00:00:00Z,27,Paraguay,West Ham United,Premier League,2018/2019,2018,Fabián,Balbuena,1,0,61,2013,32,40.9,534.6,201,3,375,77.8,5,0,2,0.3,42,2
-Angelo Ogbonna,Centre-Back,1988-05-23T00:00:00Z,31,Italy,West Ham United,Premier League,2018/2019,2018,Angelo,Ogbonna,1,1,48,1871,36,54.2,462.4,168,2,314,68.5,2,0,2,0.8,42,2
-Winston Reid,Centre-Back,1988-07-03T00:00:00Z,30,New Zealand,West Ham United,Premier League,2018/2019,2018,Winston,Reid,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,2
-Aaron Cresswell,Left-Back,1989-12-15T00:00:00Z,29,England,West Ham United,Premier League,2018/2019,2018,Aaron,Cresswell,0,1,34,1588,26,290.9,318.2,113,0,257,72.3,1,0,1,0.5,50,2
-Arthur Masuaku,Left-Back,1993-11-07T00:00:00Z,25,DR Congo,West Ham United,Premier League,2018/2019,2018,Arthur,Masuaku,0,2,49,1757,29,212,434.4,55,0,311,70.3,4,0,2,1.5,42,2
-Sam Byram,Right-Back,1993-09-16T00:00:00Z,25,England,West Ham United,Premier League,2018/2019,2018,Sam,Byram,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2
-Pablo Zabaleta,Right-Back,1985-01-16T00:00:00Z,34,Argentina,West Ham United,Premier League,2018/2019,2018,Pablo,Zabaleta,0,1,56,2089,35,163.2,447.4,106,4,350,71.8,4,0,4,1.7,43,2
-Ryan Fredericks,Right-Back,1992-10-10T00:00:00Z,26,England,West Ham United,Premier League,2018/2019,2018,Ryan,Fredericks,1,0,38,1084,16,77.2,254.8,85,4,169,42,3,0,5,0.3,45,2
-Declan Rice,Defensive Midfield,1999-01-14T00:00:00Z,20,England,West Ham United,Premier League,2018/2019,2018,Declan,Rice,2,0,92,3003,47,174.2,584.4,213,9,586,97.1,6,0,4,4.2,44,3
-Carlos Sánchez,Defensive Midfield,1986-02-06T00:00:00Z,33,Colombia,West Ham United,Premier League,2018/2019,2018,Carlos,Sánchez,0,0,9,240,4,28.8,24.6,24,0,44,7.8,0,0,0,0.1,43,3
-Jack Wilshere,Central Midfield,1992-01-01T00:00:00Z,27,England,West Ham United,Premier League,2018/2019,2018,Jack,Wilshere,0,2,17,388,10,74,72,17,0,90,16.3,1,0,2,0.8,48,3
-Pedro Obiang,Central Midfield,1992-03-27T00:00:00Z,27,Equatorial Guinea,West Ham United,Premier League,2018/2019,2018,Pedro,Obiang,0,2,43,1116,21,105.9,219.2,112,1,188,43.6,2,0,0,0.8,42,3
-Mark Noble,Central Midfield,1987-05-08T00:00:00Z,32,England,West Ham United,Premier League,2018/2019,2018,Mark,Noble,5,5,99,2289,31,359.8,521.4,196,5,454,107.6,7,1,6,0.5,48,3
-Manuel Lanzini,Attacking Midfield,1993-02-15T00:00:00Z,26,Argentina,West Ham United,Premier League,2018/2019,2018,Manuel,Lanzini,1,2,31,685,12,118.2,141,165,3,148,42.4,2,0,2,0.1,64,3
-Samir Nasri,Attacking Midfield,1987-06-26T00:00:00Z,31,France,West Ham United,Premier League,2018/2019,2018,Samir,Nasri,0,2,14,243,2,86.6,49.8,28,0,61,16.4,1,0,0,0.2,49,3
-Michail Antonio,Right Winger,1990-03-28T00:00:00Z,29,England,West Ham United,Premier League,2018/2019,2018,Michail,Antonio,6,8,118,2093,30,346.2,482,852,6,305,167,7,0,3,1.2,68,4
-Robert Snodgrass,Right Winger,1987-09-07T00:00:00Z,31,Scotland,West Ham United,Premier League,2018/2019,2018,Robert,Snodgrass,2,5,85,2215,33,976,460.8,380,9,364,181.5,5,0,10,0.9,50,4
-Grady Diangana,Right Winger,1998-04-19T00:00:00Z,21,England,West Ham United,Premier League,2018/2019,2018,Grady,Diangana,0,1,25,600,13,174.5,115,175,0,86,46.2,2,0,0,0,45,4
-Marko Arnautovic,Centre-Forward,1989-04-19T00:00:00Z,30,Austria,West Ham United,Premier League,2018/2019,2018,Marko,Arnautovic,10,5,117,1988,34,500.6,551.6,946,15,405,199.2,4,0,3,6.7,67,5
-Jordan Hugill,Centre-Forward,1992-06-04T00:00:00Z,27,England,West Ham United,Premier League,2018/2019,2018,Jordan,Hugill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,5
-Andy Carroll,Centre-Forward,1989-01-06T00:00:00Z,30,England,West Ham United,Premier League,2018/2019,2018,Andy,Carroll,0,0,12,454,7,51.4,41.8,169,0,10,25.8,0,0,2,0.1,54,5
-Lucas Pérez,Centre-Forward,1988-09-10T00:00:00Z,30,Spain,West Ham United,Premier League,2018/2019,2018,Lucas,Pérez,3,0,33,465,13,110.5,136.8,131,5,127,37.7,0,0,0,0.1,62,5
-Asmir Begovic,Goalkeeper,1987-06-20T00:00:00Z,31,Bosnia-Herzegovina,AFC Bournemouth,Premier League,2018/2019,2018,Asmir,Begovic,0,0,63,2160,47,0,440.6,0,4,363,44.2,5,0,0,2.7,43,1
-Artur Boruc,Goalkeeper,1980-02-20T00:00:00Z,39,Poland,AFC Bournemouth,Premier League,2018/2019,2018,Artur,Boruc,0,0,46,1080,18,0,302,0,4,218,30.3,4,0,2,8.6,41,1
-Mark Travers,Goalkeeper,1999-05-18T00:00:00Z,20,Ireland,AFC Bournemouth,Premier League,2018/2019,2018,Mark,Travers,0,0,9,180,5,0,68.2,0,1,46,6.8,1,0,0,0.3,40,1
-Nathan Aké,Centre-Back,1995-02-18T00:00:00Z,24,Netherlands,AFC Bournemouth,Premier League,2018/2019,2018,Nathan,Aké,4,1,120,3411,70,125.9,1002,440,8,716,156.8,10,0,3,6.1,51,2
-Chris Mepham,Centre-Back,1997-11-05T00:00:00Z,21,Wales,AFC Bournemouth,Premier League,2018/2019,2018,Chris,Mepham,0,1,27,848,17,24.1,177.2,22,0,158,22.5,2,0,1,0.1,45,2
-Steve Cook,Centre-Back,1991-04-19T00:00:00Z,28,England,AFC Bournemouth,Premier League,2018/2019,2018,Steve,Cook,1,1,85,2786,56,143.3,731,292,6,549,116.5,9,0,3,4.2,43,2
-Tyrone Mings,Centre-Back,1993-03-13T00:00:00Z,26,England,AFC Bournemouth,Premier League,2018/2019,2018,Tyrone,Mings,0,0,5,141,4,16.3,49,2,0,41,6.8,0,0,0,0.1,42,2
-Jack Simpson,Centre-Back,1997-01-08T00:00:00Z,22,England,AFC Bournemouth,Premier League,2018/2019,2018,Jack,Simpson,0,0,10,401,9,2,85.4,21,0,73,11,1,0,0,6.1,39,2
-Diego Rico,Left-Back,1993-02-23T00:00:00Z,26,Spain,AFC Bournemouth,Premier League,2018/2019,2018,Diego,Rico,0,0,8,606,19,171.6,107.4,36,0,89,31.4,0,0,1,0,41,2
-Charlie Daniels,Left-Back,1986-09-07T00:00:00Z,32,England,AFC Bournemouth,Premier League,2018/2019,2018,Charlie,Daniels,1,0,44,1583,34,215.4,289.8,156,1,278,66.2,4,0,4,3.2,41,2
-Adam Smith,Right-Back,1991-04-29T00:00:00Z,28,England,AFC Bournemouth,Premier League,2018/2019,2018,Adam,Smith,1,1,70,2067,33,199.8,374,110,1,383,68.5,8,1,5,0.4,43,2
-Simon Francis,Right-Back,1985-02-16T00:00:00Z,34,England,AFC Bournemouth,Premier League,2018/2019,2018,Simon,Francis,0,2,40,1227,24,173.3,332.4,39,0,244,54.4,4,0,1,0.2,43,2
-Jefferson Lerma,Defensive Midfield,1994-10-25T00:00:00Z,24,Colombia,AFC Bournemouth,Premier League,2018/2019,2018,Jefferson,Lerma,2,2,75,2505,49,245.8,539.6,174,6,410,96.2,9,0,12,0.3,45,3
-Lewis Cook,Central Midfield,1997-02-03T00:00:00Z,22,England,AFC Bournemouth,Premier League,2018/2019,2018,Lewis,Cook,0,0,22,719,10,50.4,76,36,0,91,16.5,3,0,2,0.1,46,3
-Harry Arter,Central Midfield,1989-12-28T00:00:00Z,29,Ireland,AFC Bournemouth,Premier League,2018/2019,2018,Harry,Arter,0,1,48,1999,39,188.8,230.6,170,0,225,58.9,7,0,10,0.2,49,3
-Dan Gosling,Central Midfield,1990-02-01T00:00:00Z,29,England,AFC Bournemouth,Premier League,2018/2019,2018,Dan,Gosling,2,2,54,1734,33,164.7,400.6,217,0,237,78.1,4,0,8,0.1,47,3
-Andrew Surman,Central Midfield,1986-08-20T00:00:00Z,32,England,AFC Bournemouth,Premier League,2018/2019,2018,Andrew,Surman,0,0,36,1438,37,163,190.8,38,0,206,39.2,4,0,2,0.1,46,3
-Emerson Hyndman,Central Midfield,1996-04-07T00:00:00Z,23,United States,AFC Bournemouth,Premier League,2018/2019,2018,Emerson,Hyndman,0,0,1,37,2,1.2,14,0,0,2,1.5,0,0,0,0,44,3
-David Brooks,Attacking Midfield,1997-07-08T00:00:00Z,21,Wales,AFC Bournemouth,Premier League,2018/2019,2018,David,Brooks,7,6,123,2263,41,466.7,598,609,7,414,167.5,9,0,3,3.6,50,3
-Ryan Fraser,Left Winger,1994-02-24T00:00:00Z,25,Scotland,AFC Bournemouth,Premier League,2018/2019,2018,Ryan,Fraser,7,14,181,3165,64,1382.4,930.6,696,23,751,301.2,9,0,2,23.7,64,4
-Junior Stanislas,Left Winger,1989-11-26T00:00:00Z,29,England,AFC Bournemouth,Premier League,2018/2019,2018,Junior,Stanislas,2,3,56,1021,24,254.5,225.2,340,3,205,82,2,0,1,0.1,60,4
-Marc Pugh,Left Winger,1987-04-02T00:00:00Z,32,England,AFC Bournemouth,Premier League,2018/2019,2018,Marc,Pugh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,43,4
-Jordon Ibe,Right Winger,1995-12-08T00:00:00Z,23,England,AFC Bournemouth,Premier League,2018/2019,2018,Jordon,Ibe,1,1,33,789,23,174.8,131.2,155,0,105,46,1,0,1,0.2,49,4
-Joshua King,Second Striker,1992-01-15T00:00:00Z,27,Norway,AFC Bournemouth,Premier League,2018/2019,2018,Joshua,King,12,3,141,2963,57,535.7,655.4,1058,20,457,223.8,10,0,3,5.1,64,5
-Callum Wilson,Centre-Forward,1992-02-27T00:00:00Z,27,England,AFC Bournemouth,Premier League,2018/2019,2018,Callum,Wilson,14,12,168,2528,47,388.4,737.8,1137,22,525,225,9,0,3,20.3,69,5
-Dominic Solanke,Centre-Forward,1997-09-14T00:00:00Z,21,England,AFC Bournemouth,Premier League,2018/2019,2018,Dominic,Solanke,0,1,15,340,5,96,79,154,0,45,33,0,0,0,0.4,47,5
-Lys Mousset,Centre-Forward,1996-02-08T00:00:00Z,23,France,AFC Bournemouth,Premier League,2018/2019,2018,Lys,Mousset,1,0,28,350,15,65.1,74.6,201,0,74,33.8,0,0,1,0.2,49,5
-John Ruddy,Goalkeeper,1986-10-24T00:00:00Z,32,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,John,Ruddy,0,0,7,90,0,0,26.6,0,0,25,2.7,1,0,0,0.2,42,1
-Will Norris,Goalkeeper,1993-08-12T00:00:00Z,25,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Will,Norris,0,0,1,1,0,0,0,0,0,3,0,0,0,0,2.3,39,1
-Willy Boly,Centre-Back,1991-02-03T00:00:00Z,28,France,Wolverhampton Wanderers,Premier League,2018/2019,2018,Willy,Boly,4,0,120,3168,43,146.9,954.2,279,10,635,137.7,8,1,2,6.1,47,2
-Conor Coady,Centre-Back,1993-02-25T00:00:00Z,26,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Conor,Coady,0,0,94,3420,46,26.2,593.2,0,6,585,61.8,9,0,5,0.9,45,2
-Ryan Bennett,Centre-Back,1990-03-06T00:00:00Z,29,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Ryan,Bennett,1,0,89,3060,38,129.7,566.4,172,1,467,86.9,9,0,12,8,41,2
-Kortney Hause,Centre-Back,1995-07-16T00:00:00Z,23,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Kortney,Hause,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,40,2
-Matt Doherty,Right-Back,1992-01-16T00:00:00Z,27,Ireland,Wolverhampton Wanderers,Premier League,2018/2019,2018,Matt,Doherty,4,7,144,3141,41,547.4,758.8,711,12,596,201.6,8,0,5,21.9,53,2
-Leander Dendoncker,Defensive Midfield,1995-04-15T00:00:00Z,24,Belgium,Wolverhampton Wanderers,Premier League,2018/2019,2018,Leander,Dendoncker,2,0,48,1465,21,126.6,334.8,288,1,209,75.1,3,0,1,0.6,43,3
-Romain Saïss,Defensive Midfield,1990-03-26T00:00:00Z,29,Morocco,Wolverhampton Wanderers,Premier League,2018/2019,2018,Romain,Saïss,2,0,47,1142,17,70.9,363.6,129,5,248,56.2,3,0,7,0.4,42,3
-Morgan Gibbs-White,Central Midfield,2000-01-27T00:00:00Z,19,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Morgan,Gibbs-White,0,1,37,645,12,181.1,73.2,72,0,113,32.5,4,0,1,0.5,43,3
-Diogo Jota,Left Winger,1996-12-04T00:00:00Z,22,Portugal,Wolverhampton Wanderers,Premier League,2018/2019,2018,Diogo,Jota,9,8,139,2352,29,402.5,559.6,888,13,386,185,10,0,11,8.5,63,4
-Adama Traoré,Right Winger,1996-01-25T00:00:00Z,23,Spain,Wolverhampton Wanderers,Premier League,2018/2019,2018,Adama,Traoré,1,1,44,884,13,271.3,223.4,265,2,182,75.8,1,0,1,0.3,51,4
-Hélder Costa,Right Winger,1994-01-12T00:00:00Z,25,Portugal,Wolverhampton Wanderers,Premier League,2018/2019,2018,Hélder,Costa,1,2,52,1333,19,264,162.8,280,0,136,70.9,5,0,3,0.4,46,4
-Ivan Cavaleiro,Right Winger,1993-10-18T00:00:00Z,25,Portugal,Wolverhampton Wanderers,Premier League,2018/2019,2018,Ivan,Cavaleiro,3,1,48,677,11,313.6,198,156,3,156,66,1,0,1,0.1,52,4
-Raúl Jiménez,Centre-Forward,1991-05-05T00:00:00Z,28,Mexico,Wolverhampton Wanderers,Premier League,2018/2019,2018,Raúl,Jiménez,13,10,181,3112,40,648.5,788.8,1428,31,602,285.4,12,0,4,33.4,69,5
-Bright Enobakhare,Centre-Forward,1998-02-08T00:00:00Z,21,Nigeria,Wolverhampton Wanderers,Premier League,2018/2019,2018,Bright,Enobakhare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,5
-Sergio Rico,Goalkeeper,1993-09-01T00:00:00Z,25,Spain,Fulham FC,Premier League,2018/2019,2018,Sergio,Rico,0,0,86,2610,56,20.3,851.4,0,8,519,87.1,5,0,1,0.7,44,1
-Marcus Bettinelli,Goalkeeper,1992-05-24T00:00:00Z,27,England,Fulham FC,Premier League,2018/2019,2018,Marcus,Bettinelli,0,0,15,630,20,0,195,0,0,114,19.4,0,0,1,0.3,42,1
-Alfie Mawson,Centre-Back,1994-01-19T00:00:00Z,25,England,Fulham FC,Premier League,2018/2019,2018,Alfie,Mawson,0,0,19,1130,26,23.2,259.2,31,2,174,31.3,1,0,2,0.1,47,2
-Maxime Le Marchand,Centre-Back,1989-10-11T00:00:00Z,29,France,Fulham FC,Premier League,2018/2019,2018,Maxime,Le Marchand,0,1,38,2250,53,131.7,577.8,99,1,409,81.2,3,0,5,0.2,42,2
-Tim Ream,Centre-Back,1987-10-05T00:00:00Z,31,United States,Fulham FC,Premier League,2018/2019,2018,Tim,Ream,0,0,50,2046,49,46.3,331.6,3,4,349,38.3,5,0,1,0.3,42,2
-Joe Bryan,Left-Back,1993-09-17T00:00:00Z,25,England,Fulham FC,Premier League,2018/2019,2018,Joe,Bryan,0,1,52,2344,54,385.4,469.2,226,4,397,108.1,5,0,5,0.2,48,2
-Cyrus Christie,Right-Back,1992-09-30T00:00:00Z,26,Ireland,Fulham FC,Premier League,2018/2019,2018,Cyrus,Christie,0,1,42,1941,42,293.1,423.2,107,2,278,82.2,3,0,7,0.2,42,2
-Denis Odoi,Right-Back,1988-05-27T00:00:00Z,31,Belgium,Fulham FC,Premier League,2018/2019,2018,Denis,Odoi,0,1,44,2593,62,164.2,575.2,93,2,427,83.5,3,0,4,0.1,44,2
-Kevin McDonald,Defensive Midfield,1988-11-04T00:00:00Z,30,Scotland,Fulham FC,Premier League,2018/2019,2018,Kevin,McDonald,0,0,17,837,27,71.9,99.6,15,0,123,18.7,0,1,4,0.2,42,3
-Ibrahima Cissé,Defensive Midfield,1994-02-28T00:00:00Z,25,Guinea,Fulham FC,Premier League,2018/2019,2018,Ibrahima,Cissé,0,0,4,86,4,2.1,11.6,0,0,16,1.4,0,0,0,0.1,43,3
-Tom Cairney,Central Midfield,1991-01-20T00:00:00Z,28,Scotland,Fulham FC,Premier League,2018/2019,2018,Tom,Cairney,1,1,71,2188,51,586.7,358,199,3,389,114.5,5,0,0,0.5,46,3
-Stefan Johansen,Central Midfield,1991-01-08T00:00:00Z,28,Norway,Fulham FC,Premier League,2018/2019,2018,Stefan,Johansen,0,0,11,409,12,33,48.8,7,0,48,9,0,0,4,0,50,3
-Ryan Sessegnon,Left Midfield,2000-05-18T00:00:00Z,19,England,Fulham FC,Premier League,2018/2019,2018,Ryan,Sessegnon,2,7,94,2291,60,468.3,410.4,438,3,295,132,3,0,0,1.9,60,3
-Neeskens Kebano,Attacking Midfield,1992-03-10T00:00:00Z,27,DR Congo,Fulham FC,Premier League,2018/2019,2018,Neeskens,Kebano,0,0,7,101,3,8.3,17.6,8,0,24,3.4,0,0,0,0,43,3
-André Schürrle,Left Winger,1990-11-06T00:00:00Z,28,Germany,Fulham FC,Premier League,2018/2019,2018,André,Schürrle,6,0,75,1638,43,310.6,361.8,474,2,260,114,2,0,2,2.1,55,4
-Ryan Babel,Left Winger,1986-12-19T00:00:00Z,32,Netherlands,Fulham FC,Premier League,2018/2019,2018,Ryan,Babel,5,4,75,1250,26,336.8,322,355,8,246,101.5,3,0,3,1.7,56,4
-Floyd Ayité,Left Winger,1988-12-15T00:00:00Z,30,Togo,Fulham FC,Premier League,2018/2019,2018,Floyd,Ayité,1,0,24,466,13,117.5,90,74,0,91,28,0,0,0,0.1,42,4
-Lazar Markovic,Right Winger,1994-03-02T00:00:00Z,25,Serbia,Fulham FC,Premier League,2018/2019,2018,Lazar,Markovic,0,0,1,45,1,13,6.2,4,0,3,2.3,0,0,0,0,47,4
-Aleksandar Mitrovic,Centre-Forward,1994-09-16T00:00:00Z,24,Serbia,Fulham FC,Premier League,2018/2019,2018,Aleksandar,Mitrovic,11,4,134,3280,78,499.5,638.8,1593,12,350,273.4,5,0,7,10.8,63,5
-Luciano Vietto,Centre-Forward,1993-12-05T00:00:00Z,25,Argentina,Fulham FC,Premier League,2018/2019,2018,Luciano,Vietto,1,4,47,980,21,306.8,206.2,346,4,171,85.6,1,0,1,0.4,53,5
-Wayne Hennessey,Goalkeeper,1987-01-24T00:00:00Z,32,Wales,Crystal Palace,Premier League,2018/2019,2018,Wayne,Hennessey,0,0,67,1575,26,0,358.8,0,6,311,35.9,5,0,0,2.4,44,1
-Vicente Guaita,Goalkeeper,1987-01-10T00:00:00Z,32,Spain,Crystal Palace,Premier League,2018/2019,2018,Vicente,Guaita,0,0,81,1754,23,0,448,0,8,378,44.8,7,0,2,2.4,43,1
-Lucas Perri,Goalkeeper,1997-12-10T00:00:00Z,21,Brazil,Crystal Palace,Premier League,2018/2019,2018,Lucas,Perri,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1
-Mamadou Sakho,Centre-Back,1990-02-13T00:00:00Z,29,France,Crystal Palace,Premier League,2018/2019,2018,Mamadou,Sakho,0,0,88,2416,35,78.2,540.6,47,13,533,66.6,9,0,2,1.2,49,2
-James Tomkins,Centre-Back,1989-03-29T00:00:00Z,30,England,Crystal Palace,Premier League,2018/2019,2018,James,Tomkins,1,1,86,2561,37,83,560.8,276,0,504,92.3,10,0,6,2.3,43,2
-Jairo Riedewald,Centre-Back,1996-09-09T00:00:00Z,22,Netherlands,Crystal Palace,Premier League,2018/2019,2018,Jairo,Riedewald,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,2
-Scott Dann,Centre-Back,1987-02-14T00:00:00Z,32,England,Crystal Palace,Premier League,2018/2019,2018,Scott,Dann,0,1,23,661,10,22.5,186.2,71,0,129,28.1,2,0,1,0.1,44,2
-Patrick van Aanholt,Left-Back,1990-08-29T00:00:00Z,28,Netherlands,Crystal Palace,Premier League,2018/2019,2018,Patrick,van Aanholt,3,2,140,3196,46,520.4,616,448,17,626,158.7,12,0,3,5.7,55,2
-Pape Souaré,Left-Back,1990-06-06T00:00:00Z,29,Senegal,Crystal Palace,Premier League,2018/2019,2018,Pape,Souaré,0,0,1,1,0,0.1,1,0,0,3,0.1,0,0,0,0.1,42,2
-Aaron Wan-Bissaka,Right-Back,1997-11-26T00:00:00Z,21,England,Crystal Palace,Premier League,2018/2019,2018,Aaron,Wan-Bissaka,0,3,120,3134,47,266.8,863.4,139,18,672,127.1,12,1,4,26.3,46,2
-Joel Ward,Right-Back,1989-10-29T00:00:00Z,29,England,Crystal Palace,Premier League,2018/2019,2018,Joel,Ward,1,0,13,551,14,28.9,131.8,43,0,68,20.5,0,0,1,0.2,43,2
-Martin Kelly,Right-Back,1990-04-27T00:00:00Z,29,England,Crystal Palace,Premier League,2018/2019,2018,Martin,Kelly,0,0,26,1110,21,17.1,269.8,34,1,166,32.2,3,0,2,5,39,2
-Luka Milivojevic,Defensive Midfield,1991-04-07T00:00:00Z,28,Serbia,Crystal Palace,Premier League,2018/2019,2018,Luka,Milivojevic,12,2,166,3420,53,910.1,1078.2,473,24,741,246.3,12,0,10,10.6,65,3
-Cheikhou Kouyaté,Defensive Midfield,1989-12-21T00:00:00Z,29,Senegal,Crystal Palace,Premier League,2018/2019,2018,Cheikhou,Kouyaté,0,3,67,1889,30,198.5,337.4,222,0,251,75.6,9,0,3,0.2,47,3
-James McArthur,Central Midfield,1987-10-07T00:00:00Z,31,Scotland,Crystal Palace,Premier League,2018/2019,2018,James,McArthur,3,7,121,3057,49,457.2,666.8,487,7,500,161.3,11,0,7,3.4,49,3
-Jeffrey Schlupp,Left Midfield,1992-12-23T00:00:00Z,26,Ghana,Crystal Palace,Premier League,2018/2019,2018,Jeffrey,Schlupp,4,3,91,1660,26,240.5,385.2,430,3,301,105.7,4,0,1,2.5,43,3
-Max Meyer,Attacking Midfield,1995-09-18T00:00:00Z,23,Germany,Crystal Palace,Premier League,2018/2019,2018,Max,Meyer,1,3,60,1405,24,309.9,236,433,0,223,98,6,0,3,0.2,55,3
-Bakary Sako,Left Winger,1988-04-26T00:00:00Z,31,Mali,Crystal Palace,Premier League,2018/2019,2018,Bakary,Sako,0,0,4,26,2,0.5,3,0,0,10,0.3,0,0,0,0,49,4
-Wilfried Zaha,Right Winger,1992-11-10T00:00:00Z,26,Cote d'Ivoire,Crystal Palace,Premier League,2018/2019,2018,Wilfried,Zaha,10,11,143,3037,49,753.3,752.8,1200,13,459,270.6,11,1,8,15.6,70,4
-Andros Townsend,Right Winger,1991-07-16T00:00:00Z,27,England,Crystal Palace,Premier League,2018/2019,2018,Andros,Townsend,6,5,135,3007,46,928.5,743,622,8,520,229.6,11,0,1,3.5,56,4
-Christian Benteke,Centre-Forward,1990-12-03T00:00:00Z,28,Belgium,Crystal Palace,Premier League,2018/2019,2018,Christian,Benteke,1,1,33,807,13,118.4,106,348,3,65,56.1,3,0,1,0.5,63,5
-Jordan Ayew,Centre-Forward,1991-09-11T00:00:00Z,27,Ghana,Crystal Palace,Premier League,2018/2019,2018,Jordan,Ayew,1,3,46,1176,13,207.3,140.2,421,2,114,76.7,5,0,3,0.2,57,5
-Connor Wickham,Centre-Forward,1993-03-31T00:00:00Z,26,England,Crystal Palace,Premier League,2018/2019,2018,Connor,Wickham,0,1,9,61,1,41.9,23.2,55,0,23,12,0,0,0,0.1,49,5
-Angus Gunn,Goalkeeper,1996-01-22T00:00:00Z,23,England,Southampton FC,Premier League,2018/2019,2018,Angus,Gunn,0,0,47,1080,18,0,239.2,0,4,206,23.8,3,0,0,1.1,43,1
-Fraser Forster,Goalkeeper,1988-03-17T00:00:00Z,31,England,Southampton FC,Premier League,2018/2019,2018,Fraser,Forster,0,0,2,90,3,0,22.2,0,0,13,2.2,0,0,0,0.6,42,1
-Alex McCarthy,Goalkeeper,1989-12-03T00:00:00Z,29,England,Southampton FC,Premier League,2018/2019,2018,Alex,McCarthy,0,0,73,2250,44,0,585.2,0,6,414,58.6,4,0,1,2,43,1
-Jannik Vestergaard,Centre-Back,1992-08-03T00:00:00Z,26,Denmark,Southampton FC,Premier League,2018/2019,2018,Jannik,Vestergaard,0,0,50,2027,31,76.6,576.6,104,0,396,75.9,4,0,2,0.2,46,2
-Jack Stephens,Centre-Back,1994-01-27T00:00:00Z,25,England,Southampton FC,Premier League,2018/2019,2018,Jack,Stephens,1,0,47,1697,35,65.5,394.4,143,4,282,60.4,3,0,4,0.3,42,2
-Jan Bednarek,Centre-Back,1996-04-12T00:00:00Z,23,Poland,Southampton FC,Premier League,2018/2019,2018,Jan,Bednarek,0,1,49,2150,37,108.8,616,91,3,365,81.9,3,0,7,7.4,40,2
-Maya Yoshida,Centre-Back,1988-08-24T00:00:00Z,30,Japan,Southampton FC,Premier League,2018/2019,2018,Maya,Yoshida,0,1,44,1518,29,57.4,387,189,4,278,63.4,3,0,0,1.1,41,2
-Ryan Bertrand,Left-Back,1989-08-05T00:00:00Z,29,England,Southampton FC,Premier League,2018/2019,2018,Ryan,Bertrand,1,0,56,2160,42,379.4,326.8,123,1,291,82.6,6,0,8,2.4,48,2
-Matt Targett,Left-Back,1995-09-18T00:00:00Z,23,England,Southampton FC,Premier League,2018/2019,2018,Matt,Targett,1,3,36,1185,25,366.8,314.2,181,3,229,86.2,0,0,2,0.1,42,2
-Sam McQueen,Left-Back,1995-02-06T00:00:00Z,24,England,Southampton FC,Premier League,2018/2019,2018,Sam,McQueen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,40,2
-Yan Valery,Right-Back,1999-02-22T00:00:00Z,20,France,Southampton FC,Premier League,2018/2019,2018,Yan,Valery,2,1,54,1709,30,124.7,329.4,157,0,251,60.7,3,1,3,4.1,41,2
-Mario Lemina,Defensive Midfield,1993-09-01T00:00:00Z,25,Gabon,Southampton FC,Premier League,2018/2019,2018,Mario,Lemina,1,2,50,1612,37,214.7,313,188,2,270,71.6,4,0,5,0.2,47,3
-James Ward-Prowse,Central Midfield,1994-11-01T00:00:00Z,24,England,Southampton FC,Premier League,2018/2019,2018,James,Ward-Prowse,7,0,94,1940,41,695.8,592,387,15,390,167.4,3,0,4,3.7,51,3
-Stuart Armstrong,Central Midfield,1992-03-30T00:00:00Z,27,Scotland,Southampton FC,Premier League,2018/2019,2018,Stuart,Armstrong,3,4,75,1421,26,392.4,305.6,379,3,269,107.5,5,0,2,0.2,51,3
-Steven Davis,Central Midfield,1985-01-01T00:00:00Z,34,Northern Ireland,Southampton FC,Premier League,2018/2019,2018,Steven,Davis,0,1,9,97,4,41.6,38.8,2,2,39,8.2,0,0,0,0,46,3
-Nathan Redmond,Left Winger,1994-03-06T00:00:00Z,25,England,Southampton FC,Premier League,2018/2019,2018,Nathan,Redmond,6,5,137,3272,58,802.3,665.4,950,12,433,241.4,9,0,3,6.9,55,4
-Mohamed Elyounoussi,Left Winger,1994-08-04T00:00:00Z,24,Norway,Southampton FC,Premier League,2018/2019,2018,Mohamed,Elyounoussi,0,0,28,785,10,228.3,94.2,220,0,91,54.2,4,0,0,0.1,60,4
-Danny Ings,Centre-Forward,1992-07-23T00:00:00Z,26,England,Southampton FC,Premier League,2018/2019,2018,Danny,Ings,7,3,90,1650,27,346.9,433.8,808,11,310,158.4,5,0,1,3.2,54,5
-Charlie Austin,Centre-Forward,1989-07-05T00:00:00Z,29,England,Southampton FC,Premier League,2018/2019,2018,Charlie,Austin,2,2,46,970,17,115.3,158.4,405,1,117,67.4,5,0,1,0.4,55,5
-Shane Long,Centre-Forward,1987-01-22T00:00:00Z,32,Ireland,Southampton FC,Premier League,2018/2019,2018,Shane,Long,5,2,66,1260,24,179.2,248.6,417,5,191,84.2,2,0,3,4.9,47,5
-Sam Gallagher,Centre-Forward,1995-09-15T00:00:00Z,23,England,Southampton FC,Premier League,2018/2019,2018,Sam,Gallagher,0,0,4,32,1,0.3,0,0,0,6,0,0,0,0,0.1,45,5
-Michael Obafemi,Centre-Forward,2000-07-06T00:00:00Z,18,Ireland,Southampton FC,Premier League,2018/2019,2018,Michael,Obafemi,1,1,13,134,3,27.4,62.6,127,0,46,21.6,0,0,1,0,50,5
-Martin Dubravka,Goalkeeper,1989-01-15T00:00:00Z,30,Slovakia,Newcastle United,Premier League,2018/2019,2018,Martin,Dubravka,0,0,131,3420,48,0,783.6,0,10,647,78.4,11,0,1,1,50,1
-Karl Darlow,Goalkeeper,1990-10-08T00:00:00Z,28,England,Newcastle United,Premier League,2018/2019,2018,Karl,Darlow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,44,1
-Jamaal Lascelles,Centre-Back,1993-11-11T00:00:00Z,25,England,Newcastle United,Premier League,2018/2019,2018,Jamaal,Lascelles,0,1,95,2745,36,46.8,632.4,113,8,539,79.6,10,0,4,3.1,47,2
-Federico Fernández,Centre-Back,1989-02-21T00:00:00Z,30,Argentina,Newcastle United,Premier League,2018/2019,2018,Federico,Fernández,0,2,47,1482,24,63.7,350,70,5,277,48.5,3,0,2,0.2,44,2
-Florian Lejeune,Centre-Back,1991-05-20T00:00:00Z,28,France,Newcastle United,Premier League,2018/2019,2018,Florian,Lejeune,0,0,35,1054,13,82.5,211.6,59,0,209,35.3,4,0,0,0.1,44,2
-Fabian Schär,Centre-Back,1991-12-20T00:00:00Z,27,Switzerland,Newcastle United,Premier League,2018/2019,2018,Fabian,Schär,4,1,93,2000,23,148.6,669.4,220,9,403,103.8,7,0,12,1.3,45,2
-Ciaran Clark,Centre-Back,1989-09-26T00:00:00Z,29,Ireland,Newcastle United,Premier League,2018/2019,2018,Ciaran,Clark,3,0,42,857,15,25,293.2,105,4,194,42.6,2,0,1,0.2,45,2
-Antonio Barreca,Left-Back,1995-03-18T00:00:00Z,24,Italy,Newcastle United,Premier League,2018/2019,2018,Antonio,Barreca,0,0,1,4,0,0,0.2,0,0,3,0,0,0,0,0,41,2
-Paul Dummett,Left-Back,1991-09-26T00:00:00Z,27,Wales,Newcastle United,Premier League,2018/2019,2018,Paul,Dummett,0,0,67,1986,27,94,424.2,58,3,365,57.6,7,0,1,0.2,44,2
-DeAndre Yedlin,Right-Back,1993-07-09T00:00:00Z,25,United States,Newcastle United,Premier League,2018/2019,2018,DeAndre,Yedlin,1,2,63,2472,41,406.3,436.4,113,1,325,95.8,5,1,6,0.9,45,2
-Javier Manquillo,Right-Back,1994-05-05T00:00:00Z,25,Spain,Newcastle United,Premier League,2018/2019,2018,Javier,Manquillo,0,3,53,1098,16,127.3,231,28,5,231,38.8,4,0,2,0.3,43,2
-Isaac Hayden,Defensive Midfield,1995-03-22T00:00:00Z,24,England,Newcastle United,Premier League,2018/2019,2018,Isaac,Hayden,1,4,69,1857,25,298.8,412,232,5,306,94.4,7,1,3,1.4,43,3
-Jonjo Shelvey,Central Midfield,1992-02-27T00:00:00Z,27,England,Newcastle United,Premier League,2018/2019,2018,Jonjo,Shelvey,1,1,39,943,13,351.7,226.2,154,2,170,73.2,5,0,1,0.3,53,3
-Mohamed Diamé,Central Midfield,1987-06-14T00:00:00Z,31,Senegal,Newcastle United,Premier League,2018/2019,2018,Mohamed,Diamé,0,0,56,2162,32,82.9,310.8,204,0,213,60,7,0,3,0.1,48,3
-Sean Longstaff,Central Midfield,1997-10-30T00:00:00Z,21,England,Newcastle United,Premier League,2018/2019,2018,Sean,Longstaff,1,1,26,686,9,71.8,130.4,106,1,117,30.9,3,0,2,0,45,3
-Matt Ritchie,Right Midfield,1989-09-10T00:00:00Z,29,Scotland,Newcastle United,Premier League,2018/2019,2018,Matt,Ritchie,2,8,110,2927,40,973.8,712.4,448,7,504,213.6,10,0,9,0.6,58,3
-Miguel Almirón,Attacking Midfield,1994-02-10T00:00:00Z,25,Paraguay,Newcastle United,Premier League,2018/2019,2018,Miguel,Almirón,0,2,28,758,11,189.8,121.4,235,0,107,54.6,3,0,0,0.2,60,3
-Christian Atsu,Left Winger,1992-01-10T00:00:00Z,27,Ghana,Newcastle United,Premier League,2018/2019,2018,Christian,Atsu,1,1,55,1481,18,273,218.8,331,0,175,82.3,6,0,2,0.1,51,4
-Jacob Murphy,Right Winger,1995-02-24T00:00:00Z,24,England,Newcastle United,Premier League,2018/2019,2018,Jacob,Murphy,0,1,16,296,8,31.1,53.6,22,0,50,10.7,1,0,0,0,47,4
-Ayoze Pérez,Second Striker,1993-07-29T00:00:00Z,25,Spain,Newcastle United,Premier League,2018/2019,2018,Ayoze,Pérez,12,2,141,2916,35,585.6,783.6,954,19,541,232.1,11,0,2,3.4,61,5
-Dwight Gayle,Centre-Forward,1990-10-17T00:00:00Z,28,England,Newcastle United,Premier League,2018/2019,2018,Dwight,Gayle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,60,5
-Yoshinori Muto,Centre-Forward,1992-07-15T00:00:00Z,26,Japan,Newcastle United,Premier League,2018/2019,2018,Yoshinori,Muto,1,0,24,514,10,66.8,71.8,140,0,65,27.4,1,0,1,0.1,56,5
-Ben Foster,Goalkeeper,1983-04-03T00:00:00Z,36,England,Watford FC,Premier League,2018/2019,2018,Ben,Foster,0,0,129,3420,59,50,988,1,11,703,104.1,7,0,1,8.5,46,1
-Heurelho Gomes,Goalkeeper,1981-02-15T00:00:00Z,38,Brazil,Watford FC,Premier League,2018/2019,2018,Heurelho,Gomes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,42,1
-Pontus Dahlberg,Goalkeeper,1999-01-21T00:00:00Z,20,Sweden,Watford FC,Premier League,2018/2019,2018,Pontus,Dahlberg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1
-Christian Kabasele,Centre-Back,1991-02-24T00:00:00Z,28,Belgium,Watford FC,Premier League,2018/2019,2018,Christian,Kabasele,0,0,36,1584,29,24,355.2,189,1,212,56.7,3,1,2,0.3,44,2
-Sebastian Prödl,Centre-Back,1987-06-21T00:00:00Z,31,Austria,Watford FC,Premier League,2018/2019,2018,Sebastian,Prödl,0,0,1,13,0,0,0,0,0,2,0,0,0,0,0.1,42,2
-Craig Cathcart,Centre-Back,1989-02-06T00:00:00Z,30,Northern Ireland,Watford FC,Premier League,2018/2019,2018,Craig,Cathcart,3,0,93,3095,54,25.5,719.6,262,5,552,100.8,6,0,2,3.2,45,2
-Miguel Britos,Centre-Back,1985-07-17T00:00:00Z,33,Uruguay,Watford FC,Premier League,2018/2019,2018,Miguel,Britos,0,0,3,184,5,0.3,28.4,0,0,22,2.9,0,0,0,0,43,2
-Adrian Mariappa,Centre-Back,1986-10-03T00:00:00Z,32,Jamaica,Watford FC,Premier League,2018/2019,2018,Adrian,Mariappa,0,0,57,1924,32,61.9,404.6,79,2,334,54.5,5,0,3,0.6,42,2
-Adam Masina,Left-Back,1994-01-02T00:00:00Z,25,Italy,Watford FC,Premier League,2018/2019,2018,Adam,Masina,0,1,26,1002,20,70.8,201,27,1,165,30.1,2,0,5,0.1,43,2
-José Holebas,Left-Back,1984-06-27T00:00:00Z,34,Greece,Watford FC,Premier League,2018/2019,2018,José,Holebas,3,7,93,2392,41,598.2,642.4,164,10,437,140.6,5,1,12,7.9,48,2
-Daryl Janmaat,Right-Back,1989-07-22T00:00:00Z,29,Netherlands,Watford FC,Premier League,2018/2019,2018,Daryl,Janmaat,0,2,50,1520,22,212.2,346.2,118,6,274,67.8,3,0,3,0.4,49,2
-Marc Navarro,Right-Back,1995-07-02T00:00:00Z,23,Spain,Watford FC,Premier League,2018/2019,2018,Marc,Navarro,0,0,2,84,3,5.3,16,2,0,12,2.3,0,0,0,0,42,2
-Nathaniel Chalobah,Defensive Midfield,1994-12-12T00:00:00Z,24,England,Watford FC,Premier League,2018/2019,2018,Nathaniel,Chalobah,0,0,10,265,7,20.2,35.6,31,0,42,8.8,0,0,2,0.1,44,3
-Abdoulaye Doucouré,Central Midfield,1993-01-01T00:00:00Z,26,France,Watford FC,Premier League,2018/2019,2018,Abdoulaye,Doucouré,5,7,124,3061,56,544.1,735.6,709,14,550,198.9,5,0,7,2.8,58,3
-Will Hughes,Central Midfield,1995-04-17T00:00:00Z,24,England,Watford FC,Premier League,2018/2019,2018,Will,Hughes,2,4,87,2419,39,416,429.2,451,5,320,129.6,7,0,5,0.7,49,3
-Tom Cleverley,Central Midfield,1989-08-12T00:00:00Z,29,England,Watford FC,Premier League,2018/2019,2018,Tom,Cleverley,1,0,25,470,7,33.4,97.4,40,2,87,17.2,3,0,2,0,50,3
-Domingos Quina,Central Midfield,1999-11-18T00:00:00Z,19,Portugal,Watford FC,Premier League,2018/2019,2018,Domingos,Quina,1,0,17,334,5,40.2,69,22,2,68,13.1,0,0,0,0.1,44,3
-Roberto Pereyra,Left Midfield,1991-01-07T00:00:00Z,28,Argentina,Watford FC,Premier League,2018/2019,2018,Roberto,Pereyra,6,4,122,2817,53,512.7,458.4,744,13,432,171.8,6,0,3,8,59,3
-Ken Sema,Left Midfield,1993-09-30T00:00:00Z,25,Sweden,Watford FC,Premier League,2018/2019,2018,Ken,Sema,1,2,37,747,9,112.7,128.6,169,1,91,40.8,3,0,1,0.1,46,3
-Gerard Deulofeu,Right Winger,1994-03-13T00:00:00Z,25,Spain,Watford FC,Premier League,2018/2019,2018,Gerard,Deulofeu,10,5,133,2064,29,455.6,549.2,856,10,344,185.6,9,0,3,7.2,57,4
-Andre Gray,Centre-Forward,1991-06-26T00:00:00Z,27,England,Watford FC,Premier League,2018/2019,2018,Andre,Gray,7,2,83,1352,23,183.9,331.8,620,10,254,112.8,4,0,2,1.9,59,5
-Troy Deeney,Centre-Forward,1988-06-29T00:00:00Z,30,England,Watford FC,Premier League,2018/2019,2018,Troy,Deeney,9,5,116,2542,44,549.5,607.4,1019,13,411,216.9,5,1,4,3.7,58,5
-Adalberto Peñaranda,Centre-Forward,1997-05-31T00:00:00Z,22,Venezuela,Watford FC,Premier League,2018/2019,2018,Adalberto,Peñaranda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,5
-Jerome Sinclair,Centre-Forward,1996-09-20T00:00:00Z,22,England,Watford FC,Premier League,2018/2019,2018,Jerome,Sinclair,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,44,5
-Nick Pope,Goalkeeper,1992-04-19T00:00:00Z,27,England,Burnley FC,Premier League,2018/2019,2018,Nick,Pope,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,48,1
-Joe Hart,Goalkeeper,1987-04-19T00:00:00Z,32,England,Burnley FC,Premier League,2018/2019,2018,Joe,Hart,0,0,69,1710,41,10.1,594.6,0,7,378,60.3,4,0,0,4.4,42,1
-Tom Heaton,Goalkeeper,1986-04-15T00:00:00Z,33,England,Burnley FC,Premier League,2018/2019,2018,Tom,Heaton,0,0,58,1710,27,20.1,442.8,4,4,323,46.6,4,0,3,0.5,48,1
-Anders Lindegaard,Goalkeeper,1984-04-13T00:00:00Z,35,Denmark,Burnley FC,Premier League,2018/2019,2018,Anders,Lindegaard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1
-James Tarkowski,Centre-Back,1992-11-19T00:00:00Z,26,England,Burnley FC,Premier League,2018/2019,2018,James,Tarkowski,3,2,97,3086,63,69.8,1023.2,450,7,524,154.5,7,0,8,4.2,47,2
-Ben Gibson,Centre-Back,1993-01-15T00:00:00Z,26,England,Burnley FC,Premier League,2018/2019,2018,Ben,Gibson,1,0,6,62,3,0.4,42.4,33,0,17,7.6,0,0,1,0.1,48,2
-Ben Mee,Centre-Back,1989-09-21T00:00:00Z,29,England,Burnley FC,Premier League,2018/2019,2018,Ben,Mee,0,2,81,3420,68,113.8,885.4,238,5,572,123.9,8,0,9,1.6,46,2
-Kevin Long,Centre-Back,1990-08-18T00:00:00Z,28,Ireland,Burnley FC,Premier League,2018/2019,2018,Kevin,Long,0,1,16,513,9,11.6,147.8,8,0,101,16.8,1,0,0,0.3,41,2
-Charlie Taylor,Left-Back,1993-09-18T00:00:00Z,25,England,Burnley FC,Premier League,2018/2019,2018,Charlie,Taylor,0,1,82,3240,64,268.5,649.4,30,2,505,94.9,7,0,2,0.5,44,2
-Stephen Ward,Left-Back,1985-08-20T00:00:00Z,33,Ireland,Burnley FC,Premier League,2018/2019,2018,Stephen,Ward,0,0,7,228,6,17.2,48.4,19,0,44,8.5,1,0,1,0.5,47,2
-Matthew Lowton,Right-Back,1989-06-09T00:00:00Z,30,England,Burnley FC,Premier League,2018/2019,2018,Matthew,Lowton,0,0,34,1748,41,158.6,338,48,1,269,54.6,4,0,7,0.2,46,2
-Phil Bardsley,Right-Back,1985-06-28T00:00:00Z,33,Scotland,Burnley FC,Premier League,2018/2019,2018,Phil,Bardsley,0,0,33,1670,27,139.6,267.8,66,0,224,47.4,4,0,9,0.1,42,2
-Jack Cork,Defensive Midfield,1989-06-25T00:00:00Z,29,England,Burnley FC,Premier League,2018/2019,2018,Jack,Cork,1,2,87,3312,63,309.7,491.4,240,0,446,104.3,8,0,6,0.5,46,3
-Ashley Westwood,Defensive Midfield,1990-04-01T00:00:00Z,29,England,Burnley FC,Premier League,2018/2019,2018,Ashley,Westwood,2,8,111,2821,55,643.1,623,253,10,518,152.3,7,0,5,3.1,46,3
-Jeff Hendrick,Central Midfield,1992-01-31T00:00:00Z,27,Ireland,Burnley FC,Premier League,2018/2019,2018,Jeff,Hendrick,2,2,73,2058,44,205.3,233.8,269,3,243,70.6,4,0,4,0.2,52,3
-Steven Defour,Central Midfield,1988-04-15T00:00:00Z,31,Belgium,Burnley FC,Premier League,2018/2019,2018,Steven,Defour,0,0,10,449,14,36.6,61.4,0,0,70,9.9,0,0,0,0,53,3
-Robbie Brady,Left Midfield,1992-01-14T00:00:00Z,27,Ireland,Burnley FC,Premier League,2018/2019,2018,Robbie,Brady,0,1,20,714,17,194.1,102,85,0,77,38.2,1,1,3,0,54,3
-Dwight McNeil,Left Winger,1999-11-22T00:00:00Z,19,England,Burnley FC,Premier League,2018/2019,2018,Dwight,McNeil,3,4,75,1590,25,442.8,405.2,279,6,305,112.5,5,0,2,0.8,44,4
-Johann Berg Gudmundsson,Right Winger,1990-10-27T00:00:00Z,28,Iceland,Burnley FC,Premier League,2018/2019,2018,Johann Berg,Gudmundsson,3,7,92,1743,39,574.1,456.2,380,6,339,141.1,5,0,2,1,55,4
-Aaron Lennon,Right Winger,1987-04-16T00:00:00Z,32,England,Burnley FC,Premier League,2018/2019,2018,Aaron,Lennon,1,1,41,1214,22,121.2,151.6,108,2,133,38,3,0,1,0.3,49,4
-Chris Wood,Centre-Forward,1991-12-07T00:00:00Z,27,New Zealand,Burnley FC,Premier League,2018/2019,2018,Chris,Wood,10,3,131,2580,49,310.3,475.8,911,17,379,167.9,7,0,2,1.4,63,5
-Matej Vydra,Centre-Forward,1992-05-01T00:00:00Z,27,Czech Republic,Burnley FC,Premier League,2018/2019,2018,Matej,Vydra,1,1,21,310,7,33.7,70.4,114,0,61,21.4,0,0,1,0,56,5
-Ashley Barnes,Centre-Forward,1989-10-30T00:00:00Z,29,England,Burnley FC,Premier League,2018/2019,2018,Ashley,Barnes,12,3,122,2378,41,309.9,581.2,1042,13,394,192.9,7,0,8,2.1,56,5
-Nahki Wells,Centre-Forward,1990-06-01T00:00:00Z,29,Bermuda,Burnley FC,Premier League,2018/2019,2018,Nahki,Wells,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,45,5
-Peter Crouch,Centre-Forward,1981-01-30T00:00:00Z,38,England,Burnley FC,Premier League,2018/2019,2018,Peter,Crouch,0,1,8,86,3,1.6,7.6,115,0,24,12.3,0,0,1,0.9,44,5
-Mathew Ryan,Goalkeeper,1992-04-08T00:00:00Z,27,Australia,Brighton & Hove Albion,Premier League,2018/2019,2018,Mathew,Ryan,0,0,104,3060,55,0,707,0,11,547,70.9,6,0,2,4.9,44,1
-David Button,Goalkeeper,1989-02-27T00:00:00Z,30,England,Brighton & Hove Albion,Premier League,2018/2019,2018,David,Button,0,0,15,360,5,0,89.2,0,2,76,8.9,1,0,0,2.3,40,1
-Jason Steele,Goalkeeper,1990-08-18T00:00:00Z,28,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Jason,Steele,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.3,39,1
-Shane Duffy,Centre-Back,1992-01-01T00:00:00Z,27,Ireland,Brighton & Hove Albion,Premier League,2018/2019,2018,Shane,Duffy,5,2,115,3087,55,84.1,1024.4,499,9,582,160.9,7,1,4,8.1,47,2
-Lewis Dunk,Centre-Back,1991-11-21T00:00:00Z,27,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Lewis,Dunk,2,1,91,3151,56,132.9,805.8,245,6,573,118.7,7,1,5,3.4,44,2
-Dan Burn,Centre-Back,1992-05-09T00:00:00Z,27,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Dan,Burn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2
-Leon Balogun,Centre-Back,1988-06-28T00:00:00Z,30,Nigeria,Brighton & Hove Albion,Premier League,2018/2019,2018,Leon,Balogun,1,0,15,591,10,1.1,134,27,0,86,16.2,0,0,2,0.1,42,2
-Gaëtan Bong,Left-Back,1988-04-25T00:00:00Z,31,Cameroon,Brighton & Hove Albion,Premier League,2018/2019,2018,Gaëtan,Bong,0,0,48,1805,34,153.3,220,8,0,254,38,5,0,0,0.1,44,2
-Martín Montoya,Right-Back,1991-04-14T00:00:00Z,28,Spain,Brighton & Hove Albion,Premier League,2018/2019,2018,Martín,Montoya,0,1,45,2166,41,289.2,437.6,58,1,351,78.6,3,0,4,0.2,43,2
-Bruno Saltor Grau,Right-Back,1980-10-01T00:00:00Z,38,Spain,Brighton & Hove Albion,Premier League,2018/2019,2018,Bruno,Saltor Grau,0,1,46,1131,17,102,181.6,14,7,229,29.8,4,0,2,0.3,44,2
-Yves Bissouma,Central Midfield,1996-08-30T00:00:00Z,22,Mali,Brighton & Hove Albion,Premier League,2018/2019,2018,Yves,Bissouma,0,0,43,1764,32,213,253.4,201,0,170,66.8,3,0,5,0,46,3
-Davy Pröpper,Central Midfield,1991-09-02T00:00:00Z,27,Netherlands,Brighton & Hove Albion,Premier League,2018/2019,2018,Davy,Pröpper,1,1,72,2546,45,279.1,389.2,121,3,351,79.2,4,0,2,0.2,48,3
-Dale Stephens,Central Midfield,1989-12-12T00:00:00Z,29,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Dale,Stephens,1,1,65,2484,46,249.3,498.2,88,4,404,83.6,5,1,6,3,43,3
-Beram Kayal,Central Midfield,1988-05-02T00:00:00Z,31,Israel,Brighton & Hove Albion,Premier League,2018/2019,2018,Beram,Kayal,1,1,36,935,17,59.3,224,53,0,136,33.6,4,0,4,0.3,44,3
-Pascal Groß,Attacking Midfield,1991-06-15T00:00:00Z,27,Germany,Brighton & Hove Albion,Premier League,2018/2019,2018,Pascal,Groß,3,3,80,1864,31,815.3,456,344,12,347,161.7,3,0,1,1.5,67,3
-Alireza Jahanbakhsh,Right Winger,1993-08-11T00:00:00Z,25,Iran,Brighton & Hove Albion,Premier League,2018/2019,2018,Alireza,Jahanbakhsh,0,0,33,1014,16,104,94.4,162,0,61,35.5,5,0,2,0.6,67,4
-Anthony Knockaert,Right Winger,1991-11-20T00:00:00Z,27,France,Brighton & Hove Albion,Premier League,2018/2019,2018,Anthony,Knockaert,2,6,74,1828,41,580.8,389.6,345,2,293,131.4,3,1,4,0.5,52,4
-Jürgen Locadia,Centre-Forward,1993-11-07T00:00:00Z,25,Netherlands,Brighton & Hove Albion,Premier League,2018/2019,2018,Jürgen,Locadia,2,0,52,1225,21,190.8,154.4,356,6,155,69.7,3,0,1,0.3,53,5
-Florin Andone,Centre-Forward,1993-04-11T00:00:00Z,26,Romania,Brighton & Hove Albion,Premier League,2018/2019,2018,Florin,Andone,3,0,38,866,14,48.6,147.2,361,2,74,54.9,2,0,5,0.2,50,5
-Glenn Murray,Centre-Forward,1983-09-25T00:00:00Z,35,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Glenn,Murray,13,1,129,2501,45,190,478,835,16,337,148.1,4,0,5,2.8,61,5
-Tomer Hemed,Centre-Forward,1987-05-02T00:00:00Z,32,Israel,Brighton & Hove Albion,Premier League,2018/2019,2018,Tomer,Hemed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,49,5
-Jonas Lössl,Goalkeeper,1989-02-01T00:00:00Z,30,Denmark,Huddersfield Town,Premier League,2018/2019,2018,Jonas,Lössl,0,1,99,2777,54,40.3,764.2,4,9,541,80.7,5,0,1,1.5,44,1
-Ben Hamer,Goalkeeper,1987-11-20T00:00:00Z,31,England,Huddersfield Town,Premier League,2018/2019,2018,Ben,Hamer,0,0,9,552,21,0,158,0,0,98,15.7,0,0,0,5.3,39,1
-Joel Coleman,Goalkeeper,1995-09-26T00:00:00Z,23,England,Huddersfield Town,Premier League,2018/2019,2018,Joel,Coleman,0,0,2,90,1,0,14.8,0,0,13,1.5,0,0,0,0,40,1
-Ryan Schofield,Goalkeeper,1999-12-11T00:00:00Z,19,England,Huddersfield Town,Premier League,2018/2019,2018,Ryan,Schofield,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,40,1
-Terence Kongolo,Centre-Back,1994-02-14T00:00:00Z,25,Netherlands,Huddersfield Town,Premier League,2018/2019,2018,Terence,Kongolo,1,1,60,2716,65,138.5,581,160,4,429,88.1,4,0,4,0.2,43,2
-Christopher Schindler,Centre-Back,1990-04-29T00:00:00Z,29,Germany,Huddersfield Town,Premier League,2018/2019,2018,Christopher,Schindler,1,1,76,3260,72,35.8,679.4,169,7,517,88.7,5,1,4,2,42,2
-Mathias Jorgensen,Centre-Back,1990-04-23T00:00:00Z,29,Denmark,Huddersfield Town,Premier League,2018/2019,2018,Mathias,Jorgensen,3,1,67,2147,38,103.7,544.2,169,4,402,81.9,3,0,6,2.3,44,2
-Chris Löwe,Left-Back,1989-04-16T00:00:00Z,30,Germany,Huddersfield Town,Premier League,2018/2019,2018,Chris,Löwe,0,4,49,2052,55,379.9,325.8,183,6,313,88.8,1,0,2,0.1,44,2
-Erik Durm,Left-Back,1992-05-12T00:00:00Z,27,Germany,Huddersfield Town,Premier League,2018/2019,2018,Erik,Durm,0,1,49,2049,45,209.2,281.8,114,2,297,60.7,3,0,0,0.1,44,2
-Florent Hadergjonaj,Right-Back,1994-07-31T00:00:00Z,24,Kosovo,Huddersfield Town,Premier League,2018/2019,2018,Florent,Hadergjonaj,0,0,50,1837,36,395.7,286.8,80,1,307,76.2,4,0,1,0.1,43,2
-Danny Williams,Defensive Midfield,1989-03-08T00:00:00Z,30,United States,Huddersfield Town,Premier League,2018/2019,2018,Danny,Williams,0,0,6,94,1,11.4,8.6,1,0,12,2,1,0,1,0,45,3
-Aaron Mooy,Central Midfield,1990-09-15T00:00:00Z,28,Australia,Huddersfield Town,Premier League,2018/2019,2018,Aaron,Mooy,3,1,76,2326,48,725.2,510.8,359,5,411,159.7,3,0,4,1,50,3
-Philip Billing,Central Midfield,1996-06-11T00:00:00Z,23,Denmark,Huddersfield Town,Premier League,2018/2019,2018,Philip,Billing,2,0,63,2187,43,341,494.6,375,4,317,121.3,5,0,7,1,45,3
-Jonathan Hogg,Central Midfield,1988-12-06T00:00:00Z,30,England,Huddersfield Town,Premier League,2018/2019,2018,Jonathan,Hogg,0,1,54,2369,44,271.1,390.4,70,3,326,72.5,5,1,8,0.2,44,3
-Juninho Bacuna,Central Midfield,1997-08-07T00:00:00Z,21,Netherlands,Huddersfield Town,Premier League,2018/2019,2018,Juninho,Bacuna,1,0,39,1410,37,278.8,246.4,131,1,179,65.9,0,0,4,0.4,42,3
-Alex Pritchard,Attacking Midfield,1993-05-03T00:00:00Z,26,England,Huddersfield Town,Premier League,2018/2019,2018,Alex,Pritchard,2,0,69,2079,40,497.9,297.4,546,2,251,134,7,0,2,0.1,48,3
-Jason Puncheon,Attacking Midfield,1986-06-26T00:00:00Z,32,England,Huddersfield Town,Premier League,2018/2019,2018,Jason,Puncheon,0,0,15,392,9,79.9,43.6,39,0,50,16.3,1,0,1,1,41,3
-Abdelhamid Sabiri,Attacking Midfield,1996-11-28T00:00:00Z,22,Germany,Huddersfield Town,Premier League,2018/2019,2018,Abdelhamid,Sabiri,0,0,2,48,3,0.5,4.2,2,0,6,0.7,0,0,0,0,43,3
-Rajiv van La Parra,Left Winger,1991-06-04T00:00:00Z,28,Netherlands,Huddersfield Town,Premier League,2018/2019,2018,Rajiv,van La Parra,0,0,10,405,6,57.6,27.8,41,0,13,12.6,1,0,0,0,46,4
-Isaac Mbenza,Right Winger,1996-03-08T00:00:00Z,23,Belgium,Huddersfield Town,Premier League,2018/2019,2018,Isaac,Mbenza,1,1,38,977,25,118.5,110.4,174,0,127,40,0,0,1,0,59,4
-Elias Kachunga,Right Winger,1992-04-22T00:00:00Z,27,DR Congo,Huddersfield Town,Premier League,2018/2019,2018,Elias,Kachunga,0,0,29,1175,30,109,83.6,180,0,41,36.7,1,0,2,0.1,48,4
-Adama Diakhaby,Centre-Forward,1996-07-05T00:00:00Z,22,France,Huddersfield Town,Premier League,2018/2019,2018,Adama,Diakhaby,0,1,19,548,16,80.6,40,115,0,38,23.4,1,0,1,0,45,5
-Laurent Depoitre,Centre-Forward,1988-12-07T00:00:00Z,30,Belgium,Huddersfield Town,Premier League,2018/2019,2018,Laurent,Depoitre,0,1,34,1058,23,124.3,51.6,381,0,40,54.8,0,0,1,0.3,51,5
-Karlan Grant,Centre-Forward,1997-09-18T00:00:00Z,21,England,Huddersfield Town,Premier League,2018/2019,2018,Karlan,Grant,3,2,45,873,23,109.6,141.8,308,5,123,55.9,1,0,0,0.2,50,5
-Neil Etheridge,Goalkeeper,1990-02-07T00:00:00Z,29,Philippines,Cardiff City,Premier League,2018/2019,2018,Neil,Etheridge,0,0,154,3420,69,21,1116.8,0,18,775,113.6,10,0,2,10.2,46,1
-Alex Smithies,Goalkeeper,1990-03-05T00:00:00Z,29,England,Cardiff City,Premier League,2018/2019,2018,Alex,Smithies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,42,1
-Brian Murphy,Goalkeeper,1983-05-07T00:00:00Z,36,Ireland,Cardiff City,Premier League,2018/2019,2018,Brian,Murphy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,40,1
-Sean Morrison,Centre-Back,1991-01-08T00:00:00Z,28,England,Cardiff City,Premier League,2018/2019,2018,Sean,Morrison,1,4,97,3039,63,239,673.4,580,5,477,149.4,9,0,6,0.4,47,2
-Bruno Ecuele Manga,Centre-Back,1988-07-16T00:00:00Z,30,Gabon,Cardiff City,Premier League,2018/2019,2018,Bruno,Ecuele Manga,0,1,97,3375,67,105.5,722,172,4,581,100.4,10,0,0,0.4,44,2
-Sol Bamba,Centre-Back,1985-01-13T00:00:00Z,34,Cote d'Ivoire,Cardiff City,Premier League,2018/2019,2018,Sol,Bamba,4,1,95,2475,52,51.4,787,304,11,459,114.2,7,0,7,1.5,44,2
-Matthew Connolly,Centre-Back,1987-09-24T00:00:00Z,31,England,Cardiff City,Premier League,2018/2019,2018,Matthew,Connolly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.8,38,2
-Joe Bennett,Left-Back,1990-03-28T00:00:00Z,29,England,Cardiff City,Premier League,2018/2019,2018,Joe,Bennett,0,1,77,2639,50,237.1,442.8,98,4,433,77.8,9,0,5,0.4,44,2
-Lee Peltier,Right-Back,1986-12-11T00:00:00Z,32,England,Cardiff City,Premier League,2018/2019,2018,Lee,Peltier,0,0,43,1542,26,49.5,267.2,15,1,232,33.1,5,0,4,4,39,2
-Víctor Camarasa,Central Midfield,1994-05-28T00:00:00Z,25,Spain,Cardiff City,Premier League,2018/2019,2018,Víctor,Camarasa,5,4,106,2569,53,798.4,515.8,387,5,398,170.2,9,0,6,2.2,44,3
-Joe Ralls,Central Midfield,1993-10-13T00:00:00Z,25,England,Cardiff City,Premier League,2018/2019,2018,Joe,Ralls,0,0,45,1954,40,481.1,284.6,204,0,232,96.7,5,1,4,0.1,46,3
-Callum Paterson,Central Midfield,1994-10-13T00:00:00Z,24,Scotland,Cardiff City,Premier League,2018/2019,2018,Callum,Paterson,4,2,80,1993,41,311.9,266.8,541,4,227,111.7,5,0,4,0.3,48,3
-Leandro Bacuna,Central Midfield,1991-08-21T00:00:00Z,27,Curacao,Cardiff City,Premier League,2018/2019,2018,Leandro,Bacuna,0,1,17,554,14,30.2,69,22,0,81,12,1,0,2,0,43,3
-Loïc Damour,Central Midfield,1991-01-08T00:00:00Z,28,France,Cardiff City,Premier League,2018/2019,2018,Loïc,Damour,0,0,2,21,2,1,0.6,8,0,6,0.9,0,0,0,0.1,43,3
-Kadeem Harris,Right Midfield,1993-06-08T00:00:00Z,26,England,Cardiff City,Premier League,2018/2019,2018,Kadeem,Harris,1,1,24,365,6,87.7,90.4,89,0,80,26.7,1,0,1,0,45,3
-Bobby Reid,Attacking Midfield,1993-02-02T00:00:00Z,26,Jamaica,Cardiff City,Premier League,2018/2019,2018,Bobby,Reid,5,3,80,1413,30,224.4,296.6,392,9,276,91,4,0,0,0.9,52,3
-Josh Murphy,Left Winger,1995-02-24T00:00:00Z,24,England,Cardiff City,Premier League,2018/2019,2018,Josh,Murphy,3,2,76,1810,32,267,285.6,550,3,191,109.5,7,0,2,0.2,48,4
-Nathaniel Mendez-Laing,Right Winger,1992-04-15T00:00:00Z,27,England,Cardiff City,Premier League,2018/2019,2018,Nathaniel,Mendez-Laing,4,1,63,978,18,255,351.4,370,6,253,97.8,4,0,0,0,48,4
-Kenneth Zohore,Centre-Forward,1994-01-31T00:00:00Z,25,Denmark,Cardiff City,Premier League,2018/2019,2018,Kenneth,Zohore,1,1,33,741,19,159.5,103.6,270,2,93,53.3,2,0,1,0.5,46,5
-Oumar Niasse,Centre-Forward,1990-04-18T00:00:00Z,29,Senegal,Cardiff City,Premier League,2018/2019,2018,Oumar,Niasse,0,0,30,988,13,85.7,70.8,317,0,29,47.1,5,0,0,0.4,50,5
-Gary Madine,Centre-Forward,1990-08-24T00:00:00Z,28,England,Cardiff City,Premier League,2018/2019,2018,Gary,Madine,0,0,5,32,3,1.5,2,8,0,13,1,0,0,0,0.9,44,5
-Danny Ward,Centre-Forward,1990-12-09T00:00:00Z,28,England,Cardiff City,Premier League,2018/2019,2018,Danny,Ward,1,0,22,435,14,83.3,81.8,168,0,67,32.9,0,0,0,0.2,43,5
-Danny Ward,Centre-Forward,1990-12-09T00:00:00Z,28,England,Cardiff City,Premier League,2018/2019,2018,Danny,Ward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,5
-Omar Bogle,Centre-Forward,1992-07-26T00:00:00Z,26,England,Cardiff City,Premier League,2018/2019,2018,Omar,Bogle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,45,5
-Rhys Healey,Centre-Forward,1994-12-06T00:00:00Z,24,England,Cardiff City,Premier League,2018/2019,2018,Rhys,Healey,0,0,3,49,1,10.9,4.2,12,0,7,2.7,0,0,0,0.1,45,5
+player_name,position,date_of_birth,age,nationality,club_name,league_name,season,year,first_name,second_name,goals_scored,assists,total_points,minutes.played,goals_conceded,creativity,influence,threat,bonus,bps,ict_index,clean_sheets,red_cards,yellow_cards,selected_by_percent,now_cost,position_index,fpl_to_min
+Ederson Santana de Moraes,Goalkeeper,1993-08-17T00:00:00Z,25,Brazil,Manchester City,Premier League,2018/2019,2018,Ederson,Santana de Moraes,0,1,169,3420,23,33,535.2,0,6,700,56.8,20,0,2,22.9,57,1,4.941520467836257
+Claudio Bravo,Goalkeeper,1983-04-13T00:00:00Z,36,Chile,Manchester City,Premier League,2018/2019,2018,Claudio,Bravo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,48,1,NaN
+John Stones,Centre-Back,1994-05-28T00:00:00Z,25,England,Manchester City,Premier League,2018/2019,2018,John,Stones,0,0,83,1761,15,115.5,376.6,49,9,431,54.1,9,0,1,4.6,52,2,4.713231118682567
+Aymeric Laporte,Centre-Back,1994-05-27T00:00:00Z,25,France,Manchester City,Premier League,2018/2019,2018,Aymeric,Laporte,3,3,177,3056,21,239.3,790,278,16,768,131.2,18,0,3,16.7,63,2,5.791884816753927
+NicolÃ¡s Otamendi,Centre-Back,1988-02-12T00:00:00Z,31,Argentina,Manchester City,Premier League,2018/2019,2018,NicolÃ¡s,Otamendi,0,0,70,1233,7,53.7,281.2,143,5,335,47.8,9,0,1,2.6,60,2,5.6772100567721004
+Vincent Kompany,Centre-Back,1986-04-10T00:00:00Z,33,Belgium,Manchester City,Premier League,2018/2019,2018,Vincent,Kompany,1,0,58,1220,7,44.2,329,55,4,294,43,6,0,6,1.7,52,2,4.754098360655737
+Philippe Sandler,Centre-Back,1997-02-10T00:00:00Z,22,Netherlands,Manchester City,Premier League,2018/2019,2018,Philippe,Sandler,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,2,NaN
+Benjamin Mendy,Left-Back,1994-07-17T00:00:00Z,24,France,Manchester City,Premier League,2018/2019,2018,Benjamin,Mendy,0,6,59,900,6,222.7,250.8,70,6,262,54.2,4,0,1,5.9,61,2,6.555555555555556
+Oleksandr Zinchenko,Left-Back,1996-12-15T00:00:00Z,22,Ukraine,Manchester City,Premier League,2018/2019,2018,Oleksandr,Zinchenko,0,3,44,1151,4,278.6,279.2,77,1,230,63.5,9,0,1,0.2,47,2,3.8227628149435278
+Kyle Walker,Right-Back,1990-05-28T00:00:00Z,29,England,Manchester City,Premier League,2018/2019,2018,Kyle,Walker,1,1,150,2776,17,448.4,498.8,183,11,684,113.1,18,0,3,12.1,64,2,5.403458213256484
+Danilo Luiz da Silva,Right-Back,1991-07-15T00:00:00Z,27,Brazil,Manchester City,Premier League,2018/2019,2018,Danilo Luiz,da Silva,1,0,46,805,7,118,165.2,99,7,202,38.2,4,0,1,0.6,48,2,5.714285714285714
+Fernando Luiz Rosa,Defensive Midfield,1985-05-04T00:00:00Z,34,Brazil,Manchester City,Premier League,2018/2019,2018,Fernando,Luiz Rosa,1,3,79,2375,15,396.8,534.6,208,4,444,114.2,12,0,5,2.9,53,3,3.3263157894736843
+Ilkay GÃ¼ndogan,Central Midfield,1990-10-24T00:00:00Z,28,Germany,Manchester City,Premier League,2018/2019,2018,Ilkay,GÃ¼ndogan,6,3,113,2129,15,819.7,548.8,447,10,528,181.6,13,0,3,2.3,54,3,5.307656176608737
+Phil Foden,Central Midfield,2000-05-28T00:00:00Z,19,England,Manchester City,Premier League,2018/2019,2018,Phil,Foden,1,0,25,328,0,133.8,85,208,3,93,42.6,2,0,0,0.2,45,3,7.621951219512195
+Fabian Delph,Central Midfield,1989-11-21T00:00:00Z,29,England,Manchester City,Premier League,2018/2019,2018,Fabian,Delph,0,1,29,722,9,97.8,153.8,24,2,186,27.5,3,1,1,0.3,53,3,4.016620498614958
+Kevin De Bruyne,Attacking Midfield,1991-06-28T00:00:00Z,27,Belgium,Manchester City,Premier League,2018/2019,2018,Kevin,De Bruyne,2,3,59,968,3,562.3,301.4,317,8,268,117.9,6,0,2,3.4,96,3,6.095041322314049
+David Silva,Attacking Midfield,1986-01-08T00:00:00Z,33,Spain,Manchester City,Premier League,2018/2019,2018,David,Silva,6,8,143,2399,14,1150.3,715.2,1092,14,614,295.8,16,0,2,4.4,85,3,5.960817007086286
+Leroy SanÃ©,Left Winger,1996-01-11T00:00:00Z,23,Germany,Manchester City,Premier League,2018/2019,2018,Leroy,SanÃ©,10,12,156,1857,14,645,716.8,1039,13,520,240.3,9,0,1,7.3,93,4,8.40064620355412
+Raheem Sterling,Right Winger,1994-12-08T00:00:00Z,24,England,Manchester City,Premier League,2018/2019,2018,Raheem,Sterling,17,15,234,2770,19,937.4,1060,1572,25,743,357.1,17,0,3,24.8,117,4,8.447653429602887
+Riyad Mahrez,Right Winger,1991-02-21T00:00:00Z,28,Algeria,Manchester City,Premier League,2018/2019,2018,Riyad,Mahrez,7,4,102,1331,9,450.8,459.4,731,14,349,164.1,4,0,0,1.7,82,4,7.663410969196092
+Sergio AgÃ¼ero,Centre-Forward,1988-06-02T00:00:00Z,31,Argentina,Manchester City,Premier League,2018/2019,2018,Sergio,AgÃ¼ero,21,11,201,2457,15,523.7,946.6,1685,26,740,315.4,17,0,4,42.7,120,5,8.18070818070818
+Gabriel Fernando de Jesus,Centre-Forward,1997-04-03T00:00:00Z,22,Brazil,Manchester City,Premier League,2018/2019,2018,Gabriel Fernando,de Jesus,7,3,79,1017,11,300.5,395.2,864,7,259,156.3,2,0,1,1.6,99,5,7.767944936086529
+Kepa Arrizabalaga,Goalkeeper,1994-10-03T00:00:00Z,24,Spain,Chelsea FC,Premier League,2018/2019,2018,Kepa,Arrizabalaga,0,0,142,3240,39,0.1,681,0,7,685,68,14,0,2,4.9,54,1,4.382716049382716
+Willy Caballero,Goalkeeper,1981-09-28T00:00:00Z,37,Argentina,Chelsea FC,Premier League,2018/2019,2018,Willy,Caballero,0,0,13,180,0,1,24.6,0,0,45,2.6,2,0,0,0.1,47,1,7.222222222222221
+Antonio RÃ¼diger,Centre-Back,1993-03-03T00:00:00Z,26,Germany,Chelsea FC,Premier League,2018/2019,2018,Antonio,RÃ¼diger,1,2,116,2871,35,143.6,566.8,273,9,609,98.5,12,0,7,2.9,59,2,4.040404040404041
+Andreas Christensen,Centre-Back,1996-04-10T00:00:00Z,23,Denmark,Chelsea FC,Premier League,2018/2019,2018,Andreas,Christensen,0,0,22,615,7,8.4,120.6,6,0,133,13.6,3,0,1,0.4,50,2,3.577235772357724
+Kurt Zouma,Centre-Back,1994-10-27T00:00:00Z,24,France,Chelsea FC,Premier League,2018/2019,2018,Kurt,Zouma,2,2,112,2613,39,83.7,565.2,235,12,543,88.8,10,1,3,1,50,2,4.286261002678913
+Gary Cahill,Centre-Back,1985-12-19T00:00:00Z,33,England,Chelsea FC,Premier League,2018/2019,2018,Gary,Cahill,0,0,2,22,0,0,4.8,0,0,6,0.5,0,0,0,0.5,50,2,9.090909090909092
+Ethan Ampadu,Centre-Back,2000-09-14T00:00:00Z,18,Wales,Chelsea FC,Premier League,2018/2019,2018,Ethan,Ampadu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,2,NaN
+Marcos Alonso,Left-Back,1990-12-28T00:00:00Z,28,Spain,Chelsea FC,Premier League,2018/2019,2018,Marcos,Alonso,2,8,161,2759,28,520.1,619,475,21,702,161.7,14,0,6,22.1,62,2,5.835447625951431
+Emerson Palmieri dos Santos,Left-Back,1994-08-03T00:00:00Z,24,Italy,Chelsea FC,Premier League,2018/2019,2018,Emerson,Palmieri dos Santos,0,0,22,660,11,113.8,104.6,81,1,130,30,2,0,0,0.2,52,2,3.3333333333333335
+CÃ©sar Azpilicueta,Right-Back,1989-08-28T00:00:00Z,29,Spain,Chelsea FC,Premier League,2018/2019,2018,CÃ©sar,Azpilicueta,1,6,158,3402,39,525.1,815,286,11,822,163.2,16,0,4,9.6,64,2,4.644326866549089
+Davide Zappacosta,Right-Back,1992-06-11T00:00:00Z,27,Italy,Chelsea FC,Premier League,2018/2019,2018,Davide,Zappacosta,0,0,9,125,0,14.7,17.4,29,0,30,6.1,1,0,0,0.1,50,2,7.199999999999999
+Jorge Luiz Frello Filho,Defensive Midfield,1991-12-20T00:00:00Z,27,Italy,Chelsea FC,Premier League,2018/2019,2018,Jorge Luiz,Frello Filho,2,0,96,3156,37,628.4,691.4,122,4,577,144.2,16,0,8,5.8,46,3,3.041825095057034
+N'Golo KantÃ©,Central Midfield,1991-03-29T00:00:00Z,28,France,Chelsea FC,Premier League,2018/2019,2018,N'Golo,KantÃ©,4,4,116,3092,38,766.3,683.6,412,3,563,186.4,14,0,3,15.8,49,3,3.751617076326003
+Mateo Kovacic,Central Midfield,1994-05-06T00:00:00Z,25,Croatia,Chelsea FC,Premier League,2018/2019,2018,Mateo,Kovacic,0,2,64,1725,19,468.8,315.4,311,2,343,109.9,9,0,3,0.7,57,3,3.710144927536232
+Ross Barkley,Central Midfield,1993-12-05T00:00:00Z,25,England,Chelsea FC,Premier League,2018/2019,2018,Ross,Barkley,3,5,79,1231,13,349,324,429,5,300,110,7,0,1,1.3,50,3,6.417546709991877
+Ruben Loftus-Cheek,Central Midfield,1996-01-23T00:00:00Z,23,England,Chelsea FC,Premier League,2018/2019,2018,Ruben,Loftus-Cheek,6,2,79,980,9,254.9,391.6,346,6,292,99.4,5,0,0,0.8,52,3,8.061224489795919
+Robert Kenedy Nunes do Nascimento,Left Midfield,1996-02-08T00:00:00Z,23,Brazil,Chelsea FC,Premier League,2018/2019,2018,Robert Kenedy,Nunes do Nascimento,1,1,50,1337,18,187.9,212.8,297,1,161,69.8,6,0,1,0.5,47,3,3.7397157816005984
+Eden Hazard,Left Winger,1991-01-07T00:00:00Z,28,Belgium,Chelsea FC,Premier League,2018/2019,2018,Eden,Hazard,16,15,238,2918,35,1471.2,1306.2,1546,35,879,432.7,12,0,2,27.2,110,4,8.156271418779987
+Callum Hudson-Odoi,Left Winger,2000-11-07T00:00:00Z,18,England,Chelsea FC,Premier League,2018/2019,2018,Callum,Hudson-Odoi,0,1,18,388,5,143.2,89.2,133,1,83,36.2,2,0,0,2.2,42,4,4.639175257731959
+Willian Borges Da Silva,Right Winger,1988-08-09T00:00:00Z,30,Brazil,Chelsea FC,Premier League,2018/2019,2018,Willian,Borges Da Silva,3,7,108,2091,25,1165.5,557.6,742,6,475,246.7,11,0,2,3.8,71,4,5.164992826398852
+Pedro RodrÃ­guez Ledesma,Right Winger,1987-07-28T00:00:00Z,31,Spain,Chelsea FC,Premier League,2018/2019,2018,Pedro,RodrÃ­guez Ledesma,8,2,112,1768,19,503.5,530.2,733,12,440,176.5,7,0,2,3.3,62,4,6.334841628959276
+Gonzalo HiguaÃ­n,Centre-Forward,1987-12-10T00:00:00Z,31,Argentina,Chelsea FC,Premier League,2018/2019,2018,Gonzalo,HiguaÃ­n,5,0,53,1084,15,241.7,240.4,644,6,178,112,5,0,0,1.5,90,5,4.889298892988929
+Michy Batshuayi,Centre-Forward,1993-10-02T00:00:00Z,25,Belgium,Chelsea FC,Premier League,2018/2019,2018,Michy,Batshuayi,5,1,48,748,11,41.4,198.6,406,5,159,64.2,3,0,0,0.8,62,5,6.417112299465241
+Tammy Abraham,Centre-Forward,1997-10-02T00:00:00Z,21,England,Chelsea FC,Premier League,2018/2019,2018,Tammy,Abraham,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,54,5,NaN
+Olivier Giroud,Centre-Forward,1986-09-30T00:00:00Z,32,France,Chelsea FC,Premier League,2018/2019,2018,Olivier,Giroud,2,4,55,828,5,253.6,183.2,519,2,169,94.5,6,0,1,1.9,77,5,6.642512077294686
+Alisson Ramses Becker,Goalkeeper,1992-10-02T00:00:00Z,26,Brazil,Liverpool FC,Premier League,2018/2019,2018,Alisson,Ramses Becker,0,0,176,3420,22,0.1,677,0,9,771,67.6,21,0,1,23.4,59,1,5.146198830409357
+Simon Mignolet,Goalkeeper,1988-03-06T00:00:00Z,31,Belgium,Liverpool FC,Premier League,2018/2019,2018,Simon,Mignolet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,47,1,NaN
+Virgil van Dijk,Centre-Back,1991-07-08T00:00:00Z,27,Netherlands,Liverpool FC,Premier League,2018/2019,2018,Virgil,van Dijk,4,4,208,3384,22,111.1,993.6,455,22,932,156.1,20,0,1,32.3,67,2,6.1465721040189125
+Dejan Lovren,Centre-Back,1989-07-05T00:00:00Z,29,Croatia,Liverpool FC,Premier League,2018/2019,2018,Dejan,Lovren,1,1,63,986,7,29.1,255.8,72,9,258,35.7,6,0,1,1.5,49,2,6.389452332657202
+Joel Matip,Centre-Back,1991-08-08T00:00:00Z,27,Cameroon,Liverpool FC,Premier League,2018/2019,2018,Joel,Matip,1,0,83,1535,12,57.9,414.6,85,7,402,55.9,9,0,3,1.1,49,2,5.407166123778501
+Andrew Robertson,Left-Back,1994-03-11T00:00:00Z,25,Scotland,Liverpool FC,Premier League,2018/2019,2018,Andrew,Robertson,0,12,213,3216,20,767.2,748.8,318,29,906,183.6,21,0,4,33,67,2,6.6231343283582085
+Alberto Moreno,Left-Back,1992-07-05T00:00:00Z,26,Spain,Liverpool FC,Premier League,2018/2019,2018,Alberto,Moreno,0,0,4,154,2,42,20,5,0,24,6.7,0,0,0,0.2,41,2,2.5974025974025974
+Trent Alexander-Arnold,Right-Back,1998-10-07T00:00:00Z,20,England,Liverpool FC,Premier League,2018/2019,2018,Trent,Alexander-Arnold,1,13,185,2460,14,837.4,734.4,276,25,753,184.7,16,0,3,26.9,58,2,7.520325203252034
+Nathaniel Clyne,Right-Back,1991-04-05T00:00:00Z,28,England,Liverpool FC,Premier League,2018/2019,2018,Nathaniel,Clyne,0,1,34,1250,26,100.2,199.4,72,0,201,36.9,3,0,2,0.6,44,2,2.7199999999999998
+Fabio Henrique Tavares,Defensive Midfield,1993-10-23T00:00:00Z,25,Brazil,Liverpool FC,Premier League,2018/2019,2018,Fabio Henrique,Tavares,1,2,65,2011,14,283.4,406.2,173,0,305,86.4,11,0,6,0.6,55,3,3.2322227747389363
+Georginio Wijnaldum,Central Midfield,1990-11-11T00:00:00Z,28,Netherlands,Liverpool FC,Premier League,2018/2019,2018,Georginio,Wijnaldum,3,1,108,2723,16,405.2,437.6,338,9,470,118.4,18,0,3,1.4,55,3,3.966213734851267
+Alex Oxlade-Chamberlain,Central Midfield,1993-08-15T00:00:00Z,25,England,Liverpool FC,Premier League,2018/2019,2018,Alex,Oxlade-Chamberlain,0,0,2,19,0,10.8,10.2,19,0,7,4,0,0,0,0.1,64,3,10.526315789473683
+Jordan Henderson,Central Midfield,1990-06-17T00:00:00Z,28,England,Liverpool FC,Premier League,2018/2019,2018,Jordan,Henderson,1,3,76,1976,14,311.7,358.8,182,2,397,85.4,12,1,1,0.7,53,3,3.8461538461538463
+James Milner,Central Midfield,1986-01-04T00:00:00Z,33,England,Liverpool FC,Premier League,2018/2019,2018,James,Milner,5,5,101,1778,13,725.2,587.2,374,12,448,169.2,9,1,5,2.5,56,3,5.680539932508436
+Adam Lallana,Attacking Midfield,1988-05-10T00:00:00Z,31,England,Liverpool FC,Premier League,2018/2019,2018,Adam,Lallana,0,1,23,460,3,139,85.4,113,0,96,33.8,3,0,1,0.6,69,3,5
+Sadio ManÃ©,Left Winger,1992-04-10T00:00:00Z,27,Senegal,Liverpool FC,Premier League,2018/2019,2018,Sadio,ManÃ©,22,3,231,3076,21,692.8,1015.8,1332,24,703,304,19,0,2,38.6,103,4,7.5097529258777636
+Mohamed Salah,Right Winger,1992-06-15T00:00:00Z,26,Egypt,Liverpool FC,Premier League,2018/2019,2018,Mohamed,Salah,22,12,259,3254,20,973.9,1186.8,2168,18,687,432.7,21,0,1,33.9,132,4,7.959434542102029
+Xherdan Shaqiri,Right Winger,1991-10-10T00:00:00Z,27,Switzerland,Liverpool FC,Premier League,2018/2019,2018,Xherdan,Shaqiri,6,5,88,1052,6,344.7,363.6,282,4,302,99.1,7,0,2,2.1,68,4,8.365019011406844
+Roberto Firmino,Centre-Forward,1991-10-02T00:00:00Z,27,Brazil,Liverpool FC,Premier League,2018/2019,2018,Roberto,Firmino,12,8,160,2606,15,670.1,774.8,1240,24,647,267.8,19,0,0,14.2,93,5,6.139677666922486
+Daniel Sturridge,Centre-Forward,1989-09-01T00:00:00Z,29,England,Liverpool FC,Premier League,2018/2019,2018,Daniel,Sturridge,2,1,34,498,5,117.6,117.6,186,2,121,41.7,2,0,1,1,56,5,6.827309236947792
+Divock Origi,Centre-Forward,1995-04-18T00:00:00Z,24,Belgium,Liverpool FC,Premier League,2018/2019,2018,Divock,Origi,3,1,32,364,2,45,143.4,195,1,122,38.2,3,0,0,0.3,50,5,8.791208791208792
+Hugo Lloris,Goalkeeper,1986-12-26T00:00:00Z,32,France,Tottenham Hotspur,Premier League,2018/2019,2018,Hugo,Lloris,0,0,145,2970,33,0,858.2,0,10,691,86,12,0,0,6.2,54,1,4.882154882154882
+Michel Vorm,Goalkeeper,1983-10-20T00:00:00Z,35,Netherlands,Tottenham Hotspur,Premier League,2018/2019,2018,Michel,Vorm,0,0,5,180,4,0,66.8,0,1,36,6.6,0,0,0,0.1,47,1,2.7777777777777777
+Paulo Gazzaniga,Goalkeeper,1992-01-02T00:00:00Z,27,Argentina,Tottenham Hotspur,Premier League,2018/2019,2018,Paulo,Gazzaniga,0,0,13,270,2,0,82.8,0,0,64,8.2,1,0,0,0,45,1,4.814814814814815
+Davinson SÃ¡nchez,Centre-Back,1996-06-12T00:00:00Z,23,Colombia,Tottenham Hotspur,Premier League,2018/2019,2018,Davinson,SÃ¡nchez,1,2,78,1941,22,60.3,454.2,183,4,412,70,6,0,2,1.6,58,2,4.01854714064915
+Toby Alderweireld,Centre-Back,1989-03-02T00:00:00Z,30,Belgium,Tottenham Hotspur,Premier League,2018/2019,2018,Toby,Alderweireld,0,0,107,2921,31,139.1,690.2,229,7,651,105.7,12,0,3,3.7,60,2,3.6631290653885658
+Jan Vertonghen,Centre-Back,1987-04-24T00:00:00Z,32,Belgium,Tottenham Hotspur,Premier League,2018/2019,2018,Jan,Vertonghen,1,0,67,1911,23,116.7,445.4,165,7,390,72.7,6,1,3,4,59,2,3.506017791732077
+Juan Foyth,Centre-Back,1998-01-12T00:00:00Z,21,Argentina,Tottenham Hotspur,Premier League,2018/2019,2018,Juan,Foyth,1,0,35,888,12,59.8,248.6,53,4,172,36.3,3,1,3,0.2,50,2,3.9414414414414414
+Danny Rose,Left-Back,1990-07-02T00:00:00Z,28,England,Tottenham Hotspur,Premier League,2018/2019,2018,Danny,Rose,0,4,86,1792,16,416.6,343.6,216,5,352,97.6,8,0,5,1.1,58,2,4.799107142857143
+Ben Davies,Left-Back,1993-04-24T00:00:00Z,26,Wales,Tottenham Hotspur,Premier League,2018/2019,2018,Ben,Davies,0,0,66,1837,26,256.6,388.2,176,5,361,82.3,6,0,2,1.7,56,2,3.592814371257485
+Kieran Trippier,Right-Back,1990-09-19T00:00:00Z,28,England,Tottenham Hotspur,Premier League,2018/2019,2018,Kieran,Trippier,1,5,118,2275,23,827,601.6,121,16,573,155,10,0,2,15.2,60,2,5.186813186813187
+Serge Aurier,Right-Back,1992-12-24T00:00:00Z,26,Cote d'Ivoire,Tottenham Hotspur,Premier League,2018/2019,2018,Serge,Aurier,0,2,24,562,9,108.4,151.6,45,0,116,30.5,2,0,1,0.5,57,2,4.270462633451958
+Kyle Walker-Peters,Right-Back,1997-04-13T00:00:00Z,22,England,Tottenham Hotspur,Premier League,2018/2019,2018,Kyle,Walker-Peters,0,3,28,374,4,104.9,107.4,20,4,112,23.1,2,0,1,0.7,42,2,7.4866310160427805
+Eric Dier,Defensive Midfield,1994-01-15T00:00:00Z,25,England,Tottenham Hotspur,Premier League,2018/2019,2018,Eric,Dier,3,0,56,1504,18,150.1,363.4,121,3,269,63.6,5,0,4,0.9,47,3,3.723404255319149
+Victor Wanyama,Defensive Midfield,1991-06-25T00:00:00Z,27,Kenya,Tottenham Hotspur,Premier League,2018/2019,2018,Victor,Wanyama,1,0,24,511,4,45,113.2,80,2,105,23.9,3,0,2,0.1,49,3,4.6966731898238745
+Oliver Skipp,Defensive Midfield,2000-09-16T00:00:00Z,18,England,Tottenham Hotspur,Premier League,2018/2019,2018,Oliver,Skipp,0,0,12,214,1,20.5,35.2,12,0,40,7,2,0,0,0,45,3,5.607476635514018
+Harry Winks,Central Midfield,1996-02-02T00:00:00Z,23,England,Tottenham Hotspur,Premier League,2018/2019,2018,Harry,Winks,1,0,53,1589,17,168.6,268.2,71,3,275,50.7,6,0,4,0.1,55,3,3.335431088735054
+Moussa Sissoko,Central Midfield,1989-08-16T00:00:00Z,29,France,Tottenham Hotspur,Premier League,2018/2019,2018,Moussa,Sissoko,0,3,76,2329,28,380.7,329,193,3,395,90.2,11,0,2,0.3,49,3,3.2632030914555603
+Christian Eriksen,Attacking Midfield,1992-02-14T00:00:00Z,27,Denmark,Tottenham Hotspur,Premier League,2018/2019,2018,Christian,Eriksen,8,12,161,2770,37,1148.7,876,801,15,675,283,8,0,3,7.7,92,3,5.812274368231047
+Erik Lamela,Right Winger,1992-03-04T00:00:00Z,27,Argentina,Tottenham Hotspur,Premier League,2018/2019,2018,Erik,Lamela,4,4,67,965,12,339.9,263.8,441,5,231,104.1,4,0,2,0.3,59,4,6.94300518134715
+Harry Kane,Centre-Forward,1993-07-28T00:00:00Z,25,England,Tottenham Hotspur,Premier League,2018/2019,2018,Harry,Kane,17,6,160,2423,31,430,824.6,1359,24,561,261.3,9,0,5,12.4,126,5,6.60338423442014
+Vincent Janssen,Centre-Forward,1994-06-15T00:00:00Z,24,Netherlands,Tottenham Hotspur,Premier League,2018/2019,2018,Vincent,Janssen,0,0,3,36,0,1.6,6.2,57,0,4,6.5,0,0,0,0.1,45,5,8.333333333333332
+Fernando Llorente,Centre-Forward,1985-02-26T00:00:00Z,34,Spain,Tottenham Hotspur,Premier League,2018/2019,2018,Fernando,Llorente,1,4,41,681,8,189.5,138,307,3,104,63.1,2,0,2,1.5,51,5,6.020558002936858
+David de Gea,Goalkeeper,1990-11-07T00:00:00Z,28,Spain,Manchester United,Premier League,2018/2019,2018,David,de Gea,0,0,120,3420,54,0,846,0,7,636,84.5,7,0,1,16.2,57,1,3.508771929824561
+Sergio Romero,Goalkeeper,1987-02-22T00:00:00Z,32,Argentina,Manchester United,Premier League,2018/2019,2018,Sergio,Romero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,49,1,NaN
+Lee Grant,Goalkeeper,1983-01-27T00:00:00Z,36,England,Manchester United,Premier League,2018/2019,2018,Lee,Grant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,1,NaN
+Victor LindelÃ¶f,Centre-Back,1994-07-17T00:00:00Z,24,Sweden,Manchester United,Premier League,2018/2019,2018,Victor,LindelÃ¶f,1,1,85,2600,40,75.3,533,118,9,527,72.8,6,0,1,5.2,49,2,3.2692307692307696
+Eric Bailly,Centre-Back,1994-04-12T00:00:00Z,25,Cote d'Ivoire,Manchester United,Premier League,2018/2019,2018,Eric,Bailly,0,0,16,636,13,3.4,125,35,0,109,16.5,1,1,0,1.3,50,2,2.515723270440252
+Phil Jones,Centre-Back,1992-02-21T00:00:00Z,27,England,Manchester United,Premier League,2018/2019,2018,Phil,Jones,0,1,43,1261,17,44.8,300.8,42,3,273,39,3,0,1,0.5,51,2,3.409992069785884
+Chris Smalling,Centre-Back,1989-11-22T00:00:00Z,29,England,Manchester United,Premier League,2018/2019,2018,Chris,Smalling,1,0,56,2127,36,31,453.4,176,3,335,66,4,0,1,1.4,56,2,2.632816173013634
+Marcos Rojo,Centre-Back,1990-03-20T00:00:00Z,29,Argentina,Manchester United,Premier League,2018/2019,2018,Marcos,Rojo,0,0,2,209,5,3.1,42.2,63,0,15,10.9,0,0,2,0.1,49,2,0.9569377990430622
+Luke Shaw,Left-Back,1995-07-12T00:00:00Z,23,England,Manchester United,Premier League,2018/2019,2018,Luke,Shaw,1,5,91,2591,39,505.6,586.2,287,11,489,138.1,6,0,11,8.1,51,2,3.512157468159012
+Ashley Young,Left-Back,1985-07-09T00:00:00Z,33,England,Manchester United,Premier League,2018/2019,2018,Ashley,Young,2,3,73,2568,44,650.5,554.4,124,4,450,133,4,1,8,1.7,57,2,2.8426791277258565
+Matteo Darmian,Right-Back,1989-12-02T00:00:00Z,29,Italy,Manchester United,Premier League,2018/2019,2018,Matteo,Darmian,0,0,14,443,8,34.9,84.2,7,2,83,12.6,1,0,0,0.2,46,2,3.160270880361174
+Timothy Fosu-Mensah,Right-Back,1998-01-02T00:00:00Z,21,Netherlands,Manchester United,Premier League,2018/2019,2018,Timothy,Fosu-Mensah,0,0,14,791,18,100.3,136.4,28,1,119,26.4,1,0,3,0.3,45,2,1.7699115044247788
+Antonio Valencia,Right-Back,1985-08-04T00:00:00Z,33,Ecuador,Manchester United,Premier League,2018/2019,2018,Antonio,Valencia,0,0,17,466,5,111.2,61.4,6,1,92,17.9,2,0,2,0.7,64,2,3.648068669527897
+Nemanja Matic,Defensive Midfield,1988-08-01T00:00:00Z,30,Serbia,Manchester United,Premier League,2018/2019,2018,Nemanja,Matic,1,0,59,2437,37,247.9,477.6,183,2,371,90.9,6,1,6,0.7,50,3,2.4210094378334017
+Paul Pogba,Central Midfield,1993-03-15T00:00:00Z,26,France,Manchester United,Premier League,2018/2019,2018,Paul,Pogba,13,10,179,3007,43,822.3,1096.8,1246,19,648,316.9,8,0,6,33.7,86,3,5.9527768540073165
+Frederico Rodrigues de Paula Santos,Central Midfield,1993-03-05T00:00:00Z,26,Brazil,Manchester United,Premier League,2018/2019,2018,Frederico,Rodrigues de Paula Santos,1,2,40,1039,19,203.2,177.6,87,3,180,46.9,1,0,2,1.2,53,3,3.849855630413859
+Ander Herrera,Central Midfield,1989-08-14T00:00:00Z,29,Spain,Manchester United,Premier League,2018/2019,2018,Ander,Herrera,2,3,62,1397,18,234.6,399.2,257,6,302,89.2,5,0,4,0.5,50,3,4.438081603435934
+Scott McTominay,Central Midfield,1996-12-08T00:00:00Z,22,Scotland,Manchester United,Premier League,2018/2019,2018,Scott,McTominay,2,0,38,862,18,33.1,175.4,180,4,152,38.8,1,0,1,1.2,42,3,4.408352668213457
+Juan Mata,Attacking Midfield,1988-04-28T00:00:00Z,31,Spain,Manchester United,Premier League,2018/2019,2018,Juan,Mata,3,4,70,1284,15,464,258.4,262,7,274,98.6,5,0,3,1.2,61,3,5.451713395638629
+Andreas Pereira,Attacking Midfield,1996-01-01T00:00:00Z,23,Brazil,Manchester United,Premier League,2018/2019,2018,Andreas,Pereira,1,1,27,590,13,139.5,132.8,67,2,115,33.8,1,0,5,0.3,45,3,4.576271186440678
+Anthony Martial,Left Winger,1995-12-05T00:00:00Z,23,France,Manchester United,Premier League,2018/2019,2018,Anthony,Martial,10,4,122,1613,25,503.3,532.8,755,13,389,178.9,5,0,2,3.4,72,4,7.563546187228766
+Alexis SÃ¡nchez,Left Winger,1988-12-19T00:00:00Z,30,Chile,Manchester United,Premier League,2018/2019,2018,Alexis,SÃ¡nchez,1,5,47,869,10,297.2,207.6,307,1,168,81.1,2,0,3,1.2,100,4,5.408515535097814
+Jesse Lingard,Right Winger,1992-12-15T00:00:00Z,26,England,Manchester United,Premier League,2018/2019,2018,Jesse,Lingard,4,3,78,1657,26,306.1,310,395,5,270,101.1,3,0,3,2.6,67,4,4.707302353651177
+Romelu Lukaku,Centre-Forward,1993-05-13T00:00:00Z,26,Belgium,Manchester United,Premier League,2018/2019,2018,Romelu,Lukaku,12,1,115,2126,38,330.2,550.6,1052,14,361,193.5,4,0,4,3.9,107,5,5.4092191909689555
+Marcus Rashford,Centre-Forward,1997-10-31T00:00:00Z,21,England,Manchester United,Premier League,2018/2019,2018,Marcus,Rashford,10,7,128,2331,35,542.3,650,1064,14,425,224.6,6,1,3,21.9,73,5,5.491205491205491
+Bernd Leno,Goalkeeper,1992-03-04T00:00:00Z,27,Germany,Arsenal FC,Premier League,2018/2019,2018,Bernd,Leno,0,0,106,2835,42,0,807.2,0,5,568,80.5,6,0,0,4,49,1,3.738977072310406
+Petr Cech,Goalkeeper,1982-05-20T00:00:00Z,37,Czech Republic,Arsenal FC,Premier League,2018/2019,2018,Petr,Cech,0,0,24,585,9,0,205,0,3,130,20.4,1,0,0,1.1,47,1,4.102564102564102
+Emiliano MartÃ­nez,Goalkeeper,1992-09-02T00:00:00Z,26,Argentina,Arsenal FC,Premier League,2018/2019,2018,Emiliano,MartÃ­nez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,40,1,NaN
+Shkodran Mustafi,Centre-Back,1992-04-17T00:00:00Z,27,Germany,Arsenal FC,Premier League,2018/2019,2018,Shkodran,Mustafi,2,0,80,2611,40,106,718.6,252,5,475,107.8,6,0,9,1.3,54,2,3.0639601685178093
+Sokratis Papastathopoulos,Centre-Back,1988-06-09T00:00:00Z,31,Greece,Arsenal FC,Premier League,2018/2019,2018,Sokratis,Papastathopoulos,1,2,64,2198,33,67.9,513.8,120,4,402,70.4,5,0,12,1.2,51,2,2.9117379435850776
+Calum Chambers,Centre-Back,1995-01-20T00:00:00Z,24,England,Arsenal FC,Premier League,2018/2019,2018,Calum,Chambers,2,0,60,2586,52,231.9,609,401,0,431,124.5,5,0,9,1.1,42,2,2.320185614849188
+Rob Holding,Centre-Back,1995-09-20T00:00:00Z,23,England,Arsenal FC,Premier League,2018/2019,2018,Rob,Holding,0,0,24,806,10,28.7,187.8,14,5,148,23.2,1,0,1,0.4,43,2,2.977667493796526
+Laurent Koscielny,Centre-Back,1985-09-10T00:00:00Z,33,France,Arsenal FC,Premier League,2018/2019,2018,Laurent,Koscielny,3,0,62,1329,23,29.5,456.4,105,8,319,59.1,3,0,1,0.9,54,2,4.6651617757712565
+Konstantinos Mavropanos,Centre-Back,1997-12-11T00:00:00Z,21,Greece,Arsenal FC,Premier League,2018/2019,2018,Konstantinos,Mavropanos,0,0,3,147,1,14.1,27,10,0,28,5.2,0,0,1,0.1,47,2,2.0408163265306123
+Sead Kolasinac,Left-Back,1993-06-20T00:00:00Z,25,Bosnia-Herzegovina,Arsenal FC,Premier League,2018/2019,2018,Sead,Kolasinac,0,7,81,1886,29,445.9,323.2,242,NA,382,101,5,0,5,5.4,49,2,4.294803817603393
+Nacho Monreal,Left-Back,1986-02-26T00:00:00Z,33,Spain,Arsenal FC,Premier League,2018/2019,2018,Nacho,Monreal,1,4,77,1860,24,196.6,413.2,224,7,392,83.4,5,0,5,1.3,54,2,4.139784946236559
+HÃ©ctor BellerÃ­n,Right-Back,1995-03-19T00:00:00Z,24,Spain,Arsenal FC,Premier League,2018/2019,2018,HÃ©ctor,BellerÃ­n,0,5,60,1532,21,197.8,261.6,280,5,304,73.7,4,0,3,4.5,53,2,3.91644908616188
+Carl Jenkinson,Right-Back,1992-02-08T00:00:00Z,27,England,Arsenal FC,Premier League,2018/2019,2018,Carl,Jenkinson,0,0,4,165,3,16.9,26.8,8,0,16,5.2,0,0,0,0,45,2,2.4242424242424243
+Stephan Lichtsteiner,Right-Back,1984-01-16T00:00:00Z,35,Switzerland,Arsenal FC,Premier League,2018/2019,2018,Stephan,Lichtsteiner,0,0,14,935,18,61.1,113,23,0,89,20,0,0,3,0.8,45,2,1.4973262032085561
+Lucas Torreira,Defensive Midfield,1996-02-11T00:00:00Z,23,Uruguay,Arsenal FC,Premier League,2018/2019,2018,Lucas,Torreira,2,4,78,2377,38,301,440.8,203,6,409,94.5,5,1,7,2.6,47,3,3.281447202355911
+Granit Xhaka,Defensive Midfield,1992-09-27T00:00:00Z,26,Switzerland,Arsenal FC,Premier League,2018/2019,2018,Granit,Xhaka,4,3,90,2498,37,674,634.6,215,8,452,152.6,7,0,10,2.3,52,3,3.6028823058446755
+Mohamed Elneny,Defensive Midfield,1992-07-11T00:00:00Z,26,Egypt,Arsenal FC,Premier League,2018/2019,2018,Mohamed,Elneny,0,0,10,377,5,76.7,86.6,63,0,59,22.7,0,0,0,2.2,42,3,2.6525198938992043
+Aaron Ramsey,Central Midfield,1990-12-26T00:00:00Z,28,Wales,Arsenal FC,Premier League,2018/2019,2018,Aaron,Ramsey,4,6,91,1319,13,387.2,418.4,502,4,298,131,9,0,0,0.9,71,3,6.899166034874906
+Denis SuÃ¡rez,Central Midfield,1994-01-06T00:00:00Z,25,Spain,Arsenal FC,Premier League,2018/2019,2018,Denis,SuÃ¡rez,0,0,4,67,1,4.8,8.4,0,0,11,1.4,0,0,0,0.1,57,3,5.970149253731343
+Ainsley Maitland-Niles,Right Midfield,1997-08-29T00:00:00Z,21,England,Arsenal FC,Premier League,2018/2019,2018,Ainsley,Maitland-Niles,1,1,34,983,20,98.9,224.2,126,3,152,44.8,2,1,1,0.4,44,3,3.458799593082401
+Mesut Ã–zil,Attacking Midfield,1988-10-15T00:00:00Z,30,Germany,Arsenal FC,Premier League,2018/2019,2018,Mesut,Ã–zil,5,3,89,1732,24,714.2,429.6,254,9,363,140,5,0,2,2.6,79,3,5.138568129330253
+Henrikh Mkhitaryan,Attacking Midfield,1989-01-21T00:00:00Z,30,Armenia,Arsenal FC,Premier League,2018/2019,2018,Henrikh,Mkhitaryan,6,4,98,1637,26,454.9,446.4,600,12,354,150.2,3,0,1,4.6,66,3,5.9865607819181434
+Alex Iwobi,Left Winger,1996-05-03T00:00:00Z,23,Nigeria,Arsenal FC,Premier League,2018/2019,2018,Alex,Iwobi,3,8,99,1961,32,596.7,469,646,3,382,171.1,4,0,0,1.5,54,4,5.04844467108618
+Pierre-Emerick Aubameyang,Centre-Forward,1989-06-18T00:00:00Z,29,Gabon,Arsenal FC,Premier League,2018/2019,2018,Pierre-Emerick,Aubameyang,22,7,205,2722,42,484.6,984.4,1429,32,756,289.6,7,0,0,18.8,108,5,7.531227038941954
+Alexandre Lacazette,Centre-Forward,1991-05-28T00:00:00Z,28,France,Arsenal FC,Premier League,2018/2019,2018,Alexandre,Lacazette,13,12,166,2497,31,482.4,808,1319,20,560,260.6,6,0,2,11.4,94,5,6.647977573087706
+Danny Welbeck,Centre-Forward,1990-11-26T00:00:00Z,28,England,Arsenal FC,Premier League,2018/2019,2018,Danny,Welbeck,1,1,19,146,3,56.8,73.6,66,3,63,19.5,0,0,0,0.4,64,5,13.013698630136986
+Jordan Pickford,Goalkeeper,1994-03-07T00:00:00Z,25,England,Everton FC,Premier League,2018/2019,2018,Jordan,Pickford,0,0,161,3420,46,10,776.4,0,13,706,78.5,14,0,1,13.3,49,1,4.707602339181287
+Maarten Stekelenburg,Goalkeeper,1982-09-22T00:00:00Z,36,Netherlands,Everton FC,Premier League,2018/2019,2018,Maarten,Stekelenburg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.4,39,1,NaN
+Yerry Mina,Centre-Back,1994-09-23T00:00:00Z,24,Colombia,Everton FC,Premier League,2018/2019,2018,Yerry,Mina,1,0,36,891,13,37.5,198.2,61,2,176,29.6,3,0,3,0.5,54,2,4.040404040404041
+Michael Keane,Centre-Back,1993-01-11T00:00:00Z,26,England,Everton FC,Premier League,2018/2019,2018,Michael,Keane,1,2,129,2970,39,101.2,740.2,326,15,642,117.2,13,0,2,4.3,48,2,4.343434343434343
+Mason Holgate,Centre-Back,1996-10-22T00:00:00Z,22,England,Everton FC,Premier League,2018/2019,2018,Mason,Holgate,0,0,5,407,9,5,92.2,2,0,61,9.9,0,0,1,0.1,43,2,1.2285012285012284
+Ashley Williams,Centre-Back,1984-08-23T00:00:00Z,34,Wales,Everton FC,Premier League,2018/2019,2018,Ashley,Williams,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,NaN
+Phil Jagielka,Centre-Back,1982-08-17T00:00:00Z,36,England,Everton FC,Premier League,2018/2019,2018,Phil,Jagielka,1,0,22,329,4,21.4,82.2,43,3,80,14.6,2,1,0,0.6,43,2,6.68693009118541
+Lucas Digne,Left-Back,1993-07-20T00:00:00Z,25,France,Everton FC,Premier League,2018/2019,2018,Lucas,Digne,4,5,158,2964,38,1142,883,300,22,736,232.7,13,1,5,10.2,54,2,5.3306342780027
+Leighton Baines,Left-Back,1984-12-11T00:00:00Z,34,England,Everton FC,Premier League,2018/2019,2018,Leighton,Baines,0,0,7,374,6,91.4,48.4,15,0,48,15.4,0,0,0,0.5,50,2,1.8716577540106951
+Seamus Coleman,Right-Back,1988-10-11T00:00:00Z,30,Ireland,Everton FC,Premier League,2018/2019,2018,Seamus,Coleman,2,2,125,2558,30,387.3,515.2,274,12,548,117.6,13,0,1,1.6,52,2,4.886630179827991
+Jonjoe Kenny,Right-Back,1997-03-15T00:00:00Z,22,England,Everton FC,Premier League,2018/2019,2018,Jonjoe,Kenny,0,1,19,789,15,102.7,166.2,12,0,134,28,1,0,1,0.2,41,2,2.4081115335868186
+Morgan Schneiderlin,Defensive Midfield,1989-11-08T00:00:00Z,29,France,Everton FC,Premier League,2018/2019,2018,Morgan,Schneiderlin,0,1,28,832,9,124.7,151.6,17,0,152,29.4,5,0,2,1.8,42,3,3.3653846153846154
+Idrissa Gueye,Central Midfield,1989-09-26T00:00:00Z,29,Senegal,Everton FC,Premier League,2018/2019,2018,Idrissa,Gueye,0,2,78,2821,31,311.3,629.2,168,0,472,111.1,13,0,6,0.3,47,3,2.7649769585253456
+Tom Davies,Central Midfield,1998-06-30T00:00:00Z,20,England,Everton FC,Premier League,2018/2019,2018,Tom,Davies,0,0,26,975,19,96.2,122.6,103,0,127,32.1,2,0,3,0.1,50,3,2.666666666666667
+James McCarthy,Central Midfield,1990-11-12T00:00:00Z,28,Ireland,Everton FC,Premier League,2018/2019,2018,James,McCarthy,0,0,1,14,0,0.1,5.2,0,0,3,0.5,0,0,0,0,44,3,7.142857142857142
+Beni Baningime,Central Midfield,1998-09-09T00:00:00Z,20,DR Congo,Everton FC,Premier League,2018/2019,2018,Beni,Baningime,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,3,NaN
+Gylfi Sigurdsson,Attacking Midfield,1989-09-08T00:00:00Z,29,Iceland,Everton FC,Premier League,2018/2019,2018,Gylfi,Sigurdsson,13,6,182,3122,41,1098.5,959.8,1084,20,662,314.2,15,0,3,8.3,74,3,5.829596412556054
+Kieran Dowell,Attacking Midfield,1997-10-10T00:00:00Z,21,England,Everton FC,Premier League,2018/2019,2018,Kieran,Dowell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,NaN
+Ademola Lookman,Left Winger,1997-10-20T00:00:00Z,21,England,Everton FC,Premier League,2018/2019,2018,Ademola,Lookman,0,3,34,600,8,172.1,131.4,211,0,110,51.6,1,0,0,0.1,49,4,5.666666666666666
+Bernard AnÃ­cio Caldeira Duarte,Left Winger,1992-09-08T00:00:00Z,26,Brazil,Everton FC,Premier League,2018/2019,2018,Bernard,AnÃ­cio Caldeira Duarte,1,4,88,2108,19,589.6,366,377,5,319,133.3,13,0,5,0.3,59,4,4.174573055028463
+Theo Walcott,Right Winger,1989-03-16T00:00:00Z,30,England,Everton FC,Premier League,2018/2019,2018,Theo,Walcott,5,3,101,2108,33,342.9,420,699,4,292,145.7,6,0,1,2.5,59,4,4.791271347248577
+Cenk Tosun,Centre-Forward,1991-06-07T00:00:00Z,28,Turkey,Everton FC,Premier League,2018/2019,2018,Cenk,Tosun,3,3,56,1044,17,172.2,212.6,546,3,166,92.8,1,0,3,1.5,64,5,5.363984674329502
+Dominic Calvert-Lewin,Centre-Forward,1997-03-16T00:00:00Z,22,England,Everton FC,Premier League,2018/2019,2018,Dominic,Calvert-Lewin,6,5,92,1769,26,185.7,321.8,618,3,267,111.5,8,0,3,1.9,54,5,5.200678349349915
+Kasper Schmeichel,Goalkeeper,1986-11-05T00:00:00Z,32,Denmark,Leicester City,Premier League,2018/2019,2018,Kasper,Schmeichel,0,0,120,3420,48,10,756.8,4,6,618,76.9,10,0,3,4.7,50,1,3.508771929824561
+Danny Ward,Goalkeeper,1993-06-22T00:00:00Z,25,Wales,Leicester City,Premier League,2018/2019,2018,Danny,Ward,1,0,22,435,14,83.3,81.8,168,0,67,32.9,0,0,0,0.2,43,1,5.057471264367816
+Danny Ward,Goalkeeper,1993-06-22T00:00:00Z,25,Wales,Leicester City,Premier League,2018/2019,2018,Danny,Ward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1,NaN
+Eldin Jakupovic,Goalkeeper,1984-10-02T00:00:00Z,34,Switzerland,Leicester City,Premier League,2018/2019,2018,Eldin,Jakupovic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1,NaN
+Harry Maguire,Centre-Back,1993-03-05T00:00:00Z,26,England,Leicester City,Premier League,2018/2019,2018,Harry,Maguire,3,1,92,2596,41,165.3,715.8,462,10,533,134.3,6,1,6,8.3,54,2,3.5439137134052388
+Jonny Evans,Centre-Back,1988-01-03T00:00:00Z,31,Northern Ireland,Leicester City,Premier League,2018/2019,2018,Jonny,Evans,1,0,77,1993,26,66.1,460,158,3,418,68.5,8,0,2,0.4,48,2,3.86352232814852
+Wes Morgan,Centre-Back,1984-01-21T00:00:00Z,35,Jamaica,Leicester City,Premier League,2018/2019,2018,Wes,Morgan,3,0,76,1924,28,40.1,471,293,7,365,80.5,6,2,1,1.6,45,2,3.9501039501039505
+Christian Fuchs,Left-Back,1986-04-07T00:00:00Z,33,Austria,Leicester City,Premier League,2018/2019,2018,Christian,Fuchs,0,0,3,206,5,85.6,50.4,14,0,38,14.9,0,0,0,0.4,41,2,1.4563106796116505
+Danny Simpson,Right-Back,1987-01-04T00:00:00Z,32,England,Leicester City,Premier League,2018/2019,2018,Danny,Simpson,0,0,12,289,4,13.2,74.6,2,0,50,9,1,0,0,0.2,42,2,4.1522491349480966
+Wilfred Ndidi,Defensive Midfield,1996-12-16T00:00:00Z,22,Nigeria,Leicester City,Premier League,2018/2019,2018,Wilfred,Ndidi,2,0,89,3295,47,342.4,726,346,4,571,141.6,9,0,8,0.8,49,3,2.7010622154779966
+Nampalys Mendy,Defensive Midfield,1992-06-23T00:00:00Z,26,France,Leicester City,Premier League,2018/2019,2018,Nampalys,Mendy,0,1,58,2085,29,135.5,235.8,23,0,291,39.5,7,0,5,0.9,43,3,2.7817745803357314
+Daniel Amartey,Defensive Midfield,1994-12-21T00:00:00Z,24,Ghana,Leicester City,Premier League,2018/2019,2018,Daniel,Amartey,0,0,15,639,9,46.7,139,21,0,103,20.8,1,0,2,0.2,43,3,2.3474178403755865
+Hamza Choudhury,Defensive Midfield,1997-10-01T00:00:00Z,21,England,Leicester City,Premier League,2018/2019,2018,Hamza,Choudhury,0,0,20,593,4,73.7,119.6,51,0,80,24.6,4,0,0,0.1,43,3,3.372681281618887
+Youri Tielemans,Central Midfield,1997-05-07T00:00:00Z,22,Belgium,Leicester City,Premier League,2018/2019,2018,Youri,Tielemans,3,5,63,1087,14,269.7,299,249,6,267,81.8,3,0,2,1.7,60,3,5.795768169273229
+Matty James,Central Midfield,1991-07-22T00:00:00Z,27,England,Leicester City,Premier League,2018/2019,2018,Matty,James,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,3,NaN
+Marc Albrighton,Right Midfield,1989-11-18T00:00:00Z,29,England,Leicester City,Premier League,2018/2019,2018,Marc,Albrighton,2,2,63,1617,17,446.8,371.2,242,4,279,106.1,5,0,3,0.3,51,3,3.896103896103896
+James Maddison,Attacking Midfield,1996-11-23T00:00:00Z,22,England,Leicester City,Premier League,2018/2019,2018,James,Maddison,7,7,137,2831,44,1515,801.4,769,12,619,308.4,8,1,3,5.2,66,3,4.839279406570117
+Harvey Barnes,Attacking Midfield,1997-12-09T00:00:00Z,21,England,Leicester City,Premier League,2018/2019,2018,Harvey,Barnes,1,3,43,1001,16,242,172.8,534,1,139,94.8,1,0,0,0.2,55,3,4.295704295704296
+Demarai Gray,Left Winger,1996-06-28T00:00:00Z,22,England,Leicester City,Premier League,2018/2019,2018,Demarai,Gray,4,1,84,1978,29,310.2,320.2,599,3,244,122.5,6,0,2,0.9,54,4,4.246713852376137
+Rachid Ghezzal,Right Winger,1992-05-09T00:00:00Z,27,Algeria,Leicester City,Premier League,2018/2019,2018,Rachid,Ghezzal,1,0,28,733,13,307,147.8,228,2,112,68.3,1,0,3,0.1,50,4,3.819918144611187
+Jamie Vardy,Centre-Forward,1987-01-11T00:00:00Z,32,England,Leicester City,Premier League,2018/2019,2018,Jamie,Vardy,18,5,174,2726,36,419.9,822,1206,31,598,244.6,11,1,3,10.3,90,5,6.382978723404255
+Kelechi Iheanacho,Centre-Forward,1996-10-03T00:00:00Z,22,Nigeria,Leicester City,Premier League,2018/2019,2018,Kelechi,Iheanacho,1,5,58,924,16,209.4,135.8,230,3,160,56.9,1,0,2,0.8,57,5,6.2770562770562766
+Shinji Okazaki,Centre-Forward,1986-04-16T00:00:00Z,33,Japan,Leicester City,Premier League,2018/2019,2018,Shinji,Okazaki,0,1,25,269,4,28.6,45.6,90,0,59,16.3,0,0,0,0.5,51,5,9.293680297397769
+Lukasz Fabianski,Goalkeeper,1985-04-18T00:00:00Z,34,Poland,West Ham United,Premier League,2018/2019,2018,Lukasz,Fabianski,0,0,143,3420,55,20,1136,0,15,742,115.5,7,0,0,14.3,47,1,4.181286549707602
+AdriÃ¡n San Miguel del Castillo,Goalkeeper,1987-01-03T00:00:00Z,32,Spain,West Ham United,Premier League,2018/2019,2018,AdriÃ¡n,San Miguel del Castillo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,42,1,NaN
+Issa Diop,Centre-Back,1997-01-09T00:00:00Z,22,France,West Ham United,Premier League,2018/2019,2018,Issa,Diop,1,0,87,2970,43,52.3,733,162,6,561,94.8,7,0,4,1.4,42,2,2.9292929292929295
+FabiÃ¡n Balbuena,Centre-Back,1991-08-23T00:00:00Z,27,Paraguay,West Ham United,Premier League,2018/2019,2018,FabiÃ¡n,Balbuena,1,0,61,2013,32,40.9,534.6,201,3,375,77.8,5,0,2,0.3,42,2,3.0303030303030303
+Angelo Ogbonna,Centre-Back,1988-05-23T00:00:00Z,31,Italy,West Ham United,Premier League,2018/2019,2018,Angelo,Ogbonna,1,1,48,1871,36,54.2,462.4,168,2,314,68.5,2,0,2,0.8,42,2,2.5654730090860505
+Winston Reid,Centre-Back,1988-07-03T00:00:00Z,30,New Zealand,West Ham United,Premier League,2018/2019,2018,Winston,Reid,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,2,NaN
+Aaron Cresswell,Left-Back,1989-12-15T00:00:00Z,29,England,West Ham United,Premier League,2018/2019,2018,Aaron,Cresswell,0,1,34,1588,26,290.9,318.2,113,0,257,72.3,1,0,1,0.5,50,2,2.141057934508816
+Arthur Masuaku,Left-Back,1993-11-07T00:00:00Z,25,DR Congo,West Ham United,Premier League,2018/2019,2018,Arthur,Masuaku,0,2,49,1757,29,212,434.4,55,0,311,70.3,4,0,2,1.5,42,2,2.788844621513944
+Sam Byram,Right-Back,1993-09-16T00:00:00Z,25,England,West Ham United,Premier League,2018/2019,2018,Sam,Byram,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,NaN
+Pablo Zabaleta,Right-Back,1985-01-16T00:00:00Z,34,Argentina,West Ham United,Premier League,2018/2019,2018,Pablo,Zabaleta,0,1,56,2089,35,163.2,447.4,106,4,350,71.8,4,0,4,1.7,43,2,2.680708472953566
+Ryan Fredericks,Right-Back,1992-10-10T00:00:00Z,26,England,West Ham United,Premier League,2018/2019,2018,Ryan,Fredericks,1,0,38,1084,16,77.2,254.8,85,4,169,42,3,0,5,0.3,45,2,3.505535055350553
+Declan Rice,Defensive Midfield,1999-01-14T00:00:00Z,20,England,West Ham United,Premier League,2018/2019,2018,Declan,Rice,2,0,92,3003,47,174.2,584.4,213,9,586,97.1,6,0,4,4.2,44,3,3.063603063603064
+Carlos SÃ¡nchez,Defensive Midfield,1986-02-06T00:00:00Z,33,Colombia,West Ham United,Premier League,2018/2019,2018,Carlos,SÃ¡nchez,0,0,9,240,4,28.8,24.6,24,0,44,7.8,0,0,0,0.1,43,3,3.75
+Jack Wilshere,Central Midfield,1992-01-01T00:00:00Z,27,England,West Ham United,Premier League,2018/2019,2018,Jack,Wilshere,0,2,17,388,10,74,72,17,0,90,16.3,1,0,2,0.8,48,3,4.381443298969072
+Pedro Obiang,Central Midfield,1992-03-27T00:00:00Z,27,Equatorial Guinea,West Ham United,Premier League,2018/2019,2018,Pedro,Obiang,0,2,43,1116,21,105.9,219.2,112,1,188,43.6,2,0,0,0.8,42,3,3.853046594982079
+Mark Noble,Central Midfield,1987-05-08T00:00:00Z,32,England,West Ham United,Premier League,2018/2019,2018,Mark,Noble,5,5,99,2289,31,359.8,521.4,196,5,454,107.6,7,1,6,0.5,48,3,4.3250327653997385
+Manuel Lanzini,Attacking Midfield,1993-02-15T00:00:00Z,26,Argentina,West Ham United,Premier League,2018/2019,2018,Manuel,Lanzini,1,2,31,685,12,118.2,141,165,3,148,42.4,2,0,2,0.1,64,3,4.525547445255475
+Samir Nasri,Attacking Midfield,1987-06-26T00:00:00Z,31,France,West Ham United,Premier League,2018/2019,2018,Samir,Nasri,0,2,14,243,2,86.6,49.8,28,0,61,16.4,1,0,0,0.2,49,3,5.761316872427984
+Michail Antonio,Right Winger,1990-03-28T00:00:00Z,29,England,West Ham United,Premier League,2018/2019,2018,Michail,Antonio,6,8,118,2093,30,346.2,482,852,6,305,167,7,0,3,1.2,68,4,5.637840420449116
+Robert Snodgrass,Right Winger,1987-09-07T00:00:00Z,31,Scotland,West Ham United,Premier League,2018/2019,2018,Robert,Snodgrass,2,5,85,2215,33,976,460.8,380,9,364,181.5,5,0,10,0.9,50,4,3.837471783295711
+Grady Diangana,Right Winger,1998-04-19T00:00:00Z,21,England,West Ham United,Premier League,2018/2019,2018,Grady,Diangana,0,1,25,600,13,174.5,115,175,0,86,46.2,2,0,0,0,45,4,4.166666666666666
+Marko Arnautovic,Centre-Forward,1989-04-19T00:00:00Z,30,Austria,West Ham United,Premier League,2018/2019,2018,Marko,Arnautovic,10,5,117,1988,34,500.6,551.6,946,15,405,199.2,4,0,3,6.7,67,5,5.885311871227364
+Jordan Hugill,Centre-Forward,1992-06-04T00:00:00Z,27,England,West Ham United,Premier League,2018/2019,2018,Jordan,Hugill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,5,NaN
+Andy Carroll,Centre-Forward,1989-01-06T00:00:00Z,30,England,West Ham United,Premier League,2018/2019,2018,Andy,Carroll,0,0,12,454,7,51.4,41.8,169,0,10,25.8,0,0,2,0.1,54,5,2.643171806167401
+Lucas PÃ©rez,Centre-Forward,1988-09-10T00:00:00Z,30,Spain,West Ham United,Premier League,2018/2019,2018,Lucas,PÃ©rez,3,0,33,465,13,110.5,136.8,131,5,127,37.7,0,0,0,0.1,62,5,7.096774193548387
+Asmir Begovic,Goalkeeper,1987-06-20T00:00:00Z,31,Bosnia-Herzegovina,AFC Bournemouth,Premier League,2018/2019,2018,Asmir,Begovic,0,0,63,2160,47,0,440.6,0,4,363,44.2,5,0,0,2.7,43,1,2.9166666666666665
+Artur Boruc,Goalkeeper,1980-02-20T00:00:00Z,39,Poland,AFC Bournemouth,Premier League,2018/2019,2018,Artur,Boruc,0,0,46,1080,18,0,302,0,4,218,30.3,4,0,2,8.6,41,1,4.2592592592592595
+Mark Travers,Goalkeeper,1999-05-18T00:00:00Z,20,Ireland,AFC Bournemouth,Premier League,2018/2019,2018,Mark,Travers,0,0,9,180,5,0,68.2,0,1,46,6.8,1,0,0,0.3,40,1,5
+Nathan AkÃ©,Centre-Back,1995-02-18T00:00:00Z,24,Netherlands,AFC Bournemouth,Premier League,2018/2019,2018,Nathan,AkÃ©,4,1,120,3411,70,125.9,1002,440,8,716,156.8,10,0,3,6.1,51,2,3.518029903254178
+Chris Mepham,Centre-Back,1997-11-05T00:00:00Z,21,Wales,AFC Bournemouth,Premier League,2018/2019,2018,Chris,Mepham,0,1,27,848,17,24.1,177.2,22,0,158,22.5,2,0,1,0.1,45,2,3.1839622641509435
+Steve Cook,Centre-Back,1991-04-19T00:00:00Z,28,England,AFC Bournemouth,Premier League,2018/2019,2018,Steve,Cook,1,1,85,2786,56,143.3,731,292,6,549,116.5,9,0,3,4.2,43,2,3.0509691313711413
+Tyrone Mings,Centre-Back,1993-03-13T00:00:00Z,26,England,AFC Bournemouth,Premier League,2018/2019,2018,Tyrone,Mings,0,0,5,141,4,16.3,49,2,0,41,6.8,0,0,0,0.1,42,2,3.546099290780142
+Jack Simpson,Centre-Back,1997-01-08T00:00:00Z,22,England,AFC Bournemouth,Premier League,2018/2019,2018,Jack,Simpson,0,0,10,401,9,2,85.4,21,0,73,11,1,0,0,6.1,39,2,2.493765586034913
+Diego Rico,Left-Back,1993-02-23T00:00:00Z,26,Spain,AFC Bournemouth,Premier League,2018/2019,2018,Diego,Rico,0,0,8,606,19,171.6,107.4,36,0,89,31.4,0,0,1,0,41,2,1.3201320132013201
+Charlie Daniels,Left-Back,1986-09-07T00:00:00Z,32,England,AFC Bournemouth,Premier League,2018/2019,2018,Charlie,Daniels,1,0,44,1583,34,215.4,289.8,156,1,278,66.2,4,0,4,3.2,41,2,2.779532533164877
+Adam Smith,Right-Back,1991-04-29T00:00:00Z,28,England,AFC Bournemouth,Premier League,2018/2019,2018,Adam,Smith,1,1,70,2067,33,199.8,374,110,1,383,68.5,8,1,5,0.4,43,2,3.386550556361877
+Simon Francis,Right-Back,1985-02-16T00:00:00Z,34,England,AFC Bournemouth,Premier League,2018/2019,2018,Simon,Francis,0,2,40,1227,24,173.3,332.4,39,0,244,54.4,4,0,1,0.2,43,2,3.2599837000814995
+Jefferson Lerma,Defensive Midfield,1994-10-25T00:00:00Z,24,Colombia,AFC Bournemouth,Premier League,2018/2019,2018,Jefferson,Lerma,2,2,75,2505,49,245.8,539.6,174,6,410,96.2,9,0,12,0.3,45,3,2.9940119760479043
+Lewis Cook,Central Midfield,1997-02-03T00:00:00Z,22,England,AFC Bournemouth,Premier League,2018/2019,2018,Lewis,Cook,0,0,22,719,10,50.4,76,36,0,91,16.5,3,0,2,0.1,46,3,3.05980528511822
+Harry Arter,Central Midfield,1989-12-28T00:00:00Z,29,Ireland,AFC Bournemouth,Premier League,2018/2019,2018,Harry,Arter,0,1,48,1999,39,188.8,230.6,170,0,225,58.9,7,0,10,0.2,49,3,2.4012006003001503
+Dan Gosling,Central Midfield,1990-02-01T00:00:00Z,29,England,AFC Bournemouth,Premier League,2018/2019,2018,Dan,Gosling,2,2,54,1734,33,164.7,400.6,217,0,237,78.1,4,0,8,0.1,47,3,3.1141868512110724
+Andrew Surman,Central Midfield,1986-08-20T00:00:00Z,32,England,AFC Bournemouth,Premier League,2018/2019,2018,Andrew,Surman,0,0,36,1438,37,163,190.8,38,0,206,39.2,4,0,2,0.1,46,3,2.5034770514603615
+Emerson Hyndman,Central Midfield,1996-04-07T00:00:00Z,23,United States,AFC Bournemouth,Premier League,2018/2019,2018,Emerson,Hyndman,0,0,1,37,2,1.2,14,0,0,2,1.5,0,0,0,0,44,3,2.7027027027027026
+David Brooks,Attacking Midfield,1997-07-08T00:00:00Z,21,Wales,AFC Bournemouth,Premier League,2018/2019,2018,David,Brooks,7,6,123,2263,41,466.7,598,609,7,414,167.5,9,0,3,3.6,50,3,5.435262925320371
+Ryan Fraser,Left Winger,1994-02-24T00:00:00Z,25,Scotland,AFC Bournemouth,Premier League,2018/2019,2018,Ryan,Fraser,7,14,181,3165,64,1382.4,930.6,696,23,751,301.2,9,0,2,23.7,64,4,5.718799368088467
+Junior Stanislas,Left Winger,1989-11-26T00:00:00Z,29,England,AFC Bournemouth,Premier League,2018/2019,2018,Junior,Stanislas,2,3,56,1021,24,254.5,225.2,340,3,205,82,2,0,1,0.1,60,4,5.484818805093046
+Marc Pugh,Left Winger,1987-04-02T00:00:00Z,32,England,AFC Bournemouth,Premier League,2018/2019,2018,Marc,Pugh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,43,4,NaN
+Jordon Ibe,Right Winger,1995-12-08T00:00:00Z,23,England,AFC Bournemouth,Premier League,2018/2019,2018,Jordon,Ibe,1,1,33,789,23,174.8,131.2,155,0,105,46,1,0,1,0.2,49,4,4.182509505703422
+Joshua King,Second Striker,1992-01-15T00:00:00Z,27,Norway,AFC Bournemouth,Premier League,2018/2019,2018,Joshua,King,12,3,141,2963,57,535.7,655.4,1058,20,457,223.8,10,0,3,5.1,64,5,4.758690516368545
+Callum Wilson,Centre-Forward,1992-02-27T00:00:00Z,27,England,AFC Bournemouth,Premier League,2018/2019,2018,Callum,Wilson,14,12,168,2528,47,388.4,737.8,1137,22,525,225,9,0,3,20.3,69,5,6.6455696202531636
+Dominic Solanke,Centre-Forward,1997-09-14T00:00:00Z,21,England,AFC Bournemouth,Premier League,2018/2019,2018,Dominic,Solanke,0,1,15,340,5,96,79,154,0,45,33,0,0,0,0.4,47,5,4.411764705882353
+Lys Mousset,Centre-Forward,1996-02-08T00:00:00Z,23,France,AFC Bournemouth,Premier League,2018/2019,2018,Lys,Mousset,1,0,28,350,15,65.1,74.6,201,0,74,33.8,0,0,1,0.2,49,5,8
+John Ruddy,Goalkeeper,1986-10-24T00:00:00Z,32,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,John,Ruddy,0,0,7,90,0,0,26.6,0,0,25,2.7,1,0,0,0.2,42,1,7.777777777777778
+Will Norris,Goalkeeper,1993-08-12T00:00:00Z,25,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Will,Norris,0,0,1,1,0,0,0,0,0,3,0,0,0,0,2.3,39,1,100
+Willy Boly,Centre-Back,1991-02-03T00:00:00Z,28,France,Wolverhampton Wanderers,Premier League,2018/2019,2018,Willy,Boly,4,0,120,3168,43,146.9,954.2,279,10,635,137.7,8,1,2,6.1,47,2,3.787878787878788
+Conor Coady,Centre-Back,1993-02-25T00:00:00Z,26,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Conor,Coady,0,0,94,3420,46,26.2,593.2,0,6,585,61.8,9,0,5,0.9,45,2,2.7485380116959064
+Ryan Bennett,Centre-Back,1990-03-06T00:00:00Z,29,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Ryan,Bennett,1,0,89,3060,38,129.7,566.4,172,1,467,86.9,9,0,12,8,41,2,2.9084967320261437
+Kortney Hause,Centre-Back,1995-07-16T00:00:00Z,23,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Kortney,Hause,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,40,2,NaN
+Matt Doherty,Right-Back,1992-01-16T00:00:00Z,27,Ireland,Wolverhampton Wanderers,Premier League,2018/2019,2018,Matt,Doherty,4,7,144,3141,41,547.4,758.8,711,12,596,201.6,8,0,5,21.9,53,2,4.584527220630372
+Leander Dendoncker,Defensive Midfield,1995-04-15T00:00:00Z,24,Belgium,Wolverhampton Wanderers,Premier League,2018/2019,2018,Leander,Dendoncker,2,0,48,1465,21,126.6,334.8,288,1,209,75.1,3,0,1,0.6,43,3,3.2764505119453924
+Romain SaÃ¯ss,Defensive Midfield,1990-03-26T00:00:00Z,29,Morocco,Wolverhampton Wanderers,Premier League,2018/2019,2018,Romain,SaÃ¯ss,2,0,47,1142,17,70.9,363.6,129,5,248,56.2,3,0,7,0.4,42,3,4.115586690017513
+Morgan Gibbs-White,Central Midfield,2000-01-27T00:00:00Z,19,England,Wolverhampton Wanderers,Premier League,2018/2019,2018,Morgan,Gibbs-White,0,1,37,645,12,181.1,73.2,72,0,113,32.5,4,0,1,0.5,43,3,5.736434108527131
+Diogo Jota,Left Winger,1996-12-04T00:00:00Z,22,Portugal,Wolverhampton Wanderers,Premier League,2018/2019,2018,Diogo,Jota,9,8,139,2352,29,402.5,559.6,888,13,386,185,10,0,11,8.5,63,4,5.909863945578231
+Adama TraorÃ©,Right Winger,1996-01-25T00:00:00Z,23,Spain,Wolverhampton Wanderers,Premier League,2018/2019,2018,Adama,TraorÃ©,1,1,44,884,13,271.3,223.4,265,2,182,75.8,1,0,1,0.3,51,4,4.97737556561086
+HÃ©lder Costa,Right Winger,1994-01-12T00:00:00Z,25,Portugal,Wolverhampton Wanderers,Premier League,2018/2019,2018,HÃ©lder,Costa,1,2,52,1333,19,264,162.8,280,0,136,70.9,5,0,3,0.4,46,4,3.900975243810953
+Ivan Cavaleiro,Right Winger,1993-10-18T00:00:00Z,25,Portugal,Wolverhampton Wanderers,Premier League,2018/2019,2018,Ivan,Cavaleiro,3,1,48,677,11,313.6,198,156,3,156,66,1,0,1,0.1,52,4,7.0901033973412115
+RaÃºl JimÃ©nez,Centre-Forward,1991-05-05T00:00:00Z,28,Mexico,Wolverhampton Wanderers,Premier League,2018/2019,2018,RaÃºl,JimÃ©nez,13,10,181,3112,40,648.5,788.8,1428,31,602,285.4,12,0,4,33.4,69,5,5.816195372750642
+Bright Enobakhare,Centre-Forward,1998-02-08T00:00:00Z,21,Nigeria,Wolverhampton Wanderers,Premier League,2018/2019,2018,Bright,Enobakhare,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,5,NaN
+Sergio Rico,Goalkeeper,1993-09-01T00:00:00Z,25,Spain,Fulham FC,Premier League,2018/2019,2018,Sergio,Rico,0,0,86,2610,56,20.3,851.4,0,8,519,87.1,5,0,1,0.7,44,1,3.295019157088123
+Marcus Bettinelli,Goalkeeper,1992-05-24T00:00:00Z,27,England,Fulham FC,Premier League,2018/2019,2018,Marcus,Bettinelli,0,0,15,630,20,0,195,0,0,114,19.4,0,0,1,0.3,42,1,2.380952380952381
+Alfie Mawson,Centre-Back,1994-01-19T00:00:00Z,25,England,Fulham FC,Premier League,2018/2019,2018,Alfie,Mawson,0,0,19,1130,26,23.2,259.2,31,2,174,31.3,1,0,2,0.1,47,2,1.6814159292035398
+Maxime Le Marchand,Centre-Back,1989-10-11T00:00:00Z,29,France,Fulham FC,Premier League,2018/2019,2018,Maxime,Le Marchand,0,1,38,2250,53,131.7,577.8,99,1,409,81.2,3,0,5,0.2,42,2,1.6888888888888887
+Tim Ream,Centre-Back,1987-10-05T00:00:00Z,31,United States,Fulham FC,Premier League,2018/2019,2018,Tim,Ream,0,0,50,2046,49,46.3,331.6,3,4,349,38.3,5,0,1,0.3,42,2,2.4437927663734116
+Joe Bryan,Left-Back,1993-09-17T00:00:00Z,25,England,Fulham FC,Premier League,2018/2019,2018,Joe,Bryan,0,1,52,2344,54,385.4,469.2,226,4,397,108.1,5,0,5,0.2,48,2,2.218430034129693
+Cyrus Christie,Right-Back,1992-09-30T00:00:00Z,26,Ireland,Fulham FC,Premier League,2018/2019,2018,Cyrus,Christie,0,1,42,1941,42,293.1,423.2,107,2,278,82.2,3,0,7,0.2,42,2,2.1638330757341575
+Denis Odoi,Right-Back,1988-05-27T00:00:00Z,31,Belgium,Fulham FC,Premier League,2018/2019,2018,Denis,Odoi,0,1,44,2593,62,164.2,575.2,93,2,427,83.5,3,0,4,0.1,44,2,1.6968762051677595
+Kevin McDonald,Defensive Midfield,1988-11-04T00:00:00Z,30,Scotland,Fulham FC,Premier League,2018/2019,2018,Kevin,McDonald,0,0,17,837,27,71.9,99.6,15,0,123,18.7,0,1,4,0.2,42,3,2.031063321385902
+Ibrahima CissÃ©,Defensive Midfield,1994-02-28T00:00:00Z,25,Guinea,Fulham FC,Premier League,2018/2019,2018,Ibrahima,CissÃ©,0,0,4,86,4,2.1,11.6,0,0,16,1.4,0,0,0,0.1,43,3,4.651162790697675
+Tom Cairney,Central Midfield,1991-01-20T00:00:00Z,28,Scotland,Fulham FC,Premier League,2018/2019,2018,Tom,Cairney,1,1,71,2188,51,586.7,358,199,3,389,114.5,5,0,0,0.5,46,3,3.2449725776965264
+Stefan Johansen,Central Midfield,1991-01-08T00:00:00Z,28,Norway,Fulham FC,Premier League,2018/2019,2018,Stefan,Johansen,0,0,11,409,12,33,48.8,7,0,48,9,0,0,4,0,50,3,2.689486552567237
+Ryan Sessegnon,Left Midfield,2000-05-18T00:00:00Z,19,England,Fulham FC,Premier League,2018/2019,2018,Ryan,Sessegnon,2,7,94,2291,60,468.3,410.4,438,3,295,132,3,0,0,1.9,60,3,4.1030117852466175
+Neeskens Kebano,Attacking Midfield,1992-03-10T00:00:00Z,27,DR Congo,Fulham FC,Premier League,2018/2019,2018,Neeskens,Kebano,0,0,7,101,3,8.3,17.6,8,0,24,3.4,0,0,0,0,43,3,6.9306930693069315
+AndrÃ© SchÃ¼rrle,Left Winger,1990-11-06T00:00:00Z,28,Germany,Fulham FC,Premier League,2018/2019,2018,AndrÃ©,SchÃ¼rrle,6,0,75,1638,43,310.6,361.8,474,2,260,114,2,0,2,2.1,55,4,4.5787545787545785
+Ryan Babel,Left Winger,1986-12-19T00:00:00Z,32,Netherlands,Fulham FC,Premier League,2018/2019,2018,Ryan,Babel,5,4,75,1250,26,336.8,322,355,8,246,101.5,3,0,3,1.7,56,4,6
+Floyd AyitÃ©,Left Winger,1988-12-15T00:00:00Z,30,Togo,Fulham FC,Premier League,2018/2019,2018,Floyd,AyitÃ©,1,0,24,466,13,117.5,90,74,0,91,28,0,0,0,0.1,42,4,5.150214592274678
+Lazar Markovic,Right Winger,1994-03-02T00:00:00Z,25,Serbia,Fulham FC,Premier League,2018/2019,2018,Lazar,Markovic,0,0,1,45,1,13,6.2,4,0,3,2.3,0,0,0,0,47,4,2.2222222222222223
+Aleksandar Mitrovic,Centre-Forward,1994-09-16T00:00:00Z,24,Serbia,Fulham FC,Premier League,2018/2019,2018,Aleksandar,Mitrovic,11,4,134,3280,78,499.5,638.8,1593,12,350,273.4,5,0,7,10.8,63,5,4.085365853658537
+Luciano Vietto,Centre-Forward,1993-12-05T00:00:00Z,25,Argentina,Fulham FC,Premier League,2018/2019,2018,Luciano,Vietto,1,4,47,980,21,306.8,206.2,346,4,171,85.6,1,0,1,0.4,53,5,4.795918367346939
+Wayne Hennessey,Goalkeeper,1987-01-24T00:00:00Z,32,Wales,Crystal Palace,Premier League,2018/2019,2018,Wayne,Hennessey,0,0,67,1575,26,0,358.8,0,6,311,35.9,5,0,0,2.4,44,1,4.253968253968254
+Vicente Guaita,Goalkeeper,1987-01-10T00:00:00Z,32,Spain,Crystal Palace,Premier League,2018/2019,2018,Vicente,Guaita,0,0,81,1754,23,0,448,0,8,378,44.8,7,0,2,2.4,43,1,4.618015963511972
+Lucas Perri,Goalkeeper,1997-12-10T00:00:00Z,21,Brazil,Crystal Palace,Premier League,2018/2019,2018,Lucas,Perri,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1,NaN
+Mamadou Sakho,Centre-Back,1990-02-13T00:00:00Z,29,France,Crystal Palace,Premier League,2018/2019,2018,Mamadou,Sakho,0,0,88,2416,35,78.2,540.6,47,13,533,66.6,9,0,2,1.2,49,2,3.642384105960265
+James Tomkins,Centre-Back,1989-03-29T00:00:00Z,30,England,Crystal Palace,Premier League,2018/2019,2018,James,Tomkins,1,1,86,2561,37,83,560.8,276,0,504,92.3,10,0,6,2.3,43,2,3.358063256540414
+Jairo Riedewald,Centre-Back,1996-09-09T00:00:00Z,22,Netherlands,Crystal Palace,Premier League,2018/2019,2018,Jairo,Riedewald,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,2,NaN
+Scott Dann,Centre-Back,1987-02-14T00:00:00Z,32,England,Crystal Palace,Premier League,2018/2019,2018,Scott,Dann,0,1,23,661,10,22.5,186.2,71,0,129,28.1,2,0,1,0.1,44,2,3.479576399394856
+Patrick van Aanholt,Left-Back,1990-08-29T00:00:00Z,28,Netherlands,Crystal Palace,Premier League,2018/2019,2018,Patrick,van Aanholt,3,2,140,3196,46,520.4,616,448,17,626,158.7,12,0,3,5.7,55,2,4.380475594493117
+Pape SouarÃ©,Left-Back,1990-06-06T00:00:00Z,29,Senegal,Crystal Palace,Premier League,2018/2019,2018,Pape,SouarÃ©,0,0,1,1,0,0.1,1,0,0,3,0.1,0,0,0,0.1,42,2,100
+Aaron Wan-Bissaka,Right-Back,1997-11-26T00:00:00Z,21,England,Crystal Palace,Premier League,2018/2019,2018,Aaron,Wan-Bissaka,0,3,120,3134,47,266.8,863.4,139,18,672,127.1,12,1,4,26.3,46,2,3.8289725590299937
+Joel Ward,Right-Back,1989-10-29T00:00:00Z,29,England,Crystal Palace,Premier League,2018/2019,2018,Joel,Ward,1,0,13,551,14,28.9,131.8,43,0,68,20.5,0,0,1,0.2,43,2,2.35934664246824
+Martin Kelly,Right-Back,1990-04-27T00:00:00Z,29,England,Crystal Palace,Premier League,2018/2019,2018,Martin,Kelly,0,0,26,1110,21,17.1,269.8,34,1,166,32.2,3,0,2,5,39,2,2.3423423423423424
+Luka Milivojevic,Defensive Midfield,1991-04-07T00:00:00Z,28,Serbia,Crystal Palace,Premier League,2018/2019,2018,Luka,Milivojevic,12,2,166,3420,53,910.1,1078.2,473,24,741,246.3,12,0,10,10.6,65,3,4.853801169590644
+Cheikhou KouyatÃ©,Defensive Midfield,1989-12-21T00:00:00Z,29,Senegal,Crystal Palace,Premier League,2018/2019,2018,Cheikhou,KouyatÃ©,0,3,67,1889,30,198.5,337.4,222,0,251,75.6,9,0,3,0.2,47,3,3.5468501852832186
+James McArthur,Central Midfield,1987-10-07T00:00:00Z,31,Scotland,Crystal Palace,Premier League,2018/2019,2018,James,McArthur,3,7,121,3057,49,457.2,666.8,487,7,500,161.3,11,0,7,3.4,49,3,3.9581288845273144
+Jeffrey Schlupp,Left Midfield,1992-12-23T00:00:00Z,26,Ghana,Crystal Palace,Premier League,2018/2019,2018,Jeffrey,Schlupp,4,3,91,1660,26,240.5,385.2,430,3,301,105.7,4,0,1,2.5,43,3,5.481927710843373
+Max Meyer,Attacking Midfield,1995-09-18T00:00:00Z,23,Germany,Crystal Palace,Premier League,2018/2019,2018,Max,Meyer,1,3,60,1405,24,309.9,236,433,0,223,98,6,0,3,0.2,55,3,4.270462633451958
+Bakary Sako,Left Winger,1988-04-26T00:00:00Z,31,Mali,Crystal Palace,Premier League,2018/2019,2018,Bakary,Sako,0,0,4,26,2,0.5,3,0,0,10,0.3,0,0,0,0,49,4,15.384615384615385
+Wilfried Zaha,Right Winger,1992-11-10T00:00:00Z,26,Cote d'Ivoire,Crystal Palace,Premier League,2018/2019,2018,Wilfried,Zaha,10,11,143,3037,49,753.3,752.8,1200,13,459,270.6,11,1,8,15.6,70,4,4.708594007243991
+Andros Townsend,Right Winger,1991-07-16T00:00:00Z,27,England,Crystal Palace,Premier League,2018/2019,2018,Andros,Townsend,6,5,135,3007,46,928.5,743,622,8,520,229.6,11,0,1,3.5,56,4,4.489524442966411
+Christian Benteke,Centre-Forward,1990-12-03T00:00:00Z,28,Belgium,Crystal Palace,Premier League,2018/2019,2018,Christian,Benteke,1,1,33,807,13,118.4,106,348,3,65,56.1,3,0,1,0.5,63,5,4.089219330855019
+Jordan Ayew,Centre-Forward,1991-09-11T00:00:00Z,27,Ghana,Crystal Palace,Premier League,2018/2019,2018,Jordan,Ayew,1,3,46,1176,13,207.3,140.2,421,2,114,76.7,5,0,3,0.2,57,5,3.9115646258503403
+Connor Wickham,Centre-Forward,1993-03-31T00:00:00Z,26,England,Crystal Palace,Premier League,2018/2019,2018,Connor,Wickham,0,1,9,61,1,41.9,23.2,55,0,23,12,0,0,0,0.1,49,5,14.754098360655737
+Angus Gunn,Goalkeeper,1996-01-22T00:00:00Z,23,England,Southampton FC,Premier League,2018/2019,2018,Angus,Gunn,0,0,47,1080,18,0,239.2,0,4,206,23.8,3,0,0,1.1,43,1,4.351851851851852
+Fraser Forster,Goalkeeper,1988-03-17T00:00:00Z,31,England,Southampton FC,Premier League,2018/2019,2018,Fraser,Forster,0,0,2,90,3,0,22.2,0,0,13,2.2,0,0,0,0.6,42,1,2.2222222222222223
+Alex McCarthy,Goalkeeper,1989-12-03T00:00:00Z,29,England,Southampton FC,Premier League,2018/2019,2018,Alex,McCarthy,0,0,73,2250,44,0,585.2,0,6,414,58.6,4,0,1,2,43,1,3.2444444444444445
+Jannik Vestergaard,Centre-Back,1992-08-03T00:00:00Z,26,Denmark,Southampton FC,Premier League,2018/2019,2018,Jannik,Vestergaard,0,0,50,2027,31,76.6,576.6,104,0,396,75.9,4,0,2,0.2,46,2,2.46669955599408
+Jack Stephens,Centre-Back,1994-01-27T00:00:00Z,25,England,Southampton FC,Premier League,2018/2019,2018,Jack,Stephens,1,0,47,1697,35,65.5,394.4,143,4,282,60.4,3,0,4,0.3,42,2,2.769593400117855
+Jan Bednarek,Centre-Back,1996-04-12T00:00:00Z,23,Poland,Southampton FC,Premier League,2018/2019,2018,Jan,Bednarek,0,1,49,2150,37,108.8,616,91,3,365,81.9,3,0,7,7.4,40,2,2.27906976744186
+Maya Yoshida,Centre-Back,1988-08-24T00:00:00Z,30,Japan,Southampton FC,Premier League,2018/2019,2018,Maya,Yoshida,0,1,44,1518,29,57.4,387,189,4,278,63.4,3,0,0,1.1,41,2,2.898550724637681
+Ryan Bertrand,Left-Back,1989-08-05T00:00:00Z,29,England,Southampton FC,Premier League,2018/2019,2018,Ryan,Bertrand,1,0,56,2160,42,379.4,326.8,123,1,291,82.6,6,0,8,2.4,48,2,2.5925925925925926
+Matt Targett,Left-Back,1995-09-18T00:00:00Z,23,England,Southampton FC,Premier League,2018/2019,2018,Matt,Targett,1,3,36,1185,25,366.8,314.2,181,3,229,86.2,0,0,2,0.1,42,2,3.0379746835443036
+Sam McQueen,Left-Back,1995-02-06T00:00:00Z,24,England,Southampton FC,Premier League,2018/2019,2018,Sam,McQueen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,40,2,NaN
+Yan Valery,Right-Back,1999-02-22T00:00:00Z,20,France,Southampton FC,Premier League,2018/2019,2018,Yan,Valery,2,1,54,1709,30,124.7,329.4,157,0,251,60.7,3,1,3,4.1,41,2,3.159742539496782
+Mario Lemina,Defensive Midfield,1993-09-01T00:00:00Z,25,Gabon,Southampton FC,Premier League,2018/2019,2018,Mario,Lemina,1,2,50,1612,37,214.7,313,188,2,270,71.6,4,0,5,0.2,47,3,3.101736972704715
+James Ward-Prowse,Central Midfield,1994-11-01T00:00:00Z,24,England,Southampton FC,Premier League,2018/2019,2018,James,Ward-Prowse,7,0,94,1940,41,695.8,592,387,15,390,167.4,3,0,4,3.7,51,3,4.845360824742269
+Stuart Armstrong,Central Midfield,1992-03-30T00:00:00Z,27,Scotland,Southampton FC,Premier League,2018/2019,2018,Stuart,Armstrong,3,4,75,1421,26,392.4,305.6,379,3,269,107.5,5,0,2,0.2,51,3,5.277973258268824
+Steven Davis,Central Midfield,1985-01-01T00:00:00Z,34,Northern Ireland,Southampton FC,Premier League,2018/2019,2018,Steven,Davis,0,1,9,97,4,41.6,38.8,2,2,39,8.2,0,0,0,0,46,3,9.278350515463918
+Nathan Redmond,Left Winger,1994-03-06T00:00:00Z,25,England,Southampton FC,Premier League,2018/2019,2018,Nathan,Redmond,6,5,137,3272,58,802.3,665.4,950,12,433,241.4,9,0,3,6.9,55,4,4.1870415647921755
+Mohamed Elyounoussi,Left Winger,1994-08-04T00:00:00Z,24,Norway,Southampton FC,Premier League,2018/2019,2018,Mohamed,Elyounoussi,0,0,28,785,10,228.3,94.2,220,0,91,54.2,4,0,0,0.1,60,4,3.56687898089172
+Danny Ings,Centre-Forward,1992-07-23T00:00:00Z,26,England,Southampton FC,Premier League,2018/2019,2018,Danny,Ings,7,3,90,1650,27,346.9,433.8,808,11,310,158.4,5,0,1,3.2,54,5,5.454545454545454
+Charlie Austin,Centre-Forward,1989-07-05T00:00:00Z,29,England,Southampton FC,Premier League,2018/2019,2018,Charlie,Austin,2,2,46,970,17,115.3,158.4,405,1,117,67.4,5,0,1,0.4,55,5,4.742268041237113
+Shane Long,Centre-Forward,1987-01-22T00:00:00Z,32,Ireland,Southampton FC,Premier League,2018/2019,2018,Shane,Long,5,2,66,1260,24,179.2,248.6,417,5,191,84.2,2,0,3,4.9,47,5,5.238095238095238
+Sam Gallagher,Centre-Forward,1995-09-15T00:00:00Z,23,England,Southampton FC,Premier League,2018/2019,2018,Sam,Gallagher,0,0,4,32,1,0.3,0,0,0,6,0,0,0,0,0.1,45,5,12.5
+Michael Obafemi,Centre-Forward,2000-07-06T00:00:00Z,18,Ireland,Southampton FC,Premier League,2018/2019,2018,Michael,Obafemi,1,1,13,134,3,27.4,62.6,127,0,46,21.6,0,0,1,0,50,5,9.701492537313433
+Martin Dubravka,Goalkeeper,1989-01-15T00:00:00Z,30,Slovakia,Newcastle United,Premier League,2018/2019,2018,Martin,Dubravka,0,0,131,3420,48,0,783.6,0,10,647,78.4,11,0,1,1,50,1,3.8304093567251467
+Karl Darlow,Goalkeeper,1990-10-08T00:00:00Z,28,England,Newcastle United,Premier League,2018/2019,2018,Karl,Darlow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,44,1,NaN
+Jamaal Lascelles,Centre-Back,1993-11-11T00:00:00Z,25,England,Newcastle United,Premier League,2018/2019,2018,Jamaal,Lascelles,0,1,95,2745,36,46.8,632.4,113,8,539,79.6,10,0,4,3.1,47,2,3.4608378870673953
+Federico FernÃ¡ndez,Centre-Back,1989-02-21T00:00:00Z,30,Argentina,Newcastle United,Premier League,2018/2019,2018,Federico,FernÃ¡ndez,0,2,47,1482,24,63.7,350,70,5,277,48.5,3,0,2,0.2,44,2,3.1713900134952766
+Florian Lejeune,Centre-Back,1991-05-20T00:00:00Z,28,France,Newcastle United,Premier League,2018/2019,2018,Florian,Lejeune,0,0,35,1054,13,82.5,211.6,59,0,209,35.3,4,0,0,0.1,44,2,3.320683111954459
+Fabian SchÃ¤r,Centre-Back,1991-12-20T00:00:00Z,27,Switzerland,Newcastle United,Premier League,2018/2019,2018,Fabian,SchÃ¤r,4,1,93,2000,23,148.6,669.4,220,9,403,103.8,7,0,12,1.3,45,2,4.65
+Ciaran Clark,Centre-Back,1989-09-26T00:00:00Z,29,Ireland,Newcastle United,Premier League,2018/2019,2018,Ciaran,Clark,3,0,42,857,15,25,293.2,105,4,194,42.6,2,0,1,0.2,45,2,4.900816802800467
+Antonio Barreca,Left-Back,1995-03-18T00:00:00Z,24,Italy,Newcastle United,Premier League,2018/2019,2018,Antonio,Barreca,0,0,1,4,0,0,0.2,0,0,3,0,0,0,0,0,41,2,25
+Paul Dummett,Left-Back,1991-09-26T00:00:00Z,27,Wales,Newcastle United,Premier League,2018/2019,2018,Paul,Dummett,0,0,67,1986,27,94,424.2,58,3,365,57.6,7,0,1,0.2,44,2,3.3736153071500503
+DeAndre Yedlin,Right-Back,1993-07-09T00:00:00Z,25,United States,Newcastle United,Premier League,2018/2019,2018,DeAndre,Yedlin,1,2,63,2472,41,406.3,436.4,113,1,325,95.8,5,1,6,0.9,45,2,2.5485436893203883
+Javier Manquillo,Right-Back,1994-05-05T00:00:00Z,25,Spain,Newcastle United,Premier League,2018/2019,2018,Javier,Manquillo,0,3,53,1098,16,127.3,231,28,5,231,38.8,4,0,2,0.3,43,2,4.82695810564663
+Isaac Hayden,Defensive Midfield,1995-03-22T00:00:00Z,24,England,Newcastle United,Premier League,2018/2019,2018,Isaac,Hayden,1,4,69,1857,25,298.8,412,232,5,306,94.4,7,1,3,1.4,43,3,3.715670436187399
+Jonjo Shelvey,Central Midfield,1992-02-27T00:00:00Z,27,England,Newcastle United,Premier League,2018/2019,2018,Jonjo,Shelvey,1,1,39,943,13,351.7,226.2,154,2,170,73.2,5,0,1,0.3,53,3,4.135737009544008
+Mohamed DiamÃ©,Central Midfield,1987-06-14T00:00:00Z,31,Senegal,Newcastle United,Premier League,2018/2019,2018,Mohamed,DiamÃ©,0,0,56,2162,32,82.9,310.8,204,0,213,60,7,0,3,0.1,48,3,2.590194264569843
+Sean Longstaff,Central Midfield,1997-10-30T00:00:00Z,21,England,Newcastle United,Premier League,2018/2019,2018,Sean,Longstaff,1,1,26,686,9,71.8,130.4,106,1,117,30.9,3,0,2,0,45,3,3.7900874635568513
+Matt Ritchie,Right Midfield,1989-09-10T00:00:00Z,29,Scotland,Newcastle United,Premier League,2018/2019,2018,Matt,Ritchie,2,8,110,2927,40,973.8,712.4,448,7,504,213.6,10,0,9,0.6,58,3,3.7581141100102493
+Miguel AlmirÃ³n,Attacking Midfield,1994-02-10T00:00:00Z,25,Paraguay,Newcastle United,Premier League,2018/2019,2018,Miguel,AlmirÃ³n,0,2,28,758,11,189.8,121.4,235,0,107,54.6,3,0,0,0.2,60,3,3.6939313984168867
+Christian Atsu,Left Winger,1992-01-10T00:00:00Z,27,Ghana,Newcastle United,Premier League,2018/2019,2018,Christian,Atsu,1,1,55,1481,18,273,218.8,331,0,175,82.3,6,0,2,0.1,51,4,3.713706954760297
+Jacob Murphy,Right Winger,1995-02-24T00:00:00Z,24,England,Newcastle United,Premier League,2018/2019,2018,Jacob,Murphy,0,1,16,296,8,31.1,53.6,22,0,50,10.7,1,0,0,0,47,4,5.405405405405405
+Ayoze PÃ©rez,Second Striker,1993-07-29T00:00:00Z,25,Spain,Newcastle United,Premier League,2018/2019,2018,Ayoze,PÃ©rez,12,2,141,2916,35,585.6,783.6,954,19,541,232.1,11,0,2,3.4,61,5,4.8353909465020575
+Dwight Gayle,Centre-Forward,1990-10-17T00:00:00Z,28,England,Newcastle United,Premier League,2018/2019,2018,Dwight,Gayle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,60,5,NaN
+Yoshinori Muto,Centre-Forward,1992-07-15T00:00:00Z,26,Japan,Newcastle United,Premier League,2018/2019,2018,Yoshinori,Muto,1,0,24,514,10,66.8,71.8,140,0,65,27.4,1,0,1,0.1,56,5,4.669260700389105
+Ben Foster,Goalkeeper,1983-04-03T00:00:00Z,36,England,Watford FC,Premier League,2018/2019,2018,Ben,Foster,0,0,129,3420,59,50,988,1,11,703,104.1,7,0,1,8.5,46,1,3.7719298245614032
+Heurelho Gomes,Goalkeeper,1981-02-15T00:00:00Z,38,Brazil,Watford FC,Premier League,2018/2019,2018,Heurelho,Gomes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,42,1,NaN
+Pontus Dahlberg,Goalkeeper,1999-01-21T00:00:00Z,20,Sweden,Watford FC,Premier League,2018/2019,2018,Pontus,Dahlberg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1,NaN
+Christian Kabasele,Centre-Back,1991-02-24T00:00:00Z,28,Belgium,Watford FC,Premier League,2018/2019,2018,Christian,Kabasele,0,0,36,1584,29,24,355.2,189,1,212,56.7,3,1,2,0.3,44,2,2.272727272727273
+Sebastian PrÃ¶dl,Centre-Back,1987-06-21T00:00:00Z,31,Austria,Watford FC,Premier League,2018/2019,2018,Sebastian,PrÃ¶dl,0,0,1,13,0,0,0,0,0,2,0,0,0,0,0.1,42,2,7.6923076923076925
+Craig Cathcart,Centre-Back,1989-02-06T00:00:00Z,30,Northern Ireland,Watford FC,Premier League,2018/2019,2018,Craig,Cathcart,3,0,93,3095,54,25.5,719.6,262,5,552,100.8,6,0,2,3.2,45,2,3.0048465266558964
+Miguel Britos,Centre-Back,1985-07-17T00:00:00Z,33,Uruguay,Watford FC,Premier League,2018/2019,2018,Miguel,Britos,0,0,3,184,5,0.3,28.4,0,0,22,2.9,0,0,0,0,43,2,1.6304347826086956
+Adrian Mariappa,Centre-Back,1986-10-03T00:00:00Z,32,Jamaica,Watford FC,Premier League,2018/2019,2018,Adrian,Mariappa,0,0,57,1924,32,61.9,404.6,79,2,334,54.5,5,0,3,0.6,42,2,2.9625779625779627
+Adam Masina,Left-Back,1994-01-02T00:00:00Z,25,Italy,Watford FC,Premier League,2018/2019,2018,Adam,Masina,0,1,26,1002,20,70.8,201,27,1,165,30.1,2,0,5,0.1,43,2,2.5948103792415167
+JosÃ© Holebas,Left-Back,1984-06-27T00:00:00Z,34,Greece,Watford FC,Premier League,2018/2019,2018,JosÃ©,Holebas,3,7,93,2392,41,598.2,642.4,164,10,437,140.6,5,1,12,7.9,48,2,3.887959866220736
+Daryl Janmaat,Right-Back,1989-07-22T00:00:00Z,29,Netherlands,Watford FC,Premier League,2018/2019,2018,Daryl,Janmaat,0,2,50,1520,22,212.2,346.2,118,6,274,67.8,3,0,3,0.4,49,2,3.289473684210526
+Marc Navarro,Right-Back,1995-07-02T00:00:00Z,23,Spain,Watford FC,Premier League,2018/2019,2018,Marc,Navarro,0,0,2,84,3,5.3,16,2,0,12,2.3,0,0,0,0,42,2,2.380952380952381
+Nathaniel Chalobah,Defensive Midfield,1994-12-12T00:00:00Z,24,England,Watford FC,Premier League,2018/2019,2018,Nathaniel,Chalobah,0,0,10,265,7,20.2,35.6,31,0,42,8.8,0,0,2,0.1,44,3,3.7735849056603774
+Abdoulaye DoucourÃ©,Central Midfield,1993-01-01T00:00:00Z,26,France,Watford FC,Premier League,2018/2019,2018,Abdoulaye,DoucourÃ©,5,7,124,3061,56,544.1,735.6,709,14,550,198.9,5,0,7,2.8,58,3,4.050963737340738
+Will Hughes,Central Midfield,1995-04-17T00:00:00Z,24,England,Watford FC,Premier League,2018/2019,2018,Will,Hughes,2,4,87,2419,39,416,429.2,451,5,320,129.6,7,0,5,0.7,49,3,3.596527490698636
+Tom Cleverley,Central Midfield,1989-08-12T00:00:00Z,29,England,Watford FC,Premier League,2018/2019,2018,Tom,Cleverley,1,0,25,470,7,33.4,97.4,40,2,87,17.2,3,0,2,0,50,3,5.319148936170213
+Domingos Quina,Central Midfield,1999-11-18T00:00:00Z,19,Portugal,Watford FC,Premier League,2018/2019,2018,Domingos,Quina,1,0,17,334,5,40.2,69,22,2,68,13.1,0,0,0,0.1,44,3,5.089820359281437
+Roberto Pereyra,Left Midfield,1991-01-07T00:00:00Z,28,Argentina,Watford FC,Premier League,2018/2019,2018,Roberto,Pereyra,6,4,122,2817,53,512.7,458.4,744,13,432,171.8,6,0,3,8,59,3,4.33084842030529
+Ken Sema,Left Midfield,1993-09-30T00:00:00Z,25,Sweden,Watford FC,Premier League,2018/2019,2018,Ken,Sema,1,2,37,747,9,112.7,128.6,169,1,91,40.8,3,0,1,0.1,46,3,4.953145917001338
+Gerard Deulofeu,Right Winger,1994-03-13T00:00:00Z,25,Spain,Watford FC,Premier League,2018/2019,2018,Gerard,Deulofeu,10,5,133,2064,29,455.6,549.2,856,10,344,185.6,9,0,3,7.2,57,4,6.4437984496124034
+Andre Gray,Centre-Forward,1991-06-26T00:00:00Z,27,England,Watford FC,Premier League,2018/2019,2018,Andre,Gray,7,2,83,1352,23,183.9,331.8,620,10,254,112.8,4,0,2,1.9,59,5,6.1390532544378695
+Troy Deeney,Centre-Forward,1988-06-29T00:00:00Z,30,England,Watford FC,Premier League,2018/2019,2018,Troy,Deeney,9,5,116,2542,44,549.5,607.4,1019,13,411,216.9,5,1,4,3.7,58,5,4.563335955940205
+Adalberto PeÃ±aranda,Centre-Forward,1997-05-31T00:00:00Z,22,Venezuela,Watford FC,Premier League,2018/2019,2018,Adalberto,PeÃ±aranda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,5,NaN
+Jerome Sinclair,Centre-Forward,1996-09-20T00:00:00Z,22,England,Watford FC,Premier League,2018/2019,2018,Jerome,Sinclair,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,44,5,NaN
+Nick Pope,Goalkeeper,1992-04-19T00:00:00Z,27,England,Burnley FC,Premier League,2018/2019,2018,Nick,Pope,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,48,1,NaN
+Joe Hart,Goalkeeper,1987-04-19T00:00:00Z,32,England,Burnley FC,Premier League,2018/2019,2018,Joe,Hart,0,0,69,1710,41,10.1,594.6,0,7,378,60.3,4,0,0,4.4,42,1,4.035087719298246
+Tom Heaton,Goalkeeper,1986-04-15T00:00:00Z,33,England,Burnley FC,Premier League,2018/2019,2018,Tom,Heaton,0,0,58,1710,27,20.1,442.8,4,4,323,46.6,4,0,3,0.5,48,1,3.3918128654970756
+Anders Lindegaard,Goalkeeper,1984-04-13T00:00:00Z,35,Denmark,Burnley FC,Premier League,2018/2019,2018,Anders,Lindegaard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,1,NaN
+James Tarkowski,Centre-Back,1992-11-19T00:00:00Z,26,England,Burnley FC,Premier League,2018/2019,2018,James,Tarkowski,3,2,97,3086,63,69.8,1023.2,450,7,524,154.5,7,0,8,4.2,47,2,3.1432274789371357
+Ben Gibson,Centre-Back,1993-01-15T00:00:00Z,26,England,Burnley FC,Premier League,2018/2019,2018,Ben,Gibson,1,0,6,62,3,0.4,42.4,33,0,17,7.6,0,0,1,0.1,48,2,9.67741935483871
+Ben Mee,Centre-Back,1989-09-21T00:00:00Z,29,England,Burnley FC,Premier League,2018/2019,2018,Ben,Mee,0,2,81,3420,68,113.8,885.4,238,5,572,123.9,8,0,9,1.6,46,2,2.368421052631579
+Kevin Long,Centre-Back,1990-08-18T00:00:00Z,28,Ireland,Burnley FC,Premier League,2018/2019,2018,Kevin,Long,0,1,16,513,9,11.6,147.8,8,0,101,16.8,1,0,0,0.3,41,2,3.1189083820662766
+Charlie Taylor,Left-Back,1993-09-18T00:00:00Z,25,England,Burnley FC,Premier League,2018/2019,2018,Charlie,Taylor,0,1,82,3240,64,268.5,649.4,30,2,505,94.9,7,0,2,0.5,44,2,2.5308641975308643
+Stephen Ward,Left-Back,1985-08-20T00:00:00Z,33,Ireland,Burnley FC,Premier League,2018/2019,2018,Stephen,Ward,0,0,7,228,6,17.2,48.4,19,0,44,8.5,1,0,1,0.5,47,2,3.070175438596491
+Matthew Lowton,Right-Back,1989-06-09T00:00:00Z,30,England,Burnley FC,Premier League,2018/2019,2018,Matthew,Lowton,0,0,34,1748,41,158.6,338,48,1,269,54.6,4,0,7,0.2,46,2,1.9450800915331807
+Phil Bardsley,Right-Back,1985-06-28T00:00:00Z,33,Scotland,Burnley FC,Premier League,2018/2019,2018,Phil,Bardsley,0,0,33,1670,27,139.6,267.8,66,0,224,47.4,4,0,9,0.1,42,2,1.976047904191617
+Jack Cork,Defensive Midfield,1989-06-25T00:00:00Z,29,England,Burnley FC,Premier League,2018/2019,2018,Jack,Cork,1,2,87,3312,63,309.7,491.4,240,0,446,104.3,8,0,6,0.5,46,3,2.6268115942028984
+Ashley Westwood,Defensive Midfield,1990-04-01T00:00:00Z,29,England,Burnley FC,Premier League,2018/2019,2018,Ashley,Westwood,2,8,111,2821,55,643.1,623,253,10,518,152.3,7,0,5,3.1,46,3,3.934774902516838
+Jeff Hendrick,Central Midfield,1992-01-31T00:00:00Z,27,Ireland,Burnley FC,Premier League,2018/2019,2018,Jeff,Hendrick,2,2,73,2058,44,205.3,233.8,269,3,243,70.6,4,0,4,0.2,52,3,3.5471331389698735
+Steven Defour,Central Midfield,1988-04-15T00:00:00Z,31,Belgium,Burnley FC,Premier League,2018/2019,2018,Steven,Defour,0,0,10,449,14,36.6,61.4,0,0,70,9.9,0,0,0,0,53,3,2.2271714922048997
+Robbie Brady,Left Midfield,1992-01-14T00:00:00Z,27,Ireland,Burnley FC,Premier League,2018/2019,2018,Robbie,Brady,0,1,20,714,17,194.1,102,85,0,77,38.2,1,1,3,0,54,3,2.801120448179272
+Dwight McNeil,Left Winger,1999-11-22T00:00:00Z,19,England,Burnley FC,Premier League,2018/2019,2018,Dwight,McNeil,3,4,75,1590,25,442.8,405.2,279,6,305,112.5,5,0,2,0.8,44,4,4.716981132075472
+Johann Berg Gudmundsson,Right Winger,1990-10-27T00:00:00Z,28,Iceland,Burnley FC,Premier League,2018/2019,2018,Johann Berg,Gudmundsson,3,7,92,1743,39,574.1,456.2,380,6,339,141.1,5,0,2,1,55,4,5.27825588066552
+Aaron Lennon,Right Winger,1987-04-16T00:00:00Z,32,England,Burnley FC,Premier League,2018/2019,2018,Aaron,Lennon,1,1,41,1214,22,121.2,151.6,108,2,133,38,3,0,1,0.3,49,4,3.3772652388797364
+Chris Wood,Centre-Forward,1991-12-07T00:00:00Z,27,New Zealand,Burnley FC,Premier League,2018/2019,2018,Chris,Wood,10,3,131,2580,49,310.3,475.8,911,17,379,167.9,7,0,2,1.4,63,5,5.077519379844961
+Matej Vydra,Centre-Forward,1992-05-01T00:00:00Z,27,Czech Republic,Burnley FC,Premier League,2018/2019,2018,Matej,Vydra,1,1,21,310,7,33.7,70.4,114,0,61,21.4,0,0,1,0,56,5,6.774193548387098
+Ashley Barnes,Centre-Forward,1989-10-30T00:00:00Z,29,England,Burnley FC,Premier League,2018/2019,2018,Ashley,Barnes,12,3,122,2378,41,309.9,581.2,1042,13,394,192.9,7,0,8,2.1,56,5,5.130361648444071
+Nahki Wells,Centre-Forward,1990-06-01T00:00:00Z,29,Bermuda,Burnley FC,Premier League,2018/2019,2018,Nahki,Wells,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8,45,5,NaN
+Peter Crouch,Centre-Forward,1981-01-30T00:00:00Z,38,England,Burnley FC,Premier League,2018/2019,2018,Peter,Crouch,0,1,8,86,3,1.6,7.6,115,0,24,12.3,0,0,1,0.9,44,5,9.30232558139535
+Mathew Ryan,Goalkeeper,1992-04-08T00:00:00Z,27,Australia,Brighton & Hove Albion,Premier League,2018/2019,2018,Mathew,Ryan,0,0,104,3060,55,0,707,0,11,547,70.9,6,0,2,4.9,44,1,3.3986928104575163
+David Button,Goalkeeper,1989-02-27T00:00:00Z,30,England,Brighton & Hove Albion,Premier League,2018/2019,2018,David,Button,0,0,15,360,5,0,89.2,0,2,76,8.9,1,0,0,2.3,40,1,4.166666666666666
+Jason Steele,Goalkeeper,1990-08-18T00:00:00Z,28,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Jason,Steele,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.3,39,1,NaN
+Shane Duffy,Centre-Back,1992-01-01T00:00:00Z,27,Ireland,Brighton & Hove Albion,Premier League,2018/2019,2018,Shane,Duffy,5,2,115,3087,55,84.1,1024.4,499,9,582,160.9,7,1,4,8.1,47,2,3.7252996436669905
+Lewis Dunk,Centre-Back,1991-11-21T00:00:00Z,27,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Lewis,Dunk,2,1,91,3151,56,132.9,805.8,245,6,573,118.7,7,1,5,3.4,44,2,2.8879720723579814
+Dan Burn,Centre-Back,1992-05-09T00:00:00Z,27,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Dan,Burn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,NaN
+Leon Balogun,Centre-Back,1988-06-28T00:00:00Z,30,Nigeria,Brighton & Hove Albion,Premier League,2018/2019,2018,Leon,Balogun,1,0,15,591,10,1.1,134,27,0,86,16.2,0,0,2,0.1,42,2,2.5380710659898478
+GaÃ«tan Bong,Left-Back,1988-04-25T00:00:00Z,31,Cameroon,Brighton & Hove Albion,Premier League,2018/2019,2018,GaÃ«tan,Bong,0,0,48,1805,34,153.3,220,8,0,254,38,5,0,0,0.1,44,2,2.6592797783933517
+MartÃ­n Montoya,Right-Back,1991-04-14T00:00:00Z,28,Spain,Brighton & Hove Albion,Premier League,2018/2019,2018,MartÃ­n,Montoya,0,1,45,2166,41,289.2,437.6,58,1,351,78.6,3,0,4,0.2,43,2,2.0775623268698062
+Bruno Saltor Grau,Right-Back,1980-10-01T00:00:00Z,38,Spain,Brighton & Hove Albion,Premier League,2018/2019,2018,Bruno,Saltor Grau,0,1,46,1131,17,102,181.6,14,7,229,29.8,4,0,2,0.3,44,2,4.067197170645446
+Yves Bissouma,Central Midfield,1996-08-30T00:00:00Z,22,Mali,Brighton & Hove Albion,Premier League,2018/2019,2018,Yves,Bissouma,0,0,43,1764,32,213,253.4,201,0,170,66.8,3,0,5,0,46,3,2.437641723356009
+Davy PrÃ¶pper,Central Midfield,1991-09-02T00:00:00Z,27,Netherlands,Brighton & Hove Albion,Premier League,2018/2019,2018,Davy,PrÃ¶pper,1,1,72,2546,45,279.1,389.2,121,3,351,79.2,4,0,2,0.2,48,3,2.8279654359780046
+Dale Stephens,Central Midfield,1989-12-12T00:00:00Z,29,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Dale,Stephens,1,1,65,2484,46,249.3,498.2,88,4,404,83.6,5,1,6,3,43,3,2.6167471819645733
+Beram Kayal,Central Midfield,1988-05-02T00:00:00Z,31,Israel,Brighton & Hove Albion,Premier League,2018/2019,2018,Beram,Kayal,1,1,36,935,17,59.3,224,53,0,136,33.6,4,0,4,0.3,44,3,3.8502673796791447
+Pascal GroÃŸ,Attacking Midfield,1991-06-15T00:00:00Z,27,Germany,Brighton & Hove Albion,Premier League,2018/2019,2018,Pascal,GroÃŸ,3,3,80,1864,31,815.3,456,344,12,347,161.7,3,0,1,1.5,67,3,4.291845493562231
+Alireza Jahanbakhsh,Right Winger,1993-08-11T00:00:00Z,25,Iran,Brighton & Hove Albion,Premier League,2018/2019,2018,Alireza,Jahanbakhsh,0,0,33,1014,16,104,94.4,162,0,61,35.5,5,0,2,0.6,67,4,3.2544378698224854
+Anthony Knockaert,Right Winger,1991-11-20T00:00:00Z,27,France,Brighton & Hove Albion,Premier League,2018/2019,2018,Anthony,Knockaert,2,6,74,1828,41,580.8,389.6,345,2,293,131.4,3,1,4,0.5,52,4,4.048140043763676
+JÃ¼rgen Locadia,Centre-Forward,1993-11-07T00:00:00Z,25,Netherlands,Brighton & Hove Albion,Premier League,2018/2019,2018,JÃ¼rgen,Locadia,2,0,52,1225,21,190.8,154.4,356,6,155,69.7,3,0,1,0.3,53,5,4.244897959183674
+Florin Andone,Centre-Forward,1993-04-11T00:00:00Z,26,Romania,Brighton & Hove Albion,Premier League,2018/2019,2018,Florin,Andone,3,0,38,866,14,48.6,147.2,361,2,74,54.9,2,0,5,0.2,50,5,4.387990762124711
+Glenn Murray,Centre-Forward,1983-09-25T00:00:00Z,35,England,Brighton & Hove Albion,Premier League,2018/2019,2018,Glenn,Murray,13,1,129,2501,45,190,478,835,16,337,148.1,4,0,5,2.8,61,5,5.157936825269892
+Tomer Hemed,Centre-Forward,1987-05-02T00:00:00Z,32,Israel,Brighton & Hove Albion,Premier League,2018/2019,2018,Tomer,Hemed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,49,5,NaN
+Jonas LÃ¶ssl,Goalkeeper,1989-02-01T00:00:00Z,30,Denmark,Huddersfield Town,Premier League,2018/2019,2018,Jonas,LÃ¶ssl,0,1,99,2777,54,40.3,764.2,4,9,541,80.7,5,0,1,1.5,44,1,3.5649981994958586
+Ben Hamer,Goalkeeper,1987-11-20T00:00:00Z,31,England,Huddersfield Town,Premier League,2018/2019,2018,Ben,Hamer,0,0,9,552,21,0,158,0,0,98,15.7,0,0,0,5.3,39,1,1.6304347826086956
+Joel Coleman,Goalkeeper,1995-09-26T00:00:00Z,23,England,Huddersfield Town,Premier League,2018/2019,2018,Joel,Coleman,0,0,2,90,1,0,14.8,0,0,13,1.5,0,0,0,0,40,1,2.2222222222222223
+Ryan Schofield,Goalkeeper,1999-12-11T00:00:00Z,19,England,Huddersfield Town,Premier League,2018/2019,2018,Ryan,Schofield,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,40,1,NaN
+Terence Kongolo,Centre-Back,1994-02-14T00:00:00Z,25,Netherlands,Huddersfield Town,Premier League,2018/2019,2018,Terence,Kongolo,1,1,60,2716,65,138.5,581,160,4,429,88.1,4,0,4,0.2,43,2,2.2091310751104567
+Christopher Schindler,Centre-Back,1990-04-29T00:00:00Z,29,Germany,Huddersfield Town,Premier League,2018/2019,2018,Christopher,Schindler,1,1,76,3260,72,35.8,679.4,169,7,517,88.7,5,1,4,2,42,2,2.331288343558282
+Mathias Jorgensen,Centre-Back,1990-04-23T00:00:00Z,29,Denmark,Huddersfield Town,Premier League,2018/2019,2018,Mathias,Jorgensen,3,1,67,2147,38,103.7,544.2,169,4,402,81.9,3,0,6,2.3,44,2,3.12063344201211
+Chris LÃ¶we,Left-Back,1989-04-16T00:00:00Z,30,Germany,Huddersfield Town,Premier League,2018/2019,2018,Chris,LÃ¶we,0,4,49,2052,55,379.9,325.8,183,6,313,88.8,1,0,2,0.1,44,2,2.387914230019493
+Erik Durm,Left-Back,1992-05-12T00:00:00Z,27,Germany,Huddersfield Town,Premier League,2018/2019,2018,Erik,Durm,0,1,49,2049,45,209.2,281.8,114,2,297,60.7,3,0,0,0.1,44,2,2.3914104441190824
+Florent Hadergjonaj,Right-Back,1994-07-31T00:00:00Z,24,Kosovo,Huddersfield Town,Premier League,2018/2019,2018,Florent,Hadergjonaj,0,0,50,1837,36,395.7,286.8,80,1,307,76.2,4,0,1,0.1,43,2,2.7218290691344587
+Danny Williams,Defensive Midfield,1989-03-08T00:00:00Z,30,United States,Huddersfield Town,Premier League,2018/2019,2018,Danny,Williams,0,0,6,94,1,11.4,8.6,1,0,12,2,1,0,1,0,45,3,6.382978723404255
+Aaron Mooy,Central Midfield,1990-09-15T00:00:00Z,28,Australia,Huddersfield Town,Premier League,2018/2019,2018,Aaron,Mooy,3,1,76,2326,48,725.2,510.8,359,5,411,159.7,3,0,4,1,50,3,3.267411865864144
+Philip Billing,Central Midfield,1996-06-11T00:00:00Z,23,Denmark,Huddersfield Town,Premier League,2018/2019,2018,Philip,Billing,2,0,63,2187,43,341,494.6,375,4,317,121.3,5,0,7,1,45,3,2.880658436213992
+Jonathan Hogg,Central Midfield,1988-12-06T00:00:00Z,30,England,Huddersfield Town,Premier League,2018/2019,2018,Jonathan,Hogg,0,1,54,2369,44,271.1,390.4,70,3,326,72.5,5,1,8,0.2,44,3,2.2794428028704092
+Juninho Bacuna,Central Midfield,1997-08-07T00:00:00Z,21,Netherlands,Huddersfield Town,Premier League,2018/2019,2018,Juninho,Bacuna,1,0,39,1410,37,278.8,246.4,131,1,179,65.9,0,0,4,0.4,42,3,2.7659574468085104
+Alex Pritchard,Attacking Midfield,1993-05-03T00:00:00Z,26,England,Huddersfield Town,Premier League,2018/2019,2018,Alex,Pritchard,2,0,69,2079,40,497.9,297.4,546,2,251,134,7,0,2,0.1,48,3,3.318903318903319
+Jason Puncheon,Attacking Midfield,1986-06-26T00:00:00Z,32,England,Huddersfield Town,Premier League,2018/2019,2018,Jason,Puncheon,0,0,15,392,9,79.9,43.6,39,0,50,16.3,1,0,1,1,41,3,3.826530612244898
+Abdelhamid Sabiri,Attacking Midfield,1996-11-28T00:00:00Z,22,Germany,Huddersfield Town,Premier League,2018/2019,2018,Abdelhamid,Sabiri,0,0,2,48,3,0.5,4.2,2,0,6,0.7,0,0,0,0,43,3,4.166666666666666
+Rajiv van La Parra,Left Winger,1991-06-04T00:00:00Z,28,Netherlands,Huddersfield Town,Premier League,2018/2019,2018,Rajiv,van La Parra,0,0,10,405,6,57.6,27.8,41,0,13,12.6,1,0,0,0,46,4,2.4691358024691357
+Isaac Mbenza,Right Winger,1996-03-08T00:00:00Z,23,Belgium,Huddersfield Town,Premier League,2018/2019,2018,Isaac,Mbenza,1,1,38,977,25,118.5,110.4,174,0,127,40,0,0,1,0,59,4,3.8894575230296824
+Elias Kachunga,Right Winger,1992-04-22T00:00:00Z,27,DR Congo,Huddersfield Town,Premier League,2018/2019,2018,Elias,Kachunga,0,0,29,1175,30,109,83.6,180,0,41,36.7,1,0,2,0.1,48,4,2.4680851063829787
+Adama Diakhaby,Centre-Forward,1996-07-05T00:00:00Z,22,France,Huddersfield Town,Premier League,2018/2019,2018,Adama,Diakhaby,0,1,19,548,16,80.6,40,115,0,38,23.4,1,0,1,0,45,5,3.4671532846715327
+Laurent Depoitre,Centre-Forward,1988-12-07T00:00:00Z,30,Belgium,Huddersfield Town,Premier League,2018/2019,2018,Laurent,Depoitre,0,1,34,1058,23,124.3,51.6,381,0,40,54.8,0,0,1,0.3,51,5,3.213610586011342
+Karlan Grant,Centre-Forward,1997-09-18T00:00:00Z,21,England,Huddersfield Town,Premier League,2018/2019,2018,Karlan,Grant,3,2,45,873,23,109.6,141.8,308,5,123,55.9,1,0,0,0.2,50,5,5.154639175257731
+Neil Etheridge,Goalkeeper,1990-02-07T00:00:00Z,29,Philippines,Cardiff City,Premier League,2018/2019,2018,Neil,Etheridge,0,0,154,3420,69,21,1116.8,0,18,775,113.6,10,0,2,10.2,46,1,4.502923976608187
+Alex Smithies,Goalkeeper,1990-03-05T00:00:00Z,29,England,Cardiff City,Premier League,2018/2019,2018,Alex,Smithies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,42,1,NaN
+Brian Murphy,Goalkeeper,1983-05-07T00:00:00Z,36,Ireland,Cardiff City,Premier League,2018/2019,2018,Brian,Murphy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,40,1,NaN
+Sean Morrison,Centre-Back,1991-01-08T00:00:00Z,28,England,Cardiff City,Premier League,2018/2019,2018,Sean,Morrison,1,4,97,3039,63,239,673.4,580,5,477,149.4,9,0,6,0.4,47,2,3.1918394208621255
+Bruno Ecuele Manga,Centre-Back,1988-07-16T00:00:00Z,30,Gabon,Cardiff City,Premier League,2018/2019,2018,Bruno,Ecuele Manga,0,1,97,3375,67,105.5,722,172,4,581,100.4,10,0,0,0.4,44,2,2.8740740740740742
+Sol Bamba,Centre-Back,1985-01-13T00:00:00Z,34,Cote d'Ivoire,Cardiff City,Premier League,2018/2019,2018,Sol,Bamba,4,1,95,2475,52,51.4,787,304,11,459,114.2,7,0,7,1.5,44,2,3.8383838383838382
+Matthew Connolly,Centre-Back,1987-09-24T00:00:00Z,31,England,Cardiff City,Premier League,2018/2019,2018,Matthew,Connolly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.8,38,2,NaN
+Joe Bennett,Left-Back,1990-03-28T00:00:00Z,29,England,Cardiff City,Premier League,2018/2019,2018,Joe,Bennett,0,1,77,2639,50,237.1,442.8,98,4,433,77.8,9,0,5,0.4,44,2,2.9177718832891246
+Lee Peltier,Right-Back,1986-12-11T00:00:00Z,32,England,Cardiff City,Premier League,2018/2019,2018,Lee,Peltier,0,0,43,1542,26,49.5,267.2,15,1,232,33.1,5,0,4,4,39,2,2.7885862516212714
+VÃ­ctor Camarasa,Central Midfield,1994-05-28T00:00:00Z,25,Spain,Cardiff City,Premier League,2018/2019,2018,VÃ­ctor,Camarasa,5,4,106,2569,53,798.4,515.8,387,5,398,170.2,9,0,6,2.2,44,3,4.126119112495134
+Joe Ralls,Central Midfield,1993-10-13T00:00:00Z,25,England,Cardiff City,Premier League,2018/2019,2018,Joe,Ralls,0,0,45,1954,40,481.1,284.6,204,0,232,96.7,5,1,4,0.1,46,3,2.3029682702149437
+Callum Paterson,Central Midfield,1994-10-13T00:00:00Z,24,Scotland,Cardiff City,Premier League,2018/2019,2018,Callum,Paterson,4,2,80,1993,41,311.9,266.8,541,4,227,111.7,5,0,4,0.3,48,3,4.014049172102358
+Leandro Bacuna,Central Midfield,1991-08-21T00:00:00Z,27,Curacao,Cardiff City,Premier League,2018/2019,2018,Leandro,Bacuna,0,1,17,554,14,30.2,69,22,0,81,12,1,0,2,0,43,3,3.068592057761733
+LoÃ¯c Damour,Central Midfield,1991-01-08T00:00:00Z,28,France,Cardiff City,Premier League,2018/2019,2018,LoÃ¯c,Damour,0,0,2,21,2,1,0.6,8,0,6,0.9,0,0,0,0.1,43,3,9.523809523809524
+Kadeem Harris,Right Midfield,1993-06-08T00:00:00Z,26,England,Cardiff City,Premier League,2018/2019,2018,Kadeem,Harris,1,1,24,365,6,87.7,90.4,89,0,80,26.7,1,0,1,0,45,3,6.575342465753424
+Bobby Reid,Attacking Midfield,1993-02-02T00:00:00Z,26,Jamaica,Cardiff City,Premier League,2018/2019,2018,Bobby,Reid,5,3,80,1413,30,224.4,296.6,392,9,276,91,4,0,0,0.9,52,3,5.661712668082094
+Josh Murphy,Left Winger,1995-02-24T00:00:00Z,24,England,Cardiff City,Premier League,2018/2019,2018,Josh,Murphy,3,2,76,1810,32,267,285.6,550,3,191,109.5,7,0,2,0.2,48,4,4.198895027624309
+Nathaniel Mendez-Laing,Right Winger,1992-04-15T00:00:00Z,27,England,Cardiff City,Premier League,2018/2019,2018,Nathaniel,Mendez-Laing,4,1,63,978,18,255,351.4,370,6,253,97.8,4,0,0,0,48,4,6.441717791411043
+Kenneth Zohore,Centre-Forward,1994-01-31T00:00:00Z,25,Denmark,Cardiff City,Premier League,2018/2019,2018,Kenneth,Zohore,1,1,33,741,19,159.5,103.6,270,2,93,53.3,2,0,1,0.5,46,5,4.4534412955465585
+Oumar Niasse,Centre-Forward,1990-04-18T00:00:00Z,29,Senegal,Cardiff City,Premier League,2018/2019,2018,Oumar,Niasse,0,0,30,988,13,85.7,70.8,317,0,29,47.1,5,0,0,0.4,50,5,3.0364372469635628
+Gary Madine,Centre-Forward,1990-08-24T00:00:00Z,28,England,Cardiff City,Premier League,2018/2019,2018,Gary,Madine,0,0,5,32,3,1.5,2,8,0,13,1,0,0,0,0.9,44,5,15.625
+Danny Ward,Centre-Forward,1990-12-09T00:00:00Z,28,England,Cardiff City,Premier League,2018/2019,2018,Danny,Ward,1,0,22,435,14,83.3,81.8,168,0,67,32.9,0,0,0,0.2,43,5,5.057471264367816
+Danny Ward,Centre-Forward,1990-12-09T00:00:00Z,28,England,Cardiff City,Premier League,2018/2019,2018,Danny,Ward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,43,5,NaN
+Omar Bogle,Centre-Forward,1992-07-26T00:00:00Z,26,England,Cardiff City,Premier League,2018/2019,2018,Omar,Bogle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,45,5,NaN
+Rhys Healey,Centre-Forward,1994-12-06T00:00:00Z,24,England,Cardiff City,Premier League,2018/2019,2018,Rhys,Healey,0,0,3,49,1,10.9,4.2,12,0,7,2.7,0,0,0,0.1,45,5,6.122448979591836

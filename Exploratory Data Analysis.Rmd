@@ -1,0 +1,116 @@
+---
+title: "Exploratory Data Analysis"
+output: html_notebook
+---
+
+This is a file for explorative data analysis of the premier league players.
+
+```{r Import}
+season17 <- read.csv("~/DSI-SRP1/season17.csv")
+season18 <- read.csv("~/DSI-SRP1/season18.csv")
+season19 <- read.csv("~/DSI-SRP1/season19.csv")
+```
+
+Checking out the datasets
+```{r}
+View(season17)
+View(season18)
+View(season19)
+```
+
+Loading tidyverse
+```{r}
+library(tidyverse)
+```
+
+Calculating correlation coefficients between goal scored and total fpl points
+```{r}
+message("Correlation between goal scored and total fpl points for 2016/17: ", with(season17, cor(goals_scored,total_points)))
+message("Correlation between goal scored and total fpl points for 2017/18: ", with(season18, cor(goals_scored,total_points)))
+message("Correlation between goal scored and total fpl points for 2018/19: ", with(season19, cor(goals_scored,total_points)))
+```
+Editing the datasets
+```{r}
+season17$position_index <- as_factor(season17$position_index)
+season18$position_index <- as_factor(season18$position_index)
+season19$position_index <- as_factor(season19$position_index)
+```
+
+Creating a new metric for calculation total fpl points to minutes played
+```{r}
+fpl_to_minute <- function(df) {
+  df %>% 
+    mutate(fpl_to_min = (total_points/minutes.played)*100)
+}
+season17 <- fpl_to_minute(season17)
+season18 <- fpl_to_minute(season18)
+season19 <- fpl_to_minute(season19)
+```
+
+Scatter plots graph to highlight how the goals scored vary with fpl points
+```{r}
+ggplot(season17, aes(goals_scored, total_points)) + geom_point(aes(color = position_index)) + labs(title = "Total FPL points vs Goal Scored in 2016/17")
+ggplot(season18, aes(goals_scored, total_points)) + geom_point(aes(color = position_index)) + labs(title = "Total FPL points vs Goal Scored in 2017/18")
+ggplot(season19, aes(goals_scored, total_points)) + geom_point(aes(color = position_index)) + labs(title = "Total FPL points vs Goal Scored in 2018/19")
+```
+
+Bar graphs to show how the number of players vary per team with regards to position
+```{r}
+ggplot(season17, aes(club_name)) + geom_bar(aes(fill = position_index),position = "fill") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+```
+Creating frequency plot for goal scored and how it varies for the players' position
+
+```{r}
+ggplot(season17, aes(x = goals_scored)) + geom_freqpoly(aes(color = position_index), binwidth = 2)
+```
+Creating boxplots to show the distiribution of the teams' fpl points according to their players
+```{r}
+ggplot(data = season17) + geom_boxplot(aes(x = club_name, y = total_points), na.rm = TRUE) + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+```{r}
+write_csv(season17, "season17.csv")
+write_csv(season18, "season18.csv")
+write_csv(season19, "season19.csv")
+```
+
+Scatter plotsd showing the FPL points to minute ratio vs the total FPL points
+
+```{r}
+season17 %>% 
+  filter(minutes.played >= 500) %>% 
+  ggplot() + geom_point(aes(total_points, fpl_to_min, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
+``` 
+
+```{r}
+season18 %>% 
+  filter(minutes.played >= 500) %>% 
+  ggplot() + geom_point(aes(total_points, fpl_to_min, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
+```
+
+```{r}
+season19 %>% 
+  filter(minutes.played >= 500) %>% 
+  ggplot() + geom_point(aes(total_points, fpl_to_min, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
+```
+
+Calculating the average fpl points per team
+
+```{r}
+avg_fpl_point <- function(df) {
+  df %>% 
+    group_by(club_name) %>%
+    summarize(average = mean(total_points, na.rm = TRUE)) %>%
+    ggplot() + geom_bar(aes(x = club_name, y = average, fill = club_name), stat = "identity") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(x = "Club Name", y = "Average FPL points", title = ("The average FPL points achieved by each team"))
+}
+```
+
+```{r, fig.width = 12, fig.height = 9}
+avg_fpl_point(season17)
+avg_fpl_point(season18)
+avg_fpl_point(season19)
+
+```
+
+
