@@ -114,3 +114,9 @@ avg_fpl_point(season19)
 ```
 
 
+Cool stuff
+```{r}
+yeah <- 1:5
+yeah
+```
+
