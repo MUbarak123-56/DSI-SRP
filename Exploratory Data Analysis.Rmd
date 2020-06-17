@@ -113,6 +113,8 @@ avg_fpl_point(season18)
 avg_fpl_point(season19)
 ```
 
+Plotting graphs of goals scored vs assists made for every season
+
 ```{r}
 goals_vs_assist <- function(df) {
   df %>%
@@ -127,6 +129,7 @@ goals_vs_assist(season18)
 goals_vs_assist(season19)
 ```
 
+Ranking the players with the top 10 fpl points per season
 
 ```{r}
 fpl_point_rank <- function(df) {
@@ -146,6 +149,8 @@ fpl_point_rank(season18)
 fpl_point_rank(season19)
 ```
 
+Plotting the total FPL points vs players' cost for every season
+
 ```{r}
 library(modelr)
 options(na.action = na.warn)
@@ -155,8 +160,40 @@ value <- function(df) {
 ```
 
 
-```{r, fig.weight = 9, fig.height = 9}
+```{r, fig.width = 9, fig.height = 9}
 value(season18)
 value(season19)
+```
+
+Analyzing how age has an impact on FPL points
+```{r}
+age_freq <- function(df) {
+  df %>% 
+    group_by(age) %>% 
+    summarize(mean = mean(total_points, na.rm = TRUE)) %>%
+    ggplot(aes(x = age, y = mean)) + geom_freqpoly(stat = "identity", color = "purple") + labs(title = sprintf("A frequency polygon graph of the ages of Premier League players with respect\nto their mean FPL points during the season %s", unique(df$season)), x = "Age", y = "Average FPL points")
+}
+```
+
+```{r, fig.height = 9, fig.width = 9}
+age_freq(season17)
+age_freq(season18)
+age_freq(season19)
+```
+
+How selected by percent affects the FPL points
+```{r}
+sel_fpl <- function(df) {
+  df %>% 
+    filter(minutes.played >= 500) %>% 
+    ggplot(aes(selected_by_percent, total_points)) + geom_point(aes(color = position_index), position = "jitter") + labs(title = sprintf("A graph of FPL points vs selected by percent in the season ", unique(df$season)), x = " selected by percent", y = "FPL points")
+}
+```
+
+
+```{r, fig.width = 9, fig.height = 9}
+sel_fpl(season17)
+sel_fpl(season18)
+sel_fpl(season19)
 ```
 
