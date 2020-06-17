@@ -102,21 +102,61 @@ avg_fpl_point <- function(df) {
   df %>% 
     group_by(club_name) %>%
     summarize(average = mean(total_points, na.rm = TRUE)) %>%
-    ggplot() + geom_bar(aes(x = club_name, y = average, fill = club_name), stat = "identity") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(x = "Club Name", y = "Average FPL points", title = ("The average FPL points achieved by each team"))
+    ggplot() + geom_bar(aes(x = club_name, y = average, fill = club_name), stat = "identity") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(x = "Club Name", y = "Average FPL points", title = sprintf("The average FPL points achieved by each team in the season %s", unique(df$season)))
 }
+                                                                  
 ```
 
 ```{r, fig.width = 12, fig.height = 9}
 avg_fpl_point(season17)
 avg_fpl_point(season18)
 avg_fpl_point(season19)
+```
 
+```{r}
+goals_vs_assist <- function(df) {
+  df %>%
+    filter(minutes.played >= 500) %>%
+    ggplot(aes(assists, goals_scored)) + geom_point(aes(color = position_index), position = "jitter") + labs(title = sprintf("Goals scored vs Assists during the %s season", unique(df$season)), color = "position index")
+}
+```
+
+```{r, fig.height = 9, fig.width = 9}
+goals_vs_assist(season17)
+goals_vs_assist(season18)
+goals_vs_assist(season19)
 ```
 
 
-Cool stuff
 ```{r}
-yeah <- 1:5
-yeah
+fpl_point_rank <- function(df) {
+  df %>% 
+    mutate(ranking = dense_rank(desc(total_points))) %>%
+    filter(ranking <= 10) %>%
+    arrange(desc(total_points)) %>% 
+    select(ranking, player_name, total_points) %>% 
+    print() %>% 
+    ggplot(aes(reorder(player_name, -total_points), total_points, fill = player_name)) + geom_bar(stat = "identity", color = "purple") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(title = sprintf("The top 10 players with the highest FPL points in %s", unique(df$season)), x = "Player", y = "FPL points")
+}
+```
+
+```{r, fig.height = 9, fig.width = 9}
+fpl_point_rank(season17)
+fpl_point_rank(season18)
+fpl_point_rank(season19)
+```
+
+```{r}
+library(modelr)
+options(na.action = na.warn)
+value <- function(df) {
+  ggplot(df, aes(x = now_cost)) + geom_point(aes(y = total_points), color = "blue") + facet_wrap(~position_index)
+}
+```
+
+
+```{r, fig.weight = 9, fig.height = 9}
+value(season18)
+value(season19)
 ```
 
