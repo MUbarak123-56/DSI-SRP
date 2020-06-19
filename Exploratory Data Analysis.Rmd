@@ -6,9 +6,9 @@ output: html_notebook
 This is a file for explorative data analysis of the premier league players.
 
 ```{r Import}
-season17 <- read.csv("~/DSI-SRP1/season17.csv")
-season18 <- read.csv("~/DSI-SRP1/season18.csv")
-season19 <- read.csv("~/DSI-SRP1/season19.csv")
+season17 <- read.csv("~/DSI-SRP1/season17.csv", encoding="UTF-8")
+season18 <- read.csv("~/DSI-SRP1/season18.csv", encoding="UTF-8")
+season19 <- read.csv("~/DSI-SRP1/season19.csv", encoding="UTF-8")
 ```
 
 Checking out the datasets
@@ -67,12 +67,6 @@ ggplot(season17, aes(x = goals_scored)) + geom_freqpoly(aes(color = position_ind
 Creating boxplots to show the distiribution of the teams' fpl points according to their players
 ```{r}
 ggplot(data = season17) + geom_boxplot(aes(x = club_name, y = total_points), na.rm = TRUE) + theme(axis.text.x = element_text(angle = 90, hjust = 1))
-```
-
-```{r}
-write_csv(season17, "season17.csv")
-write_csv(season18, "season18.csv")
-write_csv(season19, "season19.csv")
 ```
 
 Scatter plotsd showing the FPL points to minute ratio vs the total FPL points
@@ -186,7 +180,7 @@ How selected by percent affects the FPL points
 sel_fpl <- function(df) {
   df %>% 
     filter(minutes.played >= 500) %>% 
-    ggplot(aes(selected_by_percent, total_points)) + geom_point(aes(color = position_index), position = "jitter") + labs(title = sprintf("A graph of FPL points vs selected by percent in the season ", unique(df$season)), x = " selected by percent", y = "FPL points")
+    ggplot(aes(selected_by_percent, total_points)) + geom_point(aes(color = position_index), position = "jitter") + labs(title = sprintf("A graph of FPL points vs selected by percent in the season %s", unique(df$season)), x = " selected by percent", y = "FPL points")
 }
 ```
 
@@ -196,4 +190,15 @@ sel_fpl(season17)
 sel_fpl(season18)
 sel_fpl(season19)
 ```
+
+writing to csv
+```{r}
+s17 <- file('season2017.csv', encoding = "UTF-8")
+write.csv(season17, file = s17)
+s18 <- file('season2018.csv', encoding = 'UTF-8')
+write.csv(season18, file = s18)
+s19 <- file('season2019.csv', encoding = "UTF-8")
+write.csv(season19, file = s19)
+```
+
 
