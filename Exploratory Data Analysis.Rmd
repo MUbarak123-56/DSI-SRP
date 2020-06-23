@@ -38,13 +38,13 @@ season19$position_index <- as_factor(season19$position_index)
 
 Creating a new metric for calculation total fpl points to minutes played
 ```{r}
-fpl_to_minute <- function(df) {
+fpl_to_gaming <- function(df) {
   df %>% 
-    mutate(fpl_to_min = (total_points/minutes.played)*100)
+    mutate(fpl_to_game = (total_points/minutes.played)*90)
 }
-season17 <- fpl_to_minute(season17)
-season18 <- fpl_to_minute(season18)
-season19 <- fpl_to_minute(season19)
+season17 <- fpl_to_gaming(season17)
+season18 <- fpl_to_gaming(season18)
+season19 <- fpl_to_gaming(season19)
 ```
 
 Scatter plots graph to highlight how the goals scored vary with fpl points
@@ -74,19 +74,19 @@ Scatter plotsd showing the FPL points to minute ratio vs the total FPL points
 ```{r}
 season17 %>% 
   filter(minutes.played >= 500) %>% 
-  ggplot() + geom_point(aes(total_points, fpl_to_min, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
+  ggplot() + geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
 ``` 
 
 ```{r}
 season18 %>% 
   filter(minutes.played >= 500) %>% 
-  ggplot() + geom_point(aes(total_points, fpl_to_min, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
+  ggplot() + geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
 ```
 
 ```{r}
 season19 %>% 
   filter(minutes.played >= 500) %>% 
-  ggplot() + geom_point(aes(total_points, fpl_to_min, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
+  ggplot() + geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + labs(x = "Total FPL points", y = "FPL points-to-minute ratio", title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes")
 ```
 
 Calculating the average fpl points per team
