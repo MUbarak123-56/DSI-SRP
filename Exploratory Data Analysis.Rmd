@@ -1,6 +1,6 @@
 ---
 title: "Exploratory Data Analysis"
-output: html_notebook
+output: pdf_document
 ---
 
 This is a file for explorative data analysis of the premier league players.
