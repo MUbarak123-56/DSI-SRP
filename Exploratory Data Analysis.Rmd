@@ -88,8 +88,7 @@ season17 %>%
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
   labs(x = "Total FPL points", y = "FPL points-to-minute ratio", 
-  title = "FPL points to minutes played ratio vs Total FPL points for
-  players\nwho have played more than 500 minutes in 2016/17")
+  title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2016/17")
 ``` 
 
 ```{r}
@@ -98,8 +97,7 @@ season18 %>%
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
   labs(x = "Total FPL points", y = "FPL points-to-minute ratio", 
-  title = "FPL points to minutes played ratio vs Total FPL points for
-  players\nwho have played more than 500 minutes in 2017/18")
+  title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2017/18")
 ```
 
 ```{r}
@@ -108,8 +106,7 @@ season19 %>%
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
   labs(x = "Total FPL points", y = "FPL points-to-minute ratio",
-       title = "FPL points to minutes played ratio vs Total FPL points for
-       players\nwho have played more than 500 minutes in 2018/19")
+       title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2018/19")
 ```
 
 ## Calculating the average fpl points per team and building a bar chart to show the average fpl points per team
@@ -167,8 +164,7 @@ fpl_point_rank <- function(df) {
     ggplot(aes(reorder(player_name, -total_points), total_points, fill = player_name)) + 
     geom_bar(stat = "identity", color = "purple") + 
     theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
-    labs(title = sprintf("The top 10 players with 
-                         the highest FPL points in %s", 
+    labs(title = sprintf("The top 10 players with the highest FPL points in %s", 
     unique(df$season)), x = "Player", y = "FPL points")
 }
 ```
@@ -205,8 +201,8 @@ age_freq <- function(df) {
     group_by(age) %>% 
     summarize(mean = mean(total_points, na.rm = TRUE)) %>%
     ggplot(aes(x = age, y = mean)) + geom_freqpoly(stat = "identity", color = "purple") + 
-labs(title = sprintf("A frequency polygon graph of the ages of Premier League players with
-respect\nto their mean FPL points during the season %s", unique(df$season)), x = "Age", y = "Average FPL points")
+labs(title = sprintf("A frequency polygon graph of the ages of Premier League players with respect\nto their mean FPL points during the season %s",
+                     unique(df$season)), x = "Age", y = "Average FPL points")
 }
 ```
 
@@ -224,8 +220,7 @@ sel_fpl <- function(df) {
     ggplot(aes(selected_by_percent, total_points)) + 
     geom_point(aes(color = position_index), position = "jitter") + 
     labs(
-    title = sprintf("A graph of FPL points vs selected by percent in the
-                    season %s", 
+    title = sprintf("A graph of FPL points vs selected by percent in the season %s", 
     unique(df$season)), x = " selected by percent", y = "FPL points")
 }
 ```
