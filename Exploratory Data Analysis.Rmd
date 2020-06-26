@@ -80,7 +80,14 @@ ggplot(data = season17) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
+
 ## Scatter plots showing the FPL points to game ratio vs the total FPL points for each season
+
+```{r, include=FALSE}
+title1 = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2016/17"
+title2 = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2017/18"
+title3 = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2018/19"
+```
 
 ```{r}
 season17 %>% 
@@ -88,7 +95,7 @@ season17 %>%
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
   labs(x = "Total FPL points", y = "FPL points-to-minute ratio", 
-  title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2016/17")
+  title = title1)
 ``` 
 
 ```{r}
@@ -97,7 +104,7 @@ season18 %>%
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
   labs(x = "Total FPL points", y = "FPL points-to-minute ratio", 
-  title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2017/18")
+  title = title2)
 ```
 
 ```{r}
@@ -106,7 +113,7 @@ season19 %>%
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
   labs(x = "Total FPL points", y = "FPL points-to-minute ratio",
-       title = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2018/19")
+       title = title3)
 ```
 
 ## Calculating the average fpl points per team and building a bar chart to show the average fpl points per team
@@ -193,6 +200,10 @@ value(season18)
 value(season19)
 ```
 
+```{r, include= FALSE}
+title = "A frequency polygon graph of the ages of Premier League players with respect\nto their mean FPL points during the season %s"
+```
+
 ## Visualizing how age has an impact on FPL points
 
 ```{r}
@@ -201,8 +212,8 @@ age_freq <- function(df) {
     group_by(age) %>% 
     summarize(mean = mean(total_points, na.rm = TRUE)) %>%
     ggplot(aes(x = age, y = mean)) + geom_freqpoly(stat = "identity", color = "purple") + 
-labs(title = sprintf("A frequency polygon graph of the ages of Premier League players with respect\nto their mean FPL points during the season %s",
-                     unique(df$season)), x = "Age", y = "Average FPL points")
+labs(title = sprintf(title, unique(df$season)), x = "Age", 
+     y = "Average FPL points")
 }
 ```
 
