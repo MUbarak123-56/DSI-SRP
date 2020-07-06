@@ -61,23 +61,61 @@ ggplot(season19, aes(goals_scored, total_points)) +
 
 ## Bar graphs to show how the number of players vary per team with regards to position
 ```{r}
-ggplot(season17, aes(club_name)) + 
-  geom_bar(aes(fill = position_index),position = "fill") + 
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
-
+position_bar <- function(df) {
+  df %>% 
+    ggplot(aes(club_name)) + 
+    geom_bar(aes(fill = position_index),position = "fill") + 
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    labs(title = sprintf("How players' positions varied across teams in
+                         %s", unique(df$season)))
+}
 ```
+
+## Plotting the bar charts
+
+```{r, fig.width = 9, fig.height = 9}
+position_bar(season17)
+position_bar(season18)
+position_bar(season19)
+```
+
 ## Creating frequency plot for goal scored and how it varies for the players' position
 
 ```{r}
-ggplot(season17, aes(x = goals_scored)) + 
-  geom_freqpoly(aes(color = position_index), binwidth = 2)
+goal_freqplot <- function(df) {
+  df %>% 
+    ggplot(aes(x = goals_scored)) + 
+    geom_freqpoly(aes(color = position_index), binwidth = 2) +
+    labs(title = sprintf("How goal scored varied across different positions 
+                         in %s", unique(df$season)))
+}
 ```
+## Plotting the graphs
+
+```{r, fig.width = 9, fig.height = 9}
+goal_freqplot(season17)
+goal_freqplot(season18)
+goal_freqplot(season19)
+```
+
 
 ## Creating boxplots to show the distiribution of the teams' fpl points according to their players
 ```{r}
-ggplot(data = season17) + 
-  geom_boxplot(aes(x = club_name, y = total_points), na.rm = TRUE) +   
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+boxplot_fpl <- function(df) {
+  df %>% 
+    ggplot() + 
+    geom_boxplot(aes(x = club_name, y = total_points), na.rm = TRUE)+
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    labs(title = sprintf("Boxplot of teams' FPL points in %s",
+                         unique(df$season)))
+}
+```
+## Plotting the graphs
+
+```{r, fig.width = 9, fig.height = 9}
+boxplot_fpl(season17)
+boxplot_fpl(season18)
+boxplot_fpl(season19)
 ```
 
 
