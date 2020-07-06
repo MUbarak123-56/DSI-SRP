@@ -243,6 +243,27 @@ sel_fpl(season18)
 sel_fpl(season19)
 ```
 
+## Creating a function that plots FPL points vs ICT index
+
+```{r}
+fpl_vs_ict <- function(df) {
+  df %>% 
+    filter(minutes.played >= 500) %>% 
+    ggplot() +
+    geom_point(aes(ict_index,total_points, color = position_index)) +
+    labs(title = sprintf("FPL points vs ICT index for the season %s",
+                        unique(df$season)), x = "ICT index", y = "FPL points")
+}
+```
+
+## Plotting a graph of FPL points vs ICT index
+```{r, fig.width = 9, fig.height = 9}
+fpl_vs_ict(season17)
+fpl_vs_ict(season18)
+fpl_vs_ict(season19)
+```
+
+
 ## Creating a function for printing out the first ten rows alongside selected columns
 
 ```{r}
