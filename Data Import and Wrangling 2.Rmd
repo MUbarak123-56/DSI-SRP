@@ -49,7 +49,7 @@ position_indexer <- function(df) {
     mutate(position_index = if_else(position %in% c("Goalkeeper"),
 1,if_else(position %in% c("Centre-Back", "Left-Back", "Right-Back"),
 2,if_else(position %in% c("Defensive Midfield", "Central Midfield", "Left Midfield", 
-"Right Midfield", "Midfielder","Attacking Midfield"),
+"Right Midfield", "Midfielder"),
 3,if_else(position %in% c("Left Winger","Right Winger","Attacking Midfield"),
 4,if_else(position %in% c("Forward", "Second Striker", "Centre-Forward"),5,0))))))
 }

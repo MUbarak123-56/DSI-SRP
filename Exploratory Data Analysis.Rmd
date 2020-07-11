@@ -87,7 +87,8 @@ goal_freqplot <- function(df) {
     ggplot(aes(x = goals_scored)) + 
     geom_freqpoly(aes(color = position_index), binwidth = 2) +
     labs(title = sprintf("How goal scored varied across different positions 
-                         in %s", unique(df$season)))
+                         in %s", unique(df$season))) +
+    coord_cartesian(xlim = c(0,35))
 }
 ```
 ## Plotting the graphs
@@ -122,9 +123,9 @@ boxplot_fpl(season19)
 ## Scatter plots showing the FPL points to game ratio vs the total FPL points for each season
 
 ```{r, include=FALSE}
-title1 = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2016/17"
-title2 = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2017/18"
-title3 = "FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2018/19"
+title1 = "FPL points to game ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2016/17"
+title2 = "FPL points to game ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2017/18"
+title3 = "FPL points to game ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2018/19"
 ```
 
 ```{r}
@@ -132,7 +133,7 @@ season17 %>%
   filter(minutes.played >= 500) %>% 
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
-  labs(x = "Total FPL points", y = "FPL points-to-minute ratio", 
+  labs(x = "Total FPL points", y = "FPL points-to-game ratio", 
   title = title1)
 ``` 
 
@@ -141,7 +142,7 @@ season18 %>%
   filter(minutes.played >= 500) %>% 
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
-  labs(x = "Total FPL points", y = "FPL points-to-minute ratio", 
+  labs(x = "Total FPL points", y = "FPL points-to-game ratio", 
   title = title2)
 ```
 
@@ -150,7 +151,7 @@ season19 %>%
   filter(minutes.played >= 500) %>% 
   ggplot() + 
   geom_point(aes(total_points, fpl_to_game, color = position_index), na.rm = TRUE) + 
-  labs(x = "Total FPL points", y = "FPL points-to-minute ratio",
+  labs(x = "Total FPL points", y = "FPL points-to-game ratio",
        title = title3)
 ```
 

@@ -19,9 +19,9 @@
 "18","Fernando Francisco Reges","Defensive Midfield","1987-07-25T00:00:00Z",28,"Brazil","Manchester City","Premier League","2016/2017",2016,"Fernando Francisco","Reges",0,0,18,568,10,65.7,115.2,29,1,106,21,1,0,3,0.2,"3",2.85211267605634
 "19","Ilkay Gündogan","Central Midfield","1990-10-24T00:00:00Z",25,"Germany","Manchester City","Premier League","2016/2017",2016,"Ilkay","Gündogan",3,1,41,704,8,209.6,186.8,199,2,196,59.6,3,0,0,1.3,"3",5.24147727272727
 "20","Fabian Delph","Central Midfield","1989-11-21T00:00:00Z",26,"England","Manchester City","Premier League","2016/2017",2016,"Fabian","Delph",1,0,13,224,4,42.3,68.2,43,0,62,15.3,0,0,1,0.1,"3",5.22321428571429
-"21","Kevin De Bruyne","Attacking Midfield","1991-06-28T00:00:00Z",25,"Belgium","Manchester City","Premier League","2016/2017",2016,"Kevin","De Bruyne",6,21,199,2877,34,1702,872.4,790,33,825,336.6,11,0,4,10.4,"3",6.2252346193952
-"22","David Silva","Attacking Midfield","1986-01-08T00:00:00Z",30,"Spain","Manchester City","Premier League","2016/2017",2016,"David","Silva",4,9,130,2760,32,1388.4,671.2,801,12,621,286.2,12,0,6,2.8,"3",4.23913043478261
-"23","Samir Nasri","Attacking Midfield","1987-06-26T00:00:00Z",29,"France","Manchester City","Premier League","2016/2017",2016,"Samir","Nasri",0,0,1,16,0,12.3,4.8,41,0,0,5.8,0,0,0,0.2,"3",5.625
+"21","Kevin De Bruyne","Attacking Midfield","1991-06-28T00:00:00Z",25,"Belgium","Manchester City","Premier League","2016/2017",2016,"Kevin","De Bruyne",6,21,199,2877,34,1702,872.4,790,33,825,336.6,11,0,4,10.4,"4",6.2252346193952
+"22","David Silva","Attacking Midfield","1986-01-08T00:00:00Z",30,"Spain","Manchester City","Premier League","2016/2017",2016,"David","Silva",4,9,130,2760,32,1388.4,671.2,801,12,621,286.2,12,0,6,2.8,"4",4.23913043478261
+"23","Samir Nasri","Attacking Midfield","1987-06-26T00:00:00Z",29,"France","Manchester City","Premier League","2016/2017",2016,"Samir","Nasri",0,0,1,16,0,12.3,4.8,41,0,0,5.8,0,0,0,0.2,"4",5.625
 "24","Leroy Sané","Left Winger","1996-01-11T00:00:00Z",20,"Germany","Manchester City","Premier League","2016/2017",2016,"Leroy","Sané",5,7,105,1781,15,505.1,397.2,632,8,343,153.7,9,0,4,7.5,"4",5.30600786075239
 "25","Manuel Agudo Durán","Left Winger","1986-10-15T00:00:00Z",29,"Spain","Manchester City","Premier League","2016/2017",2016,"Manuel","Agudo Durán",4,3,54,777,7,238.4,210,411,2,170,85.6,3,1,3,1,"4",6.25482625482625
 "26","Raheem Sterling","Right Winger","1994-12-08T00:00:00Z",21,"England","Manchester City","Premier League","2016/2017",2016,"Raheem","Sterling",7,14,149,2509,27,688.3,527,1170,11,468,237.7,9,0,7,10.6,"4",5.34475886807493
@@ -47,7 +47,7 @@
 "46","N'Golo Kanté","Central Midfield","1991-03-29T00:00:00Z",25,"France","Chelsea FC","Premier League","2016/2017",2016,"N'Golo","Kanté",1,1,83,3138,33,432.8,515.4,244,1,554,119,13,0,9,11.7,"3",2.38049713193117
 "47","Ruben Loftus-Cheek","Central Midfield","1996-01-23T00:00:00Z",20,"England","Chelsea FC","Premier League","2016/2017",2016,"Ruben","Loftus-Cheek",0,0,6,35,0,3.9,3.8,25,0,16,3.4,0,0,0,0.1,"3",15.4285714285714
 "48","Robert Kenedy Nunes do Nascimento","Left Midfield","1996-02-08T00:00:00Z",20,"Brazil","Chelsea FC","Premier League","2016/2017",2016,"Robert Kenedy","Nunes do Nascimento",0,0,3,90,3,11.8,1.8,46,0,8,6,0,0,0,0,"3",3
-"49","Oscar dos Santos Emboaba Junior","Attacking Midfield","1991-09-09T00:00:00Z",24,"Brazil","Chelsea FC","Premier League","2016/2017",2016,"Oscar","dos Santos Emboaba Junior",0,1,17,455,6,197.4,97.4,128,0,104,42.2,1,0,1,0.5,"3",3.36263736263736
+"49","Oscar dos Santos Emboaba Junior","Attacking Midfield","1991-09-09T00:00:00Z",24,"Brazil","Chelsea FC","Premier League","2016/2017",2016,"Oscar","dos Santos Emboaba Junior",0,1,17,455,6,197.4,97.4,128,0,104,42.2,1,0,1,0.5,"4",3.36263736263736
 "50","Eden Hazard","Left Winger","1991-01-07T00:00:00Z",25,"Belgium","Chelsea FC","Premier League","2016/2017",2016,"Eden","Hazard",16,9,224,2985,29,1306.8,1044.6,1162,33,869,351.6,17,0,3,30.6,"4",6.75376884422111
 "51","Nathan Aké","Left Winger","1996-03-13T00:00:00Z",20,"Brazil","Chelsea FC","Premier League","2016/2017",2016,"Nathan","Aké",3,1,55,834,20,55.5,373.2,147,8,267,57.5,3,0,1,6.1,"4",5.93525179856115
 "52","Willian Borges Da Silva","Right Winger","1988-08-09T00:00:00Z",27,"Brazil","Chelsea FC","Premier League","2016/2017",2016,"Willian","Borges Da Silva",8,3,114,1534,19,809.4,491.4,522,13,441,182.1,6,0,3,3.5,"4",6.6883963494133
@@ -80,10 +80,10 @@
 "79","Marouane Fellaini","Central Midfield","1987-11-22T00:00:00Z",28,"Belgium","Manchester United","Premier League","2016/2017",2016,"Marouane","Fellaini",1,0,48,1604,14,281.9,299,333,0,259,90.9,10,1,8,0.3,"3",2.69326683291771
 "80","Bastian Schweinsteiger","Central Midfield","1984-08-01T00:00:00Z",31,"Germany","Manchester United","Premier League","2016/2017",2016,"Bastian","Schweinsteiger",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,"3",NA
 "81","Scott McTominay","Central Midfield","1996-12-08T00:00:00Z",19,"Scotland","Manchester United","Premier League","2016/2017",2016,"Scott","McTominay",0,0,3,97,0,19.1,22.2,17,0,16,5.8,1,0,1,0,"3",2.78350515463918
-"82","Juan Mata","Attacking Midfield","1988-04-28T00:00:00Z",28,"Spain","Manchester United","Premier League","2016/2017",2016,"Juan","Mata",6,3,102,1614,16,747.5,457.6,598,14,457,179.9,10,0,3,2,"3",5.68773234200743
-"83","Henrikh Mkhitaryan","Attacking Midfield","1989-01-21T00:00:00Z",27,"Armenia","Manchester United","Premier League","2016/2017",2016,"Henrikh","Mkhitaryan",4,1,73,1348,8,512.2,325.8,427,3,279,126.2,10,0,1,2.1,"3",4.87388724035608
-"84","Andreas Pereira","Attacking Midfield","1996-01-01T00:00:00Z",20,"Brazil","Manchester United","Premier League","2016/2017",2016,"Andreas","Pereira",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
-"85","Angel Gomes","Attacking Midfield","2000-08-31T00:00:00Z",15,"England","Manchester United","Premier League","2016/2017",2016,"Angel","Gomes",0,0,1,3,0,3.8,0.8,0,0,2,0.5,0,0,0,0,"3",30
+"82","Juan Mata","Attacking Midfield","1988-04-28T00:00:00Z",28,"Spain","Manchester United","Premier League","2016/2017",2016,"Juan","Mata",6,3,102,1614,16,747.5,457.6,598,14,457,179.9,10,0,3,2,"4",5.68773234200743
+"83","Henrikh Mkhitaryan","Attacking Midfield","1989-01-21T00:00:00Z",27,"Armenia","Manchester United","Premier League","2016/2017",2016,"Henrikh","Mkhitaryan",4,1,73,1348,8,512.2,325.8,427,3,279,126.2,10,0,1,2.1,"4",4.87388724035608
+"84","Andreas Pereira","Attacking Midfield","1996-01-01T00:00:00Z",20,"Brazil","Manchester United","Premier League","2016/2017",2016,"Andreas","Pereira",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
+"85","Angel Gomes","Attacking Midfield","2000-08-31T00:00:00Z",15,"England","Manchester United","Premier League","2016/2017",2016,"Angel","Gomes",0,0,1,3,0,3.8,0.8,0,0,2,0.5,0,0,0,0,"4",30
 "86","Anthony Martial","Left Winger","1995-12-05T00:00:00Z",20,"France","Manchester United","Premier League","2016/2017",2016,"Anthony","Martial",4,6,95,1553,13,399.1,382.8,579,9,302,136.2,9,0,2,2.5,"4",5.50547327752737
 "87","Adnan Januzaj","Right Winger","1995-02-05T00:00:00Z",21,"Belgium","Manchester United","Premier League","2016/2017",2016,"Adnan","Januzaj",0,3,49,1628,38,470.8,226.2,364,0,158,106.4,3,1,3,0.5,"4",2.70884520884521
 "88","Jesse Lingard","Right Winger","1992-12-15T00:00:00Z",23,"England","Manchester United","Premier League","2016/2017",2016,"Jesse","Lingard",1,3,60,1360,12,522.3,229.4,439,3,227,118,7,0,3,0.8,"4",3.97058823529412
@@ -112,7 +112,7 @@
 "111","Jack Wilshere","Central Midfield","1992-01-01T00:00:00Z",24,"England","Arsenal FC","Premier League","2016/2017",2016,"Jack","Wilshere",0,3,61,1950,45,544.4,308.4,321,2,312,116.8,5,0,4,0.5,"3",2.81538461538462
 "112","Alex Oxlade-Chamberlain","Central Midfield","1993-08-15T00:00:00Z",22,"England","Arsenal FC","Premier League","2016/2017",2016,"Alex","Oxlade-Chamberlain",2,7,83,1564,22,519.9,435.4,416,3,393,137.5,4,0,1,1.4,"3",4.77621483375959
 "113","Ainsley Maitland-Niles","Right Midfield","1997-08-29T00:00:00Z",18,"England","Arsenal FC","Premier League","2016/2017",2016,"Ainsley","Maitland-Niles",0,0,1,2,0,0,2.2,0,0,5,0.2,0,0,0,0,"3",45
-"114","Mesut Özil","Attacking Midfield","1988-10-15T00:00:00Z",27,"Germany","Arsenal FC","Premier League","2016/2017",2016,"Mesut","Özil",8,11,167,2841,30,1649.3,834.4,734,19,729,322,12,0,2,7.5,"3",5.29039070749736
+"114","Mesut Özil","Attacking Midfield","1988-10-15T00:00:00Z",27,"Germany","Arsenal FC","Premier League","2016/2017",2016,"Mesut","Özil",8,11,167,2841,30,1649.3,834.4,734,19,729,322,12,0,2,7.5,"4",5.29039070749736
 "115","Alexis Sánchez","Left Winger","1988-12-19T00:00:00Z",27,"Chile","Arsenal FC","Premier League","2016/2017",2016,"Alexis","Sánchez",24,11,264,3217,41,1278.3,1357.8,1896,32,834,453.4,13,0,6,29.7,"4",7.38576313335406
 "116","Alex Iwobi","Left Winger","1996-05-03T00:00:00Z",20,"Nigeria","Arsenal FC","Premier League","2016/2017",2016,"Alex","Iwobi",3,5,89,1456,20,467.8,326.4,592,8,352,138.7,9,0,1,1.1,"4",5.50137362637363
 "117","Theo Walcott","Right Winger","1989-03-16T00:00:00Z",27,"England","Arsenal FC","Premier League","2016/2017",2016,"Theo","Walcott",10,3,122,1916,26,280.5,541.8,1023,7,380,184.1,8,0,1,4.2,"4",5.73068893528184
@@ -140,7 +140,7 @@
 "139","Georginio Wijnaldum","Central Midfield","1990-11-11T00:00:00Z",25,"Netherlands","Liverpool FC","Premier League","2016/2017",2016,"Georginio","Wijnaldum",6,9,149,2974,37,694.5,648.4,639,14,650,198.5,11,0,2,1.7,"3",4.50907868190989
 "140","James Milner","Central Midfield","1986-01-04T00:00:00Z",30,"England","Liverpool FC","Premier League","2016/2017",2016,"James","Milner",7,4,139,3154,35,937,919,493,16,682,235.2,12,0,5,4.8,"3",3.96639188332276
 "141","Marko Grujic","Central Midfield","1996-04-13T00:00:00Z",20,"Serbia","Liverpool FC","Premier League","2016/2017",2016,"Marko","Grujic",0,0,4,43,0,17.4,8.8,39,0,10,6.1,0,0,1,0.2,"3",8.37209302325581
-"142","Adam Lallana","Attacking Midfield","1988-05-10T00:00:00Z",28,"England","Liverpool FC","Premier League","2016/2017",2016,"Adam","Lallana",8,7,139,2338,32,693,679.4,825,14,543,219.5,9,0,3,9.1,"3",5.35072711719418
+"142","Adam Lallana","Attacking Midfield","1988-05-10T00:00:00Z",28,"England","Liverpool FC","Premier League","2016/2017",2016,"Adam","Lallana",8,7,139,2338,32,693,679.4,825,14,543,219.5,9,0,3,9.1,"4",5.35072711719418
 "143","Philippe Coutinho","Left Winger","1992-06-12T00:00:00Z",24,"Brazil","Liverpool FC","Premier League","2016/2017",2016,"Philippe","Coutinho",13,8,171,2228,27,1081.8,860,1125,21,631,306.5,8,0,2,26,"4",6.90754039497307
 "144","Sadio Mané","Left Winger","1992-04-10T00:00:00Z",24,"Senegal","Liverpool FC","Premier League","2016/2017",2016,"Sadio","Mané",13,7,156,2242,26,660.7,727,1074,14,502,246,8,0,4,7.8,"4",6.26226583407672
 "145","Ben Woodburn","Left Winger","1999-10-15T00:00:00Z",16,"Wales","Liverpool FC","Premier League","2016/2017",2016,"Ben","Woodburn",0,0,5,86,1,12.6,7.4,34,0,14,5.4,0,0,0,0,"4",5.23255813953488
@@ -171,7 +171,7 @@
 "170","Ryan Mason","Central Midfield","1991-06-13T00:00:00Z",25,"England","Tottenham Hotspur","Premier League","2016/2017",2016,"Ryan","Mason",1,0,26,927,27,149.6,116,137,0,126,39.8,0,0,4,0,"3",2.52427184466019
 "171","Tom Carroll","Central Midfield","1992-05-28T00:00:00Z",24,"England","Tottenham Hotspur","Premier League","2016/2017",2016,"Tom","Carroll",1,2,52,1389,18,268.2,253.8,86,4,243,61,5,0,1,2.6,"3",3.36933045356372
 "172","Harry Winks","Central Midfield","1996-02-02T00:00:00Z",20,"England","Tottenham Hotspur","Premier League","2016/2017",2016,"Harry","Winks",1,1,30,494,6,122.1,128,77,0,141,32.8,0,0,1,0,"3",5.46558704453441
-"173","Christian Eriksen","Attacking Midfield","1992-02-14T00:00:00Z",24,"Denmark","Tottenham Hotspur","Premier League","2016/2017",2016,"Christian","Eriksen",8,20,218,3159,24,1679.2,974.6,1244,30,798,389.7,16,0,0,17.9,"3",6.21082621082621
+"173","Christian Eriksen","Attacking Midfield","1992-02-14T00:00:00Z",24,"Denmark","Tottenham Hotspur","Premier League","2016/2017",2016,"Christian","Eriksen",8,20,218,3159,24,1679.2,974.6,1244,30,798,389.7,16,0,0,17.9,"4",6.21082621082621
 "174","Samuel Shashoua","Left Winger","1999-05-13T00:00:00Z",17,"England","Tottenham Hotspur","Premier League","2016/2017",2016,"Samuel","Shashoua",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
 "175","Erik Lamela","Right Winger","1992-03-04T00:00:00Z",24,"Argentina","Tottenham Hotspur","Premier League","2016/2017",2016,"Erik","Lamela",1,1,28,595,2,275.2,121.8,225,4,93,62.2,4,0,1,3.3,"4",4.23529411764706
 "176","Harry Kane","Centre-Forward","1993-07-28T00:00:00Z",22,"England","Tottenham Hotspur","Premier League","2016/2017",2016,"Harry","Kane",29,7,224,2523,19,548.4,1279,1530,33,920,336,14,0,3,23.3,"5",7.99048751486326
@@ -231,9 +231,9 @@
 "230","Moses Makasi","Central Midfield","1995-09-22T00:00:00Z",20,"England","West Ham United","Premier League","2016/2017",2016,"Moses","Makasi",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
 "231","Domingos Quina","Central Midfield","1999-11-18T00:00:00Z",16,"Portugal","West Ham United","Premier League","2016/2017",2016,"Domingos","Quina",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
 "232","Josh Cullen","Central Midfield","1996-04-07T00:00:00Z",20,"Ireland","West Ham United","Premier League","2016/2017",2016,"Josh","Cullen",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,"3",NA
-"233","Dimitri Payet","Attacking Midfield","1987-03-29T00:00:00Z",29,"France","West Ham United","Premier League","2016/2017",2016,"Dimitri","Payet",2,8,81,1513,28,1096.6,414,516,10,347,202.6,4,0,2,6.2,"3",4.81824190350297
-"234","Manuel Lanzini","Attacking Midfield","1993-02-15T00:00:00Z",23,"Argentina","West Ham United","Premier League","2016/2017",2016,"Manuel","Lanzini",8,3,133,2708,53,863.3,639,629,20,635,213.5,9,0,9,2,"3",4.42023633677991
-"235","Marcus Browne","Attacking Midfield","1997-12-18T00:00:00Z",18,"England","West Ham United","Premier League","2016/2017",2016,"Marcus","Browne",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
+"233","Dimitri Payet","Attacking Midfield","1987-03-29T00:00:00Z",29,"France","West Ham United","Premier League","2016/2017",2016,"Dimitri","Payet",2,8,81,1513,28,1096.6,414,516,10,347,202.6,4,0,2,6.2,"4",4.81824190350297
+"234","Manuel Lanzini","Attacking Midfield","1993-02-15T00:00:00Z",23,"Argentina","West Ham United","Premier League","2016/2017",2016,"Manuel","Lanzini",8,3,133,2708,53,863.3,639,629,20,635,213.5,9,0,9,2,"4",4.42023633677991
+"235","Marcus Browne","Attacking Midfield","1997-12-18T00:00:00Z",18,"England","West Ham United","Premier League","2016/2017",2016,"Marcus","Browne",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
 "236","André Ayew","Left Winger","1989-12-17T00:00:00Z",26,"Ghana","West Ham United","Premier League","2016/2017",2016,"André","Ayew",6,3,89,1439,25,233.4,324.4,505,5,257,105.6,6,0,1,1,"4",5.56636553161918
 "237","Nathan Holland","Left Winger","1998-06-19T00:00:00Z",18,"England","West Ham United","Premier League","2016/2017",2016,"Nathan","Holland",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
 "238","Gökhan Töre","Right Winger","1992-01-20T00:00:00Z",24,"Turkey","West Ham United","Premier League","2016/2017",2016,"Gökhan","Töre",0,1,10,240,4,87.8,28.2,33,0,29,14.6,1,0,0,0.1,"4",3.75
@@ -270,9 +270,9 @@
 "269","Joe Ledley","Central Midfield","1987-01-23T00:00:00Z",29,"Wales","Crystal Palace","Premier League","2016/2017",2016,"Joe","Ledley",1,1,40,1160,26,109.9,158.2,48,1,201,31.5,2,0,1,0.4,"3",3.10344827586207
 "270","Noor Husin","Central Midfield","1997-03-03T00:00:00Z",19,"Afghanistan","Crystal Palace","Premier League","2016/2017",2016,"Noor","Husin",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
 "271","Jeffrey Schlupp","Left Midfield","1992-12-23T00:00:00Z",23,"Ghana","Crystal Palace","Premier League","2016/2017",2016,"Jeffrey","Schlupp",0,2,47,1139,17,100.4,214.2,65,4,237,38.1,3,0,0,0.3,"3",3.71378402107112
-"272","Jason Puncheon","Attacking Midfield","1986-06-26T00:00:00Z",30,"England","Crystal Palace","Premier League","2016/2017",2016,"Jason","Puncheon",0,6,92,3093,53,941.8,500.2,448,6,500,188.7,7,0,9,0.7,"3",2.67701260911736
-"273","Chung-yong Lee","Attacking Midfield","1988-07-02T00:00:00Z",27,"Korea, South","Crystal Palace","Premier League","2016/2017",2016,"Chung-yong","Lee",0,1,24,471,13,125,71.2,44,0,103,23.9,2,0,0,0.3,"3",4.5859872611465
-"274","Jonathan Williams","Attacking Midfield","1993-10-09T00:00:00Z",22,"Wales","Crystal Palace","Premier League","2016/2017",2016,"Jonathan","Williams",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
+"272","Jason Puncheon","Attacking Midfield","1986-06-26T00:00:00Z",30,"England","Crystal Palace","Premier League","2016/2017",2016,"Jason","Puncheon",0,6,92,3093,53,941.8,500.2,448,6,500,188.7,7,0,9,0.7,"4",2.67701260911736
+"273","Chung-yong Lee","Attacking Midfield","1988-07-02T00:00:00Z",27,"Korea, South","Crystal Palace","Premier League","2016/2017",2016,"Chung-yong","Lee",0,1,24,471,13,125,71.2,44,0,103,23.9,2,0,0,0.3,"4",4.5859872611465
+"274","Jonathan Williams","Attacking Midfield","1993-10-09T00:00:00Z",22,"Wales","Crystal Palace","Premier League","2016/2017",2016,"Jonathan","Williams",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
 "275","Yannick Bolasie","Left Winger","1989-05-24T00:00:00Z",27,"DR Congo","Crystal Palace","Premier League","2016/2017",2016,"Yannick","Bolasie",1,4,45,1048,14,326.7,238,252,3,172,81.8,3,0,3,1.7,"4",3.86450381679389
 "276","Bakary Sako","Left Winger","1988-04-26T00:00:00Z",28,"Mali","Crystal Palace","Premier League","2016/2017",2016,"Bakary","Sako",0,0,7,142,5,31.6,21.8,32,0,29,8.7,0,0,0,0,"4",4.43661971830986
 "277","Sullay Kaikai","Left Winger","1995-08-26T00:00:00Z",20,"England","Crystal Palace","Premier League","2016/2017",2016,"Sullay","Kaikai",0,0,1,24,0,1.8,0,4,0,1,0.5,0,0,0,0,"4",3.75
@@ -304,8 +304,8 @@
 "303","James Ward-Prowse","Central Midfield","1994-11-01T00:00:00Z",21,"England","Southampton FC","Premier League","2016/2017",2016,"James","Ward-Prowse",4,4,92,1883,26,729.1,427.4,448,5,377,160.7,9,0,4,1.4,"3",4.39723844928306
 "304","Steven Davis","Central Midfield","1985-01-01T00:00:00Z",31,"Northern Ireland","Southampton FC","Premier League","2016/2017",2016,"Steven","Davis",0,3,77,2643,37,573,437.6,379,0,450,138.9,10,0,3,0.5,"3",2.62202043132804
 "305","Harrison Reed","Central Midfield","1995-01-27T00:00:00Z",21,"England","Southampton FC","Premier League","2016/2017",2016,"Harrison","Reed",0,0,3,64,1,1.4,11,0,0,16,1.3,0,0,0,0.1,"3",4.21875
-"306","Sofiane Boufal","Attacking Midfield","1993-09-17T00:00:00Z",22,"Morocco","Southampton FC","Premier League","2016/2017",2016,"Sofiane","Boufal",1,1,40,1104,22,328.6,197,265,1,160,78.6,3,0,5,0.1,"3",3.26086956521739
-"307","Jake Hesketh","Attacking Midfield","1996-03-27T00:00:00Z",20,"England","Southampton FC","Premier League","2016/2017",2016,"Jake","Hesketh",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
+"306","Sofiane Boufal","Attacking Midfield","1993-09-17T00:00:00Z",22,"Morocco","Southampton FC","Premier League","2016/2017",2016,"Sofiane","Boufal",1,1,40,1104,22,328.6,197,265,1,160,78.6,3,0,5,0.1,"4",3.26086956521739
+"307","Jake Hesketh","Attacking Midfield","1996-03-27T00:00:00Z",20,"England","Southampton FC","Premier League","2016/2017",2016,"Jake","Hesketh",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
 "308","Dusan Tadic","Left Winger","1988-11-20T00:00:00Z",27,"Serbia","Southampton FC","Premier League","2016/2017",2016,"Dusan","Tadic",3,7,108,2411,29,1144.1,455.4,819,4,376,242,13,0,4,2,"4",4.03152218996267
 "309","Nathan Redmond","Left Winger","1994-03-06T00:00:00Z",22,"England","Southampton FC","Premier League","2016/2017",2016,"Nathan","Redmond",7,1,126,2898,40,880.3,545.6,1021,13,483,243.8,12,1,2,7.4,"4",3.91304347826087
 "310","Lloyd Isgrove","Left Winger","1993-01-12T00:00:00Z",23,"Wales","Southampton FC","Premier League","2016/2017",2016,"Lloyd","Isgrove",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
@@ -331,7 +331,7 @@
 "330","Joe Allen","Central Midfield","1990-03-14T00:00:00Z",26,"Wales","Stoke City","Premier League","2016/2017",2016,"Joe","Allen",6,3,118,2930,49,539.8,576.8,675,10,525,179.4,10,0,9,6.4,"3",3.62457337883959
 "331","Charlie Adam","Central Midfield","1985-12-10T00:00:00Z",30,"Scotland","Stoke City","Premier League","2016/2017",2016,"Charlie","Adam",1,4,59,1491,23,477.6,263.4,328,5,218,106.7,6,0,7,0.3,"3",3.56136820925553
 "332","Ibrahim Afellay","Left Midfield","1986-04-02T00:00:00Z",30,"Netherlands","Stoke City","Premier League","2016/2017",2016,"Ibrahim","Afellay",0,0,15,384,5,55.2,32,63,0,63,14.8,0,0,0,0,"3",3.515625
-"333","Stephen Ireland","Attacking Midfield","1986-08-22T00:00:00Z",29,"Ireland","Stoke City","Premier League","2016/2017",2016,"Stephen","Ireland",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
+"333","Stephen Ireland","Attacking Midfield","1986-08-22T00:00:00Z",29,"Ireland","Stoke City","Premier League","2016/2017",2016,"Stephen","Ireland",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
 "334","Ramadan Sobhi","Left Winger","1997-01-23T00:00:00Z",19,"Egypt","Stoke City","Premier League","2016/2017",2016,"Ramadan","Sobhi",0,2,36,855,11,137.3,104.6,149,1,151,38.5,5,0,2,0.5,"4",3.78947368421053
 "335","Xherdan Shaqiri","Right Winger","1991-10-10T00:00:00Z",24,"Switzerland","Stoke City","Premier League","2016/2017",2016,"Xherdan","Shaqiri",4,2,80,1699,21,672.9,293.6,453,8,275,141.6,8,0,2,3,"4",4.23778693349029
 "336","Jonathan Walters","Right Winger","1983-09-20T00:00:00Z",32,"Ireland","Stoke City","Premier League","2016/2017",2016,"Jonathan","Walters",4,3,72,1304,22,198.7,294,487,3,195,98,6,0,1,0.1,"4",4.96932515337423
@@ -399,7 +399,7 @@
 "398","Andy King","Central Midfield","1988-10-29T00:00:00Z",27,"Wales","Leicester City","Premier League","2016/2017",2016,"Andy","King",1,0,41,1446,26,122.7,258.4,167,1,217,54.9,1,0,4,0.2,"3",2.55186721991701
 "399","Marc Albrighton","Right Midfield","1989-11-18T00:00:00Z",26,"England","Leicester City","Premier League","2016/2017",2016,"Marc","Albrighton",2,6,95,2412,47,719.8,483.8,272,3,468,147.6,8,0,5,2.5,"3",3.54477611940298
 "400","Jeffrey Schlupp","Left Midfield","1992-12-23T00:00:00Z",23,"Ghana","Leicester City","Premier League","2016/2017",2016,"Jeffrey","Schlupp",0,2,47,1139,17,100.4,214.2,65,4,237,38.1,3,0,0,0.3,"3",3.71378402107112
-"401","Bartosz Kapustka","Attacking Midfield","1996-12-23T00:00:00Z",19,"Poland","Leicester City","Premier League","2016/2017",2016,"Bartosz","Kapustka",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,"3",NA
+"401","Bartosz Kapustka","Attacking Midfield","1996-12-23T00:00:00Z",19,"Poland","Leicester City","Premier League","2016/2017",2016,"Bartosz","Kapustka",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,"4",NA
 "402","Demarai Gray","Left Winger","1996-06-28T00:00:00Z",20,"England","Leicester City","Premier League","2016/2017",2016,"Demarai","Gray",1,4,58,1049,20,268.8,220.4,233,0,210,72.2,4,0,2,0.5,"4",4.97616777883699
 "403","Riyad Mahrez","Right Winger","1991-02-21T00:00:00Z",25,"Algeria","Leicester City","Premier League","2016/2017",2016,"Riyad","Mahrez",6,4,120,2826,48,802.1,573,898,9,437,227.8,9,0,4,8.2,"4",3.82165605095541
 "404","Ahmed Musa","Centre-Forward","1992-10-14T00:00:00Z",23,"Nigeria","Leicester City","Premier League","2016/2017",2016,"Ahmed","Musa",2,0,39,761,20,120.8,132.6,232,5,131,47.7,1,0,1,3,"5",4.61235216819974
@@ -425,7 +425,7 @@
 "424","Tom Carroll","Central Midfield","1992-05-28T00:00:00Z",24,"England","Swansea City","Premier League","2016/2017",2016,"Tom","Carroll",1,2,52,1389,18,268.2,253.8,86,4,243,61,5,0,1,2.6,"3",3.36933045356372
 "425","Leon Britton","Central Midfield","1982-09-16T00:00:00Z",33,"England","Swansea City","Premier League","2016/2017",2016,"Leon","Britton",0,0,32,1163,24,72.8,127.8,10,0,200,21.2,5,0,3,0.1,"3",2.47635425623388
 "426","Jay Fulton","Central Midfield","1994-04-04T00:00:00Z",22,"Scotland","Swansea City","Premier League","2016/2017",2016,"Jay","Fulton",0,0,19,690,15,53.3,85.4,47,0,92,18.7,3,0,2,0,"3",2.47826086956522
-"427","Gylfi Sigurdsson","Attacking Midfield","1989-09-08T00:00:00Z",26,"Iceland","Swansea City","Premier League","2016/2017",2016,"Gylfi","Sigurdsson",9,13,181,3327,70,1302.7,905.4,1074,18,684,328.3,7,0,2,10.8,"3",4.89630297565374
+"427","Gylfi Sigurdsson","Attacking Midfield","1989-09-08T00:00:00Z",26,"Iceland","Swansea City","Premier League","2016/2017",2016,"Gylfi","Sigurdsson",9,13,181,3327,70,1302.7,905.4,1074,18,684,328.3,7,0,2,10.8,"4",4.89630297565374
 "428","Jefferson Montero","Left Winger","1989-09-01T00:00:00Z",26,"Ecuador","Swansea City","Premier League","2016/2017",2016,"Jefferson","Montero",0,1,18,380,9,134.3,82.4,99,0,76,31.5,0,0,0,0.1,"4",4.26315789473684
 "429","Wayne Routledge","Left Winger","1985-01-07T00:00:00Z",31,"England","Swansea City","Premier League","2016/2017",2016,"Wayne","Routledge",3,2,74,1917,42,428.5,273.2,355,2,228,105.5,5,0,1,0.3,"4",3.47417840375587
 "430","Daniel James","Left Winger","1997-11-10T00:00:00Z",18,"Wales","Swansea City","Premier League","2016/2017",2016,"Daniel","James",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"4",NA
@@ -464,8 +464,8 @@
 "463","Greg Olley","Right Midfield","1996-02-02T00:00:00Z",20,"England","Hull City","Premier League","2016/2017",2016,"Greg","Olley",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
 "464","Sam Clucas","Left Midfield","1990-09-25T00:00:00Z",25,"England","Hull City","Premier League","2016/2017",2016,"Sam","Clucas",3,1,87,3186,75,344.2,482.2,405,4,509,122.5,5,1,9,0.2,"3",2.45762711864407
 "465","James Weir","Left Midfield","1995-08-04T00:00:00Z",20,"England","Hull City","Premier League","2016/2017",2016,"James","Weir",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
-"466","Evandro Goebel","Attacking Midfield","1986-08-23T00:00:00Z",29,"Brazil","Hull City","Premier League","2016/2017",2016,"Evandro","Goebel",0,0,18,576,10,171,42.4,20,0,88,23.2,3,0,1,0,"3",2.8125
-"467","Shaun Maloney","Attacking Midfield","1983-01-24T00:00:00Z",33,"Scotland","Hull City","Premier League","2016/2017",2016,"Shaun","Maloney",1,2,24,283,7,70.4,104.6,58,2,86,23.4,1,0,0,0.5,"3",7.63250883392226
+"466","Evandro Goebel","Attacking Midfield","1986-08-23T00:00:00Z",29,"Brazil","Hull City","Premier League","2016/2017",2016,"Evandro","Goebel",0,0,18,576,10,171,42.4,20,0,88,23.2,3,0,1,0,"4",2.8125
+"467","Shaun Maloney","Attacking Midfield","1983-01-24T00:00:00Z",33,"Scotland","Hull City","Premier League","2016/2017",2016,"Shaun","Maloney",1,2,24,283,7,70.4,104.6,58,2,86,23.4,1,0,0,0.5,"4",7.63250883392226
 "468","Kamil Grosicki","Left Winger","1988-06-08T00:00:00Z",28,"Poland","Hull City","Premier League","2016/2017",2016,"Kamil","Grosicki",0,5,43,1143,27,360.9,133.6,309,0,132,80.3,3,0,1,0.2,"4",3.38582677165354
 "469","Lazar Markovic","Right Winger","1994-03-02T00:00:00Z",22,"Serbia","Hull City","Premier League","2016/2017",2016,"Lazar","Markovic",2,0,37,1005,15,160.3,142.2,185,2,125,48.5,5,0,4,0.1,"4",3.3134328358209
 "470","Robert Snodgrass","Right Winger","1987-09-07T00:00:00Z",28,"Scotland","Hull City","Premier League","2016/2017",2016,"Robert","Snodgrass",7,6,133,2548,56,1050.1,550.2,538,16,503,212.3,3,0,2,6.3,"4",4.6978021978022
@@ -495,7 +495,7 @@
 "494","Adlène Guédioura","Central Midfield","1985-11-12T00:00:00Z",30,"Algeria","Middlesbrough FC","Premier League","2016/2017",2016,"Adlène","Guédioura",0,1,26,861,20,169.2,123.6,100,0,131,38.7,0,0,2,0.1,"3",2.71777003484321
 "495","Stewart Downing","Left Midfield","1984-07-22T00:00:00Z",31,"England","Middlesbrough FC","Premier League","2016/2017",2016,"Stewart","Downing",1,3,77,2214,39,566.9,324.6,283,3,364,117.7,7,0,1,0.4,"3",3.13008130081301
 "496","Adam Reach","Left Midfield","1993-02-03T00:00:00Z",23,"England","Middlesbrough FC","Premier League","2016/2017",2016,"Adam","Reach",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
-"497","Gastón Ramírez","Attacking Midfield","1990-12-02T00:00:00Z",25,"Uruguay","Middlesbrough FC","Premier League","2016/2017",2016,"Gastón","Ramírez",2,3,59,1539,22,509.9,287.2,364,6,244,115.6,6,1,8,0.5,"3",3.45029239766082
+"497","Gastón Ramírez","Attacking Midfield","1990-12-02T00:00:00Z",25,"Uruguay","Middlesbrough FC","Premier League","2016/2017",2016,"Gastón","Ramírez",2,3,59,1539,22,509.9,287.2,364,6,244,115.6,6,1,8,0.5,"4",3.45029239766082
 "498","Viktor Fischer","Left Winger","1994-06-09T00:00:00Z",22,"Denmark","Middlesbrough FC","Premier League","2016/2017",2016,"Viktor","Fischer",0,3,25,438,6,121.7,82.6,165,0,91,37,1,0,0,0.2,"4",5.13698630136986
 "499","Adama Traoré","Right Winger","1996-01-25T00:00:00Z",20,"Spain","Middlesbrough FC","Premier League","2016/2017",2016,"Adama","Traoré",0,1,52,1543,22,320.5,283.2,176,2,264,77.9,6,0,1,0.1,"4",3.03305249513934
 "500","Albert Adomah","Right Winger","1987-12-13T00:00:00Z",28,"Ghana","Middlesbrough FC","Premier League","2016/2017",2016,"Albert","Adomah",0,0,3,122,2,20.5,8.4,33,0,6,6,0,0,0,0,"4",2.21311475409836
@@ -557,8 +557,8 @@
 "556","Darron Gibson","Central Midfield","1987-10-25T00:00:00Z",28,"Ireland","Sunderland AFC","Premier League","2016/2017",2016,"Darron","Gibson",0,0,17,640,12,51.5,72.4,16,0,101,13.8,1,0,4,0.1,"3",2.390625
 "557","Ethan Robson","Central Midfield","1996-10-25T00:00:00Z",19,"England","Sunderland AFC","Premier League","2016/2017",2016,"Ethan","Robson",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
 "558","Elliot Embleton","Central Midfield","1999-04-02T00:00:00Z",17,"England","Sunderland AFC","Premier League","2016/2017",2016,"Elliot","Embleton",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"3",NA
-"559","Wahbi Khazri","Attacking Midfield","1991-02-08T00:00:00Z",25,"Tunisia","Sunderland AFC","Premier League","2016/2017",2016,"Wahbi","Khazri",1,0,31,849,21,332.2,112.2,203,3,96,64.9,1,0,6,0.1,"3",3.28621908127209
-"560","George Honeyman","Attacking Midfield","1994-09-08T00:00:00Z",21,"England","Sunderland AFC","Premier League","2016/2017",2016,"George","Honeyman",0,0,7,235,4,42.7,34.2,29,0,30,10.6,1,0,1,0,"3",2.68085106382979
+"559","Wahbi Khazri","Attacking Midfield","1991-02-08T00:00:00Z",25,"Tunisia","Sunderland AFC","Premier League","2016/2017",2016,"Wahbi","Khazri",1,0,31,849,21,332.2,112.2,203,3,96,64.9,1,0,6,0.1,"4",3.28621908127209
+"560","George Honeyman","Attacking Midfield","1994-09-08T00:00:00Z",21,"England","Sunderland AFC","Premier League","2016/2017",2016,"George","Honeyman",0,0,7,235,4,42.7,34.2,29,0,30,10.6,1,0,1,0,"4",2.68085106382979
 "561","Fabio Borini","Left Winger","1991-03-29T00:00:00Z",25,"Italy","Sunderland AFC","Premier League","2016/2017",2016,"Fabio","Borini",2,0,49,1742,34,257.3,217,406,3,177,87.4,5,0,5,0.6,"4",2.53157290470723
 "562","Steven Pienaar","Left Winger","1982-03-17T00:00:00Z",34,"South Africa","Sunderland AFC","Premier League","2016/2017",2016,"Steven","Pienaar",0,0,15,802,13,134.4,90.8,98,0,77,32.3,2,1,5,0,"4",1.68329177057357
 "563","Jeremain Lens","Right Winger","1987-11-24T00:00:00Z",28,"Netherlands","Sunderland AFC","Premier League","2016/2017",2016,"Jeremain","Lens",0,0,2,69,1,31.3,14.2,52,0,12,9.7,0,0,0,0,"4",2.60869565217391

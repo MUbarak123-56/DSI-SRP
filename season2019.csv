@@ -14,8 +14,8 @@
 "13","Ilkay Gündogan","Central Midfield","1990-10-24T00:00:00Z",28,"Germany","Manchester City","Premier League","2018/2019",2018,"Ilkay","Gündogan",6,3,113,2129,15,819.7,548.8,447,10,528,181.6,13,0,3,2.3,54,"3",4.77689055894786
 "14","Phil Foden","Central Midfield","2000-05-28T00:00:00Z",19,"England","Manchester City","Premier League","2018/2019",2018,"Phil","Foden",1,0,25,328,0,133.8,85,208,3,93,42.6,2,0,0,0.2,45,"3",6.85975609756098
 "15","Fabian Delph","Central Midfield","1989-11-21T00:00:00Z",29,"England","Manchester City","Premier League","2018/2019",2018,"Fabian","Delph",0,1,29,722,9,97.8,153.8,24,2,186,27.5,3,1,1,0.3,53,"3",3.61495844875346
-"16","Kevin De Bruyne","Attacking Midfield","1991-06-28T00:00:00Z",27,"Belgium","Manchester City","Premier League","2018/2019",2018,"Kevin","De Bruyne",2,3,59,968,3,562.3,301.4,317,8,268,117.9,6,0,2,3.4,96,"3",5.48553719008264
-"17","David Silva","Attacking Midfield","1986-01-08T00:00:00Z",33,"Spain","Manchester City","Premier League","2018/2019",2018,"David","Silva",6,8,143,2399,14,1150.3,715.2,1092,14,614,295.8,16,0,2,4.4,85,"3",5.36473530637766
+"16","Kevin De Bruyne","Attacking Midfield","1991-06-28T00:00:00Z",27,"Belgium","Manchester City","Premier League","2018/2019",2018,"Kevin","De Bruyne",2,3,59,968,3,562.3,301.4,317,8,268,117.9,6,0,2,3.4,96,"4",5.48553719008264
+"17","David Silva","Attacking Midfield","1986-01-08T00:00:00Z",33,"Spain","Manchester City","Premier League","2018/2019",2018,"David","Silva",6,8,143,2399,14,1150.3,715.2,1092,14,614,295.8,16,0,2,4.4,85,"4",5.36473530637766
 "18","Leroy Sané","Left Winger","1996-01-11T00:00:00Z",23,"Germany","Manchester City","Premier League","2018/2019",2018,"Leroy","Sané",10,12,156,1857,14,645,716.8,1039,13,520,240.3,9,0,1,7.3,93,"4",7.56058158319871
 "19","Raheem Sterling","Right Winger","1994-12-08T00:00:00Z",24,"England","Manchester City","Premier League","2018/2019",2018,"Raheem","Sterling",17,15,234,2770,19,937.4,1060,1572,25,743,357.1,17,0,3,24.8,117,"4",7.6028880866426
 "20","Riyad Mahrez","Right Winger","1991-02-21T00:00:00Z",28,"Algeria","Manchester City","Premier League","2018/2019",2018,"Riyad","Mahrez",7,4,102,1331,9,450.8,459.4,731,14,349,164.1,4,0,0,1.7,82,"4",6.89706987227648
@@ -60,7 +60,7 @@
 "59","Alex Oxlade-Chamberlain","Central Midfield","1993-08-15T00:00:00Z",25,"England","Liverpool FC","Premier League","2018/2019",2018,"Alex","Oxlade-Chamberlain",0,0,2,19,0,10.8,10.2,19,0,7,4,0,0,0,0.1,64,"3",9.47368421052632
 "60","Jordan Henderson","Central Midfield","1990-06-17T00:00:00Z",28,"England","Liverpool FC","Premier League","2018/2019",2018,"Jordan","Henderson",1,3,76,1976,14,311.7,358.8,182,2,397,85.4,12,1,1,0.7,53,"3",3.46153846153846
 "61","James Milner","Central Midfield","1986-01-04T00:00:00Z",33,"England","Liverpool FC","Premier League","2018/2019",2018,"James","Milner",5,5,101,1778,13,725.2,587.2,374,12,448,169.2,9,1,5,2.5,56,"3",5.11248593925759
-"62","Adam Lallana","Attacking Midfield","1988-05-10T00:00:00Z",31,"England","Liverpool FC","Premier League","2018/2019",2018,"Adam","Lallana",0,1,23,460,3,139,85.4,113,0,96,33.8,3,0,1,0.6,69,"3",4.5
+"62","Adam Lallana","Attacking Midfield","1988-05-10T00:00:00Z",31,"England","Liverpool FC","Premier League","2018/2019",2018,"Adam","Lallana",0,1,23,460,3,139,85.4,113,0,96,33.8,3,0,1,0.6,69,"4",4.5
 "63","Sadio Mané","Left Winger","1992-04-10T00:00:00Z",27,"Senegal","Liverpool FC","Premier League","2018/2019",2018,"Sadio","Mané",22,3,231,3076,21,692.8,1015.8,1332,24,703,304,19,0,2,38.6,103,"4",6.75877763328999
 "64","Mohamed Salah","Right Winger","1992-06-15T00:00:00Z",26,"Egypt","Liverpool FC","Premier League","2018/2019",2018,"Mohamed","Salah",22,12,259,3254,20,973.9,1186.8,2168,18,687,432.7,21,0,1,33.9,132,"4",7.16349108789183
 "65","Xherdan Shaqiri","Right Winger","1991-10-10T00:00:00Z",27,"Switzerland","Liverpool FC","Premier League","2018/2019",2018,"Xherdan","Shaqiri",6,5,88,1052,6,344.7,363.6,282,4,302,99.1,7,0,2,2.1,68,"4",7.52851711026616
@@ -84,7 +84,7 @@
 "83","Oliver Skipp","Defensive Midfield","2000-09-16T00:00:00Z",18,"England","Tottenham Hotspur","Premier League","2018/2019",2018,"Oliver","Skipp",0,0,12,214,1,20.5,35.2,12,0,40,7,2,0,0,0,45,"3",5.04672897196262
 "84","Harry Winks","Central Midfield","1996-02-02T00:00:00Z",23,"England","Tottenham Hotspur","Premier League","2018/2019",2018,"Harry","Winks",1,0,53,1589,17,168.6,268.2,71,3,275,50.7,6,0,4,0.1,55,"3",3.00188797986155
 "85","Moussa Sissoko","Central Midfield","1989-08-16T00:00:00Z",29,"France","Tottenham Hotspur","Premier League","2018/2019",2018,"Moussa","Sissoko",0,3,76,2329,28,380.7,329,193,3,395,90.2,11,0,2,0.3,49,"3",2.93688278231
-"86","Christian Eriksen","Attacking Midfield","1992-02-14T00:00:00Z",27,"Denmark","Tottenham Hotspur","Premier League","2018/2019",2018,"Christian","Eriksen",8,12,161,2770,37,1148.7,876,801,15,675,283,8,0,3,7.7,92,"3",5.23104693140794
+"86","Christian Eriksen","Attacking Midfield","1992-02-14T00:00:00Z",27,"Denmark","Tottenham Hotspur","Premier League","2018/2019",2018,"Christian","Eriksen",8,12,161,2770,37,1148.7,876,801,15,675,283,8,0,3,7.7,92,"4",5.23104693140794
 "87","Erik Lamela","Right Winger","1992-03-04T00:00:00Z",27,"Argentina","Tottenham Hotspur","Premier League","2018/2019",2018,"Erik","Lamela",4,4,67,965,12,339.9,263.8,441,5,231,104.1,4,0,2,0.3,59,"4",6.24870466321244
 "88","Harry Kane","Centre-Forward","1993-07-28T00:00:00Z",25,"England","Tottenham Hotspur","Premier League","2018/2019",2018,"Harry","Kane",17,6,160,2423,31,430,824.6,1359,24,561,261.3,9,0,5,12.4,126,"5",5.94304581097813
 "89","Vincent Janssen","Centre-Forward","1994-06-15T00:00:00Z",24,"Netherlands","Tottenham Hotspur","Premier League","2018/2019",2018,"Vincent","Janssen",0,0,3,36,0,1.6,6.2,57,0,4,6.5,0,0,0,0.1,45,"5",7.5
@@ -107,8 +107,8 @@
 "106","Frederico Rodrigues de Paula Santos","Central Midfield","1993-03-05T00:00:00Z",26,"Brazil","Manchester United","Premier League","2018/2019",2018,"Frederico","Rodrigues de Paula Santos",1,2,40,1039,19,203.2,177.6,87,3,180,46.9,1,0,2,1.2,53,"3",3.46487006737247
 "107","Ander Herrera","Central Midfield","1989-08-14T00:00:00Z",29,"Spain","Manchester United","Premier League","2018/2019",2018,"Ander","Herrera",2,3,62,1397,18,234.6,399.2,257,6,302,89.2,5,0,4,0.5,50,"3",3.99427344309234
 "108","Scott McTominay","Central Midfield","1996-12-08T00:00:00Z",22,"Scotland","Manchester United","Premier League","2018/2019",2018,"Scott","McTominay",2,0,38,862,18,33.1,175.4,180,4,152,38.8,1,0,1,1.2,42,"3",3.96751740139211
-"109","Juan Mata","Attacking Midfield","1988-04-28T00:00:00Z",31,"Spain","Manchester United","Premier League","2018/2019",2018,"Juan","Mata",3,4,70,1284,15,464,258.4,262,7,274,98.6,5,0,3,1.2,61,"3",4.90654205607477
-"110","Andreas Pereira","Attacking Midfield","1996-01-01T00:00:00Z",23,"Brazil","Manchester United","Premier League","2018/2019",2018,"Andreas","Pereira",1,1,27,590,13,139.5,132.8,67,2,115,33.8,1,0,5,0.3,45,"3",4.11864406779661
+"109","Juan Mata","Attacking Midfield","1988-04-28T00:00:00Z",31,"Spain","Manchester United","Premier League","2018/2019",2018,"Juan","Mata",3,4,70,1284,15,464,258.4,262,7,274,98.6,5,0,3,1.2,61,"4",4.90654205607477
+"110","Andreas Pereira","Attacking Midfield","1996-01-01T00:00:00Z",23,"Brazil","Manchester United","Premier League","2018/2019",2018,"Andreas","Pereira",1,1,27,590,13,139.5,132.8,67,2,115,33.8,1,0,5,0.3,45,"4",4.11864406779661
 "111","Anthony Martial","Left Winger","1995-12-05T00:00:00Z",23,"France","Manchester United","Premier League","2018/2019",2018,"Anthony","Martial",10,4,122,1613,25,503.3,532.8,755,13,389,178.9,5,0,2,3.4,72,"4",6.80719156850589
 "112","Alexis Sánchez","Left Winger","1988-12-19T00:00:00Z",30,"Chile","Manchester United","Premier League","2018/2019",2018,"Alexis","Sánchez",1,5,47,869,10,297.2,207.6,307,1,168,81.1,2,0,3,1.2,100,"4",4.86766398158803
 "113","Jesse Lingard","Right Winger","1992-12-15T00:00:00Z",26,"England","Manchester United","Premier League","2018/2019",2018,"Jesse","Lingard",4,3,78,1657,26,306.1,310,395,5,270,101.1,3,0,3,2.6,67,"4",4.23657211828606
@@ -134,8 +134,8 @@
 "133","Aaron Ramsey","Central Midfield","1990-12-26T00:00:00Z",28,"Wales","Arsenal FC","Premier League","2018/2019",2018,"Aaron","Ramsey",4,6,91,1319,13,387.2,418.4,502,4,298,131,9,0,0,0.9,71,"3",6.20924943138741
 "134","Denis Suárez","Central Midfield","1994-01-06T00:00:00Z",25,"Spain","Arsenal FC","Premier League","2018/2019",2018,"Denis","Suárez",0,0,4,67,1,4.8,8.4,0,0,11,1.4,0,0,0,0.1,57,"3",5.37313432835821
 "135","Ainsley Maitland-Niles","Right Midfield","1997-08-29T00:00:00Z",21,"England","Arsenal FC","Premier League","2018/2019",2018,"Ainsley","Maitland-Niles",1,1,34,983,20,98.9,224.2,126,3,152,44.8,2,1,1,0.4,44,"3",3.11291963377416
-"136","Mesut Özil","Attacking Midfield","1988-10-15T00:00:00Z",30,"Germany","Arsenal FC","Premier League","2018/2019",2018,"Mesut","Özil",5,3,89,1732,24,714.2,429.6,254,9,363,140,5,0,2,2.6,79,"3",4.62471131639723
-"137","Henrikh Mkhitaryan","Attacking Midfield","1989-01-21T00:00:00Z",30,"Armenia","Arsenal FC","Premier League","2018/2019",2018,"Henrikh","Mkhitaryan",6,4,98,1637,26,454.9,446.4,600,12,354,150.2,3,0,1,4.6,66,"3",5.38790470372633
+"136","Mesut Özil","Attacking Midfield","1988-10-15T00:00:00Z",30,"Germany","Arsenal FC","Premier League","2018/2019",2018,"Mesut","Özil",5,3,89,1732,24,714.2,429.6,254,9,363,140,5,0,2,2.6,79,"4",4.62471131639723
+"137","Henrikh Mkhitaryan","Attacking Midfield","1989-01-21T00:00:00Z",30,"Armenia","Arsenal FC","Premier League","2018/2019",2018,"Henrikh","Mkhitaryan",6,4,98,1637,26,454.9,446.4,600,12,354,150.2,3,0,1,4.6,66,"4",5.38790470372633
 "138","Alex Iwobi","Left Winger","1996-05-03T00:00:00Z",23,"Nigeria","Arsenal FC","Premier League","2018/2019",2018,"Alex","Iwobi",3,8,99,1961,32,596.7,469,646,3,382,171.1,4,0,0,1.5,54,"4",4.54360020397756
 "139","Pierre-Emerick Aubameyang","Centre-Forward","1989-06-18T00:00:00Z",29,"Gabon","Arsenal FC","Premier League","2018/2019",2018,"Pierre-Emerick","Aubameyang",22,7,205,2722,42,484.6,984.4,1429,32,756,289.6,7,0,0,18.8,108,"5",6.77810433504776
 "140","Alexandre Lacazette","Centre-Forward","1991-05-28T00:00:00Z",28,"France","Arsenal FC","Premier League","2018/2019",2018,"Alexandre","Lacazette",13,12,166,2497,31,482.4,808,1319,20,560,260.6,6,0,2,11.4,94,"5",5.98317981577893
@@ -156,8 +156,8 @@
 "155","Tom Davies","Central Midfield","1998-06-30T00:00:00Z",20,"England","Everton FC","Premier League","2018/2019",2018,"Tom","Davies",0,0,26,975,19,96.2,122.6,103,0,127,32.1,2,0,3,0.1,50,"3",2.4
 "156","James McCarthy","Central Midfield","1990-11-12T00:00:00Z",28,"Ireland","Everton FC","Premier League","2018/2019",2018,"James","McCarthy",0,0,1,14,0,0.1,5.2,0,0,3,0.5,0,0,0,0,44,"3",6.42857142857143
 "157","Beni Baningime","Central Midfield","1998-09-09T00:00:00Z",20,"DR Congo","Everton FC","Premier League","2018/2019",2018,"Beni","Baningime",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,"3",NA
-"158","Gylfi Sigurdsson","Attacking Midfield","1989-09-08T00:00:00Z",29,"Iceland","Everton FC","Premier League","2018/2019",2018,"Gylfi","Sigurdsson",13,6,182,3122,41,1098.5,959.8,1084,20,662,314.2,15,0,3,8.3,74,"3",5.24663677130045
-"159","Kieran Dowell","Attacking Midfield","1997-10-10T00:00:00Z",21,"England","Everton FC","Premier League","2018/2019",2018,"Kieran","Dowell",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,"3",NA
+"158","Gylfi Sigurdsson","Attacking Midfield","1989-09-08T00:00:00Z",29,"Iceland","Everton FC","Premier League","2018/2019",2018,"Gylfi","Sigurdsson",13,6,182,3122,41,1098.5,959.8,1084,20,662,314.2,15,0,3,8.3,74,"4",5.24663677130045
+"159","Kieran Dowell","Attacking Midfield","1997-10-10T00:00:00Z",21,"England","Everton FC","Premier League","2018/2019",2018,"Kieran","Dowell",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,"4",NA
 "160","Ademola Lookman","Left Winger","1997-10-20T00:00:00Z",21,"England","Everton FC","Premier League","2018/2019",2018,"Ademola","Lookman",0,3,34,600,8,172.1,131.4,211,0,110,51.6,1,0,0,0.1,49,"4",5.1
 "161","Bernard Anício Caldeira Duarte","Left Winger","1992-09-08T00:00:00Z",26,"Brazil","Everton FC","Premier League","2018/2019",2018,"Bernard","Anício Caldeira Duarte",1,4,88,2108,19,589.6,366,377,5,319,133.3,13,0,5,0.3,59,"4",3.75711574952562
 "162","Theo Walcott","Right Winger","1989-03-16T00:00:00Z",30,"England","Everton FC","Premier League","2018/2019",2018,"Theo","Walcott",5,3,101,2108,33,342.9,420,699,4,292,145.7,6,0,1,2.5,59,"4",4.31214421252372
@@ -179,8 +179,8 @@
 "178","Youri Tielemans","Central Midfield","1997-05-07T00:00:00Z",22,"Belgium","Leicester City","Premier League","2018/2019",2018,"Youri","Tielemans",3,5,63,1087,14,269.7,299,249,6,267,81.8,3,0,2,1.7,60,"3",5.21619135234591
 "179","Matty James","Central Midfield","1991-07-22T00:00:00Z",27,"England","Leicester City","Premier League","2018/2019",2018,"Matty","James",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,"3",NA
 "180","Marc Albrighton","Right Midfield","1989-11-18T00:00:00Z",29,"England","Leicester City","Premier League","2018/2019",2018,"Marc","Albrighton",2,2,63,1617,17,446.8,371.2,242,4,279,106.1,5,0,3,0.3,51,"3",3.50649350649351
-"181","James Maddison","Attacking Midfield","1996-11-23T00:00:00Z",22,"England","Leicester City","Premier League","2018/2019",2018,"James","Maddison",7,7,137,2831,44,1515,801.4,769,12,619,308.4,8,1,3,5.2,66,"3",4.3553514659131
-"182","Harvey Barnes","Attacking Midfield","1997-12-09T00:00:00Z",21,"England","Leicester City","Premier League","2018/2019",2018,"Harvey","Barnes",1,3,43,1001,16,242,172.8,534,1,139,94.8,1,0,0,0.2,55,"3",3.86613386613387
+"181","James Maddison","Attacking Midfield","1996-11-23T00:00:00Z",22,"England","Leicester City","Premier League","2018/2019",2018,"James","Maddison",7,7,137,2831,44,1515,801.4,769,12,619,308.4,8,1,3,5.2,66,"4",4.3553514659131
+"182","Harvey Barnes","Attacking Midfield","1997-12-09T00:00:00Z",21,"England","Leicester City","Premier League","2018/2019",2018,"Harvey","Barnes",1,3,43,1001,16,242,172.8,534,1,139,94.8,1,0,0,0.2,55,"4",3.86613386613387
 "183","Demarai Gray","Left Winger","1996-06-28T00:00:00Z",22,"England","Leicester City","Premier League","2018/2019",2018,"Demarai","Gray",4,1,84,1978,29,310.2,320.2,599,3,244,122.5,6,0,2,0.9,54,"4",3.82204246713852
 "184","Rachid Ghezzal","Right Winger","1992-05-09T00:00:00Z",27,"Algeria","Leicester City","Premier League","2018/2019",2018,"Rachid","Ghezzal",1,0,28,733,13,307,147.8,228,2,112,68.3,1,0,3,0.1,50,"4",3.43792633015007
 "185","Jamie Vardy","Centre-Forward","1987-01-11T00:00:00Z",32,"England","Leicester City","Premier League","2018/2019",2018,"Jamie","Vardy",18,5,174,2726,36,419.9,822,1206,31,598,244.6,11,1,3,10.3,90,"5",5.74468085106383
@@ -202,8 +202,8 @@
 "201","Jack Wilshere","Central Midfield","1992-01-01T00:00:00Z",27,"England","West Ham United","Premier League","2018/2019",2018,"Jack","Wilshere",0,2,17,388,10,74,72,17,0,90,16.3,1,0,2,0.8,48,"3",3.94329896907216
 "202","Pedro Obiang","Central Midfield","1992-03-27T00:00:00Z",27,"Equatorial Guinea","West Ham United","Premier League","2018/2019",2018,"Pedro","Obiang",0,2,43,1116,21,105.9,219.2,112,1,188,43.6,2,0,0,0.8,42,"3",3.46774193548387
 "203","Mark Noble","Central Midfield","1987-05-08T00:00:00Z",32,"England","West Ham United","Premier League","2018/2019",2018,"Mark","Noble",5,5,99,2289,31,359.8,521.4,196,5,454,107.6,7,1,6,0.5,48,"3",3.89252948885976
-"204","Manuel Lanzini","Attacking Midfield","1993-02-15T00:00:00Z",26,"Argentina","West Ham United","Premier League","2018/2019",2018,"Manuel","Lanzini",1,2,31,685,12,118.2,141,165,3,148,42.4,2,0,2,0.1,64,"3",4.07299270072993
-"205","Samir Nasri","Attacking Midfield","1987-06-26T00:00:00Z",31,"France","West Ham United","Premier League","2018/2019",2018,"Samir","Nasri",0,2,14,243,2,86.6,49.8,28,0,61,16.4,1,0,0,0.2,49,"3",5.18518518518519
+"204","Manuel Lanzini","Attacking Midfield","1993-02-15T00:00:00Z",26,"Argentina","West Ham United","Premier League","2018/2019",2018,"Manuel","Lanzini",1,2,31,685,12,118.2,141,165,3,148,42.4,2,0,2,0.1,64,"4",4.07299270072993
+"205","Samir Nasri","Attacking Midfield","1987-06-26T00:00:00Z",31,"France","West Ham United","Premier League","2018/2019",2018,"Samir","Nasri",0,2,14,243,2,86.6,49.8,28,0,61,16.4,1,0,0,0.2,49,"4",5.18518518518519
 "206","Michail Antonio","Right Winger","1990-03-28T00:00:00Z",29,"England","West Ham United","Premier League","2018/2019",2018,"Michail","Antonio",6,8,118,2093,30,346.2,482,852,6,305,167,7,0,3,1.2,68,"4",5.0740563784042
 "207","Robert Snodgrass","Right Winger","1987-09-07T00:00:00Z",31,"Scotland","West Ham United","Premier League","2018/2019",2018,"Robert","Snodgrass",2,5,85,2215,33,976,460.8,380,9,364,181.5,5,0,10,0.9,50,"4",3.45372460496614
 "208","Grady Diangana","Right Winger","1998-04-19T00:00:00Z",21,"England","West Ham United","Premier League","2018/2019",2018,"Grady","Diangana",0,1,25,600,13,174.5,115,175,0,86,46.2,2,0,0,0,45,"4",3.75
@@ -229,7 +229,7 @@
 "228","Dan Gosling","Central Midfield","1990-02-01T00:00:00Z",29,"England","AFC Bournemouth","Premier League","2018/2019",2018,"Dan","Gosling",2,2,54,1734,33,164.7,400.6,217,0,237,78.1,4,0,8,0.1,47,"3",2.80276816608997
 "229","Andrew Surman","Central Midfield","1986-08-20T00:00:00Z",32,"England","AFC Bournemouth","Premier League","2018/2019",2018,"Andrew","Surman",0,0,36,1438,37,163,190.8,38,0,206,39.2,4,0,2,0.1,46,"3",2.25312934631433
 "230","Emerson Hyndman","Central Midfield","1996-04-07T00:00:00Z",23,"United States","AFC Bournemouth","Premier League","2018/2019",2018,"Emerson","Hyndman",0,0,1,37,2,1.2,14,0,0,2,1.5,0,0,0,0,44,"3",2.43243243243243
-"231","David Brooks","Attacking Midfield","1997-07-08T00:00:00Z",21,"Wales","AFC Bournemouth","Premier League","2018/2019",2018,"David","Brooks",7,6,123,2263,41,466.7,598,609,7,414,167.5,9,0,3,3.6,50,"3",4.89173663278833
+"231","David Brooks","Attacking Midfield","1997-07-08T00:00:00Z",21,"Wales","AFC Bournemouth","Premier League","2018/2019",2018,"David","Brooks",7,6,123,2263,41,466.7,598,609,7,414,167.5,9,0,3,3.6,50,"4",4.89173663278833
 "232","Ryan Fraser","Left Winger","1994-02-24T00:00:00Z",25,"Scotland","AFC Bournemouth","Premier League","2018/2019",2018,"Ryan","Fraser",7,14,181,3165,64,1382.4,930.6,696,23,751,301.2,9,0,2,23.7,64,"4",5.14691943127962
 "233","Junior Stanislas","Left Winger","1989-11-26T00:00:00Z",29,"England","AFC Bournemouth","Premier League","2018/2019",2018,"Junior","Stanislas",2,3,56,1021,24,254.5,225.2,340,3,205,82,2,0,1,0.1,60,"4",4.93633692458374
 "234","Marc Pugh","Left Winger","1987-04-02T00:00:00Z",32,"England","AFC Bournemouth","Premier League","2018/2019",2018,"Marc","Pugh",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3,43,"4",NA
@@ -267,7 +267,7 @@
 "266","Tom Cairney","Central Midfield","1991-01-20T00:00:00Z",28,"Scotland","Fulham FC","Premier League","2018/2019",2018,"Tom","Cairney",1,1,71,2188,51,586.7,358,199,3,389,114.5,5,0,0,0.5,46,"3",2.92047531992687
 "267","Stefan Johansen","Central Midfield","1991-01-08T00:00:00Z",28,"Norway","Fulham FC","Premier League","2018/2019",2018,"Stefan","Johansen",0,0,11,409,12,33,48.8,7,0,48,9,0,0,4,0,50,"3",2.42053789731051
 "268","Ryan Sessegnon","Left Midfield","2000-05-18T00:00:00Z",19,"England","Fulham FC","Premier League","2018/2019",2018,"Ryan","Sessegnon",2,7,94,2291,60,468.3,410.4,438,3,295,132,3,0,0,1.9,60,"3",3.69271060672196
-"269","Neeskens Kebano","Attacking Midfield","1992-03-10T00:00:00Z",27,"DR Congo","Fulham FC","Premier League","2018/2019",2018,"Neeskens","Kebano",0,0,7,101,3,8.3,17.6,8,0,24,3.4,0,0,0,0,43,"3",6.23762376237624
+"269","Neeskens Kebano","Attacking Midfield","1992-03-10T00:00:00Z",27,"DR Congo","Fulham FC","Premier League","2018/2019",2018,"Neeskens","Kebano",0,0,7,101,3,8.3,17.6,8,0,24,3.4,0,0,0,0,43,"4",6.23762376237624
 "270","André Schürrle","Left Winger","1990-11-06T00:00:00Z",28,"Germany","Fulham FC","Premier League","2018/2019",2018,"André","Schürrle",6,0,75,1638,43,310.6,361.8,474,2,260,114,2,0,2,2.1,55,"4",4.12087912087912
 "271","Ryan Babel","Left Winger","1986-12-19T00:00:00Z",32,"Netherlands","Fulham FC","Premier League","2018/2019",2018,"Ryan","Babel",5,4,75,1250,26,336.8,322,355,8,246,101.5,3,0,3,1.7,56,"4",5.4
 "272","Floyd Ayité","Left Winger","1988-12-15T00:00:00Z",30,"Togo","Fulham FC","Premier League","2018/2019",2018,"Floyd","Ayité",1,0,24,466,13,117.5,90,74,0,91,28,0,0,0,0.1,42,"4",4.63519313304721
@@ -290,7 +290,7 @@
 "289","Cheikhou Kouyaté","Defensive Midfield","1989-12-21T00:00:00Z",29,"Senegal","Crystal Palace","Premier League","2018/2019",2018,"Cheikhou","Kouyaté",0,3,67,1889,30,198.5,337.4,222,0,251,75.6,9,0,3,0.2,47,"3",3.1921651667549
 "290","James McArthur","Central Midfield","1987-10-07T00:00:00Z",31,"Scotland","Crystal Palace","Premier League","2018/2019",2018,"James","McArthur",3,7,121,3057,49,457.2,666.8,487,7,500,161.3,11,0,7,3.4,49,"3",3.56231599607458
 "291","Jeffrey Schlupp","Left Midfield","1992-12-23T00:00:00Z",26,"Ghana","Crystal Palace","Premier League","2018/2019",2018,"Jeffrey","Schlupp",4,3,91,1660,26,240.5,385.2,430,3,301,105.7,4,0,1,2.5,43,"3",4.93373493975904
-"292","Max Meyer","Attacking Midfield","1995-09-18T00:00:00Z",23,"Germany","Crystal Palace","Premier League","2018/2019",2018,"Max","Meyer",1,3,60,1405,24,309.9,236,433,0,223,98,6,0,3,0.2,55,"3",3.84341637010676
+"292","Max Meyer","Attacking Midfield","1995-09-18T00:00:00Z",23,"Germany","Crystal Palace","Premier League","2018/2019",2018,"Max","Meyer",1,3,60,1405,24,309.9,236,433,0,223,98,6,0,3,0.2,55,"4",3.84341637010676
 "293","Bakary Sako","Left Winger","1988-04-26T00:00:00Z",31,"Mali","Crystal Palace","Premier League","2018/2019",2018,"Bakary","Sako",0,0,4,26,2,0.5,3,0,0,10,0.3,0,0,0,0,49,"4",13.8461538461538
 "294","Wilfried Zaha","Right Winger","1992-11-10T00:00:00Z",26,"Cote d'Ivoire","Crystal Palace","Premier League","2018/2019",2018,"Wilfried","Zaha",10,11,143,3037,49,753.3,752.8,1200,13,459,270.6,11,1,8,15.6,70,"4",4.23773460651959
 "295","Andros Townsend","Right Winger","1991-07-16T00:00:00Z",27,"England","Crystal Palace","Premier League","2018/2019",2018,"Andros","Townsend",6,5,135,3007,46,928.5,743,622,8,520,229.6,11,0,1,3.5,56,"4",4.04057199866977
@@ -335,7 +335,7 @@
 "334","Mohamed Diamé","Central Midfield","1987-06-14T00:00:00Z",31,"Senegal","Newcastle United","Premier League","2018/2019",2018,"Mohamed","Diamé",0,0,56,2162,32,82.9,310.8,204,0,213,60,7,0,3,0.1,48,"3",2.33117483811286
 "335","Sean Longstaff","Central Midfield","1997-10-30T00:00:00Z",21,"England","Newcastle United","Premier League","2018/2019",2018,"Sean","Longstaff",1,1,26,686,9,71.8,130.4,106,1,117,30.9,3,0,2,0,45,"3",3.41107871720117
 "336","Matt Ritchie","Right Midfield","1989-09-10T00:00:00Z",29,"Scotland","Newcastle United","Premier League","2018/2019",2018,"Matt","Ritchie",2,8,110,2927,40,973.8,712.4,448,7,504,213.6,10,0,9,0.6,58,"3",3.38230269900922
-"337","Miguel Almirón","Attacking Midfield","1994-02-10T00:00:00Z",25,"Paraguay","Newcastle United","Premier League","2018/2019",2018,"Miguel","Almirón",0,2,28,758,11,189.8,121.4,235,0,107,54.6,3,0,0,0.2,60,"3",3.3245382585752
+"337","Miguel Almirón","Attacking Midfield","1994-02-10T00:00:00Z",25,"Paraguay","Newcastle United","Premier League","2018/2019",2018,"Miguel","Almirón",0,2,28,758,11,189.8,121.4,235,0,107,54.6,3,0,0,0.2,60,"4",3.3245382585752
 "338","Christian Atsu","Left Winger","1992-01-10T00:00:00Z",27,"Ghana","Newcastle United","Premier League","2018/2019",2018,"Christian","Atsu",1,1,55,1481,18,273,218.8,331,0,175,82.3,6,0,2,0.1,51,"4",3.34233625928427
 "339","Jacob Murphy","Right Winger","1995-02-24T00:00:00Z",24,"England","Newcastle United","Premier League","2018/2019",2018,"Jacob","Murphy",0,1,16,296,8,31.1,53.6,22,0,50,10.7,1,0,0,0,47,"4",4.86486486486486
 "340","Ayoze Pérez","Second Striker","1993-07-29T00:00:00Z",25,"Spain","Newcastle United","Premier League","2018/2019",2018,"Ayoze","Pérez",12,2,141,2916,35,585.6,783.6,954,19,541,232.1,11,0,2,3.4,61,"5",4.35185185185185
@@ -404,7 +404,7 @@
 "403","Davy Pröpper","Central Midfield","1991-09-02T00:00:00Z",27,"Netherlands","Brighton & Hove Albion","Premier League","2018/2019",2018,"Davy","Pröpper",1,1,72,2546,45,279.1,389.2,121,3,351,79.2,4,0,2,0.2,48,"3",2.5451688923802
 "404","Dale Stephens","Central Midfield","1989-12-12T00:00:00Z",29,"England","Brighton & Hove Albion","Premier League","2018/2019",2018,"Dale","Stephens",1,1,65,2484,46,249.3,498.2,88,4,404,83.6,5,1,6,3,43,"3",2.35507246376812
 "405","Beram Kayal","Central Midfield","1988-05-02T00:00:00Z",31,"Israel","Brighton & Hove Albion","Premier League","2018/2019",2018,"Beram","Kayal",1,1,36,935,17,59.3,224,53,0,136,33.6,4,0,4,0.3,44,"3",3.46524064171123
-"406","Pascal Groß","Attacking Midfield","1991-06-15T00:00:00Z",27,"Germany","Brighton & Hove Albion","Premier League","2018/2019",2018,"Pascal","Groß",3,3,80,1864,31,815.3,456,344,12,347,161.7,3,0,1,1.5,67,"3",3.86266094420601
+"406","Pascal Groß","Attacking Midfield","1991-06-15T00:00:00Z",27,"Germany","Brighton & Hove Albion","Premier League","2018/2019",2018,"Pascal","Groß",3,3,80,1864,31,815.3,456,344,12,347,161.7,3,0,1,1.5,67,"4",3.86266094420601
 "407","Alireza Jahanbakhsh","Right Winger","1993-08-11T00:00:00Z",25,"Iran","Brighton & Hove Albion","Premier League","2018/2019",2018,"Alireza","Jahanbakhsh",0,0,33,1014,16,104,94.4,162,0,61,35.5,5,0,2,0.6,67,"4",2.92899408284024
 "408","Anthony Knockaert","Right Winger","1991-11-20T00:00:00Z",27,"France","Brighton & Hove Albion","Premier League","2018/2019",2018,"Anthony","Knockaert",2,6,74,1828,41,580.8,389.6,345,2,293,131.4,3,1,4,0.5,52,"4",3.64332603938731
 "409","Jürgen Locadia","Centre-Forward","1993-11-07T00:00:00Z",25,"Netherlands","Brighton & Hove Albion","Premier League","2018/2019",2018,"Jürgen","Locadia",2,0,52,1225,21,190.8,154.4,356,6,155,69.7,3,0,1,0.3,53,"5",3.82040816326531
@@ -426,9 +426,9 @@
 "425","Philip Billing","Central Midfield","1996-06-11T00:00:00Z",23,"Denmark","Huddersfield Town","Premier League","2018/2019",2018,"Philip","Billing",2,0,63,2187,43,341,494.6,375,4,317,121.3,5,0,7,1,45,"3",2.59259259259259
 "426","Jonathan Hogg","Central Midfield","1988-12-06T00:00:00Z",30,"England","Huddersfield Town","Premier League","2018/2019",2018,"Jonathan","Hogg",0,1,54,2369,44,271.1,390.4,70,3,326,72.5,5,1,8,0.2,44,"3",2.05149852258337
 "427","Juninho Bacuna","Central Midfield","1997-08-07T00:00:00Z",21,"Netherlands","Huddersfield Town","Premier League","2018/2019",2018,"Juninho","Bacuna",1,0,39,1410,37,278.8,246.4,131,1,179,65.9,0,0,4,0.4,42,"3",2.48936170212766
-"428","Alex Pritchard","Attacking Midfield","1993-05-03T00:00:00Z",26,"England","Huddersfield Town","Premier League","2018/2019",2018,"Alex","Pritchard",2,0,69,2079,40,497.9,297.4,546,2,251,134,7,0,2,0.1,48,"3",2.98701298701299
-"429","Jason Puncheon","Attacking Midfield","1986-06-26T00:00:00Z",32,"England","Huddersfield Town","Premier League","2018/2019",2018,"Jason","Puncheon",0,0,15,392,9,79.9,43.6,39,0,50,16.3,1,0,1,1,41,"3",3.44387755102041
-"430","Abdelhamid Sabiri","Attacking Midfield","1996-11-28T00:00:00Z",22,"Germany","Huddersfield Town","Premier League","2018/2019",2018,"Abdelhamid","Sabiri",0,0,2,48,3,0.5,4.2,2,0,6,0.7,0,0,0,0,43,"3",3.75
+"428","Alex Pritchard","Attacking Midfield","1993-05-03T00:00:00Z",26,"England","Huddersfield Town","Premier League","2018/2019",2018,"Alex","Pritchard",2,0,69,2079,40,497.9,297.4,546,2,251,134,7,0,2,0.1,48,"4",2.98701298701299
+"429","Jason Puncheon","Attacking Midfield","1986-06-26T00:00:00Z",32,"England","Huddersfield Town","Premier League","2018/2019",2018,"Jason","Puncheon",0,0,15,392,9,79.9,43.6,39,0,50,16.3,1,0,1,1,41,"4",3.44387755102041
+"430","Abdelhamid Sabiri","Attacking Midfield","1996-11-28T00:00:00Z",22,"Germany","Huddersfield Town","Premier League","2018/2019",2018,"Abdelhamid","Sabiri",0,0,2,48,3,0.5,4.2,2,0,6,0.7,0,0,0,0,43,"4",3.75
 "431","Rajiv van La Parra","Left Winger","1991-06-04T00:00:00Z",28,"Netherlands","Huddersfield Town","Premier League","2018/2019",2018,"Rajiv","van La Parra",0,0,10,405,6,57.6,27.8,41,0,13,12.6,1,0,0,0,46,"4",2.22222222222222
 "432","Isaac Mbenza","Right Winger","1996-03-08T00:00:00Z",23,"Belgium","Huddersfield Town","Premier League","2018/2019",2018,"Isaac","Mbenza",1,1,38,977,25,118.5,110.4,174,0,127,40,0,0,1,0,59,"4",3.50051177072671
 "433","Elias Kachunga","Right Winger","1992-04-22T00:00:00Z",27,"DR Congo","Huddersfield Town","Premier League","2018/2019",2018,"Elias","Kachunga",0,0,29,1175,30,109,83.6,180,0,41,36.7,1,0,2,0.1,48,"4",2.22127659574468
@@ -450,7 +450,7 @@
 "449","Leandro Bacuna","Central Midfield","1991-08-21T00:00:00Z",27,"Curacao","Cardiff City","Premier League","2018/2019",2018,"Leandro","Bacuna",0,1,17,554,14,30.2,69,22,0,81,12,1,0,2,0,43,"3",2.76173285198556
 "450","Loïc Damour","Central Midfield","1991-01-08T00:00:00Z",28,"France","Cardiff City","Premier League","2018/2019",2018,"Loïc","Damour",0,0,2,21,2,1,0.6,8,0,6,0.9,0,0,0,0.1,43,"3",8.57142857142857
 "451","Kadeem Harris","Right Midfield","1993-06-08T00:00:00Z",26,"England","Cardiff City","Premier League","2018/2019",2018,"Kadeem","Harris",1,1,24,365,6,87.7,90.4,89,0,80,26.7,1,0,1,0,45,"3",5.91780821917808
-"452","Bobby Reid","Attacking Midfield","1993-02-02T00:00:00Z",26,"Jamaica","Cardiff City","Premier League","2018/2019",2018,"Bobby","Reid",5,3,80,1413,30,224.4,296.6,392,9,276,91,4,0,0,0.9,52,"3",5.09554140127389
+"452","Bobby Reid","Attacking Midfield","1993-02-02T00:00:00Z",26,"Jamaica","Cardiff City","Premier League","2018/2019",2018,"Bobby","Reid",5,3,80,1413,30,224.4,296.6,392,9,276,91,4,0,0,0.9,52,"4",5.09554140127389
 "453","Josh Murphy","Left Winger","1995-02-24T00:00:00Z",24,"England","Cardiff City","Premier League","2018/2019",2018,"Josh","Murphy",3,2,76,1810,32,267,285.6,550,3,191,109.5,7,0,2,0.2,48,"4",3.77900552486188
 "454","Nathaniel Mendez-Laing","Right Winger","1992-04-15T00:00:00Z",27,"England","Cardiff City","Premier League","2018/2019",2018,"Nathaniel","Mendez-Laing",4,1,63,978,18,255,351.4,370,6,253,97.8,4,0,0,0,48,"4",5.79754601226994
 "455","Kenneth Zohore","Centre-Forward","1994-01-31T00:00:00Z",25,"Denmark","Cardiff City","Premier League","2018/2019",2018,"Kenneth","Zohore",1,1,33,741,19,159.5,103.6,270,2,93,53.3,2,0,1,0.5,46,"5",4.0080971659919
