@@ -1,0 +1,79 @@
+---
+title: "Weekly FPL Points Dataset Creator"
+output: pdf_document
+---
+
+
+# This document is used to create new players' datasets that describe weekly performance in the Premier league from 2016-2019
+
+```{r, packages}
+library(tidyverse)
+library(tidyr)
+```
+
+## Loading the datasets
+
+```{r, load}
+s17_1 <- read.csv("~/DSI-SRP1/season2017.csv", encoding = "UTF-8")
+s17_2 <- read.csv("~/DSI-SRP1/FPL_2016.csv")
+s18_1 <- read.csv("~/DSI-SRP1/season2018.csv", encoding = "UTF-8")
+s18_2 <- read.csv("~/DSI-SRP1/FPL_2017.csv")
+s19_1 <- read.csv("~/DSI-SRP1/season2019.csv", encoding = "UTF-8")
+s19_2 <- read.csv("https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2018-19/gws/merged_gw.csv")
+```
+
+## Function for transforming and merging datsets
+
+```{r, merge function}
+fpl_merge <- function(df, df2) {
+  df2 <- df2 %>% 
+    rename(c(player_name = name))
+  df1 <- df %>% 
+    select(player_name, club_name, position_index)
+  df1$player_name <- as.character(df1$player_name)
+  df2$player_name <- as.character(df2$player_name)
+  df4 <- inner_join(df2, df1, by = "player_name")
+  return(df4)
+}
+
+```
+
+## Premier League 2016/17
+
+```{r, 2016/17}
+s17_2 <- s17_2 %>% 
+  separate(name, into = c("first", "last"), "_")
+s17_2 <- s17_2 %>% 
+  unite(name, first,last, sep = " ")
+s17_3 <- fpl_merge(s17_1,s17_2)
+nrow(s17_3)
+write_csv(s17_3, "FPL_2016_17.csv")
+```
+
+
+## Premier League 2017/18
+```{r, 2017/18}
+s18_2 <- s18_2 %>% 
+  separate(name, into = c("first", "last"), "_")
+s18_2 <- s18_2 %>% 
+  unite(name, first,last, sep = " ")
+s18_3 <- fpl_merge(s18_1,s18_2)
+nrow(s18_3)
+write_csv(s18_3, "FPL_2017_18.csv")
+```
+
+## Premier League 2018/19
+
+```{r, 2018/19}
+s19_2 <- s19_2 %>% 
+  separate(name, into = c("first", "last", "id"), "_")
+s19_2 <- s19_2 %>% 
+ unite(name, first:last, sep = " ")
+s19_2 <- s19_2 %>% 
+  select(-id)
+s19_3 <- fpl_merge(s19_1,s19_2)
+nrow(s19_3)
+write_csv(s19_3, "FPL_2018_19.csv")
+```
+
+
