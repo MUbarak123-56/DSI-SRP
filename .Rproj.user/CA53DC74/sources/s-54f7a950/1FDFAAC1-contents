@@ -1,0 +1,118 @@
+---
+title: "FPL points predictor Data Import and Wrangling"
+output: pdf_document
+---
+# This is a file for wrangling the collected datasets
+
+## FIFA 17, FIFA 18 and FIFA 19 files which contained players' attributes were first imported.
+
+```{r import}
+FIFA.17 <- read.csv("~/DSI-SRP FILES/FIFA 17.csv")
+FIFA.18 <- read.csv("~/DSI-SRP FILES/FIFA 18.csv")
+FIFA.19 <- read.csv("~/DSI-SRP FILES/FIFA 19.csv")
+```
+
+## Fantasy Premier League files from the season of 2016-17 to 2018-19 which contained players' attributes and performance were also imported. 
+
+```{r import 2}
+library(readxl)
+FPL_201617 <- read_excel("~/DSI-SRP FILES/FPL 2016-17.xlsx")
+FPL_201718 <- read_excel("~/DSI-SRP FILES/FPL 2017-18.xlsx")
+FPL_201819 <- read_excel("~/DSI-SRP FILES/FPL 2018-19.xlsx")
+
+```
+
+## The imported datasets were wrangled in order to include important rows and columns only
+
+```{r}
+library(tidyverse)
+create_new <- function(df) {
+  df %>% 
+    mutate(Full_Name = as.character(Full.Name)) %>%
+    select(Full_Name, age, overall, potential, player_positions, club)
+}
+
+FIFA.17_new <- create_new(FIFA.17)
+FIFA.18_new <- create_new(FIFA.18)
+FIFA.19_new <- create_new(FIFA.19)
+```
+
+## The newly formed FIFA datasets were merged with the FPL datasets
+
+```{r}
+season19 <- inner_join(FIFA.19_new, FPL_201819, by = c(Full_Name = "Full Name"))
+season18 <- inner_join(FIFA.18_new, FPL_201718, by = c(Full_Name = "Full Name"))
+season17 <- inner_join(FIFA.17_new, FPL_201617, by = c(Full_Name = "Full Name"))
+```
+
+## Further wrangling was used to separate the player positions' columns into multiple columns. This made players with multiple positions have one position.
+
+```{r, warning= FALSE}
+season17 <- season17 %>%
+  separate(player_positions, into = c("Position1", "Position2", "Position3"), sep = ",")
+season18 <- season18 %>%
+  separate(player_positions, into = c("Position1", "Position2", "Position3"), sep = ",")
+season19 <- season19 %>%
+  separate(player_positions, into = c("Position1", "Position2", "Position3"), sep = ",")
+```
+
+## The two additional columns were deleted in order to get rid of missing values
+
+```{r}
+remove_2p <- function(df) {
+  df %>% 
+    select(-Position2,-Position3)
+}
+season17 <- remove_2p(season17)
+season18 <- remove_2p(season18)
+season19 <- remove_2p(season19)
+```
+
+## Converting the players' positions' data type to factor and obtaining the unique levels of player positions
+
+```{r}
+season17$Position1 <- as_factor(season17$Position1)
+season18$Position1 <- as_factor(season18$Position1)
+season19$Position1 <- as_factor(season19$Position1)
+levels(season17$Position1)
+levels(season18$Position1)
+levels(season19$Position1)
+```
+
+## Creating a function that indexes players' positions
+```{r}
+position_indexer <- function(df) {
+  df %>% 
+    mutate(position_index = if_else(
+      Position1 == "GK", '1',if_else(Position1 %in% c("CB", "LWB", "RWB", "LB", "RB"), 
+'2', if_else(Position1 %in% c("CM", "CDM", "RM", "CAM", "LM"), 
+'3', if_else(Position1 %in% c("RW", "LW", "ST", "CF"), 
+'4', '0')))))
+}
+```
+
+## Applying the function above to the datasets
+
+```{r}
+season17 <- position_indexer(season17)
+season18 <- position_indexer(season18)
+season19 <- position_indexer(season19)
+```
+
+## Converting position index data type to double 
+
+```{r}
+season17$position_index <- as.double(season17$position_index)
+season18$position_index <- as.double(season18$position_index)
+season19$position_index <- as.double(season19$position_index)
+```
+
+## Saving files as csv files
+
+```{r}
+write_csv(season17, "players17.csv")
+write_csv(season18, "players18.csv")
+write_csv(season19, "players19.csv")
+```
+
+

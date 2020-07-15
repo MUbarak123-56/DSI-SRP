@@ -1,0 +1,5 @@
+"0","library(modelr)"
+"0","options(na.action = na.warn)"
+"0","value <- function(df) {"
+"0","  ggplot(df, aes(x = now_cost)) + geom_point(aes(y = total_points), color = ""blue"") + facet_wrap(~position_index)"
+"0","}"

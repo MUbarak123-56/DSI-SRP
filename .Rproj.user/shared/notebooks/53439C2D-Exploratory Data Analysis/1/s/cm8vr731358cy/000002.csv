@@ -1,0 +1,1 @@
+"0","ggplot(season17, aes(x = goals_scored)) + geom_freqpoly(aes(color = position_index), binwidth = 2)"

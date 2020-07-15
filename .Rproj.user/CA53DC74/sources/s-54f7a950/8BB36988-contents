@@ -1,0 +1,71 @@
+---
+title: "FPL points predictor Data Import and Wrangling 2"
+output: pdf_document
+---
+
+## This is a file for wrangling the second set of collected datasets
+
+## Importing the datasets on the premier league players
+
+```{r import}
+library(readxl)
+FPL_201617 <- read_excel("~/DSI-SRP FILES/FPL 2016-17.xlsx")
+FPL_201718 <- read_excel("~/DSI-SRP FILES/FPL 2017-18.xlsx")
+FPL_201819 <- read_excel("~/DSI-SRP FILES/FPL 2018-19.xlsx")
+Prem_201617 <- read_excel("~/DSI-SRP FILES/Premier League 2016-17.xlsx")
+Prem_201718 <- read_excel("~/DSI-SRP FILES/Premier League 2017-18.xlsx")
+Prem_201819 <- read_excel("~/DSI-SRP FILES/Premier League 2018-19.xlsx")
+```
+
+## Loading tidyverse
+```{r}
+library(tidyverse)
+```
+
+## Merging the datasets with the use of inner_join
+
+```{r}
+Prem_201617 <- as_tibble(Prem_201617)
+play17 <- inner_join(Prem_201617, FPL_201617, by = c(player_name = "Full Name"))
+play18 <- inner_join(Prem_201718, FPL_201718, by = c(player_name = "Full Name"))
+play19 <- inner_join(Prem_201819, FPL_201819, by = c(player_name = "Full Name"))
+```
+
+## Transforming elements in the position variable into factors
+```{r}
+play17$position <- as_factor(play17$position)
+levels(play17$position)
+play18$position <- as_factor(play18$position)
+levels(play18$position)
+play19$position <- as_factor(play19$position)
+levels(play19$position)
+```
+
+## Creating function called position_indexer that builds a new column called position_index which indexes the position of the players.
+
+```{r}
+position_indexer <- function(df) {
+  df %>% 
+    mutate(position_index = if_else(position %in% c("Goalkeeper"),
+1,if_else(position %in% c("Centre-Back", "Left-Back", "Right-Back"),
+2,if_else(position %in% c("Defensive Midfield", "Central Midfield", "Left Midfield", 
+"Right Midfield", "Midfielder","Attacking Midfield"),
+3,if_else(position %in% c("Left Winger","Right Winger","Attacking Midfield"),
+4,if_else(position %in% c("Forward", "Second Striker", "Centre-Forward"),5,0))))))
+}
+```
+
+## Applying position indexer to the three datasets
+``` {r}
+play17 <- position_indexer(play17)
+play18 <- position_indexer(play18)
+play19 <- position_indexer(play19)
+```
+
+## Saving the datasets as csv files
+```{r}
+write_csv(play17, "season17.csv")
+write_csv(play18, "season18.csv")
+write_csv(play19, "season19.csv")
+```
+

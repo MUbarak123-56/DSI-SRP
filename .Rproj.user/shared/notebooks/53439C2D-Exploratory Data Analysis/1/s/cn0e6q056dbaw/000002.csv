@@ -1,0 +1,3 @@
+"0","season19 %>% "
+"0","  filter(minutes.played >= 500) %>% "
+"0","  ggplot() + geom_point(aes(total_points, fpl_to_min, color = position_index), na.rm = TRUE) + labs(x = ""Total FPL points"", y = ""FPL points-to-minute ratio"", title = ""FPL points to minutes played ratio vs Total FPL points for players\nwho have played more than 500 minutes"")"

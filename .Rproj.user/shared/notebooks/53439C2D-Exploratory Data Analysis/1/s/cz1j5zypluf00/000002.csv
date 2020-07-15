@@ -1,0 +1,6 @@
+"0","s17 <- file('season2017.csv', encoding = ""UTF-8"")"
+"0","write.csv(season17, file = s17)"
+"0","s18 <- file('season2018.csv', encoding = 'UTF-8')"
+"0","write.csv(season18, file = s18)"
+"0","s19 <- file('season2019.csv', encoding = ""UTF-8"")"
+"0","write.csv(season19, file = s19)"

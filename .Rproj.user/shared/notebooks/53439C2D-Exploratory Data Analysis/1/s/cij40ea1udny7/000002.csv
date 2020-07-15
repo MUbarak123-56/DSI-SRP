@@ -1,0 +1,5 @@
+"0","goals_vs_assist <- function(df) {"
+"0","  df %>%"
+"0","    filter(minutes.played >= 500) %>%"
+"0","    ggplot(aes(assists, goals_scored)) + geom_point(aes(color = position_index), position = ""jitter"") + labs(title = sprintf(""Goals scored vs Assists during the %s season"", unique(df$season)), color = ""position index"")"
+"0","}"

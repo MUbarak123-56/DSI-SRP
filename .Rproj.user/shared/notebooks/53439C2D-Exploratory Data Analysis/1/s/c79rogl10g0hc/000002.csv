@@ -1,0 +1,7 @@
+"0","avg_fpl_point <- function(df) {"
+"0","  df %>% "
+"0","    group_by(club_name) %>%"
+"0","    summarize(average = mean(total_points, na.rm = TRUE)) %>%"
+"0","    ggplot() + geom_bar(aes(x = club_name, y = average, fill = club_name), stat = ""identity"") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(x = ""Club Name"", y = ""Average FPL points"", title = sprintf(""The average FPL points achieved by each team in the season %s"", unique(df$season)))"
+"0","}"
+"0","                                                                  "
