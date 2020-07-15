@@ -1,1 +1,0 @@
-"0","ggplot(data = season17) + geom_boxplot(aes(x = club_name, y = total_points), na.rm = TRUE) + theme(axis.text.x = element_text(angle = 90, hjust = 1))"

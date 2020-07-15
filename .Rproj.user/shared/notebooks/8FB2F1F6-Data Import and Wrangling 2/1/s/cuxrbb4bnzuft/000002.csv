@@ -1,6 +1,0 @@
-"0","```r
-library(readxl)
-FPL_201617 <- read_excel(\"~/DSI-SRP FILES/FPL 2016-17.xlsx\")
-```"
-"1","Error: `path` does not exist: ‘~/DSI-SRP FILES/FPL 2016-17.xlsx’
-"

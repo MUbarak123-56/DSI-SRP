@@ -1,5 +1,0 @@
-"0","sel_fpl <- function(df) {"
-"0","  df %>% "
-"0","    filter(minutes.played >= 500) %>% "
-"0","    ggplot(aes(selected_by_percent, total_points)) + geom_point(aes(color = position_index), position = ""jitter"") + labs(title = sprintf(""A graph of FPL points vs selected by percent in the season %s"", unique(df$season)), x = "" selected by percent"", y = ""FPL points"")"
-"0","}"

@@ -1,6 +1,0 @@
-"0","age_freq <- function(df) {"
-"0","  df %>% "
-"0","    group_by(age) %>% "
-"0","    summarize(mean = mean(total_points, na.rm = TRUE)) %>%"
-"0","    ggplot(aes(x = age, y = mean)) + geom_freqpoly(stat = ""identity"", color = ""purple"") + labs(title = sprintf(""A frequency polygon graph of the ages of Premier League players with respect\nto their mean FPL points during the season %s"", unique(df$season)), x = ""Age"", y = ""Average FPL points"")"
-"0","}"

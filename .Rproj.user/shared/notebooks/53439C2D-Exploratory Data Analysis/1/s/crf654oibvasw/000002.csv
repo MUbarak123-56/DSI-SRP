@@ -1,9 +1,0 @@
-"0","message(""Correlation between goal scored and total fpl points for 2016/17: "", with(season17, cor(goals_scored,total_points)))"
-"2","Correlation between goal scored and total fpl points for 2016/17: 0.700148307138786
-"
-"0","message(""Correlation between goal scored and total fpl points for 2017/18: "", with(season18, cor(goals_scored,total_points)))"
-"2","Correlation between goal scored and total fpl points for 2017/18: 0.679586851190284
-"
-"0","message(""Correlation between goal scored and total fpl points for 2018/19: "", with(season19, cor(goals_scored,total_points)))"
-"2","Correlation between goal scored and total fpl points for 2018/19: 0.703249889002981
-"

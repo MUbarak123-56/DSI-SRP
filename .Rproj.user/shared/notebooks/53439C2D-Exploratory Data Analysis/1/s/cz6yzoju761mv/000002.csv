@@ -1,7 +1,0 @@
-"0","fpl_to_minute <- function(df) {"
-"0","  df %>% "
-"0","    mutate(fpl_to_min = (total_points/minutes.played)*100)"
-"0","}"
-"0","season17 <- fpl_to_minute(season17)"
-"0","season18 <- fpl_to_minute(season18)"
-"0","season19 <- fpl_to_minute(season19)"

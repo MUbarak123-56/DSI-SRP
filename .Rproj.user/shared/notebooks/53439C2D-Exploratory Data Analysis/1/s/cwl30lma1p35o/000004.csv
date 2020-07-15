@@ -1,1 +1,0 @@
-"0","ggplot(season18, aes(goals_scored, total_points)) + geom_point(aes(color = position_index)) + labs(title = ""Total FPL points vs Goal Scored in 2017/18"")"
