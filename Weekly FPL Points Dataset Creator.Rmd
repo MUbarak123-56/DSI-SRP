@@ -29,7 +29,7 @@ fpl_merge <- function(df, df2) {
   df2 <- df2 %>% 
     rename(c(player_name = name))
   df1 <- df %>% 
-    select(player_name, club_name, position_index)
+    select(player_name, club_name, position_index, position, season)
   df1$player_name <- as.character(df1$player_name)
   df2$player_name <- as.character(df2$player_name)
   df4 <- inner_join(df2, df1, by = "player_name")
@@ -74,6 +74,48 @@ s19_2 <- s19_2 %>%
 s19_3 <- fpl_merge(s19_1,s19_2)
 nrow(s19_3)
 write_csv(s19_3, "FPL_2018_19.csv")
+
 ```
 
+## Loading newly made datasets
+
+```{r}
+data17 <- read.csv("~/DSI-SRP1/FPL_2016_17.csv")
+data18 <- read.csv("~/DSI-SRP1/FPL_2017_18.csv")
+data19 <- read.csv("~/DSI-SRP1/FPL_2018_19.csv")
+```
+
+## Function for cumulatively adding specific columns
+
+```{r, accumulated function}
+accumulated <- function(df) {
+  df %>%
+    mutate(n = 1) %>% 
+    group_by(player_name) %>% 
+    mutate(goals_scored =cumsum(goals_scored), assists =cumsum(assists),
+           ict_index =cumsum(ict_index),goals_conceded =cumsum(goals_conceded),
+           minutes =cumsum(minutes), own_goals =cumsum(own_goals), 
+           total_points =cumsum(total_points), bps =cumsum(bps),
+           clean_sheets =cumsum(clean_sheets), GW = cumsum(n)) %>% 
+    select(player_name, club_name, position, position_index, goals_scored,
+           assists, ict_index, goals_conceded, minutes, own_goals,
+           total_points, bps, clean_sheets, GW)
+}
+```
+
+## Applying the functions on the datasets
+
+```{r, applying function}
+year17 <- accumulated(data17)
+year18 <- accumulated(data18)
+year19 <- accumulated(data19)
+```
+
+## Saving the accumulated datasets to csv files
+
+```{r, saving new datasets}
+write_csv(year17, "FPL_2016_17_new.csv")
+write_csv(year18, "FPL_2017_18_new.csv")
+write_csv(year19, "FPL_2018_19_new.csv")
+```
 
