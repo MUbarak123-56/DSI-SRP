@@ -80,9 +80,9 @@ write_csv(s19_3, "FPL_2018_19.csv")
 ## Loading newly made datasets
 
 ```{r}
-data17 <- read.csv("~/DSI-SRP1/FPL_2016_17.csv")
-data18 <- read.csv("~/DSI-SRP1/FPL_2017_18.csv")
-data19 <- read.csv("~/DSI-SRP1/FPL_2018_19.csv")
+data17 <- read.csv("~/DSI-SRP1/FPL_2016_17.csv", encoding = "UTF-8")
+data18 <- read.csv("~/DSI-SRP1/FPL_2017_18.csv", encoding = "UTF-8")
+data19 <- read.csv("~/DSI-SRP1/FPL_2018_19.csv", encoding = "UTF-8")
 ```
 
 ## Function for cumulatively adding specific columns
@@ -114,11 +114,8 @@ year19 <- accumulated(data19)
 ## Saving the accumulated datasets to csv files
 
 ```{r, saving new datasets}
-new17 <- file('FPL_2016_17_new.csv', encoding = "UTF-8")
-write.csv(year17, file = new17)
-new18 <- file('FPL_2017_18_new.csv', encoding = 'UTF-8')
-write.csv(year18, file = new18)
-new19 <- file('FPL_2018_19_new.csv', encoding = "UTF-8")
-write.csv(year19, file = new19)
+write.csv(year17, "FPL_2016_17_new.csv")
+write.csv(year18, "FPL_2017_18_new.csv")
+write.csv(year19, "FPL_2018_19_new.csv")
 ```
 
