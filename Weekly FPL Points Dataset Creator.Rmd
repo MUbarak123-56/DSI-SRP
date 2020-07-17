@@ -100,7 +100,7 @@ accumulated <- function(df) {
            GW = cumsum(n)) %>% 
     select(player_name, club_name, position, position_index, goals_scored,
            assists, ict_index, goals_conceded, minutes, own_goals,
-           total_points, bps, clean_sheets, GW)
+           total_points, bps, bonus, clean_sheets, GW)
 }
 ```
 
