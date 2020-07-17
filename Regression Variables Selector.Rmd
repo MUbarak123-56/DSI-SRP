@@ -1,0 +1,67 @@
+---
+title: "Regression Variables Selector"
+output: pdf_document
+---
+
+## This document shows a step-by-step procedure of how the variables were selected for modeling
+
+## Loading the packages
+
+```{r, packages}
+library(tidyverse)
+library(lasso2)
+```
+
+## Loading the datasets
+
+```{r, load}
+s17_1 <- read.csv("~/DSI-SRP1/season2017.csv", encoding = "UTF-8")
+s17_2 <- read.csv("~/DSI-SRP1/FPL_2016_17_new.csv")
+s18_1 <- read.csv("~/DSI-SRP1/season2018.csv", encoding = "UTF-8")
+s18_2 <- read.csv("~/DSI-SRP1/FPL_2017_18_new.csv")
+s19_1 <- read.csv("~/DSI-SRP1/season2019.csv", encoding = "UTF-8")
+s19_2 <- read.csv("~/DSI-SRP1/FPL_2018_19_new.csv")
+```
+
+## Variable selector
+
+```{r}
+var_sel <- function(df) {
+  df %>% 
+    select(goals_scored,assists,total_points,minutes.played,bonus,
+           bps,goals_conceded,clean_sheets,ict_index,position_index,
+           selected_by_percent)
+}
+```
+
+
+## Part 1
+
+### This is done for the seasonal datasets that is going to be used for the first part of modeling
+
+```{r, part 1}
+s17_1n <- var_sel(s17_1)
+s18_1n <- var_sel(s18_1)
+s19_1n <- var_sel(s19_1)
+s_combined <- rbind(s17_1n, s18_1n, s19_1n)
+lasso.s <- l1ce(total_points ~., data = s_combined)
+summary(lasso.s)$coefficients
+lasso.s <- l1ce(total_points ~ ict_index + bps + clean_sheets + bonus,
+                data = s_combined)
+summary(lasso.s)$coefficients
+```
+
+## Part 2
+
+### This is done for the weekly datasets that are going to be used for the second part of modeling
+
+```{r, part 2}
+s_com_week <- rbind(s17_2, s18_2, s19_2)
+s_com_week <- s_com_week %>% 
+  select(-player_name:-position)
+lasso.w <- l1ce(total_points ~ ict_index, data = s_com_week)
+summary(lasso.w)$coefficients
+
+
+```
+
