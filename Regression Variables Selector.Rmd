@@ -35,11 +35,9 @@ var_sel <- function(df) {
 ```
 
 
-## Part 1
+### This is done using the seasonal datasets that is going to be used for modeling
 
-### This is done for the seasonal datasets that is going to be used for the first part of modeling
-
-```{r, part 1}
+```{r, variable selection}
 s17_1n <- var_sel(s17_1)
 s18_1n <- var_sel(s18_1)
 s19_1n <- var_sel(s19_1)
@@ -51,17 +49,4 @@ lasso.s <- l1ce(total_points ~ ict_index + bps + clean_sheets + bonus,
 summary(lasso.s)$coefficients
 ```
 
-## Part 2
-
-### This is done for the weekly datasets that are going to be used for the second part of modeling
-
-```{r, part 2}
-s_com_week <- rbind(s17_2, s18_2, s19_2)
-s_com_week <- s_com_week %>% 
-  select(-player_name:-position)
-lasso.w <- l1ce(total_points ~ ict_index, data = s_com_week)
-summary(lasso.w)$coefficients
-
-
-```
 

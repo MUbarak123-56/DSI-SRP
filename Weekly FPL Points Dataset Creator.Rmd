@@ -96,7 +96,8 @@ accumulated <- function(df) {
            ict_index =cumsum(ict_index),goals_conceded =cumsum(goals_conceded),
            minutes =cumsum(minutes), own_goals =cumsum(own_goals), 
            total_points =cumsum(total_points), bps =cumsum(bps),
-           clean_sheets =cumsum(clean_sheets), GW = cumsum(n)) %>% 
+           clean_sheets =cumsum(clean_sheets), bonus = cumsum(bonus),
+           GW = cumsum(n)) %>% 
     select(player_name, club_name, position, position_index, goals_scored,
            assists, ict_index, goals_conceded, minutes, own_goals,
            total_points, bps, clean_sheets, GW)
