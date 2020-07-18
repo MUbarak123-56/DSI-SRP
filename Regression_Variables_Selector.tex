@@ -1,0 +1,356 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Regression Variables Selector},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Regression Variables Selector}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\hypertarget{this-document-shows-a-step-by-step-procedure-of-how-the-variables-were-selected-for-modeling}{%
+\subsection{This document shows a step-by-step procedure of how the
+variables were selected for
+modeling}\label{this-document-shows-a-step-by-step-procedure-of-how-the-variables-were-selected-for-modeling}}
+
+\hypertarget{loading-the-packages}{%
+\subsection{Loading the packages}\label{loading-the-packages}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(tidyverse)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## -- Attaching packages ---------------------------------------- tidyverse 1.2.1 --
+\end{verbatim}
+
+\begin{verbatim}
+## v ggplot2 3.2.1     v purrr   0.3.2
+## v tibble  2.1.3     v dplyr   0.8.3
+## v tidyr   0.8.3     v stringr 1.4.0
+## v readr   1.3.1     v forcats 0.4.0
+\end{verbatim}
+
+\begin{verbatim}
+## -- Conflicts ------------------------------------------- tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(lasso2)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## R Package to solve regression problems while imposing
+##   an L1 constraint on the parameters. Based on S-plus Release 2.1
+## Copyright (C) 1998, 1999
+## Justin Lokhorst   <jlokhors@stats.adelaide.edu.au>
+## Berwin A. Turlach <bturlach@stats.adelaide.edu.au>
+## Bill Venables     <wvenable@stats.adelaide.edu.au>
+## 
+## Copyright (C) 2002
+## Martin Maechler <maechler@stat.math.ethz.ch>
+\end{verbatim}
+
+\hypertarget{loading-the-datasets}{%
+\subsection{Loading the datasets}\label{loading-the-datasets}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{s17_}\DecValTok{1}\NormalTok{ <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"~/DSI-SRP1/season2017.csv"}\NormalTok{, }\DataTypeTok{encoding =} \StringTok{"UTF-8"}\NormalTok{)}
+\NormalTok{s17_}\DecValTok{2}\NormalTok{ <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"~/DSI-SRP1/FPL_2016_17_new.csv"}\NormalTok{)}
+\NormalTok{s18_}\DecValTok{1}\NormalTok{ <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"~/DSI-SRP1/season2018.csv"}\NormalTok{, }\DataTypeTok{encoding =} \StringTok{"UTF-8"}\NormalTok{)}
+\NormalTok{s18_}\DecValTok{2}\NormalTok{ <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"~/DSI-SRP1/FPL_2017_18_new.csv"}\NormalTok{)}
+\NormalTok{s19_}\DecValTok{1}\NormalTok{ <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"~/DSI-SRP1/season2019.csv"}\NormalTok{, }\DataTypeTok{encoding =} \StringTok{"UTF-8"}\NormalTok{)}
+\NormalTok{s19_}\DecValTok{2}\NormalTok{ <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"~/DSI-SRP1/FPL_2018_19_new.csv"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{variable-selector}{%
+\subsection{Variable selector}\label{variable-selector}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{var_sel <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(df) \{}
+\NormalTok{  df }\OperatorTok{%>%}\StringTok{ }
+\StringTok{    }\KeywordTok{select}\NormalTok{(goals_scored,assists,total_points,minutes.played,bonus,}
+\NormalTok{           bps,goals_conceded,clean_sheets,ict_index,position_index,}
+\NormalTok{           selected_by_percent)}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{part-i}{%
+\subsection{Part I}\label{part-i}}
+
+\hypertarget{this-is-done-using-the-seasonal-datasets-that-is-going-to-be-used-for-modeling}{%
+\subsubsection{This is done using the seasonal datasets that is going to
+be used for
+modeling}\label{this-is-done-using-the-seasonal-datasets-that-is-going-to-be-used-for-modeling}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{s17_1n <-}\StringTok{ }\KeywordTok{var_sel}\NormalTok{(s17_}\DecValTok{1}\NormalTok{)}
+\NormalTok{s18_1n <-}\StringTok{ }\KeywordTok{var_sel}\NormalTok{(s18_}\DecValTok{1}\NormalTok{)}
+\NormalTok{s19_1n <-}\StringTok{ }\KeywordTok{var_sel}\NormalTok{(s19_}\DecValTok{1}\NormalTok{)}
+\NormalTok{s_combined <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(s17_1n, s18_1n, s19_1n)}
+\NormalTok{lasso.s <-}\StringTok{ }\KeywordTok{l1ce}\NormalTok{(total_points}\OperatorTok{~}\NormalTok{., }\DataTypeTok{data =}\NormalTok{ s_combined)}
+\KeywordTok{summary}\NormalTok{(lasso.s)}\OperatorTok{$}\NormalTok{coefficients}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##                           Value  Std. Error   Z score     Pr(>|Z|)
+## (Intercept)         16.46621655 1.438894135 11.443661 0.000000e+00
+## goals_scored         0.00000000 0.313436323  0.000000 1.000000e+00
+## assists              0.00000000 0.325963467  0.000000 1.000000e+00
+## minutes.played       0.00000000 0.003115412  0.000000 1.000000e+00
+## bonus                0.65961380 0.187782364  3.512650 4.436607e-04
+## bps                  0.08088562 0.010440822  7.747055 9.325873e-15
+## goals_conceded       0.00000000 0.104186649  0.000000 1.000000e+00
+## clean_sheets         0.67163353 0.346257177  1.939696 5.241669e-02
+## ict_index            0.16194721 0.024962065  6.487733 8.713763e-11
+## position_index       0.00000000 0.445673259  0.000000 1.000000e+00
+## selected_by_percent  0.00000000 0.139350609  0.000000 1.000000e+00
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{lasso.s <-}\StringTok{ }\KeywordTok{l1ce}\NormalTok{(total_points }\OperatorTok{~}\StringTok{ }\NormalTok{ict_index }\OperatorTok{+}\StringTok{ }\NormalTok{bps }\OperatorTok{+}\StringTok{ }\NormalTok{clean_sheets }\OperatorTok{+}\StringTok{ }\NormalTok{bonus,}
+                \DataTypeTok{data =}\NormalTok{ s_combined)}
+\KeywordTok{summary}\NormalTok{(lasso.s)}\OperatorTok{$}\NormalTok{coefficients}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##                    Value  Std. Error   Z score     Pr(>|Z|)
+## (Intercept)  25.47307218 0.814252771 31.283986 0.000000e+00
+## ict_index     0.12862290 0.017572139  7.319707 2.484679e-13
+## bps           0.07502564 0.007530691  9.962651 0.000000e+00
+## clean_sheets  0.00000000 0.334994853  0.000000 1.000000e+00
+## bonus         0.03378626 0.204580419  0.165149 8.688267e-01
+\end{verbatim}
+
+\hypertarget{part-ii}{%
+\subsection{Part II}\label{part-ii}}
+
+\hypertarget{this-is-done-by-combining-all-three-weekly-datasets}{%
+\subsubsection{This is done by combining all three weekly
+datasets}\label{this-is-done-by-combining-all-three-weekly-datasets}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{s_week <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(s17_}\DecValTok{2}\NormalTok{, s18_}\DecValTok{2}\NormalTok{, s19_}\DecValTok{2}\NormalTok{)}
+\NormalTok{s_week <-}\StringTok{ }\NormalTok{s_week }\OperatorTok{%>%}\StringTok{ }
+\StringTok{  }\KeywordTok{select}\NormalTok{(}\OperatorTok{-}\NormalTok{player_name}\OperatorTok{:-}\NormalTok{position, }\OperatorTok{-}\NormalTok{X, }\OperatorTok{-}\NormalTok{season, }\OperatorTok{-}\NormalTok{GW)}
+\NormalTok{sample.index <-}\StringTok{ }\KeywordTok{sample}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(s_week), }\KeywordTok{nrow}\NormalTok{(s_week)}\OperatorTok{*}\FloatTok{0.9}\NormalTok{, }\DataTypeTok{replace =} \OtherTok{FALSE}\NormalTok{)}
+\NormalTok{s_week1 <-}\StringTok{ }\NormalTok{s_week[}\OperatorTok{-}\NormalTok{sample.index,]}
+\NormalTok{lasso.week <-}\StringTok{ }\KeywordTok{l1ce}\NormalTok{(total_points }\OperatorTok{~}\NormalTok{., }\DataTypeTok{data =}\NormalTok{ s_week1)}
+\KeywordTok{summary}\NormalTok{(lasso.week)}\OperatorTok{$}\NormalTok{coefficients}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##                      Value  Std. Error   Z score     Pr(>|Z|)
+## (Intercept)    11.08827338 0.684798906 16.192014 0.000000e+00
+## position_index  0.00000000 0.201384170  0.000000 1.000000e+00
+## goals_scored    0.00000000 0.163724065  0.000000 1.000000e+00
+## assists         0.00000000 0.171073610  0.000000 1.000000e+00
+## ict_index       0.16956453 0.013348998 12.702416 0.000000e+00
+## goals_conceded  0.00000000 0.054122439  0.000000 1.000000e+00
+## minutes         0.00000000 0.001660515  0.000000 1.000000e+00
+## own_goals       0.00000000 0.902939750  0.000000 1.000000e+00
+## bps             0.08897269 0.005775464 15.405289 0.000000e+00
+## bonus           0.77565554 0.096877742  8.006540 1.110223e-15
+## clean_sheets    0.69286545 0.175423712  3.949668 7.825962e-05
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{lasso.week <-}\StringTok{ }\KeywordTok{l1ce}\NormalTok{(total_points }\OperatorTok{~}\StringTok{ }\NormalTok{ict_index }\OperatorTok{+}\StringTok{ }\NormalTok{bps }\OperatorTok{+}\StringTok{ }\NormalTok{bonus }\OperatorTok{+}\StringTok{ }\NormalTok{clean_sheets,}
+                   \DataTypeTok{data =}\NormalTok{ s_week1)}
+\KeywordTok{summary}\NormalTok{(lasso.week)}\OperatorTok{$}\NormalTok{coefficients}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##                    Value  Std. Error    Z score  Pr(>|Z|)
+## (Intercept)  18.35836534 0.365400493 50.2417641 0.0000000
+## ict_index     0.12708281 0.010859726 11.7022118 0.0000000
+## bps           0.08122100 0.004523396 17.9557588 0.0000000
+## bonus         0.03955345 0.112782225  0.3507064 0.7258086
+## clean_sheets  0.00000000 0.180584972  0.0000000 1.0000000
+\end{verbatim}
+
+\hypertarget{part-iii}{%
+\subsection{Part III}\label{part-iii}}
+
+\hypertarget{this-is-done-using-the-cumulative-data-over-the-three-seasons}{%
+\subsubsection{This is done using the cumulative data over the three
+seasons}\label{this-is-done-using-the-cumulative-data-over-the-three-seasons}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{scom <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"~/DSI-SRP1/FPL_ULTIMATE.csv"}\NormalTok{)}
+\NormalTok{scom <-}\StringTok{ }\NormalTok{scom }\OperatorTok{%>%}\StringTok{ }
+\StringTok{  }\KeywordTok{select}\NormalTok{(}\OperatorTok{-}\NormalTok{player_name}\OperatorTok{:-}\NormalTok{position, }\OperatorTok{-}\NormalTok{season, }\OperatorTok{-}\NormalTok{bonus, }\OperatorTok{-}\StringTok{ }\NormalTok{bps, }\OperatorTok{-}\NormalTok{total_points, }\OperatorTok{-}\NormalTok{GW, }\OperatorTok{-}\NormalTok{X)}
+\NormalTok{sample_s <-}\StringTok{ }\KeywordTok{sample}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(scom), }\KeywordTok{nrow}\NormalTok{(scom)}\OperatorTok{*}\FloatTok{0.9}\NormalTok{, }\DataTypeTok{replace =} \OtherTok{FALSE}\NormalTok{)}
+\NormalTok{scom1 <-}\StringTok{ }\NormalTok{scom[}\OperatorTok{-}\NormalTok{sample_s,]}
+\NormalTok{model <-}\StringTok{ }\KeywordTok{l1ce}\NormalTok{(ict_index }\OperatorTok{~}\StringTok{ }\NormalTok{., }\DataTypeTok{data =}\NormalTok{ scom1)}
+\KeywordTok{summary}\NormalTok{(model)}\OperatorTok{$}\NormalTok{coefficients}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##                      Value  Std. Error   Z score   Pr(>|Z|)
+## (Intercept)    49.86240197 3.028344073 16.465237 0.00000000
+## position_index  0.00000000 0.911066060  0.000000 1.00000000
+## goals_scored    3.88060344 0.261944208 14.814618 0.00000000
+## assists         6.15104152 0.318814851 19.293460 0.00000000
+## goals_conceded  0.00000000 0.182250637  0.000000 1.00000000
+## minutes         0.01123777 0.004746357  2.367663 0.01790084
+## own_goals       0.00000000 2.609005090  0.000000 1.00000000
+## clean_sheets    1.00672964 0.641847250  1.568488 0.11676731
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model <-}\StringTok{ }\KeywordTok{l1ce}\NormalTok{(ict_index }\OperatorTok{~}\StringTok{ }\NormalTok{goals_scored }\OperatorTok{+}\StringTok{ }\NormalTok{assists }\OperatorTok{+}\StringTok{ }\NormalTok{minutes }\OperatorTok{+}\StringTok{ }\NormalTok{clean_sheets,}
+              \DataTypeTok{data =}\NormalTok{ scom1)}
+\KeywordTok{summary}\NormalTok{(model)}\OperatorTok{$}\NormalTok{coefficients}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##                    Value  Std. Error   Z score   Pr(>|Z|)
+## (Intercept)  51.24909490 1.158456799 44.239108 0.00000000
+## goals_scored  3.74794709 0.245238100 15.282891 0.00000000
+## assists       6.04239239 0.319457442 18.914546 0.00000000
+## minutes       0.01084294 0.001279162  8.476600 0.00000000
+## clean_sheets  0.99606644 0.341809528  2.914098 0.00356718
+\end{verbatim}
+
+
+\end{document}
