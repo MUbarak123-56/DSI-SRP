@@ -91,7 +91,7 @@ data19 <- read.csv("~/DSI-SRP1/FPL_2018_19.csv", encoding = "UTF-8")
 accumulated <- function(df) {
   df %>% 
     mutate(n = 1) %>% 
-    group_by(player_name, club_name) %>% 
+    group_by(player_name,club_name) %>% 
     mutate(goals_scored =cumsum(goals_scored) - goals_scored, 
            assists =cumsum(assists) - assists,
            ict_index =cumsum(ict_index) - ict_index ,
@@ -146,7 +146,7 @@ nrow(year18)
 nrow(year19)
 ```
 
-## Saving the newly formed datasets to csv files
+## Saving the newly datasets to csv files
 
 ```{r, saving new datasets}
 write.csv(year17, "FPL_2016_17_new.csv")
