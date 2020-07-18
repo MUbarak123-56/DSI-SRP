@@ -58,7 +58,7 @@ summary(lasso.s)$coefficients
 s_week <- rbind(s17_2, s18_2, s19_2)
 s_week <- s_week %>% 
   select(-player_name:-position, -X, -season, -GW)
-sample.index <- sample(1:nrow(s_week), nrow(s_week)*0.9, replace = FALSE)
+sample.index <- sample(1:nrow(s_week), nrow(s_week)*0.85, replace = FALSE)
 s_week1 <- s_week[-sample.index,]
 lasso.week <- l1ce(total_points ~., data = s_week1)
 summary(lasso.week)$coefficients

@@ -104,7 +104,7 @@ accumulated <- function(df) {
            GW = cumsum(n)) %>% 
     select(player_name, club_name, position, position_index, goals_scored,
            assists, ict_index, goals_conceded, minutes, own_goals,
-           total_points, bps, bonus, clean_sheets, GW) %>% 
+           total_points, bps, bonus, clean_sheets, GW, season) %>% 
     filter(ict_index > 0)
 }
 ```
@@ -152,5 +152,39 @@ nrow(year19)
 write.csv(year17, "FPL_2016_17_new.csv")
 write.csv(year18, "FPL_2017_18_new.csv")
 write.csv(year19, "FPL_2018_19_new.csv")
+```
+
+## Variable selector
+
+```{r, var_sel}
+var_sel <- function(df) {
+  df %>% 
+    select(player_name, club_name, position, position_index, goals_scored,
+           assists, ict_index, goals_conceded, minutes, own_goals,
+           total_points, bps, bonus, clean_sheets, season)
+}
+```
+
+## Creating a dataset that combines the three seasons and cumulatively adds up certain rows
+
+```{r, 3seasons}
+data17 <- var_sel(data17)
+data18 <- var_sel(data18)
+data19 <- var_sel(data19)
+year3 <- rbind(data17, data18,data19)
+year3 <- accumulated(year3)
+```
+
+### Cleaning the cumulated season dataset
+
+```{r, 3seasons-clean}
+year3 <- year3 %>% 
+  filter(player_name != "Danny Ward")
+year3 <- rem_dup(year3)
+nrow(year3)
+```
+
+```{r, save_3seasons}
+write.csv(year3, "~/DSI-SRP1/FPL_ULTIMATE.csv")
 ```
 
