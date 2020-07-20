@@ -67,20 +67,4 @@ lasso.week <- l1ce(total_points ~ ict_index + bps + bonus + clean_sheets,
 summary(lasso.week)$coefficients
 ```
 
-## Part III
-
-### This is done using the cumulative data over the three seasons
-
-```{r, 3seasons}
-scom <- read.csv("~/DSI-SRP1/FPL_ULTIMATE.csv")
-scom <- scom %>% 
-  select(-player_name:-position, -season, -bonus, - bps, -total_points, -GW, -X)
-sample_s <- sample(1:nrow(scom), nrow(scom)*0.9, replace = FALSE)
-scom1 <- scom[-sample_s,]
-model <- l1ce(ict_index ~ ., data = scom1)
-summary(model)$coefficients
-model <- l1ce(ict_index ~ goals_scored + assists + minutes + clean_sheets,
-              data = scom1)
-summary(model)$coefficients
-```
 
