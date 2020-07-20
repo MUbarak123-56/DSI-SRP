@@ -167,12 +167,39 @@ var_sel <- function(df) {
 
 ## Creating a dataset that combines the three seasons and cumulatively adds up certain rows
 
+## Creating a new accumulated function
+
+```{r, accumulated2}
+accumulated2 <- function(df) {
+  df %>% 
+    mutate(n = 1) %>% 
+    group_by(player_name,club_name) %>% 
+    mutate(goals_scored =cumsum(goals_scored), 
+           assists =cumsum(assists),
+           ict_index =cumsum(ict_index),
+           goals_conceded =cumsum(goals_conceded),
+           minutes =cumsum(minutes), 
+           own_goals =cumsum(own_goals), 
+           total_points =cumsum(total_points), bps =cumsum(bps),
+           clean_sheets =cumsum(clean_sheets), 
+           bonus = cumsum(bonus),
+           GW = cumsum(n)) %>% 
+    select(player_name, club_name, position, position_index, goals_scored,
+           assists, ict_index, goals_conceded, minutes, own_goals,
+           total_points, bps, bonus, clean_sheets, GW, season) %>% 
+    filter(ict_index > 0)
+}
+
+```
+
+## Selecting important rows
+
 ```{r, 3seasons}
 data17 <- var_sel(data17)
 data18 <- var_sel(data18)
 data19 <- var_sel(data19)
 year3 <- rbind(data17, data18,data19)
-year3 <- accumulated(year3)
+year3 <- accumulated2(year3)
 ```
 
 ### Cleaning the cumulated season dataset
