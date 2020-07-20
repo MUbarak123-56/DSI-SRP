@@ -215,3 +215,13 @@ nrow(year3)
 write.csv(year3, "~/DSI-SRP1/FPL_ULTIMATE.csv")
 ```
 
+### 2019/20 sample dataset
+
+```{r, 2019-20}
+library(readxl)
+data <- read_excel("~/DSI-SRP1/2019_20_sample.xlsx")
+head(data)
+write.csv(data, "~/DSI-SRP1/2019_20_sample.csv")
+
+```
+
