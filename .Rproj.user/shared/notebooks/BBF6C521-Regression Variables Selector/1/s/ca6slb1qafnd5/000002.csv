@@ -1,0 +1,6 @@
+"0","var_sel <- function(df) {"
+"0","  df %>% "
+"0","    select(goals_scored,assists,total_points,minutes.played,bonus,"
+"0","           bps,goals_conceded,clean_sheets,ict_index,position_index,"
+"0","           selected_by_percent)"
+"0","}"

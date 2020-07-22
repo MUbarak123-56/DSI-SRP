@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"rbind(s17_2, s18_2, s19_2)","line_number":0}],"message":"Error in rbind(s17_2, s18_2, s19_2) : object 's17_2' not found\n"}

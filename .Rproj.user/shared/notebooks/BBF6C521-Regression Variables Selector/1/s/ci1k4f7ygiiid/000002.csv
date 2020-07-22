@@ -1,0 +1,3 @@
+"0","s_com_week <- rbind(s17_2, s18_2, s19_2)"
+"2","Error in rbind(s17_2, s18_2, s19_2) : object 's17_2' not found
+"

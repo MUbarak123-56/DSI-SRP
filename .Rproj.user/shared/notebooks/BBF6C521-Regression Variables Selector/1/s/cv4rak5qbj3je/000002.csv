@@ -1,0 +1,6 @@
+"0","s17_1 <- read.csv(""~/DSI-SRP1/season2017.csv"", encoding = ""UTF-8"")"
+"0","s17_2 <- read.csv(""~/DSI-SRP1/FPL_2016_17_new.csv"")"
+"0","s18_1 <- read.csv(""~/DSI-SRP1/season2018.csv"", encoding = ""UTF-8"")"
+"0","s18_2 <- read.csv(""~/DSI-SRP1/FPL_2017_18_new.csv"")"
+"0","s19_1 <- read.csv(""~/DSI-SRP1/season2019.csv"", encoding = ""UTF-8"")"
+"0","s19_2 <- read.csv(""~/DSI-SRP1/FPL_2018_19_new.csv"")"
