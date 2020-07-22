@@ -1,6 +1,5 @@
 from pycaret.regression import load_model, predict_model
 import pandas as pd
-import numpy as np
 import streamlit as st
 
 fpl_model = load_model("Fantasy_predictive_model")
@@ -12,7 +11,7 @@ def predict(model, input_df):
 
 def run():
     from PIL import Image
-    image = Image.open('logo-premier-league.jpg')
+    image = Image.open('Premier-League-logo.png')
     st.image(image, use_column_width = True)
 
     st.title('Fantasy Premier League Predictor app')
@@ -33,17 +32,19 @@ def run():
     clean_sheets = st.number_input('Clean Sheets', min_value = 0, value = 0)
     position_index = st.selectbox('Position Index', [1,2,3,4,5])
     matches = st.number_input('Games Played', min_value = 0, value = 0)
+    actual_points = st.number_input('FPL Points', min_value = 0, value = 0)
 
     output = 0
-    fpl_dict = {'goals_scored':goals_scored, 'minutes':minutes, 'assists':assists, 'clean_sheets':clean_sheets,'position_index':position_index}
+    fpl_dict = {'goals_scored':goals_scored, 'assists':assists, 'minutes': minutes,'clean_sheets':clean_sheets,'position_index':position_index}
     fpl_input = pd.DataFrame([fpl_dict])
 
     if st.button("Calculate FPL points per game"):
         output = predict(model = fpl_model, input_df = fpl_input)
-        output = float(output)
         output = (output/minutes)*90
-        st.write(name, "has a predicted FPL points to Game ratio of %.2f"%(output), "after playing", str(matches), "games.")
-    st.success('%.2f'%(float(output)))
+        st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
+        st.success('%.2f'%(float(output))) 
+        fpg = (actual_points/minutes)*90
+        st.write('His actual FPL points to game ratio is: %.2f'%(float(fpg)))
 
 if __name__ == '__main__':
     run()
