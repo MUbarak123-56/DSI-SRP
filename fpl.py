@@ -42,7 +42,8 @@ def run():
         output = predict(model = fpl_model, input_df = fpl_input)
         output = float(output)
         output = (output/minutes)*90
-    st.success('The predicted FPL points per game is %.2f'%(float(output)))
+        st.write(name, "has a predicted FPL points to Game ratio of %.2f"%(output), "after playing", str(matches), "games.")
+    st.success('%.2f'%(float(output)))
 
 if __name__ == '__main__':
     run()
