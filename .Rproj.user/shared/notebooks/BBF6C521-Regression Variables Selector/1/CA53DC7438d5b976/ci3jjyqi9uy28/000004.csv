@@ -1,7 +1,0 @@
-"0","scom <- rbind(s17_2, s18_2, s19_2)"
-"0","scom <- scom %>% "
-"0","  select(-player_name:-position)"
-"0","model <- l1ce(total_points ~ ., data = scom)"
-"2","Error in l1ce(total_points ~ ., data = scom) : 
-  'Calloc' could not allocate memory (18446744072136003584 of 8 bytes)
-"
