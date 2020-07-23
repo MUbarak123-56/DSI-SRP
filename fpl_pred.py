@@ -1,13 +1,12 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import pickle
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
 
-fpl_ult = pd.read_csv("~/DSI-SRP1/FPL_ULTIMATE.csv", encoding = "latin1")
+fpl_ult = pd.read_csv("FPL_ULTIMATE.csv", encoding = "latin1")
 fpl_ult = fpl_ult.drop("Unnamed: 0", axis = 1)
 fpl_ultx = fpl_ult[['goals_scored', 'assists', 'minutes', 'clean_sheets', 'position_index']]
 fpl_ulty = fpl_ult['total_points']
