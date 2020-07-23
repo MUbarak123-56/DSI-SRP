@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run fpl.py
+web: sh setup.sh && streamlit run fpl_pred.py
