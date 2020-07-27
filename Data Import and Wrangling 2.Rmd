@@ -7,7 +7,7 @@ output: pdf_document
 
 ## Importing the datasets on the premier league players
 
-```{r import}
+```{r, import}
 library(readxl)
 FPL_201617 <- read_excel("~/DSI-SRP FILES/FPL 2016-17.xlsx")
 FPL_201718 <- read_excel("~/DSI-SRP FILES/FPL 2017-18.xlsx")
@@ -18,13 +18,13 @@ Prem_201819 <- read_excel("~/DSI-SRP FILES/Premier League 2018-19.xlsx")
 ```
 
 ## Loading tidyverse
-```{r}
+```{r, packages}
 library(tidyverse)
 ```
 
 ## Merging the datasets with the use of inner_join
 
-```{r}
+```{r, merge}
 Prem_201617 <- as_tibble(Prem_201617)
 play17 <- inner_join(Prem_201617, FPL_201617, by = c(player_name = "Full Name"))
 play18 <- inner_join(Prem_201718, FPL_201718, by = c(player_name = "Full Name"))
@@ -32,7 +32,7 @@ play19 <- inner_join(Prem_201819, FPL_201819, by = c(player_name = "Full Name"))
 ```
 
 ## Transforming elements in the position variable into factors
-```{r}
+```{r, pos-to-fac}
 play17$position <- as_factor(play17$position)
 levels(play17$position)
 play18$position <- as_factor(play18$position)
@@ -43,7 +43,7 @@ levels(play19$position)
 
 ## Creating function called position_indexer that builds a new column called position_index which indexes the position of the players.
 
-```{r}
+```{r, pos-index}
 position_indexer <- function(df) {
   df %>% 
     mutate(position_index = if_else(position %in% c("Goalkeeper"),
@@ -63,7 +63,7 @@ play19 <- position_indexer(play19)
 ```
 
 ## Saving the datasets as csv files
-```{r}
+```{r, save-file}
 write_csv(play17, "season17.csv")
 write_csv(play18, "season18.csv")
 write_csv(play19, "season19.csv")

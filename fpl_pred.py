@@ -34,10 +34,12 @@ def run():
     name = st.text_input('Name')
     goals_scored = st.number_input('Goals', min_value = 0, value = 0)
     assists = st.number_input('Assists', min_value = 0, value = 0)
-    minutes = st.number_input('Minutes', min_value = 0, value = 0)
-    clean_sheets = st.number_input('Clean Sheets', min_value = 0, value = 0)
-    position_index = st.selectbox('Position Index', [1,2,3,4,5])
+    minutes = st.number_input('Minutes Played', min_value = 0, value = 0)
     matches = st.number_input('Games Played', min_value = 0, value = 0)
+    clean_sheets = st.number_input('Clean Sheets', min_value = 0, value = 0)
+    st.write("Refer to the guide above for position index")
+    position_index = st.selectbox('Position Index', [1,2,3,4,5])
+    st.write("Use this link to find your players' FPL point: https://fantasy.premierleague.com/statistics")
     actual_points = st.number_input('FPL Points', min_value = 0, value = 0)
 
     output = 0

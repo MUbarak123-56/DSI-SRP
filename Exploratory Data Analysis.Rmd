@@ -6,7 +6,7 @@ output: pdf_document
 ## This is a file for conductiong explorative data analysis of the premier league players' dataset
 
 ## Importing the datasets
-```{r Import}
+```{r, load-data}
 season17 <- read.csv("~/DSI-SRP1/season17.csv", encoding="UTF-8")
 season18 <- read.csv("~/DSI-SRP1/season18.csv", encoding="UTF-8")
 season19 <- read.csv("~/DSI-SRP1/season19.csv", encoding="UTF-8")
@@ -14,12 +14,12 @@ season19 <- read.csv("~/DSI-SRP1/season19.csv", encoding="UTF-8")
 
 ## Loading the tidyverse package
 
-```{r}
+```{r, packages}
 library(tidyverse)
 ```
 
 ## Calculating correlation coefficients between goal scored and total FPL points
-```{r}
+```{r, cor}
 message("Correlation between goal scored and total fpl points for 2016/17: ",
         with(season17, cor(goals_scored,total_points)))
 message("Correlation between goal scored and total fpl points for 2017/18: ",
@@ -29,14 +29,14 @@ message("Correlation between goal scored and total fpl points for 2018/19: ",
 ```
 
 ## Changing the datatype of the position_index to factor
-```{r}
+```{r, pos_ind}
 season17$position_index <- as_factor(season17$position_index)
 season18$position_index <- as_factor(season18$position_index)
 season19$position_index <- as_factor(season19$position_index)
 ```
 
 ## Creating a funtion to calculate a new metric called total fpl points to game played
-```{r}
+```{r, fpl_to_game}
 fpl_to_gaming <- function(df) {
   df %>% 
     mutate(fpl_to_game = (total_points/minutes.played)*90)
@@ -47,7 +47,7 @@ season19 <- fpl_to_gaming(season19)
 ```
 
 ## Scatter plots graph to highlight how the goals scored vary with fpl points
-```{r}
+```{r, gs_vs_fpl_points}
 ggplot(season17, aes(goals_scored, total_points)) + 
   geom_point(aes(color = position_index)) + 
   labs(title = "Total FPL points vs Goal Scored in 2016/17")
@@ -60,7 +60,7 @@ ggplot(season19, aes(goals_scored, total_points)) +
 ```
 
 ## Bar graphs to show how the number of players vary per team with regards to position
-```{r}
+```{r, pos_bar-gs}
 position_bar <- function(df) {
   df %>% 
     ggplot(aes(club_name)) + 
@@ -81,7 +81,7 @@ position_bar(season19)
 
 ## Creating frequency plot for goal scored and how it varies for the players' position
 
-```{r}
+```{r, freqplot-gs}
 goal_freqplot <- function(df) {
   df %>% 
     ggplot(aes(x = goals_scored)) + 
@@ -101,7 +101,7 @@ goal_freqplot(season19)
 
 
 ## Creating boxplots to show the distiribution of the teams' fpl points according to their players
-```{r}
+```{r, boxplot-fpl}
 boxplot_fpl <- function(df) {
   df %>% 
     ggplot() + 
@@ -128,7 +128,7 @@ title2 = "FPL points to game ratio vs Total FPL points for players\nwho have pla
 title3 = "FPL points to game ratio vs Total FPL points for players\nwho have played more than 500 minutes in 2018/19"
 ```
 
-```{r}
+```{r, fpl_game_vs_fpl_points}
 season17 %>% 
   filter(minutes.played >= 500) %>% 
   ggplot() + 
@@ -157,7 +157,7 @@ season19 %>%
 
 ## Calculating the average fpl points per team and building a bar chart to show the average fpl points per team
 
-```{r}
+```{r, bar_fpl}
 avg_fpl_point <- function(df) {
   df %>% 
     group_by(club_name) %>%
@@ -180,7 +180,7 @@ avg_fpl_point(season19)
 
 ## Plotting graphs of goals scored vs assists made for every season
 
-```{r}
+```{r, gs_vs_assists}
 goals_vs_assist <- function(df) {
   df %>%
     filter(minutes.played >= 500) %>%
@@ -199,7 +199,7 @@ goals_vs_assist(season19)
 
 ## Ranking the players with the top 10 fpl points per season
 
-```{r}
+```{r, top10_fpl}
 fpl_point_rank <- function(df) {
   df %>% 
     mutate(ranking = dense_rank(desc(total_points))) %>%
@@ -223,7 +223,7 @@ fpl_point_rank(season19)
 
 ## Plotting the total FPL points vs players' cost for every season
 
-```{r}
+```{r, fpl_vs_cost}
 library(modelr)
 options(na.action = na.warn)
 value <- function(df) {
@@ -245,7 +245,7 @@ title = "A frequency polygon graph of the ages of Premier League players with re
 
 ## Visualizing how age has an impact on FPL points
 
-```{r}
+```{r, age-freq}
 age_freq <- function(df) {
   df %>% 
     group_by(age) %>% 
@@ -263,7 +263,7 @@ age_freq(season19)
 ```
 
 ## How selected by percent varies with the total FPL points per season
-```{r}
+```{r, sel_vs_fpl}
 sel_fpl <- function(df) {
   df %>% 
     filter(minutes.played >= 500) %>% 
@@ -284,7 +284,7 @@ sel_fpl(season19)
 
 ## Creating a function that plots FPL points vs ICT index
 
-```{r}
+```{r, fpl_vs_ict}
 fpl_vs_ict <- function(df) {
   df %>% 
     filter(minutes.played >= 500) %>% 
@@ -305,7 +305,7 @@ fpl_vs_ict(season19)
 
 ## Creating a function for printing out the first ten rows alongside selected columns
 
-```{r}
+```{r,view-table}
 quickview <- function(df) {
   df1 <- df %>% 
     select(c(player_name,club_name,total_points,
@@ -326,7 +326,7 @@ quickview(season19)
 
 ## Writing the files to csv files
 
-```{r}
+```{r, save-file}
 s17 <- file('season2017.csv', encoding = "UTF-8")
 write.csv(season17, file = s17)
 s18 <- file('season2018.csv', encoding = 'UTF-8')
