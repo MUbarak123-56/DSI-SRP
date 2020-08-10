@@ -17,7 +17,7 @@ model_fpl.fit(fpl_xtrain, fpl_ytrain)
 
 def run():
     from PIL import Image
-    image = Image.open('Premier-League-logo.png')
+    image = Image.open('Premier-League-balls.jpg')
     st.image(image, use_column_width = True)
 
     st.title('Fantasy Premier League Predictor app')
