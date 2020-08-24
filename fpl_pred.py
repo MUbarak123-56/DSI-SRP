@@ -48,10 +48,14 @@ def run():
     if st.button("Calculate FPL points per game"):
         output = model_fpl.predict(fpl_input)
         output = (output/minutes)*90
-        st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
-        st.success('%.2f'%(float(output))) 
-        fpg = (actual_points/minutes)*90
-        st.write('His actual FPL points to game ratio is: %.2f'%(float(fpg)))
+        if (actual_points != 0):
+            st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
+            st.success('%.2f'%(float(output))) 
+            fpg = (actual_points/minutes)*90
+            st.write('His actual FPL points to game ratio is: %.2f'%(float(fpg)))
+        else:
+            st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
+            st.success('%.2f'%(float(output))) 
 
 if __name__ == '__main__':
     run()
