@@ -40,8 +40,8 @@ def run():
     st.write("Refer to the guide above for position index")
     position_index = st.selectbox('Position Index', [1,2,3,4,5])
     st.write("Use this link to find your players' FPL point: https://fantasy.premierleague.com/statistics")
-    actual_points = st.number_input('FPL Points', min_value = 0, value = 0)
     st.write("For foreign players, This should be set at 0")
+    actual_points = st.number_input('FPL Points', min_value = 0, value = 0)
 
     output = 0
     fpl_input = np.array([[goals_scored, assists, minutes,clean_sheets, position_index]])
