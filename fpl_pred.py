@@ -17,7 +17,7 @@ model_fpl.fit(fpl_xtrain, fpl_ytrain)
 
 def run():
     from PIL import Image
-    image = Image.open('Premier-League-logo.png')
+    image = Image.open('Premier-League-balls.jpg')
     st.image(image, use_column_width = True)
 
     st.title('Fantasy Premier League Predictor app')
@@ -40,6 +40,7 @@ def run():
     st.write("Refer to the guide above for position index")
     position_index = st.selectbox('Position Index', [1,2,3,4,5])
     st.write("Use this link to find your players' FPL point: https://fantasy.premierleague.com/statistics")
+    st.write("For foreign players, This should be set to 0")
     actual_points = st.number_input('FPL Points', min_value = 0, value = 0)
 
     output = 0
@@ -48,10 +49,14 @@ def run():
     if st.button("Calculate FPL points per game"):
         output = model_fpl.predict(fpl_input)
         output = (output/minutes)*90
-        st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
-        st.success('%.2f'%(float(output))) 
-        fpg = (actual_points/minutes)*90
-        st.write('His actual FPL points to game ratio is: %.2f'%(float(fpg)))
+        if (actual_points != 0):
+            st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
+            st.success('%.2f'%(float(output))) 
+            fpg = (actual_points/minutes)*90
+            st.write('His actual FPL points to game ratio is: %.2f'%(float(fpg)))
+        else:
+            st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
+            st.success('%.2f'%(float(output))) 
 
 if __name__ == '__main__':
     run()
