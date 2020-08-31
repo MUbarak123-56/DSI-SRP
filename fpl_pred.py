@@ -5,14 +5,15 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
+from sklearn.metrics import r2_score
 
 fpl_ult = pd.read_csv("FPL_ULTIMATE.csv", encoding = "latin1")
 fpl_ult = fpl_ult.drop("Unnamed: 0", axis = 1)
 fpl_ultx = fpl_ult[['goals_scored', 'assists', 'minutes', 'clean_sheets', 'position_index']]
 fpl_ulty = fpl_ult['total_points']
 
-fpl_xtrain, fpl_xtest, fpl_ytrain, fpl_ytest = train_test_split(fpl_ultx, fpl_ulty, train_size = 0.8, random_state = 10)
-model_fpl = make_pipeline(PolynomialFeatures(4), LinearRegression())
+fpl_xtrain, fpl_xtest, fpl_ytrain, fpl_ytest = train_test_split(fpl_ultx, fpl_ulty, train_size = 0.75, random_state = 69)
+model_fpl = make_pipeline(PolynomialFeatures(3), LinearRegression())
 model_fpl.fit(fpl_xtrain, fpl_ytrain)
 
 def run():
