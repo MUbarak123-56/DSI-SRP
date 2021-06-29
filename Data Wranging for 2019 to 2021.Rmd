@@ -1,0 +1,132 @@
+---
+title: "Data Wrangling for 2019/20 and 2020/21"
+output: pdf_document
+---
+
+
+
+```{r}
+df_2020 <- read.csv('https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2019-20/gws/merged_gw.csv', encoding = 'UTF-8')
+library(tidyverse)
+```
+
+Separating the first column
+
+```{r}
+df_2020 <- df_2020 %>% 
+  separate(name, into = c("First_Name", "Last_Name", "ID"), sep = "_")
+head(df_2020)
+```
+Creating a new first column
+
+```{r}
+df_2020 <- df_2020 %>% 
+  select(-ID) %>% 
+  unite("player_name", c("First_Name", "Last_Name"), sep = " ")
+head(df_2020)
+```
+2021 dataset
+
+```{r}
+df_2021 <- read.csv('https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2020-21/gws/merged_gw.csv', encoding = 'UTF-8')
+head(df_2021)
+```
+
+Season info for 2019/20
+```{r}
+df_2020s <- read.csv('https://raw.githubusercontent.com/ewenme/squads/master/data/2019/premier_league.csv', encoding = 'UTF-8')
+head(df_2020s)
+write.csv(df_2020s, "~/DSI-SRP1/season2020.csv")
+```
+FPL data for 2019/20
+```{r}
+write.csv(df_2020, "FPL_data_2019_20.csv")
+```
+
+Combine 2019/20 datasets
+```{r}
+df_2020combined <- inner_join(df_2020, df_2020s, by = 'player_name')
+head(df_2020combined)
+```
+
+Position Indexer function for 2019/20.
+```{r}
+position_indexer <- function(df) {
+  df %>% 
+    mutate(position_index = if_else(position %in% c("Goalkeeper"),
+1,if_else(position %in% c("Centre-Back", "Left-Back", "Right-Back"),
+2,if_else(position %in% c("Defensive Midfield", "Central Midfield", "Left Midfield", 
+"Right Midfield", "Midfielder"),
+3,if_else(position %in% c("Left Winger","Right Winger","Attacking Midfield"),
+4,if_else(position %in% c("Forward", "Second Striker", "Centre-Forward"),5,0))))))
+}
+df_2020c <- position_indexer(df_2020combined)
+head(df_2020c)
+```
+Position indexer for 2020/21
+```{r}
+position_indexer <- function(df) {
+  df %>% 
+    mutate(position_index = if_else(position %in% c("GK"),
+1,if_else(position %in% c("DEF"),
+2,if_else(position %in% c("MID"),
+3,if_else(position %in% c("FWD"),
+4,0)))))
+}
+df_2021c <- position_indexer(df_2021)
+head(df_2021c)
+```
+Cumulative function
+```{r}
+accumulated <- function(df) {
+  df %>% 
+    mutate(n = 1) %>% 
+    group_by(player_name,club_name) %>% 
+    mutate(goals_scored =cumsum(goals_scored) - goals_scored, 
+           assists =cumsum(assists) - assists,
+           ict_index =cumsum(ict_index) - ict_index ,
+           goals_conceded =cumsum(goals_conceded) - goals_conceded,
+           minutes =cumsum(minutes) - minutes, 
+           own_goals =cumsum(own_goals) - own_goals, 
+           total_points =cumsum(total_points), bps =cumsum(bps)-bps,
+           clean_sheets =cumsum(clean_sheets)-clean_sheets, 
+           bonus = cumsum(bonus)- bonus) %>% 
+    select(player_name, club_name, position, position_index, goals_scored,
+           assists, ict_index, goals_conceded, minutes, own_goals,
+           total_points, bps, bonus, clean_sheets, GW, season, kickoff_time) %>% 
+    filter(ict_index > 0)
+}
+df_2020f <- accumulated(df_2020c)
+head(df_2020f)
+```
+
+Cumulative for 2019/20
+```{r}
+accumulated2 <- function(df) {
+  df %>% 
+    mutate(n = 1) %>% 
+    group_by(name,team) %>% 
+    mutate(goals_scored =cumsum(goals_scored) - goals_scored, 
+           assists =cumsum(assists) - assists,
+           ict_index =cumsum(ict_index) - ict_index ,
+           goals_conceded =cumsum(goals_conceded) - goals_conceded,
+           minutes =cumsum(minutes) - minutes, 
+           own_goals =cumsum(own_goals) - own_goals, 
+           total_points =cumsum(total_points), bps =cumsum(bps)-bps,
+           clean_sheets =cumsum(clean_sheets)-clean_sheets, 
+           bonus = cumsum(bonus)- bonus) %>% 
+    select(name, team, position, position_index, goals_scored,
+           assists, ict_index, goals_conceded, minutes, own_goals,
+           total_points, bps, bonus, clean_sheets, GW, kickoff_time) %>% 
+    filter(ict_index > 0)
+}
+df_2021f <- accumulated2(df_2021c)
+head(df_2021f)
+```
+
+Write datasets to csv files
+```{r}
+write.csv(df_2020c, "~/DSI-SRP1/FPL_2019_20.csv")
+write.csv(df_2021c, "~/DSI-SRP1/FPL_2020_21.csv")
+```
+
