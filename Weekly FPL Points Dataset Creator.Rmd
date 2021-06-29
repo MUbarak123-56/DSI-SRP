@@ -186,7 +186,7 @@ accumulated2 <- function(df) {
            GW = cumsum(n)) %>% 
     select(player_name, club_name, position, position_index, goals_scored,
            assists, ict_index, goals_conceded, minutes, own_goals,
-           total_points, bps, bonus, clean_sheets, GW, season) %>% 
+           total_points, bps, bonus, GW, clean_sheets, season) %>% 
     filter(ict_index > 0)
 }
 
@@ -200,6 +200,7 @@ data18 <- var_sel(data18)
 data19 <- var_sel(data19)
 year3 <- rbind(data17, data18,data19)
 year3 <- accumulated2(year3)
+year3
 ```
 
 ### Cleaning the cumulated season dataset
