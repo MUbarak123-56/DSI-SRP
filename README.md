@@ -19,11 +19,11 @@ To conduct this project, the following tools & technologies were deployed:
 The Premier League is the most entertaining soccer league globally. Thus, it
 attracts players from all over the world. These players, coming from different leagues,
 are signed or recruited based on how they perform. Therefore, I have decided to build a
-web application that is going to predict players’ performance so teams can deploy it in
+web application that is going to estimate players’ performance so teams can deploy it in
 signing players inside or outside the premier league. The metric used to gauge
 performance is called FPL points. FPL stands for Fantasy Premier League, which is an
 online platform where players are given points based on performance after gameplay.
-The goal of this project is to be able to calculate the FPL points per game for players in
+The goal of this project is to calculate the expected FPL points per game for players in
 the premier league based on certain stats.
 
 #### Data Collection & Wrangling
