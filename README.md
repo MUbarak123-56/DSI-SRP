@@ -37,5 +37,5 @@ systematically chosen stats to predict FPL points.
 #### Web Application: 
 The final activity was to build a web application that let people input
 players’ names as well as their stats and use the predictive model to output a prediction
-of the FPL points per game. Here is the link to the created website. The values of
-variables from this dataset can be tested with the web app
+of the FPL points per game. Here is the [link](https://fpl-predictor.herokuapp.com/) to the created website. The values of
+variables from this [dataset](https://docs.google.com/spreadsheets/d/129W2qsK1sHmTfqVh4PLSX14ZrVKFg1t_xVz6LlsuIRQ/edit#gid=405641194) can be tested with the web app.
