@@ -1,5 +1,21 @@
 # DSI-SRP
 
+This is a repository for the Fantasy Premier League Predictor project.
+
+### Prerequisite
+To conduct this project, the following tools & technologies were deployed:
+- pandas
+- numpy
+- tidyverse
+- scikit-learn
+- matplotlib
+- Tableau
+- R
+- Python
+- R studio
+- Jupyter Notebook
+
+### Description
 The Premier League is the most entertaining soccer league globally. Thus, it
 attracts players from all over the world. These players, coming from different leagues,
 are signed or recruited based on how they perform. Therefore, I have decided to build a
@@ -10,21 +26,21 @@ online platform where players are given points based on performance after gamepl
 The goal of this project is to be able to calculate the FPL points per game for players in
 the premier league based on certain stats.
 
-#### Data Collection & Wrangling: 
+#### Data Collection & Wrangling
 Data was collected from multiple sources, transformed,
 cleaned, wrangled and combined to build new datasets that were going to be used for
 data visualization and modeling. The final dataset that proved to be very useful is one
 that contained a cumulative weekly data that summed up players’ performance
 variables from August 2016 till May 2019.
 
-#### Exploratory Data Analysis: 
+#### Exploratory Data Analysis
 After using different sources to collect data sets, newly
 formed datasets on 2016/17, 2017/18 and 2018/19 seasons were created. Then, bar
 charts, scatter plots, box plots and interactive dashboards were built to show how
 different variables interrelate with each other as well as how the players’ FPL points
 differed based on positions.
 
-#### Modeling: 
+#### Modeling
 Using a dataset that added up players’ stats over the course of three
 seasons for modeling was optimal. This made it possible for the model to study what
 happened after 200 minutes of gameplay as well as what happened after 4000 minutes
@@ -34,8 +50,13 @@ the dataset. This made it easy for the model to learn how different players woul
 expected to perform based on position and use this knowledge combined with the other
 systematically chosen stats to predict FPL points.
 
-#### Web Application: 
+#### Web Application
 The final activity was to build a web application that let people input
 players’ names as well as their stats and use the predictive model to output a prediction
 of the FPL points per game. Here is the [link](https://fpl-predictor.herokuapp.com/) to the created website. The values of
 variables from this [dataset](https://docs.google.com/spreadsheets/d/129W2qsK1sHmTfqVh4PLSX14ZrVKFg1t_xVz6LlsuIRQ/edit#gid=405641194) can be tested with the web app.
+
+### Contact Info
+
+Mubarak Ganiyu - mubarak.a.ganiyu@vanderbilt.edu
+
