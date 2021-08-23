@@ -38,7 +38,7 @@ After using different sources to collect data sets, newly
 formed datasets on 2016/17, 2017/18 and 2018/19 seasons were created. Then, bar
 charts, scatter plots, box plots and interactive dashboards were built to show how
 different variables interrelate with each other as well as how the players’ FPL points
-differed based on positions. A dashboard that shows players' progression over time can
+differed based on positions. A dashboard that shows players' progression over time from 2016 to 2021 can
 be seen on Tableau [here](https://public.tableau.com/app/profile/mubarak.ganiyu/viz/FPLanalysis2016-2021/FPLPoints201617)
 
 #### Modeling
