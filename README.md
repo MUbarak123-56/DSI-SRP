@@ -5,7 +5,7 @@ This is a repository for the Fantasy Premier League Predictor project.
 ### Prerequisite
 To conduct this project, the following tools & technologies were leveraged:
 - pandas
-- numpy
+- NumPy
 - tidyverse
 - scikit-learn
 - matplotlib
