@@ -21,9 +21,9 @@ def run():
     image = Image.open('Premier-League-balls.jpg')
     st.image(image, use_column_width = True)
 
-    st.title('Fantasy Premier League Predictor app')
-    st.header('Welcome to FPL Player Points per Game Predictor!')
-    st.write('Insert players features to find out their predicted FPL scores')
+    st.title('Fantasy Premier League Estimator app')
+    st.header('Welcome to FPL Player Points per Game Estimator!')
+    st.write('Insert players features to find out their estimated FPL scores')
     st.write('')
     st.header('Guide for the position index:')
     st.write('1 is for Goalkeeper')
@@ -51,12 +51,12 @@ def run():
         output = model_fpl.predict(fpl_input)
         output = (output/minutes)*90
         if (actual_points != 0):
-            st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
+            st.write("After playing", str(matches), "games,", name, "has an estimated FPL points to game ratio of:")
             st.success('%.2f'%(float(output))) 
             fpg = (actual_points/minutes)*90
             st.write('His actual FPL points to game ratio is: %.2f'%(float(fpg)))
         else:
-            st.write("After playing", str(matches), "games,", name, "has a predicted FPL points to game ratio of:")
+            st.write("After playing", str(matches), "games,", name, "has an estimated FPL points to game ratio of:")
             st.success('%.2f'%(float(output))) 
 
 if __name__ == '__main__':
