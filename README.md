@@ -1,5 +1,7 @@
 # FPL-Predictor
 
+[![View on Streamlit](https://img.shields.io/badge/Streamlit-View%20on%20Streamlit%20app-ff69b4?logo=streamlit)](https://fpl-estimator.streamlit.app/)
+
 This is a repository for the Fantasy Premier League Predictor project.
 
 ### Prerequisite
