@@ -61,3 +61,7 @@ variables from this [dataset](https://docs.google.com/spreadsheets/d/129W2qsK1sH
 
 Mubarak Ganiyu - mubarak.a.ganiyu@vanderbilt.edu
 
+### References
+
+- Vaastav's FPL Historical Data: [Fantasy-Premier-League on GitHub](https://github.com/vaastav/Fantasy-Premier-League)
+
